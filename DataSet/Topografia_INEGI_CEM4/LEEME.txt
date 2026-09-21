@@ -1,0 +1,31 @@
+RETO AGROCEBADA 2026
+Topografía - INEGI CEM - insumos nativos de 120 m
+
+FUENTE
+INEGI, Continuo de Elevaciones Mexicano (CEM).
+Estados fuente: Hidalgo (13), Puebla (21) y Tlaxcala (29).
+Resolución de los insumos: 120 m nativos (0.0011111111 grados en GCS ITRF92).
+
+PRODUCTOS ENTREGADOS
+1. Elevacion_INEGI_CEM4_120m.tif
+   - Elevación del terreno.
+   - Unidad: m s.n.m.
+   - Resolución de entrega: 120 m.
+
+2. Pendiente_INEGI_CEM4_120m_grados.tif
+   - Pendiente derivada del DEM de 120 m.
+   - Unidad: grados.
+   - Método: Horn 3x3.
+
+SISTEMA DE REFERENCIA
+EPSG:6372 - México ITRF2008 / LCC.
+
+
+NODATA
+-9999.0
+
+CONTROL DE CALIDAD
+Elevación: min=8.00, max=5608.00, media=1828.26 m.
+Pendiente: min=0.00, max=70.64, media=10.17 grados.
+
+

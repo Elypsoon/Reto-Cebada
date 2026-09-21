@@ -1,0 +1,51 @@
+RETO AGROCEBADA 2026
+Precipitación mensual acumulada CHIRPS, 2022-2025
+
+CONTENIDO
+- 48 GeoTIFF de precipitación acumulada mensual.
+- Periodo: enero de 2022 a diciembre de 2025.
+- Cada capa mensual se calculó sumando todos los rásteres diarios del mes.
+
+FUENTE
+CHIRPS (Climate Hazards Group InfraRed Precipitation with Station data).
+
+VARIABLE
+Precipitación acumulada mensual.
+
+UNIDAD
+mm/mes.
+
+RESOLUCIÓN ESPACIAL
+0.05° x 0.05° (aprox. 5 km).
+
+SISTEMA DE REFERENCIA
+EPSG:4326.
+
+DIMENSIONES
+65 columnas x 72 filas.
+
+EXTENSIÓN DEL RÁSTER
+Oeste: -99.94999880716205
+Este: -96.69999875873327
+Sur: 17.79999952018261
+Norte: 21.39999957382679
+
+
+NOMENCLATURA
+PREC_AAAA_MM.tif
+
+Ejemplos:
+PREC_2022_01.tif
+PREC_2025_12.tif
+
+ESTRUCTURA
+Precipitacion_mensual/
+  2022/
+  2023/
+  2024/
+  2025/
+
+
+ARCHIVO ADICIONAL
+inventario_CHIRPS_precipitacion_mensual_2022_2025.csv:
+contiene días acumulados, dimensiones y estadísticos simples por mes.

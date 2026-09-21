@@ -1,0 +1,67 @@
+RETO AGROCEBADA 2026
+Temperatura mensual CHIRTS-ERA5, 2022-2025
+
+CONTENIDO
+- 48 GeoTIFF de Tmin promedio mensual.
+- 48 GeoTIFF de Tmax promedio mensual.
+- Periodo: enero de 2022 a diciembre de 2025.
+- Total: 96 GeoTIFF.
+
+FUENTE
+CHIRTS-ERA5.
+
+VARIABLES
+Tmin: promedio mensual de temperatura mínima diaria.
+Tmax: promedio mensual de temperatura máxima diaria.
+
+UNIDADES
+Grados Celsius (°C).
+
+RESOLUCIÓN ESPACIAL
+0.05° x 0.05° (aprox. 5 km).
+
+SISTEMA DE REFERENCIA
+EPSG:4326 (WGS 84).
+
+EXTENSIÓN DE ENTREGA — ALINEADA CON CHIRPS
+Oeste: -99.94999881
+Este: -96.69999876
+Sur: 17.79999952
+Norte: 21.39999957
+Dimensiones: 65 columnas x 72 filas.
+
+
+
+
+NODATA
+-9999 está definido formalmente como valor NoData en los GeoTIFF entregados.
+
+NOMENCLATURA
+Tmin_AAAA_MM.tif
+Tmax_AAAA_MM.tif
+
+Ejemplos:
+Tmin_2022_01.tif
+Tmax_2025_12.tif
+
+ESTRUCTURA
+Tmin/
+  2022/
+  2023/
+  2024/
+  2025/
+Tmax/
+  2022/
+  2023/
+  2024/
+  2025/
+
+ARCHIVOS ADICIONALES
+inventario_temperatura_2022_2025.csv:
+  inventario, dimensiones y estadísticos simples de cada capa.
+
+
+CONTROL DE CALIDAD
+Archivos generados: 96
+Combinaciones variable-año-mes únicas: 96
+Todos los GeoTIFF: EPSG:4326, 0.05°, 65 x 72 píxeles.

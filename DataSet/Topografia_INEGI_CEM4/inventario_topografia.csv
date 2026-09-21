@@ -1,0 +1,3 @@
+﻿archivo,variable,unidad,resolucion_m,crs,min,max,media,pixeles_validos
+Elevacion_INEGI_CEM4_120m.tif,Elevacion,m s.n.m.,120,EPSG:6372,8.0,5608.0,1828.2609501892578,4081208
+Pendiente_INEGI_CEM4_120m_grados.tif,Pendiente,grados,120,EPSG:6372,0.0,70.63786315917969,10.171153710751488,4047765
