@@ -1,0 +1,48 @@
+{
+  "official": {
+    "threshold_diagnostics": {
+      "promote": false,
+      "checks": {
+        "three_valid_schemes": true,
+        "principal_gain_2pct": true,
+        "at_least_two_gains": true,
+        "mean_ratio_098": true,
+        "none_above_105": true,
+        "regional_protection": false,
+        "verification": true
+      },
+      "ratios": {
+        "principal-5": 0.9193770769163345,
+        "balanceado-4": 1.0177135394967007,
+        "rotado-45-5": 0.8212931347317991
+      },
+      "mean_ratio": 0.9194612503816115,
+      "invalid": [],
+      "regional_failures": [
+        {
+          "scheme": "rotado-45-5",
+          "state": "Puebla",
+          "n": 71,
+          "selected": {
+            "rmse": 0.5997039074385957,
+            "mae": 0.43333563578116235,
+            "r2": -0.06812409185885993
+          },
+          "official": {
+            "rmse": 0.5997039074385957,
+            "mae": 0.43333563578116235,
+            "r2": -0.06812409185885993
+          },
+          "regional_mean": {
+            "rmse": 0.5879313769791714,
+            "mae": 0.37792164303387904,
+            "r2": -0.02659993064948485
+          }
+        }
+      ]
+    },
+    "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+    "scope": "exploratorio",
+    "activated": false
+  }
+}

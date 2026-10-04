@@ -1,0 +1,39 @@
+{
+  "all_mandatory_closed": true,
+  "all_runs_closed": true,
+  "active_hashes_unchanged": true,
+  "active_predictions_reproduced": {
+    "selected": 59,
+    "official": 59
+  },
+  "eligible_routes": [],
+  "activated": false,
+  "tests": {
+    "passed": true,
+    "counts": {
+      "passed": 68,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0
+    },
+    "run_id": "E08-v2",
+    "immutable_training_artifacts": true,
+    "test_artifact_copy": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\tmp\\integration-bbae52157ffc4bb98e0de482cce1a455",
+    "log": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\registry\\test-suite.log"
+  },
+  "report_hash": "6cd0be0656b943f7514cffce4dfe9b9794f2374ca7f05c1698340e9dac921992",
+  "catalog_hash": "08d2ba7fb62c17510554d7ea773e54bf5b2ec0b4062d946d9eeba83a1e2addc5",
+  "optional_retry_catalog_hash": "9fc47cd479cdab81ebca1b181fac9ca4bbead8ce9912c142f7ed1c18b37bac60",
+  "source_integrity": {
+    "verified_original_files": 176,
+    "all_original_hashes_match": true,
+    "active_matches_initial_manifest": true,
+    "H01_matches_initial_manifest": true
+  },
+  "recovery_packages": [
+    "E00-v2",
+    "E08-v2",
+    "recovery-E07-v3-monthly_20_10",
+    "recovery-E07-v3-whittaker_20_10"
+  ]
+}

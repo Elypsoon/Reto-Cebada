@@ -1,0 +1,98 @@
+[
+  {
+    "file": "raw/nasa_power_19.5_-98.75_20250401_20251031.json",
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CT2MDEW%2CRH2M%2CALLSKY_SFC_SW_DWN%2CWS2M%2CPS%2CPRECTOTCORR&community=AG&longitude=-98.75&latitude=19.5&start=20250401&end=20251031&format=JSON&time-standard=LST",
+    "retrieved_at_utc": "2026-10-03T03:34:56.837347+00:00",
+    "status": 200,
+    "bytes": 33091,
+    "sha256": "1e0a9a361fbbbf1a646072774468c7a6b18d112932eb2d2363e8c90990366fdb"
+  },
+  {
+    "file": "raw/nasa_power_19.5_-98.125_20250401_20251031.json",
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CT2MDEW%2CRH2M%2CALLSKY_SFC_SW_DWN%2CWS2M%2CPS%2CPRECTOTCORR&community=AG&longitude=-98.125&latitude=19.5&start=20250401&end=20251031&format=JSON&time-standard=LST",
+    "retrieved_at_utc": "2026-10-03T03:34:57.974561+00:00",
+    "status": 200,
+    "bytes": 33118,
+    "sha256": "69bfe2e143c581cf01b830071500a5f640f9b83d71b1a2ca2c58f43f69e67875"
+  },
+  {
+    "file": "raw/nasa_power_20.0_-98.75_20250401_20251031.json",
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CT2MDEW%2CRH2M%2CALLSKY_SFC_SW_DWN%2CWS2M%2CPS%2CPRECTOTCORR&community=AG&longitude=-98.75&latitude=20.0&start=20250401&end=20251031&format=JSON&time-standard=LST",
+    "retrieved_at_utc": "2026-10-03T03:34:58.677752+00:00",
+    "status": 200,
+    "bytes": 33149,
+    "sha256": "b184956e4f920303357ab901fa6cbf364ba59384f9230e0c4be5a6a14369a6e4"
+  },
+  {
+    "file": "raw/nasa_power_20.0_-98.125_20250401_20251031.json",
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CT2MDEW%2CRH2M%2CALLSKY_SFC_SW_DWN%2CWS2M%2CPS%2CPRECTOTCORR&community=AG&longitude=-98.125&latitude=20.0&start=20250401&end=20251031&format=JSON&time-standard=LST",
+    "retrieved_at_utc": "2026-10-03T03:34:59.334748+00:00",
+    "status": 200,
+    "bytes": 33214,
+    "sha256": "27c89259f764247a3ebd9402c1c1ff2a85f7afa2e677712a1ffe8d13a88e6b17"
+  },
+  {
+    "file": "raw/siap_dictionary.xlsx",
+    "url": "https://nube.agricultura.gob.mx/index.php?view=5D24F995-E734D711-1EA6F8D2-9D1387D7",
+    "retrieved_at_utc": "2026-10-03T03:35:00.044573+00:00",
+    "status": 200,
+    "bytes": 114830,
+    "sha256": "ab6fa27d390a70dd9eb9d19f98e9c0417a5e80cae3251ecca3f70b0a73bd8ffb"
+  },
+  {
+    "file": "raw/siap_municipal_2018.csv",
+    "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2018",
+    "retrieved_at_utc": "2026-10-03T03:35:00.877131+00:00",
+    "status": 200,
+    "bytes": 5863477,
+    "sha256": "9af11d1d342ad2cb632cdc004cca7cbf62ae20026c52254c352eec8cdb1babd5"
+  },
+  {
+    "file": "raw/siap_municipal_2019.csv",
+    "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2019",
+    "retrieved_at_utc": "2026-10-03T03:35:14.926275+00:00",
+    "status": 200,
+    "bytes": 5911711,
+    "sha256": "f6a01472287c65bc50d237d7edcbaf4400c4439d3c3389f93bd40bf8c74fbf98"
+  },
+  {
+    "file": "raw/siap_municipal_2020.csv",
+    "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2020",
+    "retrieved_at_utc": "2026-10-03T03:35:29.124435+00:00",
+    "status": 200,
+    "bytes": 4635574,
+    "sha256": "ebf3f12a5ec4fa5a65d2f0d87158da0528280c51b6035e6bc1eb5e96cf4c4304"
+  },
+  {
+    "file": "raw/siap_municipal_2021.csv",
+    "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2021",
+    "retrieved_at_utc": "2026-10-03T03:35:45.659610+00:00",
+    "status": 200,
+    "bytes": 4649328,
+    "sha256": "1f03b2f405c18ea00b63766f9732c7ed2f944b589e815ba6492c723e9b2cb65b"
+  },
+  {
+    "file": "raw/siap_municipal_2022.csv",
+    "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2022",
+    "retrieved_at_utc": "2026-10-03T03:36:03.352663+00:00",
+    "status": 200,
+    "bytes": 6032570,
+    "sha256": "745f5189592446aa4348ffeba2780fd858f7071aef8dfd338414abbf2bc46162"
+  },
+  {
+    "file": "raw/siap_municipal_2023.csv",
+    "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2023",
+    "retrieved_at_utc": "2026-10-03T03:36:16.050487+00:00",
+    "status": 200,
+    "bytes": 6678816,
+    "sha256": "30b3e90714d646821a6320645681b18e8e8fdbba8b88f59d4b5904b23acf4bf6"
+  },
+  {
+    "file": "raw/siap_municipal_2024.csv",
+    "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2024",
+    "retrieved_at_utc": "2026-10-03T03:36:28.659404+00:00",
+    "status": 200,
+    "bytes": 5959152,
+    "sha256": "cffa7d638d74b4fc18966154c411ff207530d8be962abc9e311d2b08f3ffbb11"
+  }
+]

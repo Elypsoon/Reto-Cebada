@@ -1,0 +1,12 @@
+scheme,family,kind,alpha,count
+principal-5,catboost,direct,1.0,3
+principal-5,gpr,direct,1.0,3
+principal-5,regional_mean,direct,1.0,2
+balanceado-4,catboost,direct,1.0,2
+balanceado-4,regional_mean,direct,1.0,1
+balanceado-4,gpr,regional_correction,1.0,1
+balanceado-4,gpr,direct,1.0,2
+balanceado-4,catboost,regional_correction,0.5,1
+rotado-45-5,catboost,direct,1.0,3
+rotado-45-5,regional_mean,direct,1.0,4
+rotado-45-5,gpr,direct,1.0,2

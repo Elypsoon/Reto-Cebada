@@ -1,0 +1,48 @@
+{
+  "official": {
+    "threshold_diagnostics": {
+      "promote": false,
+      "checks": {
+        "three_valid_schemes": true,
+        "principal_gain_2pct": false,
+        "at_least_two_gains": false,
+        "mean_ratio_098": true,
+        "none_above_105": true,
+        "regional_protection": false,
+        "verification": true
+      },
+      "ratios": {
+        "principal-5": 1.0180108228885794,
+        "balanceado-4": 0.988118548707271,
+        "rotado-45-5": 0.8239942541621286
+      },
+      "mean_ratio": 0.9433745419193263,
+      "invalid": [],
+      "regional_failures": [
+        {
+          "scheme": "principal-5",
+          "state": "Tlaxcala",
+          "n": 31,
+          "selected": {
+            "rmse": 0.8105329769628427,
+            "mae": 0.7056489331115049,
+            "r2": -3.8010807770435164
+          },
+          "official": {
+            "rmse": 0.8105329769628427,
+            "mae": 0.7056489331115049,
+            "r2": -3.8010807770435164
+          },
+          "regional_mean": {
+            "rmse": 0.6156559575481392,
+            "mae": 0.5,
+            "r2": -1.7699619771863122
+          }
+        }
+      ]
+    },
+    "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+    "scope": "exploratorio",
+    "activated": false
+  }
+}

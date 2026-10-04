@@ -1,0 +1,190 @@
+{
+  "previous_primary": {
+    "rmse": 0.7640529246030532,
+    "mae": 0.5926849423673781,
+    "r2": 0.18832496347169192
+  },
+  "schemes": {
+    "principal-5": {
+      "selected": {
+        "rmse": 0.7494578260600603,
+        "mae": 0.5965526073254858,
+        "r2": 0.2190383599522182
+      },
+      "official": {
+        "rmse": 0.7563458295694481,
+        "mae": 0.6031691463832337,
+        "r2": 0.20461730568193015
+      },
+      "global_mean": {
+        "rmse": 0.9929950930147986,
+        "mae": 0.885302482751397,
+        "r2": -0.37097491706506514
+      },
+      "regional_mean": {
+        "rmse": 0.7439756768844785,
+        "mae": 0.5697312198651008,
+        "r2": 0.2304217611706254
+      },
+      "gpr": {
+        "rmse": 0.8914367471018415,
+        "mae": 0.7198854950259929,
+        "r2": -0.1048831994535655
+      },
+      "catboost": {
+        "rmse": 0.7645125329288966,
+        "mae": 0.6014595153122181,
+        "r2": 0.18734815991354503
+      }
+    },
+    "balanceado-4": {
+      "selected": {
+        "rmse": 0.7694358644633517,
+        "mae": 0.6031652188614002,
+        "r2": 0.17684777700757648
+      },
+      "official": {
+        "rmse": 0.7643894761566522,
+        "mae": 0.5999470955520225,
+        "r2": 0.18760974951437404
+      },
+      "global_mean": {
+        "rmse": 1.0042461496017008,
+        "mae": 0.9016694943230404,
+        "r2": -0.4022183782070674
+      },
+      "regional_mean": {
+        "rmse": 0.7441564778082017,
+        "mae": 0.5701330695763228,
+        "r2": 0.23004767000680437
+      },
+      "gpr": {
+        "rmse": 0.8934846943387212,
+        "mae": 0.7141860097855998,
+        "r2": -0.10996565014875004
+      },
+      "catboost": {
+        "rmse": 0.7607173718385888,
+        "mae": 0.5994732682542356,
+        "r2": 0.1953963982880168
+      }
+    },
+    "rotado-45-5": {
+      "selected": {
+        "rmse": 0.7491686842596543,
+        "mae": 0.5920948746039706,
+        "r2": 0.21964083573715354
+      },
+      "official": {
+        "rmse": 0.7491686842596543,
+        "mae": 0.5920948746039706,
+        "r2": 0.21964083573715354
+      },
+      "global_mean": {
+        "rmse": 0.997828445007797,
+        "mae": 0.8957946844622178,
+        "r2": -0.38435369654507245
+      },
+      "regional_mean": {
+        "rmse": 0.9119407614743639,
+        "mae": 0.7105620220214793,
+        "r2": -0.15629476760536876
+      },
+      "gpr": {
+        "rmse": 0.6728597538834044,
+        "mae": 0.5193144254535959,
+        "r2": 0.3705164155424844
+      },
+      "catboost": {
+        "rmse": 0.7120827119290793,
+        "mae": 0.5701994960389047,
+        "r2": 0.29498852072909953
+      }
+    }
+  },
+  "decision": {
+    "promote": false,
+    "checks": {
+      "three_valid_schemes": true,
+      "principal_gain_2pct": false,
+      "at_least_two_gains": false,
+      "mean_ratio_098": true,
+      "none_above_105": true,
+      "regional_protection": false,
+      "verification": true
+    },
+    "ratios": {
+      "principal-5": 1.0073687209755824,
+      "balanceado-4": 1.0339705255668894,
+      "rotado-45-5": 0.8215102514427026
+    },
+    "mean_ratio": 0.954283165995058,
+    "invalid": [],
+    "regional_failures": [
+      {
+        "scheme": "principal-5",
+        "state": "Tlaxcala",
+        "n": 31,
+        "selected": {
+          "rmse": 0.8105329769628427,
+          "mae": 0.7056489331115049,
+          "r2": -3.8010807770435164
+        },
+        "official": {
+          "rmse": 0.8105329769628427,
+          "mae": 0.7056489331115049,
+          "r2": -3.8010807770435164
+        },
+        "regional_mean": {
+          "rmse": 0.6156559575481392,
+          "mae": 0.5,
+          "r2": -1.7699619771863122
+        }
+      },
+      {
+        "scheme": "balanceado-4",
+        "state": "Tlaxcala",
+        "n": 31,
+        "selected": {
+          "rmse": 0.8100019428491898,
+          "mae": 0.7049175501499407,
+          "r2": -3.794791822586337
+        },
+        "official": {
+          "rmse": 0.8100019428491898,
+          "mae": 0.7049175501499407,
+          "r2": -3.794791822586337
+        },
+        "regional_mean": {
+          "rmse": 0.6156559575481392,
+          "mae": 0.5,
+          "r2": -1.7699619771863122
+        }
+      }
+    ]
+  },
+  "data_hash": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+  "policy_hash": "71353aead0fc1dd2a87e01444fb34f349ad4f9736d0e65afcd68fa638c94c099",
+  "seconds": 242.3347626000177,
+  "limitation": "Desarrollo sobre las mismas 138 etiquetas; sin test independiente, campaña adicional ni evaluación oficial",
+  "tests": {
+    "experimental": {
+      "passed": 42,
+      "failed": 0,
+      "new_tests": 17,
+      "warnings": 4,
+      "command": "pytest -q --basetemp tmp/pytest-complete-20261003b -p no:cacheprovider",
+      "offline_app": true
+    },
+    "snapshot": {
+      "passed": 25,
+      "failed": 0,
+      "warnings": 4,
+      "command": "pytest -q --basetemp tmp-pytest-restored-20261003a -p no:cacheprovider",
+      "fresh_process_predictions": 59
+    }
+  },
+  "active_preserved": true,
+  "restore_verified": true,
+  "snapshot": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\artifacts\\versions\\selection-current-20261003"
+}

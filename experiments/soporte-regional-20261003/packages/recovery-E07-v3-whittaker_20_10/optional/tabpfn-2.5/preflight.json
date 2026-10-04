@@ -1,0 +1,59 @@
+{
+  "available": true,
+  "reason": null,
+  "versions": {
+    "tabpfn": "6.4.1",
+    "torch": "2.8.0+cpu",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "checkpoint": {
+    "repository": "https://huggingface.co/Prior-Labs/tabpfn_2_5",
+    "revision": "6c45f3a6d0d07c6c5f62572e04a0c2929de91b8b",
+    "checkpoint": "tabpfn-v2.5-regressor-v2.5_default.ckpt",
+    "sha256": "6e0308b7e5f3a8325b798b96d986b2b282c3608b1cda6e2991425a2a261d40b8",
+    "bytes": 40831995,
+    "license_file": "LICENSE",
+    "license_sha256": "ac1d23429431a622b91c73db741868e69a0140d401ebb20b9e869a835e036e28",
+    "model_version": "2.5",
+    "synthetic_pretraining": true,
+    "purpose": "evaluación local experimental; sin entrega comercial ni activación",
+    "parameters": {
+      "device": "cpu",
+      "n_estimators": 8,
+      "random_state": 2026,
+      "fit_mode": "fit_preprocessors",
+      "n_preprocessing_jobs": 1
+    },
+    "sources": [
+      "https://huggingface.co/Prior-Labs/tabpfn_2_5",
+      "https://arxiv.org/abs/2511.08667"
+    ]
+  },
+  "device": "cpu",
+  "threads": 2,
+  "smoke_seconds": 7.304478500038385,
+  "smoke_rss_mb": 487.97265625,
+  "available_memory_mb": 2975.13671875,
+  "no_active_dependencies_changed": true,
+  "requirements_lock_hash": "a537d98cbe91fc11f4a02bb467090ca4c4dcc64617b57bb911b2b3db5abe495b",
+  "effective_parameters": {
+    "average_before_softmax": "False",
+    "categorical_features_indices": "None",
+    "device": "'cpu'",
+    "differentiable_input": "False",
+    "fit_mode": "'fit_preprocessors'",
+    "ignore_pretraining_limits": "False",
+    "inference_config": "None",
+    "inference_precision": "'auto'",
+    "memory_saving_mode": "'auto'",
+    "model_path": "WindowsPath('C:/Users/leonf/OneDrive/Documentos/Hack Cebada 2026/experiments/soporte-regional-20261003/optional/tabpfn-2.5/tabpfn-v2.5-regressor-v2.5_default.ckpt')",
+    "n_estimators": "8",
+    "n_jobs": "None",
+    "n_preprocessing_jobs": "1",
+    "random_state": "2026",
+    "softmax_temperature": "0.9"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "hypothesis": "Combinación predeclarada E01a+E02+E04a",
+  "model_hashes": {
+    "official": "1aa9bd597557165684a6cd014171dae2485deb91f092832cb0ccd7f3c5abadfd",
+    "selected": "7730bfdbfea164e336c2d4921ea05f655df28737771ab2e818ebcd3571ba4d9a"
+  },
+  "control_run_id": "E00-v2",
+  "model_absent": false,
+  "previous_model_hashes": {
+    "official": "33172d9b5022659d00434cb7f541f13d33add0a7743af3739b2dae88c03877e6",
+    "selected": "45370d34ca3e27bb4575a4fc4fdec861e5f4f11a0183f4f8d878f8e762035a33"
+  },
+  "_github_transport": {
+    "full_record": "changes.json.gz",
+    "original_sha256": "db6e4753796ea38e35760dbe6176623e4b57a17ddd9134a840872946c8324fc5",
+    "original_bytes": 70243674,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

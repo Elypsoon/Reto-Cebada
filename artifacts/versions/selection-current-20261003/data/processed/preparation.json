@@ -1,0 +1,29 @@
+{
+  "rows": 197,
+  "configs": [
+    "monthly_10_10",
+    "whittaker_10_10",
+    "whittaker_10_100",
+    "monthly_20_10",
+    "whittaker_20_10",
+    "whittaker_20_100",
+    "monthly_40_10",
+    "whittaker_40_10",
+    "whittaker_40_100"
+  ],
+  "external_status": {
+    "nasa": "candidato",
+    "siap": "candidato"
+  },
+  "dependencies": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "geopandas": "1.2.0",
+    "rasterio": "1.5.2",
+    "catboost": "1.2.10",
+    "streamlit": "1.65.0"
+  },
+  "seconds": 211.29234280000674
+}

@@ -1,0 +1,52 @@
+{
+  "words": {
+    "Introducción": 440,
+    "Justificación": 144,
+    "Objetivos": 185,
+    "Metodología": 635,
+    "Resultados y discusión": 767,
+    "Uso de la ciencia de datos en la inclusión financiera del sector agro": 286,
+    "Conclusiones": 381,
+    "Bibliografía": 25,
+    "Anexos": 139
+  },
+  "body_limits_met": true,
+  "results_from_validation": true,
+  "team_contributions": {
+    "assignment_basis": "Nombres proporcionados por el usuario y distribución de aportaciones realizada por su indicación el 3 de octubre de 2026; no constituye una auditoría individual del historial de trabajo.",
+    "members": [
+      {
+        "name": "Leonardo Alvarez Gonzalez",
+        "contributions": "Coordinación e integración del proyecto; diseño del procedimiento analítico, selección de modelos y validación espacial; interpretación de resultados y consolidación del informe técnico."
+      },
+      {
+        "name": "Ángel de Jesús Elvis Gutiérrez Pacheco",
+        "contributions": "Investigación y revisión de fuentes; auditoría y preparación de datos satelitales, climáticos y geoespaciales; construcción de variables y documentación de procedencia, unidades y calidad."
+      },
+      {
+        "name": "Diego Cannata Cárdenas",
+        "contributions": "Desarrollo e integración del dashboard; visualización de parcelas y resultados, consulta y exportación de predicciones; pruebas de la aplicación, empaquetado local y preparación de la demostración."
+      }
+    ]
+  },
+  "annex_plan": "dos páginas; verificación de PDF registrada por build_report_pdfs.py",
+  "annex_pages": 2,
+  "annex_predictions": 59,
+  "annex_identifiers_verified": true,
+  "annex_values_verified": true,
+  "team_names_verified": true,
+  "pdfs": {
+    "agrocebada-informe-tecnico.pdf": {
+      "pages": 9,
+      "sha256": "719ac16e92c7e73c648272bdb9d355bbeac0a1d30ea79044a88e2c5f2248eaed"
+    },
+    "agrocebada-bibliografia.pdf": {
+      "pages": 2,
+      "sha256": "d7257e885f0d4ae2ca74c18e117e45da80de53ca986fd20ea00500090dce0d41"
+    },
+    "agrocebada-anexos.pdf": {
+      "pages": 2,
+      "sha256": "56f455a621321cdf52c88824b21d4cbbd1301353ff53e209a05914b18275f0b9"
+    }
+  }
+}

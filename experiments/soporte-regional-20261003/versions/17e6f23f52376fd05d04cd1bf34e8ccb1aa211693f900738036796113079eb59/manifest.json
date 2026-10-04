@@ -1,0 +1,19 @@
+{
+  "pyproject.toml": "edfbd16fc4d9323b794efc6ac9ffec5b5f8c7bedcc05d5d30cf7f0790ac5dc56",
+  "requirements.lock": "c6dc98762ae205977c04c2d1f4a4e68a92bbc8967d02f94bbe32386bbbfaad28",
+  "src/agrocebada/__init__.py": "c0e9a63bf7f9894613024d21fce1561d76c84ec34bc5ce579bbec47da1d5a90c",
+  "src/agrocebada/cli.py": "7e389551e16d8dc9482ce792298b050d02c44f2abb28a53cd17c21d835ddf1cf",
+  "src/agrocebada/common.py": "9b7fc18903bab1a048137a9dec974e7d610ab19c66dd1039d8409f81d47dc124",
+  "src/agrocebada/data.py": "9be60f7e974bf98d5cff2ff745cb831991df10ca8454c97f0a9437f635052623",
+  "src/agrocebada/external.py": "8e29c7031bb913811ac2d86d00e96254be0a2a18a9c55deb18a80e61daec953f",
+  "src/agrocebada/features.py": "7cb8d4e32f8672b88c20533035e1961613d21441414aa3696501cfc9fd9a87ee",
+  "src/agrocebada/inference.py": "190f929350aceed71cdc4da97e5abcce808bbc8e3892ecf5a78d8d54702b3995",
+  "src/agrocebada/modeling.py": "9f76a676eb063fd5952bb8dd15390457fdab0c108453e04285d2b78b06630cd6",
+  "src/agrocebada/optional.py": "8b37e94a5f96a6ef5e4ad3cf60fee31f283529b64c0ab426a2252a6fa6ea80e6",
+  "src/agrocebada/phase.py": "1ce87c218d287d5f137689f42f078e3d80c64790675210f94bbc7e67fe3a2c8d",
+  "src/agrocebada/robust.py": "46a888fb40648096d7823197c8038add7a6b5727c18ca88ab97d19ecbb960774",
+  "src/agrocebada/segments.py": "28454b8e800bc4a8e5554d1e9a65300e4343a70725e2db135eaf791c34e59adf",
+  "src/agrocebada/spatial.py": "7b92cd5730eb2bdbdcc46eeec3a0e426161289e56ec57832de1e512e0c26d851",
+  "src/agrocebada/tracking.py": "c48aba5ff3fc7e14265ca1747b426692004f1436c0d89c3a0153daf9bf39152a",
+  "src/agrocebada/variants.py": "e1a7bf7e1a46ec8fc690cb5005962b87a3dcb994c871a63a3b38d02fa0b82dd8"
+}

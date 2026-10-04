@@ -1,0 +1,25 @@
+{
+  "completed_schemes": [
+    "principal-5"
+  ],
+  "protocol_hash": "0bef661ffa64f947736a430d4bccf7966613b55aee6d21cdcf99305462179f07",
+  "manifest": {
+    "comparison-principal-5-official.csv": "08aa5d606a8f5d6e2d660134cef64dd1060732744f0d373d64f3555ed3a94b49",
+    "comparison-principal-5-selected.csv": "dbf8a28243be84ce4856d1b0f574b03e5a983d1888e025da73ddac1279e8b02a",
+    "diagnostic-principal-5-Estado.csv": "60116932a4f499b4d48ac5a3c6c1ede821d48a1349f2e7d703e56e1304a05040",
+    "diagnostic-principal-5-monthly_20_10-missing.csv": "45165c70084af1ad212c60fc0e976cd32b022c9a71acd63aa35b98ce03a5daf3",
+    "diagnostic-principal-5-Municipio.csv": "a93f280c66f0a14b38600d913de9fc7a5c36f5754a14e9d6ebb16dcbb339e8c1",
+    "diagnostic-principal-5-parcels.csv": "c482a8b5cdfc4b9c7874ec2addb0ea1ce43cbf19a07071996b3fa8a9fe52040e",
+    "diagnostic-principal-5-whittaker_20_10-missing.csv": "1c39a9e8249d64a29904f821d1a1e570d66cde4ffa10b6b8cc3b0a00bdb7d538",
+    "diagnostic-principal-5.json": "aa1b11682a215b03ce00758ce41517cb2277eb54e369aec608078fda7eb72392",
+    "freeze-receipt.json": "6e2af92f835c0b15ad0108e77f9c39203c967a972af4b04eaf5b785c9da87a37",
+    "oof-principal-5.csv": "de0f5ad2e4149544e3a9099cd6ba9951e83eec5c46ea015b7828f4098721412f",
+    "paired-principal-5.csv": "e807864eccb51673f5bdb1c267c825be46751dafc0ec72c9a21a5849bbcca858",
+    "progress-principal-5.json": "dc9cf540ddea8a288702626c3e5146e156f7e734b35cfc4821d567ab30a4ae7b",
+    "schemes.csv": "1672f028981ab7e76557144be6a00c22abcc218145aeb6a169491d7dd0ec9bb0",
+    "selected-features-principal-5.csv": "069a62cda9bc2b338305f2167e81ce7d1769b97c7cc06bb9a4e693d8555691ee",
+    "selection-policy.json": "0bef661ffa64f947736a430d4bccf7966613b55aee6d21cdcf99305462179f07",
+    "support-principal-5.csv": "ffdc326a7b77ab517a84364e4f8cc856eab699323ab40b148277ff59b5226ca2",
+    "validation-principal-5.json": "553097155894d8de4e81189bcbfccbcedd4053df69fd7eb2b4d4cbf30711b2af"
+  }
+}

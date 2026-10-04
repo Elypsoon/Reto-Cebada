@@ -1,0 +1,57 @@
+{
+  "words": {
+    "Introducción": 440,
+    "Justificación": 144,
+    "Objetivos": 185,
+    "Metodología": 631,
+    "Resultados y discusión": 441,
+    "Uso de la ciencia de datos en la inclusión financiera del sector agro": 286,
+    "Conclusiones": 172,
+    "Bibliografía": 25,
+    "Anexos": 139
+  },
+  "body_limits_met": true,
+  "results_from_validation": true,
+  "team_contributions": {
+    "assignment_basis": "Nombres proporcionados por el usuario y distribución de aportaciones realizada por su indicación el 3 de octubre de 2026; no constituye una auditoría individual del historial de trabajo.",
+    "members": [
+      {
+        "name": "Leonardo Alvarez Gonzalez",
+        "contributions": "Coordinación e integración del proyecto; diseño del procedimiento analítico, selección de modelos y validación espacial; interpretación de resultados y consolidación del informe técnico."
+      },
+      {
+        "name": "Ángel de Jesús Elvis Gutiérrez Pacheco",
+        "contributions": "Investigación y revisión de fuentes; auditoría y preparación de datos satelitales, climáticos y geoespaciales; construcción de variables y documentación de procedencia, unidades y calidad."
+      },
+      {
+        "name": "Diego Cannata Cárdenas",
+        "contributions": "Desarrollo e integración del dashboard; visualización de parcelas y resultados, consulta y exportación de predicciones; pruebas de la aplicación, empaquetado local y preparación de la demostración."
+      }
+    ]
+  },
+  "experimental": true,
+  "annex_pages": 2,
+  "annex_predictions": 59,
+  "annex_identifiers_verified": true,
+  "annex_values_verified": true,
+  "team_names_verified": true,
+  "pdfs": {
+    "agrocebada-informe-tecnico.pdf": {
+      "pages": 8,
+      "sha256": "537f34248abfbac4634dff63700209a743620c4adbb8cb0f10709c2df5ca9d57"
+    },
+    "agrocebada-bibliografia.pdf": {
+      "pages": 2,
+      "sha256": "529064dde4b22cad80f678daaebf1895bb9915ae8405cbd22133ec0dab32f1be"
+    },
+    "agrocebada-anexos.pdf": {
+      "pages": 2,
+      "sha256": "6e90a6346688a921ea231d3fb2d4b8efb691dee05ec4cd8b3b37a5a7ecbc2408"
+    }
+  },
+  "numerical_check": true,
+  "labels_reuse_stated": true,
+  "sources_verified": true,
+  "visual_verified": true,
+  "visual_review": "Todas las páginas del informe final (8), bibliografía (2) y anexos (2) renderizadas e inspeccionadas; encabezados corregidos, sin recortes ni solapamientos"
+}

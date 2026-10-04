@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "phase_id": "soporte-regional-20261003",
+  "experiment_id": "E07",
+  "run_id": "E07-v3",
+  "control_run_id": "E00-v2",
+  "parent_run_id": null,
+  "retry_of": "E07-v2",
+  "hypothesis": "Candidato TabPFN-2.5",
+  "status": "completed",
+  "started_at": "2026-10-04T03:49:05.206400+00:00",
+  "finished_at": "2026-10-04T03:59:54.939930+00:00",
+  "cutoff": "2025-10-31",
+  "seed": 2026,
+  "protocol_hash": "1bc68887084186e1da3b01a8a71396e1bdee68dd7ffada4e50d9dccf654bb874",
+  "metrics": {},
+  "verification": {
+    "passed": true,
+    "configurations": [
+      "monthly_20_10",
+      "whittaker_20_10"
+    ]
+  },
+  "decision": {
+    "eligible": false,
+    "activated": false,
+    "reason": "Reintento de exportación; dos configuraciones fijas verificadas"
+  },
+  "limitations": [
+    "Desarrollo sobre las mismas 138 etiquetas; sin campaña nueva ni evaluación oficial."
+  ],
+  "data_hashes": {
+    "parcels.parquet": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+    "satellite.parquet": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9",
+    "source-manifest.json": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+  },
+  "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+  "dependency_manifest": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "geopandas": "1.2.0",
+    "rasterio": "1.5.2",
+    "catboost": "1.2.10",
+    "streamlit": "1.65.0"
+  },
+  "scheme_hash": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334",
+  "feature_manifest": {
+    "monthly_20_10": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa",
+    "whittaker_20_10": "8cc323e05a5e0e7483faf4a8532552985d8d0c836c0e5b9b03eb7f3b0cbc564d"
+  },
+  "reason": null,
+  "pid": 29912,
+  "changes": {
+    "model_absent": false,
+    "children": [
+      "E07-v3-monthly_20_10",
+      "E07-v3-whittaker_20_10"
+    ],
+    "adapter_code_hash": "7a6111108c4fa45795f96ecefc7115b3a04c54304e7063b2543d56c3481590f7"
+  },
+  "artifact_manifest": "f3000567415310af4572fe13e3cc35672d5d9505bcabe052355f20841d78ff56"
+}

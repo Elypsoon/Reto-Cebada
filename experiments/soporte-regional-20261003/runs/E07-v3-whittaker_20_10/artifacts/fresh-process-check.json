@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "predictions": 59,
+  "checkpoint_hash": "6e0308b7e5f3a8325b798b96d986b2b282c3608b1cda6e2991425a2a261d40b8",
+  "context_hash": "6530d9b930444500dea841c24651d1b22223af56088cbedd713e278793389fa6",
+  "tolerance": 1e-10
+}

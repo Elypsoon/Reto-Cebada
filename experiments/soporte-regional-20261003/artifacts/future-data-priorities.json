@@ -1,0 +1,26 @@
+[
+  {
+    "priority": 1,
+    "data": "Rendimientos parcelarios de una nueva campaña, medidos y con unidades/área verificadas",
+    "purpose": "Confirmar generalización temporal en etiquetas no utilizadas para desarrollar la política",
+    "availability": "pendiente de obtención y verificación"
+  },
+  {
+    "priority": 2,
+    "data": "Fechas de siembra/cosecha, variedad, riego, fertilización y manejo por parcela",
+    "purpose": "Explicar variación parcelaria y alinear ventanas fenológicas",
+    "availability": "pendiente de obtención y verificación"
+  },
+  {
+    "priority": 3,
+    "data": "Protocolo de medición, humedad/calidad de cosecha y fuente del rendimiento",
+    "purpose": "Resolver cuantización y discrepancias con evidencia primaria",
+    "availability": "pendiente de obtención y verificación"
+  },
+  {
+    "priority": 4,
+    "data": "Más etiquetas verificadas de Hidalgo y municipios con pocos casos",
+    "purpose": "Evaluar cobertura y errores regionales con mayor soporte",
+    "availability": "pendiente de obtención y verificación"
+  }
+]

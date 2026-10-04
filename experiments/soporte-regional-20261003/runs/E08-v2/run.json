@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "phase_id": "soporte-regional-20261003",
+  "experiment_id": "E08",
+  "run_id": "E08-v2",
+  "control_run_id": "E00-v2",
+  "parent_run_id": null,
+  "retry_of": "E08",
+  "hypothesis": "Combinación predeclarada E01a+E02+E04a",
+  "status": "completed",
+  "started_at": "2026-10-04T03:46:15.599734+00:00",
+  "finished_at": "2026-10-04T03:57:14.639297+00:00",
+  "cutoff": "2025-10-31",
+  "seed": 2026,
+  "protocol_hash": "f17fe2f126dbefab5f2a7dca956a554969852850d72124d2618248c67e2ae1c0",
+  "metrics": {
+    "official": {
+      "principal-5": {
+        "rmse": 0.6882005950493183,
+        "mae": 0.5418573785734101,
+        "r2": 0.3414854246269269,
+        "bias": -0.13135199137003245,
+        "control_delta_rmse": -0.06814523452012977,
+        "regional_rmse": 0.7439756768844785
+      },
+      "balanceado-4": {
+        "rmse": 0.7604623162252031,
+        "mae": 0.5781752575856418,
+        "r2": 0.19593584768038386,
+        "bias": -0.06495737437316551,
+        "control_delta_rmse": -0.003927159931449098,
+        "regional_rmse": 0.7441564778082017
+      },
+      "rotado-45-5": {
+        "rmse": 0.7483052386480527,
+        "mae": 0.5901622169345883,
+        "r2": 0.2214385868209202,
+        "bias": 0.15743106831562462,
+        "control_delta_rmse": -0.0008634456116016764,
+        "regional_rmse": 0.9119407614743639
+      },
+      "intraestado-3": {
+        "rmse": 0.6522650657772627,
+        "mae": 0.4778673204557802,
+        "r2": 0.40846078252606144,
+        "bias": 0.00048244020087234637,
+        "control_delta_rmse": 0.0045602298428510935,
+        "regional_rmse": 0.6522650657772627
+      }
+    },
+    "selected": {
+      "principal-5": {
+        "rmse": 0.6876222820616118,
+        "mae": 0.5410331630812873,
+        "r2": 0.3425916937135719,
+        "bias": -0.12666231580631668,
+        "control_delta_rmse": -0.06183554399844848,
+        "regional_rmse": 0.7439756768844785
+      },
+      "balanceado-4": {
+        "rmse": 0.7611723598322441,
+        "mae": 0.5800649252072669,
+        "r2": 0.1944336374246377,
+        "bias": -0.06350931965556614,
+        "control_delta_rmse": -0.008263504631107588,
+        "regional_rmse": 0.7441564778082017
+      },
+      "rotado-45-5": {
+        "rmse": 0.7483052386480527,
+        "mae": 0.5901622169345883,
+        "r2": 0.2214385868209202,
+        "bias": 0.15743106831562462,
+        "control_delta_rmse": -0.0008634456116016764,
+        "regional_rmse": 0.9119407614743639
+      },
+      "intraestado-3": {
+        "rmse": 0.6522650657772627,
+        "mae": 0.4778673204557802,
+        "r2": 0.40846078252606144,
+        "bias": 0.00048244020087234637,
+        "control_delta_rmse": 0.0045602298428510935,
+        "regional_rmse": 0.6522650657772627
+      }
+    }
+  },
+  "verification": {
+    "passed": true,
+    "routes": {
+      "official": {
+        "predictions": 59,
+        "hash": "463a4a20f3ca225f65cdbd585d6ebb0ae6f7465539b4c55438b9b682c68bb900",
+        "contract": "37e265c195f36129b0bdf899d5012ec8071fd41cb50f08f1cd3c33b37d6f456e"
+      },
+      "selected": {
+        "predictions": 59,
+        "hash": "463a4a20f3ca225f65cdbd585d6ebb0ae6f7465539b4c55438b9b682c68bb900",
+        "contract": "e226b40ee7036d3f93d56d2bdcf7952067b4045966e478861f926537e742eac5"
+      }
+    },
+    "metrics": true
+  },
+  "decision": {
+    "promotion_scope": "E08",
+    "activated": false,
+    "by_route": {
+      "official": {
+        "promote": false,
+        "checks": {
+          "three_valid_schemes": true,
+          "principal_gain_2pct": true,
+          "at_least_two_gains": true,
+          "mean_ratio_098": true,
+          "none_above_105": true,
+          "regional_protection": false,
+          "verification": true
+        },
+        "ratios": {
+          "principal-5": 0.9250310412448863,
+          "balanceado-4": 1.0219118409948236,
+          "rotado-45-5": 0.8205634294032911
+        },
+        "mean_ratio": 0.9225021038810004,
+        "invalid": [],
+        "regional_failures": [
+          {
+            "scheme": "rotado-45-5",
+            "state": "Puebla",
+            "n": 71,
+            "selected": {
+              "rmse": 0.6012395780706254,
+              "mae": 0.42426526747441046,
+              "r2": -0.07360141802648035
+            },
+            "official": {
+              "rmse": 0.6012395780706254,
+              "mae": 0.42426526747441046,
+              "r2": -0.07360141802648035
+            },
+            "regional_mean": {
+              "rmse": 0.5879313769791714,
+              "mae": 0.37792164303387904,
+              "r2": -0.02659993064948485
+            }
+          }
+        ],
+        "eligible": false,
+        "activated": false
+      },
+      "selected": {
+        "promote": false,
+        "checks": {
+          "three_valid_schemes": true,
+          "principal_gain_2pct": true,
+          "at_least_two_gains": true,
+          "mean_ratio_098": true,
+          "none_above_105": true,
+          "regional_protection": false,
+          "verification": true
+        },
+        "ratios": {
+          "principal-5": 0.9242537134293746,
+          "balanceado-4": 1.0228660000033327,
+          "rotado-45-5": 0.8205634294032911
+        },
+        "mean_ratio": 0.9225610476119995,
+        "invalid": [],
+        "regional_failures": [
+          {
+            "scheme": "rotado-45-5",
+            "state": "Puebla",
+            "n": 71,
+            "selected": {
+              "rmse": 0.6012395780706254,
+              "mae": 0.42426526747441046,
+              "r2": -0.07360141802648035
+            },
+            "official": {
+              "rmse": 0.6012395780706254,
+              "mae": 0.42426526747441046,
+              "r2": -0.07360141802648035
+            },
+            "regional_mean": {
+              "rmse": 0.5879313769791714,
+              "mae": 0.37792164303387904,
+              "r2": -0.02659993064948485
+            }
+          }
+        ],
+        "eligible": false,
+        "activated": false
+      }
+    },
+    "reason": "Elegibilidad separada de activación; conservar activa"
+  },
+  "limitations": [
+    "Desarrollo sobre las mismas 138 etiquetas; sin campaña nueva ni evaluación oficial."
+  ],
+  "data_hashes": {
+    "parcels.parquet": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+    "satellite.parquet": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9",
+    "source-manifest.json": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+  },
+  "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+  "dependency_manifest": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "geopandas": "1.2.0",
+    "rasterio": "1.5.2",
+    "catboost": "1.2.10",
+    "streamlit": "1.65.0"
+  },
+  "scheme_hash": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334",
+  "feature_manifest": {
+    "monthly_20_10": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa",
+    "segmented_20_10": "d73291050744d988486bf87b4cd031c919026d54ef4ec2864d8636037adbc198"
+  },
+  "reason": null,
+  "pid": 28644,
+  "artifact_manifest": "3733eb3b50e95ef1ae4cd62406fc97002df10b3eddaba4ecd82baeb2bb19e65c",
+  "_github_transport": {
+    "full_record": "run.json.gz",
+    "original_sha256": "95972df0aea0ae3df5a57bfc26f875b7539b0271db7a01ce7cd73aaf2d88b5b0",
+    "original_bytes": 73109504,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

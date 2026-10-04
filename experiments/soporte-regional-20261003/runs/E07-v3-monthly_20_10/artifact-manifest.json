@@ -1,0 +1,19 @@
+{
+  "comparison-balanceado-4-official.csv": "024362c5332577347369314ed46032635db0d4680ca2e6667c5655d9e7e31fc7",
+  "comparison-principal-5-official.csv": "ca8f397e9c08f5600eb5c0d735254d12dacfa10047b29272cba84edbef7a17c0",
+  "comparison-rotado-45-5-official.csv": "2ca2c27d30a70ce47046f4f10d976d4dae0f4a9339e5280c62d8ad69d0f95566",
+  "context-contract.json": "b5a1ec25af6dcfd238a394e274ccd5e3855188df9be13366aa50197855856dfb",
+  "fresh-process-check.json": "2ecdd8bf0a976d7d37062ee023db330985806e0f53bf7de358aed7a56cf0f137",
+  "metrics.json": "46f39370b35b4c96dbc9d33028bebbad6b89c32b58cf1b27dd389e377c4a8cd7",
+  "oof-balanceado-4.csv": "5fefdba1d32c893217f429a80177efc7e99247a1f7bb47a67b06097138956318",
+  "oof-principal-5.csv": "3032d3178b3e873e5253bb15441afbc850eb47ea2c985f65d593f7a0fc348df8",
+  "oof-rotado-45-5.csv": "6b109016e7831b8d0cefdda75415111692740d4c28b62c4447b7534f2ddc552c",
+  "predictions_official_only_59.csv": "d3d467b3509451201e4b2557b430417cb4a22a6ed776d0f7f6b0cdd8e4e39421",
+  "resources.json": "b0443b4cc9cf6bdbec4a634152d4d707e944acf7b0b175abfcc515be0dc9254c",
+  "training-context.npz": "9cd0dba122b75eb5c9f8054b49a2bff52cdba0bcba2e8f0f2bb680ce6aa94b56",
+  "validation-balanceado-4.json": "ec0bc7a29547ffb4fc9727439062c3f8a0fe2e49b9dbcd41be771b0728d8c824",
+  "validation-principal-5.json": "ab384d25ef72e25548448043103d4a77d680963e8d4f7814138671f98ea42de7",
+  "validation-rotado-45-5.json": "c35bb1a305e6058a0f6314435964ed1b33e0e7d0f89995c5a8e5aa289742dc7e",
+  "verification.json": "2ecdd8bf0a976d7d37062ee023db330985806e0f53bf7de358aed7a56cf0f137",
+  "worker-metrics.json": "f37e78cd4646b3387adcd5cba688b6067c211b46e6f4cf3e8435f791d26375fb"
+}

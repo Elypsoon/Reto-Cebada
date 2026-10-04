@@ -1,0 +1,11 @@
+{
+  "clean_directory": "verification\\package-run-20261003T173157",
+  "fresh_process": true,
+  "existing_pinned_environment": true,
+  "reinstalled_dependencies": false,
+  "source_loaded_from_package": true,
+  "files": 327,
+  "verification": "{'predictions': 59, 'oof': 138, 'finite': True, 'same_predictions': True, 'metrics_reproduced': True, 'selected_sources': [], 'model_hash': 'ea6f83ae81603486a7a7b278834f9f64e6731584285b0a05facfb0e95082fae0'}",
+  "tests": "...................                                                      [100%]\n============================== warnings summary ===============================\ntests/test_spatial.py::test_small_parcel_without_pixel_centers\ntests/test_spatial.py::test_small_parcel_without_pixel_centers\n  C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\verification\\package-run-20261003T173157\\src\\agrocebada\\spatial.py:29: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication\n    x0,y0=src.transform*(c0+cc,r0+rr)\n\ntests/test_spatial.py::test_small_parcel_without_pixel_centers\ntests/test_spatial.py::test_small_parcel_without_pixel_centers\n  C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\verification\\package-run-20261003T173157\\src\\agrocebada\\spatial.py:30: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication\n    x1,y1=src.transform*(c0+cc+1,r0+rr+1)\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n19 passed, 4 warnings in 4.99s",
+  "official_delivery": "Pendiente URL/alojamiento y carga oficial; integrantes, aportaciones y PDFs de informe, bibliografía y anexos preparados; no publicado"
+}

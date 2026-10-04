@@ -1,0 +1,422 @@
+[
+  {
+    "name": "s2_ndvi_early",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_ndvi_middle",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_ndvi_late",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_coverage",
+    "units": "observaciones utilizables",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_spatial_std",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_auc",
+    "units": "índice × días",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_peak",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_peak_doy",
+    "units": "día del año; pico aproximado",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_amplitude",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_duration",
+    "units": "días sobre media amplitud; aproximación",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_auc_postpeak",
+    "units": "índice × días",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_senescence",
+    "units": "índice/día",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_evi_early",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_evi_middle",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_evi_late",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_ndwi_early",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_ndwi_middle",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "s2_ndwi_late",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_ndvi_early",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_ndvi_middle",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_ndvi_late",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_coverage",
+    "units": "observaciones utilizables",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_spatial_std",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_auc",
+    "units": "índice × días",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_peak",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_peak_doy",
+    "units": "día del año; pico aproximado",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_amplitude",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_duration",
+    "units": "días sobre media amplitud; aproximación",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_auc_postpeak",
+    "units": "índice × días",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_senescence",
+    "units": "índice/día",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_evi_early",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_evi_middle",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_evi_late",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_msavi_early",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_msavi_middle",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "planet_msavi_late",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "landsat_vi6t_early",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "landsat_vi6t_middle",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "landsat_vi6t_late",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "landsat_coverage",
+    "units": "observaciones utilizables",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "landsat_spatial_std",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "landsat_auc",
+    "units": "índice × días",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "landsat_peak",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "landsat_peak_doy",
+    "units": "día del año; pico aproximado",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "landsat_amplitude",
+    "units": "índice adimensional",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "landsat_duration",
+    "units": "días sobre media amplitud; aproximación",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "landsat_auc_postpeak",
+    "units": "índice × días",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "landsat_senescence",
+    "units": "índice/día",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "climate_PREC_early",
+    "units": "mm acumulados en ventana",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "climate_PREC_middle",
+    "units": "mm acumulados en ventana",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "climate_PREC_late",
+    "units": "mm acumulados en ventana",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "climate_Tmean_early",
+    "units": "°C; media de promedios mensuales",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "climate_Trange_early",
+    "units": "°C; media de promedios mensuales",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "climate_Tmean_middle",
+    "units": "°C; media de promedios mensuales",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "climate_Trange_middle",
+    "units": "°C; media de promedios mensuales",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "climate_Tmean_late",
+    "units": "°C; media de promedios mensuales",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "climate_Trange_late",
+    "units": "°C; media de promedios mensuales",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "elevation",
+    "units": "m",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "slope",
+    "units": "grados",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  },
+  {
+    "name": "log_area",
+    "units": "log(1 + área en ha)",
+    "cutoff": "2025-10-31",
+    "role": "predictor",
+    "window": "abril–octubre 2025; early=abril/mayo, middle=junio/julio, late=agosto/octubre"
+  }
+]

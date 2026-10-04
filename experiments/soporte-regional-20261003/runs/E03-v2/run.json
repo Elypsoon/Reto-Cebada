@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "phase_id": "soporte-regional-20261003",
+  "experiment_id": "E03",
+  "run_id": "E03-v2",
+  "control_run_id": "E00-v2",
+  "parent_run_id": null,
+  "retry_of": "E03",
+  "hypothesis": "Sustitución de Whittaker nube 20 por nube 40",
+  "status": "completed",
+  "started_at": "2026-10-04T03:10:56.808980+00:00",
+  "finished_at": "2026-10-04T03:14:33.453221+00:00",
+  "cutoff": "2025-10-31",
+  "seed": 2026,
+  "protocol_hash": "ace518453514e27fe053d0446737476649938cb0b4ba3f97fb6273a16d20d1dc",
+  "metrics": {
+    "official": {
+      "principal-5": {
+        "rmse": 0.7545289717440348,
+        "mae": 0.6008035773547593,
+        "r2": 0.2084339766917246,
+        "bias": 0.16047330353034653,
+        "control_delta_rmse": -0.0018168578254132983,
+        "regional_rmse": 0.7439756768844785
+      },
+      "balanceado-4": {
+        "rmse": 0.7646556840358659,
+        "mae": 0.5964456819737793,
+        "r2": 0.1870438015236734,
+        "bias": 0.1849820346335557,
+        "control_delta_rmse": 0.00026620787921372013,
+        "regional_rmse": 0.7441564778082017
+      },
+      "rotado-45-5": {
+        "rmse": 0.7262244547927768,
+        "mae": 0.572099760493842,
+        "r2": 0.2667078382954541,
+        "bias": 0.14078569066167237,
+        "control_delta_rmse": -0.022944229466877575,
+        "regional_rmse": 0.9119407614743639
+      }
+    }
+  },
+  "verification": {
+    "passed": true,
+    "routes": {
+      "official": {
+        "predictions": 59,
+        "hash": "df9c81cb5d0b9fde4ca233561754b293ef50e9a7caed8870b4b3372beb02485a",
+        "contract": "9c215322794bd14529f604697f59ccf0da3a427449cf13d1355bfc9d0dddc4f6"
+      }
+    },
+    "metrics": true
+  },
+  "decision": {
+    "promotion_scope": "exploratorio",
+    "activated": false,
+    "by_route": {},
+    "reason": "Elegibilidad separada de activación; conservar activa"
+  },
+  "limitations": [
+    "Desarrollo sobre las mismas 138 etiquetas; sin campaña nueva ni evaluación oficial."
+  ],
+  "data_hashes": {
+    "parcels.parquet": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+    "satellite.parquet": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9",
+    "source-manifest.json": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+  },
+  "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+  "dependency_manifest": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "geopandas": "1.2.0",
+    "rasterio": "1.5.2",
+    "catboost": "1.2.10",
+    "streamlit": "1.65.0"
+  },
+  "scheme_hash": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334",
+  "feature_manifest": {
+    "monthly_20_10": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa",
+    "whittaker_40_10": "1da06d25ea46952748d1b7d4d5b0868be00e3f68a5081b74a089adfff7dd8072"
+  },
+  "reason": null,
+  "pid": 26000,
+  "artifact_manifest": "476d886ea33b4389fbec1b4b8c5ddf84514c05ba5b4730029a01d991af34bd09",
+  "_github_transport": {
+    "full_record": "run.json.gz",
+    "original_sha256": "8ab2ed222708b25a25c7d800b73db8ce8b13677682f0a0eb7f4200472b5d993a",
+    "original_bytes": 13558127,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

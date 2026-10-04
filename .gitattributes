@@ -1,0 +1,11 @@
+* -text
+# Conserva los bytes históricos de originales normalizados previamente por Git.
+"DataSet/CHIRPS_Precipitacion_2022_2025/LEEME.txt" text eol=crlf
+"DataSet/CHIRPS_Precipitacion_2022_2025/inventario_CHIRPS_precipitacion_mensual_2022_2025.csv" text eol=crlf
+"DataSet/Data/Conjunto_datos_BASICO_AgroCebada2026.csv" text eol=crlf
+"DataSet/Data/Conjunto_datos_PRO_AgroCebada.csv" text eol=crlf
+"DataSet/Data/ID_area_rendimiento_70_30_Reto_AgroCebada.csv" text eol=crlf
+"DataSet/Temperatura_2022_2025_RECORTADA_CHIRPS/LEEME_.txt" text eol=crlf
+"DataSet/Temperatura_2022_2025_RECORTADA_CHIRPS/inventario_temperatura_2022_2025.csv" text eol=crlf
+"DataSet/Topografia_INEGI_CEM4/LEEME.txt" text eol=crlf
+"DataSet/Topografia_INEGI_CEM4/inventario_topografia.csv" text eol=crlf

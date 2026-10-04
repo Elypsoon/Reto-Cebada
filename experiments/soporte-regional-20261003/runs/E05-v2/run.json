@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "phase_id": "soporte-regional-20261003",
+  "experiment_id": "E05",
+  "run_id": "E05-v2",
+  "control_run_id": "E00-v2",
+  "parent_run_id": null,
+  "retry_of": "E05",
+  "hypothesis": "Ablación de sensores y conteos de adquisición",
+  "status": "completed",
+  "started_at": "2026-10-04T03:21:34.777894+00:00",
+  "finished_at": "2026-10-04T03:35:53.875495+00:00",
+  "cutoff": "2025-10-31",
+  "seed": 2026,
+  "protocol_hash": "80ad87ce7e3918674a5fc505684c887644da98d215e686a0b4b73d7e46e0d55a",
+  "metrics": {
+    "official": {
+      "principal-5": {
+        "rmse": 0.7335622643079467,
+        "mae": 0.5833907199483909,
+        "r2": 0.2518145311486585,
+        "bias": 0.15799037206504643,
+        "control_delta_rmse": -0.02278356526150138,
+        "regional_rmse": 0.7439756768844785
+      },
+      "balanceado-4": {
+        "rmse": 0.7691554723875497,
+        "mae": 0.6058300243236001,
+        "r2": 0.17744760167648066,
+        "bias": 0.18419976231052237,
+        "control_delta_rmse": 0.004765996230897462,
+        "regional_rmse": 0.7441564778082017
+      },
+      "rotado-45-5": {
+        "rmse": 0.738939183521691,
+        "mae": 0.5826735961133699,
+        "r2": 0.24080612241393762,
+        "bias": 0.14486645253666802,
+        "control_delta_rmse": -0.01022950073796336,
+        "regional_rmse": 0.9119407614743639
+      }
+    }
+  },
+  "verification": {
+    "passed": true,
+    "routes": {
+      "official": {
+        "predictions": 59,
+        "hash": "8b7b5d70b38b43c96a3a115dde9fdf04f024af17843fbdcb3ae5162562edba53",
+        "contract": "b81b8d43112fb9e09c9fd022fc5fa79d58adfb32b4938097790107ee350666be"
+      }
+    },
+    "metrics": true
+  },
+  "decision": {
+    "promotion_scope": "exploratorio",
+    "activated": false,
+    "by_route": {},
+    "reason": "Elegibilidad separada de activación; conservar activa"
+  },
+  "limitations": [
+    "Desarrollo sobre las mismas 138 etiquetas; sin campaña nueva ni evaluación oficial."
+  ],
+  "data_hashes": {
+    "parcels.parquet": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+    "satellite.parquet": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9",
+    "source-manifest.json": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+  },
+  "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+  "dependency_manifest": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "geopandas": "1.2.0",
+    "rasterio": "1.5.2",
+    "catboost": "1.2.10",
+    "streamlit": "1.65.0"
+  },
+  "scheme_hash": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334",
+  "feature_manifest": {
+    "monthly_20_10": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa",
+    "whittaker_20_10": "8cc323e05a5e0e7483faf4a8532552985d8d0c836c0e5b9b03eb7f3b0cbc564d"
+  },
+  "reason": null,
+  "pid": 35008,
+  "artifact_manifest": "ff7a9234cff67f6f0ac5a251078ce08016664f6e92a0aede949dea56b65f6a6c",
+  "_github_transport": {
+    "full_record": "run.json.gz",
+    "original_sha256": "93a264dc454c93d56556057d1564000f6fca75c073a4ab79d6d04581e708eef1",
+    "original_bytes": 57711183,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

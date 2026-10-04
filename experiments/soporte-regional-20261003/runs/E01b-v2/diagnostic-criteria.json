@@ -1,0 +1,88 @@
+{
+  "official": {
+    "threshold_diagnostics": {
+      "promote": false,
+      "checks": {
+        "three_valid_schemes": true,
+        "principal_gain_2pct": false,
+        "at_least_two_gains": false,
+        "mean_ratio_098": false,
+        "none_above_105": false,
+        "regional_protection": false,
+        "verification": true
+      },
+      "ratios": {
+        "principal-5": 1.1959924784020588,
+        "balanceado-4": 1.197765348396714,
+        "rotado-45-5": 0.8344802576027366
+      },
+      "mean_ratio": 1.0760793614671698,
+      "invalid": [],
+      "regional_failures": [
+        {
+          "scheme": "principal-5",
+          "state": "Tlaxcala",
+          "n": 31,
+          "selected": {
+            "rmse": 1.2887684047882855,
+            "mae": 1.232413387065447,
+            "r2": -11.138007339425865
+          },
+          "official": {
+            "rmse": 1.2887684047882855,
+            "mae": 1.232413387065447,
+            "r2": -11.138007339425865
+          },
+          "regional_mean": {
+            "rmse": 0.6156559575481392,
+            "mae": 0.5,
+            "r2": -1.7699619771863122
+          }
+        },
+        {
+          "scheme": "balanceado-4",
+          "state": "Tlaxcala",
+          "n": 31,
+          "selected": {
+            "rmse": 1.2885291320309489,
+            "mae": 1.2318984218969942,
+            "r2": -11.133500672645063
+          },
+          "official": {
+            "rmse": 1.2885291320309489,
+            "mae": 1.2318984218969942,
+            "r2": -11.133500672645063
+          },
+          "regional_mean": {
+            "rmse": 0.6156559575481392,
+            "mae": 0.5,
+            "r2": -1.7699619771863122
+          }
+        },
+        {
+          "scheme": "rotado-45-5",
+          "state": "Puebla",
+          "n": 71,
+          "selected": {
+            "rmse": 0.6055449811145848,
+            "mae": 0.44156246586918435,
+            "r2": -0.08903232709328757
+          },
+          "official": {
+            "rmse": 0.6055449811145848,
+            "mae": 0.44156246586918435,
+            "r2": -0.08903232709328757
+          },
+          "regional_mean": {
+            "rmse": 0.5879313769791714,
+            "mae": 0.37792164303387904,
+            "r2": -0.02659993064948485
+          }
+        }
+      ]
+    },
+    "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+    "scope": "exploratorio",
+    "activated": false
+  }
+}

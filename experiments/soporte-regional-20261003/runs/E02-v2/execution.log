@@ -1,0 +1,16 @@
+principal-5 fold 0: train=104, validación=34
+principal-5 fold 1: train=104, validación=34
+principal-5 fold 2: train=103, validación=35
+principal-5 fold 3: train=121, validación=17
+principal-5 fold 4: train=120, validación=18
+balanceado-4 fold 0: train=104, validación=34
+balanceado-4 fold 1: train=103, validación=35
+balanceado-4 fold 2: train=104, validación=34
+balanceado-4 fold 3: train=103, validación=35
+rotado-45-5 fold 0: train=104, validación=34
+rotado-45-5 fold 1: train=104, validación=34
+rotado-45-5 fold 2: train=103, validación=35
+rotado-45-5 fold 3: train=121, validación=17
+rotado-45-5 fold 4: train=120, validación=18
+{'passed': True, 'routes': {'official': {'predictions': 59, 'hash': 'ca78c918d4a2cd2b43f700c99fb1eddbba25f5644d54240be39b07896a01819a', 'contract': '77f70a41e0e74546c5e45301d86fa901ae025bc097690353552af603bf44b3fd'}}, 'metrics': True}
+COMPLETADO E02-v2 {'official': {'principal-5': {'rmse': 0.7563458295694481, 'mae': 0.6031691463832336, 'r2': 0.20461730568193015, 'bias': 0.15903996800030848, 'control_delta_rmse': 0.0, 'regional_rmse': 0.7439756768844785}, 'balanceado-4': {'rmse': 0.765027663793618, 'mae': 0.5997956883867769, 'r2': 0.18625265640911193, 'bias': 0.18926162802065055, 'control_delta_rmse': 0.0006381876369657702, 'regional_rmse': 0.7441564778082017}, 'rotado-45-5': {'rmse': 0.7491686842596543, 'mae': 0.5920948746039706, 'r2': 0.21964083573715354, 'bias': 0.14969672550828012, 'control_delta_rmse': 0.0, 'regional_rmse': 0.9119407614743639}}}

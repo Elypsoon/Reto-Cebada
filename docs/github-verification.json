@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checked_versions": [
+    ".",
+    "experiments\\soporte-regional-20261003\\packages\\E08-v2"
+  ],
+  "predictions_per_route": 59,
+  "routes": [
+    "selected",
+    "official"
+  ],
+  "tolerance": 1e-10,
+  "original_files_verified": 176,
+  "active_model_unchanged": true,
+  "E08_activated": false,
+  "source_test_suite": {
+    "passed": 68,
+    "failed": 0
+  },
+  "new_training_performed": false
+}

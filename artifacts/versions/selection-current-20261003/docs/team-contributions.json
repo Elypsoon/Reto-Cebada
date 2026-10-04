@@ -1,0 +1,17 @@
+{
+  "assignment_basis": "Nombres proporcionados por el usuario y distribución de aportaciones realizada por su indicación el 3 de octubre de 2026; no constituye una auditoría individual del historial de trabajo.",
+  "members": [
+    {
+      "name": "Leonardo Alvarez Gonzalez",
+      "contributions": "Coordinación e integración del proyecto; diseño del procedimiento analítico, selección de modelos y validación espacial; interpretación de resultados y consolidación del informe técnico."
+    },
+    {
+      "name": "Ángel de Jesús Elvis Gutiérrez Pacheco",
+      "contributions": "Investigación y revisión de fuentes; auditoría y preparación de datos satelitales, climáticos y geoespaciales; construcción de variables y documentación de procedencia, unidades y calidad."
+    },
+    {
+      "name": "Diego Cannata Cárdenas",
+      "contributions": "Desarrollo e integración del dashboard; visualización de parcelas y resultados, consulta y exportación de predicciones; pruebas de la aplicación, empaquetado local y preparación de la demostración."
+    }
+  ]
+}

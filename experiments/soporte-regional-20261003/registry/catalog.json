@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "phase_id": "soporte-regional-20261003",
+  "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+  "scheme_hash": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334",
+  "data_hashes": {
+    "parcels.parquet": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+    "satellite.parquet": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9",
+    "source-manifest.json": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+  },
+  "experiments": [
+    {
+      "experiment": "E00",
+      "run_id": "E00-v2",
+      "control": "H01-regional",
+      "protocol_hash": "a8484c142f41ffbea2586148e0f2daad42fbe84a30a9cfb950445ca8a57f9175",
+      "optional": false
+    },
+    {
+      "experiment": "E01a",
+      "run_id": "E01a-v2",
+      "control": "E00-v2",
+      "protocol_hash": "e6f7eb3fb969c6cf6dcf819ff1d1c02346b15378a28c89877831ccbeff3f79d3",
+      "optional": false
+    },
+    {
+      "experiment": "E01b",
+      "run_id": "E01b-v2",
+      "control": "E00-v2",
+      "protocol_hash": "575774974daa4810cf037d8aeca867233ac012fa772e9f0bfb61d6f6e7ef7e80",
+      "optional": false
+    },
+    {
+      "experiment": "E02",
+      "run_id": "E02-v2",
+      "control": "E00-v2",
+      "protocol_hash": "570a7175d11e3c615516822b5b5a0c72c747fbdab4a65bfc234546e522dc2147",
+      "optional": false
+    },
+    {
+      "experiment": "E03",
+      "run_id": "E03-v2",
+      "control": "E00-v2",
+      "protocol_hash": "ace518453514e27fe053d0446737476649938cb0b4ba3f97fb6273a16d20d1dc",
+      "optional": false
+    },
+    {
+      "experiment": "E04a",
+      "run_id": "E04a-v2",
+      "control": "E00-v2",
+      "protocol_hash": "8027d54c3b378abef4359dd4de81a5f29997c9c322cfd952c366896e79eb8e9c",
+      "optional": false
+    },
+    {
+      "experiment": "E04b",
+      "run_id": "E04b-v2",
+      "control": "E04a-v2",
+      "protocol_hash": "c2ea7dec9fea4fa8a1f7ed4aeefc9b7ed885892853d4cd9fb2edc745d354551a",
+      "optional": false
+    },
+    {
+      "experiment": "E05",
+      "run_id": "E05-v2",
+      "control": "E00-v2",
+      "protocol_hash": "80ad87ce7e3918674a5fc505684c887644da98d215e686a0b4b73d7e46e0d55a",
+      "optional": false
+    },
+    {
+      "experiment": "E06",
+      "run_id": "E06-v2",
+      "control": "E00-v2",
+      "protocol_hash": "f701aa428406a98a980559f4b4685c9c84c04dd2e50a8947ad5d4af7389b64f2",
+      "optional": false
+    },
+    {
+      "experiment": "E07",
+      "run_id": "E07-v2",
+      "control": "E00-v2",
+      "protocol_hash": "171f6d6ddcc35bb4ca7064387dd64b9da707e093706beb30cc86f89fdaf26c6b",
+      "optional": true
+    },
+    {
+      "experiment": "E08",
+      "run_id": "E08-v2",
+      "control": "E00-v2",
+      "protocol_hash": "f17fe2f126dbefab5f2a7dca956a554969852850d72124d2618248c67e2ae1c0",
+      "optional": false
+    }
+  ],
+  "combined": [
+    "E01a",
+    "E02",
+    "E04a"
+  ],
+  "promotion_experiment": "E08",
+  "activated": false,
+  "revision": 2,
+  "supersedes": "revision-1-catalog.json",
+  "reason": "Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian."
+}

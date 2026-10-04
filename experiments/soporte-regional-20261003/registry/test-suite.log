@@ -1,0 +1,55 @@
+....................................................................     [100%]
+============================== warnings summary ===============================
+tests/test_phase.py: 41 warnings
+  C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\.venv\Lib\site-packages\sklearn\gaussian_process\kernels.py:445: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified lower bound 0.3. Decreasing the bound and calling fit again may find a better value.
+    warnings.warn(
+
+tests/test_phase.py: 56 warnings
+  C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\.venv\Lib\site-packages\sklearn\gaussian_process\kernels.py:445: ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value.
+    warnings.warn(
+
+tests/test_spatial.py::test_small_parcel_without_pixel_centers
+tests/test_spatial.py::test_small_parcel_without_pixel_centers
+  C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\src\agrocebada\spatial.py:29: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+    x0,y0=src.transform*(c0+cc,r0+rr)
+
+tests/test_spatial.py::test_small_parcel_without_pixel_centers
+tests/test_spatial.py::test_small_parcel_without_pixel_centers
+  C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\src\agrocebada\spatial.py:30: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+    x1,y1=src.transform*(c0+cc+1,r0+rr+1)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+68 passed, 101 warnings in 109.50s (0:01:49)
+
+Traceback (most recent call last):
+  File "<frozen os>", line 366, in walk
+PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\leonf\\AppData\\Local\\Temp\\tmpld4y3tfv'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 939, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 623, in _rmtree_unsafe
+    for dirpath, dirnames, filenames in results:
+                                        ^^^^^^^
+  File "<frozen os>", line 369, in walk
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 621, in onerror
+    onexc(os.scandir, err.filename, err)
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\leonf\\AppData\\Local\\Temp\\tmpld4y3tfv'

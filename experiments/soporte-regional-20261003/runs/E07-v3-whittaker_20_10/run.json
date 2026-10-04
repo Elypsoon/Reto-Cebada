@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "phase_id": "soporte-regional-20261003",
+  "experiment_id": "E07",
+  "run_id": "E07-v3-whittaker_20_10",
+  "control_run_id": "E00-v2",
+  "parent_run_id": "E07-v3",
+  "retry_of": "E07-v2-whittaker_20_10",
+  "hypothesis": "Candidato TabPFN-2.5",
+  "status": "completed",
+  "started_at": "2026-10-04T03:54:36.888392+00:00",
+  "finished_at": "2026-10-04T03:59:49.319997+00:00",
+  "cutoff": "2025-10-31",
+  "seed": 2026,
+  "protocol_hash": "c1628a65104ca59de8d000d47a44f4bca765e1bdd74f6fa80e5c4752283c5afd",
+  "metrics": {
+    "official": {
+      "principal-5": {
+        "rmse": 0.7477153122603928,
+        "mae": 0.5698050402212835,
+        "r2": 0.22266566063029336,
+        "bias": 0.09544440048328347,
+        "control_delta_rmse": -0.008630517309055286
+      },
+      "balanceado-4": {
+        "rmse": 0.7726517816403764,
+        "mae": 0.5896681708183841,
+        "r2": 0.16995253969692337,
+        "bias": 0.07423370928004171,
+        "control_delta_rmse": 0.008262305483724197
+      },
+      "rotado-45-5": {
+        "rmse": 0.665157508498096,
+        "mae": 0.5227526663351749,
+        "r2": 0.3848453656841967,
+        "bias": 0.08145094719485962,
+        "control_delta_rmse": -0.08401117576155837
+      }
+    }
+  },
+  "verification": {
+    "passed": true,
+    "predictions": 59,
+    "checkpoint_hash": "6e0308b7e5f3a8325b798b96d986b2b282c3608b1cda6e2991425a2a261d40b8",
+    "context_hash": "6530d9b930444500dea841c24651d1b22223af56088cbedd713e278793389fa6",
+    "tolerance": 1e-10
+  },
+  "decision": {
+    "eligible": false,
+    "activated": false,
+    "promotion_scope": "exploratorio",
+    "reason": "Configuración fija separada; sin incorporación en E08"
+  },
+  "limitations": [
+    "Desarrollo sobre las mismas 138 etiquetas; sin campaña nueva ni evaluación oficial."
+  ],
+  "data_hashes": {
+    "parcels.parquet": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+    "satellite.parquet": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9",
+    "source-manifest.json": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+  },
+  "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+  "dependency_manifest": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "geopandas": "1.2.0",
+    "rasterio": "1.5.2",
+    "catboost": "1.2.10",
+    "streamlit": "1.65.0"
+  },
+  "scheme_hash": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334",
+  "feature_manifest": {
+    "monthly_20_10": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa",
+    "whittaker_20_10": "8cc323e05a5e0e7483faf4a8532552985d8d0c836c0e5b9b03eb7f3b0cbc564d"
+  },
+  "reason": null,
+  "pid": 29912,
+  "changes": {
+    "model_absent": false,
+    "family": "TabPFN-2.5",
+    "table": "whittaker_20_10",
+    "checkpoint": {
+      "repository": "https://huggingface.co/Prior-Labs/tabpfn_2_5",
+      "revision": "6c45f3a6d0d07c6c5f62572e04a0c2929de91b8b",
+      "checkpoint": "tabpfn-v2.5-regressor-v2.5_default.ckpt",
+      "sha256": "6e0308b7e5f3a8325b798b96d986b2b282c3608b1cda6e2991425a2a261d40b8",
+      "bytes": 40831995,
+      "license_file": "LICENSE",
+      "license_sha256": "ac1d23429431a622b91c73db741868e69a0140d401ebb20b9e869a835e036e28",
+      "model_version": "2.5",
+      "synthetic_pretraining": true,
+      "purpose": "evaluación local experimental; sin entrega comercial ni activación",
+      "parameters": {
+        "device": "cpu",
+        "n_estimators": 8,
+        "random_state": 2026,
+        "fit_mode": "fit_preprocessors",
+        "n_preprocessing_jobs": 1
+      },
+      "sources": [
+        "https://huggingface.co/Prior-Labs/tabpfn_2_5",
+        "https://arxiv.org/abs/2511.08667"
+      ]
+    },
+    "context_hash": "6530d9b930444500dea841c24651d1b22223af56088cbedd713e278793389fa6",
+    "model_format": "checkpoint y contexto; no joblib convencional",
+    "adapter_code_hash": "7a6111108c4fa45795f96ecefc7115b3a04c54304e7063b2543d56c3481590f7",
+    "adapter_manifest_hash": "08f357ba8b34f62834bed167be0f31fe8e84c7d60db073db1a451d64c74ddad0",
+    "adapter_root": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\optional\\adapter-v3",
+    "previous_run": "E07-v2-whittaker_20_10",
+    "procedure_change": "CSV de float32 redondeó hasta 2.2082519546273716e-7; predicciones reconstruidas idénticas al convertir el CSV a float32. Se exporta float64 con 17 dígitos, sin modificar modelo, parámetros, tablas ni particiones. Nuevos IDs y código separado.",
+    "model_parameters_changed": false
+  },
+  "artifact_manifest": "d69f2d86643bfdd39b81d0a487db88218ee3a8596e93cf4230c226bb25fc6ed4"
+}

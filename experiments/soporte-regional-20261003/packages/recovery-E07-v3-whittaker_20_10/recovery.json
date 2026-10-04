@@ -1,0 +1,8 @@
+{
+  "run_id": "E07-v3-whittaker_20_10",
+  "activated": false,
+  "eligible": false,
+  "purpose": "Recuperación experimental; sin promoción ni despliegue",
+  "interpreter_environment": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\optional\\tabpfn-2.5\\env",
+  "dependency_lock": "optional/tabpfn-2.5/requirements.lock"
+}

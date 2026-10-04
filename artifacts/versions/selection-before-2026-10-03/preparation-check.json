@@ -1,0 +1,43 @@
+{
+  "official_tables": 9,
+  "rows": 197,
+  "predictors_by_config": {
+    "monthly_10_10": 60,
+    "whittaker_10_10": 53,
+    "whittaker_10_100": 53,
+    "monthly_20_10": 60,
+    "whittaker_20_10": 53,
+    "whittaker_20_100": 53,
+    "monthly_40_10": 60,
+    "whittaker_40_10": 53,
+    "whittaker_40_100": 53
+  },
+  "original_hashes_verified": 176,
+  "audit_identical": true,
+  "official_independent_of_external_sources": true,
+  "group_counts": {
+    "0": 34,
+    "1": 34,
+    "2": 35,
+    "3": 17,
+    "4": 18
+  },
+  "curve_examples": [
+    {
+      "status": "laguna mayor de 21 días",
+      "ID_POLIGONO": "AGC_001",
+      "sensor": "Landsat",
+      "usable": 12
+    },
+    {
+      "status": "válida",
+      "ID_POLIGONO": "AGC_001",
+      "sensor": "Planet",
+      "usable": 91
+    }
+  ],
+  "topography_partial_lt95": {
+    "elevación": 1,
+    "pendiente": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "configurations": [
+    "monthly_20_10",
+    "whittaker_20_10"
+  ]
+}

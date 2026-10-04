@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "phase_id": "soporte-regional-20261003",
+  "code_hash": "ef57b24a6356e98deec0ce660adfc5aa303bcd7cf8b3902c81abacb46bafab79",
+  "scheme_hash": "1672f028981ab7e76557144be6a00c22abcc218145aeb6a169491d7dd0ec9bb0",
+  "data_hashes": {
+    "parcels.parquet": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+    "satellite.parquet": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9",
+    "source-manifest.json": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+  },
+  "experiments": [
+    {
+      "experiment": "E00",
+      "run_id": "E00",
+      "control": "H01-regional",
+      "protocol_hash": "0bef661ffa64f947736a430d4bccf7966613b55aee6d21cdcf99305462179f07",
+      "optional": false
+    },
+    {
+      "experiment": "E01a",
+      "run_id": "E01a",
+      "control": "E00",
+      "protocol_hash": "983ec3b473f9c7145d6875ba6810342e454284879ff58f33c1bf138893340ed2",
+      "optional": false
+    },
+    {
+      "experiment": "E01b",
+      "run_id": "E01b",
+      "control": "E00",
+      "protocol_hash": "e3253d90c76da26673fd014c52542eff056011805aa1ca0839b9e9e34829aaab",
+      "optional": false
+    },
+    {
+      "experiment": "E02",
+      "run_id": "E02",
+      "control": "E00",
+      "protocol_hash": "0239dd625ea98bdd6fde86cb539df0351f53927baa35c74a03db3d919b4788e2",
+      "optional": false
+    },
+    {
+      "experiment": "E03",
+      "run_id": "E03",
+      "control": "E00",
+      "protocol_hash": "992bf079dbd1e0ffc0984dfe3bd13b0c678925d567af62ad5d301975d218ab8c",
+      "optional": false
+    },
+    {
+      "experiment": "E04a",
+      "run_id": "E04a",
+      "control": "E00",
+      "protocol_hash": "41cf4ed46256e9d96e3abe9e9aeee283d7096beb6eeddd1e6f44b72314e21463",
+      "optional": false
+    },
+    {
+      "experiment": "E04b",
+      "run_id": "E04b",
+      "control": "E04a",
+      "protocol_hash": "3f292e3f0457652bbcedcc92dffe6b0aef2b1ee5274a2d6deedb76f0724ac5ba",
+      "optional": false
+    },
+    {
+      "experiment": "E05",
+      "run_id": "E05",
+      "control": "E00",
+      "protocol_hash": "99c637bdc64b1773e5f4c12e94f0a571cc288a61d4f060a4b9b7d5bf3d7e8c27",
+      "optional": false
+    },
+    {
+      "experiment": "E06",
+      "run_id": "E06",
+      "control": "E00",
+      "protocol_hash": "8e0df13431fc253d2715326883eababf8c1267ad06a16f9b92690cddb138ad06",
+      "optional": false
+    },
+    {
+      "experiment": "E07",
+      "run_id": "E07",
+      "control": "E00",
+      "protocol_hash": "b6be312e9d03f028dcadcf42427e7cc731b80a62b30ad2c290d63886de7da5ae",
+      "optional": true
+    },
+    {
+      "experiment": "E08",
+      "run_id": "E08",
+      "control": "E00",
+      "protocol_hash": "ffd30ba22fc5868d906908b92549d8dc71afcaf20b33fb14eeb1cb07cb6be675",
+      "optional": false
+    }
+  ],
+  "combined": [
+    "E01a",
+    "E02",
+    "E04a"
+  ],
+  "promotion_experiment": "E08",
+  "activated": false
+}

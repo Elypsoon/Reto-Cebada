@@ -1,0 +1,17 @@
+{
+  "experimental": {
+    "passed": 42,
+    "failed": 0,
+    "new_tests": 17,
+    "warnings": 4,
+    "command": "pytest -q --basetemp tmp/pytest-complete-20261003b -p no:cacheprovider",
+    "offline_app": true
+  },
+  "snapshot": {
+    "passed": 25,
+    "failed": 0,
+    "warnings": 4,
+    "command": "pytest -q --basetemp tmp-pytest-restored-20261003a -p no:cacheprovider",
+    "fresh_process_predictions": 59
+  }
+}

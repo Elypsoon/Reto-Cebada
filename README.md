@@ -228,3 +228,15 @@ Con base en la investigacion agronomica y teledeteccion, se establecen tres hipo
 5. NASA Langley Research Center. (2025). *NASA Prediction of Worldwide Energy Resources (POWER) Agroclimatology Methodology*. https://power.larc.nasa.gov/
 6. Claverie, M., Ju, J., Masek, J. G., et al. (2018). *The Harmonized Landsat and Sentinel-2 (HLS) product*. Remote Sensing of Environment, 219, 145-161. https://doi.org/10.1016/j.rse.2018.09.002
 7. Eiler, P. H. C. (2003). *A perfect smoother*. Analytical Chemistry, 75(14), 3631-3636. https://doi.org/10.1021/ac034100m
+
+## Implementación reproducible, experimentos y OpenSpec
+
+El modelo, la aplicación Streamlit y el historial experimental están incorporados en esta rama. La fase de soporte regional completó 42/42 tareas y 68 pruebas. E08 obtiene RMSE principal 0.688 t/ha, pero no es elegible por protección de Puebla en el esquema rotado; la versión vigente se conserva. Los intervalos experimentales permanecen desactivados por cobertura insuficiente.
+
+- [Guía de la solución](docs/solution-guide.md).
+- [Resultados de E00–E08 y ambas configuraciones TabPFN](experiments/soporte-regional-20261003/docs/phase-results.md).
+- [Historial por ejecución](experiments/soporte-regional-20261003/docs/experiment-history.md).
+- [Especificaciones principales](openspec/specs) y [cambio archivado](openspec/changes/archive/2026-10-03-experimentos-trazables-con-soporte-regional/evidence.md).
+- [Preparar este checkout y restaurar evidencia](docs/github-checkout.md).
+
+La disponibilidad de etiquetas de otra campaña y de manejo verificable sigue pendiente. Los datos originales de `DataSet/` y la investigación previa se conservan.

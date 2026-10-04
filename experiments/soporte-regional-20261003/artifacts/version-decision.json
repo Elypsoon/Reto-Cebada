@@ -1,0 +1,71 @@
+{
+  "active_version": "selection-current-20261003",
+  "experiment": "regional-20261003",
+  "action": "keep_active",
+  "reason": {
+    "promote": false,
+    "checks": {
+      "three_valid_schemes": true,
+      "principal_gain_2pct": false,
+      "at_least_two_gains": false,
+      "mean_ratio_098": true,
+      "none_above_105": true,
+      "regional_protection": false,
+      "verification": true
+    },
+    "ratios": {
+      "principal-5": 1.0073687209755824,
+      "balanceado-4": 1.0339705255668894,
+      "rotado-45-5": 0.8215102514427026
+    },
+    "mean_ratio": 0.954283165995058,
+    "invalid": [],
+    "regional_failures": [
+      {
+        "scheme": "principal-5",
+        "state": "Tlaxcala",
+        "n": 31,
+        "selected": {
+          "rmse": 0.8105329769628427,
+          "mae": 0.7056489331115049,
+          "r2": -3.8010807770435164
+        },
+        "official": {
+          "rmse": 0.8105329769628427,
+          "mae": 0.7056489331115049,
+          "r2": -3.8010807770435164
+        },
+        "regional_mean": {
+          "rmse": 0.6156559575481392,
+          "mae": 0.5,
+          "r2": -1.7699619771863122
+        }
+      },
+      {
+        "scheme": "balanceado-4",
+        "state": "Tlaxcala",
+        "n": 31,
+        "selected": {
+          "rmse": 0.8100019428491898,
+          "mae": 0.7049175501499407,
+          "r2": -3.794791822586337
+        },
+        "official": {
+          "rmse": 0.8100019428491898,
+          "mae": 0.7049175501499407,
+          "r2": -3.794791822586337
+        },
+        "regional_mean": {
+          "rmse": 0.6156559575481392,
+          "mae": 0.5,
+          "r2": -1.7699619771863122
+        }
+      }
+    ]
+  },
+  "active_model_hash": "8ee63e3b1d07ec5e9be0fd98dcc9bb0bc7091c934a34a9eb5bbd642847f80313",
+  "experimental_model_hash": "fbdadc4cebeb15bddb0cf896cca7d45d4b57e6a7fb58ef060d9ea2ef30d6e2f2",
+  "restorable_snapshot": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\artifacts\\versions\\selection-current-20261003",
+  "all_active_hashes_intact": true,
+  "scope": "Desarrollo local; sin despliegue, validación temporal ni envío al organizador"
+}

@@ -1,0 +1,8 @@
+{
+  "primary_rmse_max": 0.729096163346789,
+  "state_mae_max": {
+    "Hidalgo": 1.0286064351851851,
+    "Puebla": 0.4564136268852908,
+    "Tlaxcala": 0.55
+  }
+}

@@ -1,0 +1,4567 @@
+[
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7296253799528024
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7307712518281426
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.732924293872167
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7342563148494334
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.737469617084217
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7375011911626986
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7403725810175877
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7440675482657061
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.744765322608718
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7791602488573817
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7792889336991363
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7818887353536944
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7827091936997319
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.788733889272946
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.795321303185632
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7981590236340489
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7995322819347469
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7998958560233136
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.800171532838653
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8048248879647436
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8049756206222048
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8069234830485325
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8077605370841507
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8093086194718989
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8111051088397012
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8128536289546582
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8131252605623445
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8133898010227307
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8154943768090156
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8185599466051308
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8198310214384991
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8207497386025812
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8217739208499802
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8218344048003293
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8222620012718179
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.824125344999457
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.824842924390062
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.824842924390062
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8251805263477484
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8275245910218029
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8275245910218029
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8290821300606683
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8323248768288896
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.832545768159926
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8328481743182115
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8332253556202095
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8346255774815586
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8351161074219832
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8356204478562765
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8369767943015946
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8379035949772056
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8389266192297993
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8391572320687224
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8395540162160335
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8401753875795548
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.841789465680638
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8421951159624441
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8428674979799469
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8428674979799469
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8430610343403417
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8431429197699999
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8438967200912649
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8459182672394281
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8459182672394281
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8461615787680459
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.846405924129029
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8475885707637245
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8480709151185867
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8516841642459829
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8545772539070667
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.863172666097879
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8656676619830458
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8762401149913727
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8765589294673113
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8816950346189935
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.88362906672549
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8917172007548214
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8996065733609756
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9142682967556758
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9608613378502203
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.013196816592378
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "regional_mean",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8663468967117782
+  },
+  {
+    "fold": 0,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "global_mean",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8457315945190685
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5333044440634251
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5354964602606074
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5361767349084181
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5371000291428939
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5379391536175662
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5404571323790863
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5414466015755948
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5428279493271752
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5443133290045309
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5484961456613044
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5521179199592499
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5536808256282552
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5537873104237726
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5555955852933573
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5565094929127893
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5569604841820076
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5571537077768121
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5612077609625578
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5804191310497826
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5849170593665566
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5882670653472613
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.592708749256619
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5940884482315885
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.5954991528030422
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6008113375254492
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6083342309027112
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6273851933150953
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6325059252798547
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6344211531376328
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6345419399939684
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6367677533544475
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6371804831616177
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6377964967989111
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6379313976747448
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6422778576992948
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6466963275605717
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7336311554531962
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7367057092541718
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7403686023943349
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7489962145671548
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.756676354479795
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7646464796143103
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7648327919642081
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7697554184521969
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.772147849142315
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7723436058086852
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7813656554712748
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7835505898429094
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7847062550998138
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7869348635077535
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7981031302288606
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8041919302745673
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8068070181975637
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8104617619685658
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8162111116904899
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8238005058787181
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8354216795990976
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8414628044675864
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8448766732050578
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8588525487835725
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.865403516801342
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.879631114784466
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8817096864786184
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8917164255202783
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8940230275033221
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8964597871750503
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.908941755969059
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9098318916820529
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9099562012067791
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.916466636118088
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.919420412447128
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.945164462009843
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.0245859592743785
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.0258111096082962
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.025884697483721
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.0280993755829182
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.0296929437450553
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.0310815133182396
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.0325910755282408
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.0338377203139177
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.035922656288318
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "regional_mean",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6899558735076464
+  },
+  {
+    "fold": 1,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "global_mean",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.1358840125041847
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6671041133473476
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6698660023237618
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6729286630866129
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6793038875991777
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.682763872163305
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6845224946568985
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6845612898907941
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6892315614426623
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6976239881554201
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7043414621751415
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7066993913642362
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7143352264972727
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7190615568071238
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7226206731091083
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7267967760665178
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7272017563291826
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7277493343786672
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7279727867327539
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7289628344304853
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7291382731706201
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.729509366574029
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7302387649933838
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7319546791416228
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7341603417705501
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7374907130388828
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7419548528673865
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7447814340808696
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7470985264712385
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7483785195519985
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7510238454241004
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7583122052608299
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7588977216728986
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7636772548481806
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.763725913793053
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7640260287732263
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.765022616565112
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7657975963112339
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7660509295691262
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7676319622500019
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7707112966210161
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7734447362412211
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.774562669393403
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.779887934869474
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7804869051648677
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7815529204163201
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7815777288482074
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.782215583570113
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7823324355075973
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7825176857241841
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7883218930330166
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7923740661133866
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7926576450056675
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7928547513586274
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7971085062571057
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7973918918920335
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8018438603340473
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8033191568321979
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8059068742469822
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8066787449422058
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8078042122377775
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8143224756256591
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8159527001526865
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8182084467555129
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8362308753424117
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.844780336612836
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9059391281741394
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9090499705296605
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.910809381044796
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9112699558409262
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.911579290408708
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9137220019555634
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9162851340441471
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9197332882168198
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9200806735397994
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9204596306668668
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9205077599501181
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9297840670955047
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9376274234799443
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9464634221219365
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9549745004146163
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9668822975732633
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "regional_mean",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7764586278454194
+  },
+  {
+    "fold": 2,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "global_mean",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.0166840351342912
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6760862583105262
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7161922196150057
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7162151522484754
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.725124205855856
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.727576815648958
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7281668534892354
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7292754070752743
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7301747384840402
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7318151613364501
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7332246748539195
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7345741595729322
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7356587102222549
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7364642606954214
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.736877059394278
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7378752854924766
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7383259741602199
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7401118261793526
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.741085047085241
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7426834871129738
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7465653198003197
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7472953803305129
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7477455696818749
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7501640983714503
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7509780134883274
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7606825048884774
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7613454932947047
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7616241007556859
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7616474250328849
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7631429327926119
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7652379553295551
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7682275502764152
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7692841069469776
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7722109908610846
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7725329443739234
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.775151069160578
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7838303962078991
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8046718013076274
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8405720902136012
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8500256121115509
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8550373973351193
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8572406297389047
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8582454748470859
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8584140856708468
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8588814828755978
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8650621893078785
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8687194496529891
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8729241739534863
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8741913961786034
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8773406499460898
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8797932609909518
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8878587731747174
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8940099215053717
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8944661728363701
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8945738180017921
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8958007526229921
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8961687953021291
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8990550825208589
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9099898725854277
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9121621323407346
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9138147896183434
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9158810457788733
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9228869193993786
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9259083422720475
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9296899099597002
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9349223953452818
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9368099759705497
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9421185989873649
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9429436251780411
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9452542924696312
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9453647938519746
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9465170515232492
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9535076894285069
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9604416107735737
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9634252446407217
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9646278989637868
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9665836986371434
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9731181360202816
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9744657372435227
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9768749422422373
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9841321007905376
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.0043476158121134
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "regional_mean",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8562350597509453
+  },
+  {
+    "fold": 3,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "global_mean",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.0459092052202987
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6702483591172561
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6704542313354024
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6724173735132762
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.679633504867205
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6796339647419579
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6807224772179029
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6810359456540044
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.68103627161723
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6844142639047903
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6849113644297364
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.685184664865266
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6864200127548252
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6884817889920356
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6892387935204961
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6905003685817045
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6911442083274191
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6932236134378358
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6935030854922138
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6947253377988315
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.6958014646609331
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7014157922744286
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7036206157252531
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7043488077666117
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7045667309391834
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7077476670086245
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7115571917885962
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7124652881191774
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7127129037421664
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7166000746484339
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7171756205220621
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7202827116006706
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7207692610554631
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7215567712039087
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7219939402512962
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.722242892289362
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7222539113416738
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.722679670981041
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7228592343360896
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7229841316365461
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7230460409233352
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7258958234924696
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7268776847649072
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.730561504798417
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.733162483162921
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7361593469670017
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7389547163143697
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7406115803832062
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7484291090465497
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7501426116840154
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7519100372363543
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7537238641427831
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7541634341016816
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7551066399126357
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7557700704686087
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7596066302302636
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7653397418217551
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7679146900664585
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.774934182093562
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7769937183434212
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7782596802330723
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.780124194212208
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7830173453399005
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7908177502133064
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.793803048757412
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7965036051754059
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7982235198077934
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7984216399223859
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.801896107317614
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8048904046604276
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8050393238578496
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.8075419746997043
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.817329632124548
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_40_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9530773980588306
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9533243418696138
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9719089524339767
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_10_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9742464630726816
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9817130648869261
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_20_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.984563597518835
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_40_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9906799239983034
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.9998197530002642
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "whittaker_20_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.0035117661118749
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "regional_mean",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 0.7303409068165914
+  },
+  {
+    "fold": 4,
+    "candidate": {
+      "features": "monthly_10_10",
+      "family": "global_mean",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    "rmse": 1.0573683430842522
+  }
+]

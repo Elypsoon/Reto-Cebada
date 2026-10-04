@@ -1,0 +1,282 @@
+[
+  {
+    "id": "AGC_034",
+    "fields": {
+      "RENDIMIENTO_T_HA": {
+        "processed": 2.0,
+        "original": 2.0
+      },
+      "AREA_HA": {
+        "processed": 8.09,
+        "original": 8.09
+      },
+      "Estado": {
+        "processed": "Hidalgo",
+        "original": "Hidalgo"
+      },
+      "Municipio": {
+        "processed": "Singuilucan",
+        "original": "Singuilucan"
+      }
+    },
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Data\\ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+    "source_hash": "ec07b7ede0ae692109d91b3e941b1a353fe7f89410507db9bfbe6d7c112590ef",
+    "geometry_source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Parcelas_AGC_CONJUNTO_70_30\\Parcelas_Reto_AGC_CONJUNTO.shp",
+    "geometry_source_hash": "8f8001a4bc4da00c2fcc0797536e94183d1abc88e4a797a7c63bcd2b65f29f29",
+    "discrepancies": [],
+    "finding": "Sin evidencia de discrepancia",
+    "high_residual_is_evidence": false
+  },
+  {
+    "id": "AGC_166",
+    "fields": {
+      "RENDIMIENTO_T_HA": {
+        "processed": 2.5,
+        "original": 2.5
+      },
+      "AREA_HA": {
+        "processed": 6.76,
+        "original": 6.76
+      },
+      "Estado": {
+        "processed": "Hidalgo",
+        "original": "Hidalgo"
+      },
+      "Municipio": {
+        "processed": "Singuilucan",
+        "original": "Singuilucan"
+      }
+    },
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Data\\ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+    "source_hash": "ec07b7ede0ae692109d91b3e941b1a353fe7f89410507db9bfbe6d7c112590ef",
+    "geometry_source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Parcelas_AGC_CONJUNTO_70_30\\Parcelas_Reto_AGC_CONJUNTO.shp",
+    "geometry_source_hash": "8f8001a4bc4da00c2fcc0797536e94183d1abc88e4a797a7c63bcd2b65f29f29",
+    "discrepancies": [],
+    "finding": "Sin evidencia de discrepancia",
+    "high_residual_is_evidence": false
+  },
+  {
+    "id": "AGC_041",
+    "fields": {
+      "RENDIMIENTO_T_HA": {
+        "processed": 2.5,
+        "original": 2.5
+      },
+      "AREA_HA": {
+        "processed": 25.13,
+        "original": 25.13
+      },
+      "Estado": {
+        "processed": "Hidalgo",
+        "original": "Hidalgo"
+      },
+      "Municipio": {
+        "processed": "Singuilucan",
+        "original": "Singuilucan"
+      }
+    },
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Data\\ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+    "source_hash": "ec07b7ede0ae692109d91b3e941b1a353fe7f89410507db9bfbe6d7c112590ef",
+    "geometry_source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Parcelas_AGC_CONJUNTO_70_30\\Parcelas_Reto_AGC_CONJUNTO.shp",
+    "geometry_source_hash": "8f8001a4bc4da00c2fcc0797536e94183d1abc88e4a797a7c63bcd2b65f29f29",
+    "discrepancies": [],
+    "finding": "Sin evidencia de discrepancia",
+    "high_residual_is_evidence": false
+  },
+  {
+    "id": "AGC_067",
+    "fields": {
+      "RENDIMIENTO_T_HA": {
+        "processed": 3.0,
+        "original": 3.0
+      },
+      "AREA_HA": {
+        "processed": 1.53,
+        "original": 1.53
+      },
+      "Estado": {
+        "processed": "Hidalgo",
+        "original": "Hidalgo"
+      },
+      "Municipio": {
+        "processed": "Singuilucan",
+        "original": "Singuilucan"
+      }
+    },
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Data\\ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+    "source_hash": "ec07b7ede0ae692109d91b3e941b1a353fe7f89410507db9bfbe6d7c112590ef",
+    "geometry_source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Parcelas_AGC_CONJUNTO_70_30\\Parcelas_Reto_AGC_CONJUNTO.shp",
+    "geometry_source_hash": "8f8001a4bc4da00c2fcc0797536e94183d1abc88e4a797a7c63bcd2b65f29f29",
+    "discrepancies": [],
+    "finding": "Sin evidencia de discrepancia",
+    "high_residual_is_evidence": false
+  },
+  {
+    "id": "AGC_089",
+    "fields": {
+      "RENDIMIENTO_T_HA": {
+        "processed": 3.0,
+        "original": 3.0
+      },
+      "AREA_HA": {
+        "processed": 1.72,
+        "original": 1.72
+      },
+      "Estado": {
+        "processed": "Hidalgo",
+        "original": "Hidalgo"
+      },
+      "Municipio": {
+        "processed": "Singuilucan",
+        "original": "Singuilucan"
+      }
+    },
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Data\\ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+    "source_hash": "ec07b7ede0ae692109d91b3e941b1a353fe7f89410507db9bfbe6d7c112590ef",
+    "geometry_source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Parcelas_AGC_CONJUNTO_70_30\\Parcelas_Reto_AGC_CONJUNTO.shp",
+    "geometry_source_hash": "8f8001a4bc4da00c2fcc0797536e94183d1abc88e4a797a7c63bcd2b65f29f29",
+    "discrepancies": [],
+    "finding": "Sin evidencia de discrepancia",
+    "high_residual_is_evidence": false
+  },
+  {
+    "id": "AGC_078",
+    "fields": {
+      "RENDIMIENTO_T_HA": {
+        "processed": 3.0,
+        "original": 3.0
+      },
+      "AREA_HA": {
+        "processed": 2.3,
+        "original": 2.3
+      },
+      "Estado": {
+        "processed": "Hidalgo",
+        "original": "Hidalgo"
+      },
+      "Municipio": {
+        "processed": "Singuilucan",
+        "original": "Singuilucan"
+      }
+    },
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Data\\ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+    "source_hash": "ec07b7ede0ae692109d91b3e941b1a353fe7f89410507db9bfbe6d7c112590ef",
+    "geometry_source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Parcelas_AGC_CONJUNTO_70_30\\Parcelas_Reto_AGC_CONJUNTO.shp",
+    "geometry_source_hash": "8f8001a4bc4da00c2fcc0797536e94183d1abc88e4a797a7c63bcd2b65f29f29",
+    "discrepancies": [],
+    "finding": "Sin evidencia de discrepancia",
+    "high_residual_is_evidence": false
+  },
+  {
+    "id": "AGC_194",
+    "fields": {
+      "RENDIMIENTO_T_HA": {
+        "processed": 3.2,
+        "original": 3.2
+      },
+      "AREA_HA": {
+        "processed": 4.12,
+        "original": 4.12
+      },
+      "Estado": {
+        "processed": "Hidalgo",
+        "original": "Hidalgo"
+      },
+      "Municipio": {
+        "processed": "Singuilucan",
+        "original": "Singuilucan"
+      }
+    },
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Data\\ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+    "source_hash": "ec07b7ede0ae692109d91b3e941b1a353fe7f89410507db9bfbe6d7c112590ef",
+    "geometry_source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Parcelas_AGC_CONJUNTO_70_30\\Parcelas_Reto_AGC_CONJUNTO.shp",
+    "geometry_source_hash": "8f8001a4bc4da00c2fcc0797536e94183d1abc88e4a797a7c63bcd2b65f29f29",
+    "discrepancies": [],
+    "finding": "Sin evidencia de discrepancia",
+    "high_residual_is_evidence": false
+  },
+  {
+    "id": "AGC_148",
+    "fields": {
+      "RENDIMIENTO_T_HA": {
+        "processed": 3.0,
+        "original": 3.0
+      },
+      "AREA_HA": {
+        "processed": 2.46,
+        "original": 2.46
+      },
+      "Estado": {
+        "processed": "Hidalgo",
+        "original": "Hidalgo"
+      },
+      "Municipio": {
+        "processed": "Singuilucan",
+        "original": "Singuilucan"
+      }
+    },
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Data\\ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+    "source_hash": "ec07b7ede0ae692109d91b3e941b1a353fe7f89410507db9bfbe6d7c112590ef",
+    "geometry_source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Parcelas_AGC_CONJUNTO_70_30\\Parcelas_Reto_AGC_CONJUNTO.shp",
+    "geometry_source_hash": "8f8001a4bc4da00c2fcc0797536e94183d1abc88e4a797a7c63bcd2b65f29f29",
+    "discrepancies": [],
+    "finding": "Sin evidencia de discrepancia",
+    "high_residual_is_evidence": false
+  },
+  {
+    "id": "AGC_038",
+    "fields": {
+      "RENDIMIENTO_T_HA": {
+        "processed": 3.3,
+        "original": 3.3
+      },
+      "AREA_HA": {
+        "processed": 3.28,
+        "original": 3.28
+      },
+      "Estado": {
+        "processed": "Hidalgo",
+        "original": "Hidalgo"
+      },
+      "Municipio": {
+        "processed": "Singuilucan",
+        "original": "Singuilucan"
+      }
+    },
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Data\\ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+    "source_hash": "ec07b7ede0ae692109d91b3e941b1a353fe7f89410507db9bfbe6d7c112590ef",
+    "geometry_source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Parcelas_AGC_CONJUNTO_70_30\\Parcelas_Reto_AGC_CONJUNTO.shp",
+    "geometry_source_hash": "8f8001a4bc4da00c2fcc0797536e94183d1abc88e4a797a7c63bcd2b65f29f29",
+    "discrepancies": [],
+    "finding": "Sin evidencia de discrepancia",
+    "high_residual_is_evidence": false
+  },
+  {
+    "id": "AGC_070",
+    "fields": {
+      "RENDIMIENTO_T_HA": {
+        "processed": 3.3,
+        "original": 3.3
+      },
+      "AREA_HA": {
+        "processed": 20.83,
+        "original": 20.83
+      },
+      "Estado": {
+        "processed": "Hidalgo",
+        "original": "Hidalgo"
+      },
+      "Municipio": {
+        "processed": "Singuilucan",
+        "original": "Singuilucan"
+      }
+    },
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Data\\ID_area_rendimiento_70_30_Reto_AgroCebada.csv",
+    "source_hash": "ec07b7ede0ae692109d91b3e941b1a353fe7f89410507db9bfbe6d7c112590ef",
+    "geometry_source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\Reto-Cebada\\DataSet\\Parcelas_AGC_CONJUNTO_70_30\\Parcelas_Reto_AGC_CONJUNTO.shp",
+    "geometry_source_hash": "8f8001a4bc4da00c2fcc0797536e94183d1abc88e4a797a7c63bcd2b65f29f29",
+    "discrepancies": [],
+    "finding": "Sin evidencia de discrepancia",
+    "high_residual_is_evidence": false
+  }
+]

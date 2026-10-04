@@ -1,0 +1,36 @@
+{
+  "model_absent": false,
+  "family": "TabPFN-2.5",
+  "table": "monthly_20_10",
+  "checkpoint": {
+    "repository": "https://huggingface.co/Prior-Labs/tabpfn_2_5",
+    "revision": "6c45f3a6d0d07c6c5f62572e04a0c2929de91b8b",
+    "checkpoint": "tabpfn-v2.5-regressor-v2.5_default.ckpt",
+    "sha256": "6e0308b7e5f3a8325b798b96d986b2b282c3608b1cda6e2991425a2a261d40b8",
+    "bytes": 40831995,
+    "license_file": "LICENSE",
+    "license_sha256": "ac1d23429431a622b91c73db741868e69a0140d401ebb20b9e869a835e036e28",
+    "model_version": "2.5",
+    "synthetic_pretraining": true,
+    "purpose": "evaluación local experimental; sin entrega comercial ni activación",
+    "parameters": {
+      "device": "cpu",
+      "n_estimators": 8,
+      "random_state": 2026,
+      "fit_mode": "fit_preprocessors",
+      "n_preprocessing_jobs": 1
+    },
+    "sources": [
+      "https://huggingface.co/Prior-Labs/tabpfn_2_5",
+      "https://arxiv.org/abs/2511.08667"
+    ]
+  },
+  "context_hash": "9cd0dba122b75eb5c9f8054b49a2bff52cdba0bcba2e8f0f2bb680ce6aa94b56",
+  "model_format": "checkpoint y contexto; no joblib convencional",
+  "adapter_code_hash": "7a6111108c4fa45795f96ecefc7115b3a04c54304e7063b2543d56c3481590f7",
+  "adapter_manifest_hash": "08f357ba8b34f62834bed167be0f31fe8e84c7d60db073db1a451d64c74ddad0",
+  "adapter_root": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\optional\\adapter-v3",
+  "previous_run": "E07-v2-monthly_20_10",
+  "procedure_change": "CSV de float32 redondeó hasta 2.2082519546273716e-7; predicciones reconstruidas idénticas al convertir el CSV a float32. Se exporta float64 con 17 dígitos, sin modificar modelo, parámetros, tablas ni particiones. Nuevos IDs y código separado.",
+  "model_parameters_changed": false
+}

@@ -1,0 +1,17 @@
+{
+  "verified_files": 97,
+  "all_hashes_match": true,
+  "fresh_process_predictions": {
+    "predictions": 59,
+    "oof": 138,
+    "finite": true,
+    "same_predictions": true,
+    "metrics_reproduced": true,
+    "selected_sources": [
+      "nasa"
+    ],
+    "model_hash": "8ee63e3b1d07ec5e9be0fd98dcc9bb0bc7091c934a34a9eb5bbd642847f80313"
+  },
+  "snapshot": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\artifacts\\versions\\selection-current-20261003",
+  "active_intact": true
+}

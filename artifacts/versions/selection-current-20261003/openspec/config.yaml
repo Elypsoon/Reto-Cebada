@@ -1,0 +1,39 @@
+schema: spec-driven
+
+context: |
+  Language: Spanish
+  All artifacts must be written in Spanish.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+  Proyecto: AgroCebada 2026, predicción del rendimiento agrícola de parcelas de
+  cebada en Hidalgo, Tlaxcala y Puebla y consulta de resultados en una aplicación
+  web o dashboard interactivo.
+  Herramientas previstas: Python, scikit-learn, GeoPandas y Streamlit.
+  Desarrollo y entrenamiento iniciales en la computadora local; evaluar cómputo
+  remoto cuando las mediciones de carga lo justifiquen.
+  Fuentes iniciales: documentos Markdown y PDF en la raíz del proyecto.
+  Verificar las bases y ecuaciones originales antes de convertirlas en requisitos.
+  No tratar cifras o supuestos de la estrategia como datos verificados.
+  Al especificar el modelo, definir unidad de predicción, unidades del rendimiento,
+  momento de predicción, variables disponibles y validación espacial o temporal.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always state what is out of scope
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing

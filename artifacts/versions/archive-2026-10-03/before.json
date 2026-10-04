@@ -1,0 +1,18 @@
+{
+  "code_hash": "a91a34ba578deb937449a24240d0218fc859c24bd600bbe7e3b06cb769ebb9be",
+  "files": {
+    "__init__.py": "c0e9a63bf7f9894613024d21fce1561d76c84ec34bc5ce579bbec47da1d5a90c",
+    "cli.py": "1b418e833b25d28cc8983d6ef015d911eaa019d75317f66a1a4a11c6cc6aa259",
+    "common.py": "80abcca8286af3947cf679f5e56568dee8d250a7fd14c5d71d40ee7583c0d126",
+    "data.py": "9be60f7e974bf98d5cff2ff745cb831991df10ca8454c97f0a9437f635052623",
+    "external.py": "8e29c7031bb913811ac2d86d00e96254be0a2a18a9c55deb18a80e61daec953f",
+    "features.py": "7cb8d4e32f8672b88c20533035e1961613d21441414aa3696501cfc9fd9a87ee",
+    "inference.py": "82a39d4e24a96574094cb49d65d9a73ed08f7f48c179a2bc8dc8066cfeba1deb",
+    "modeling.py": "0aaf47bad83c8885a9a64bb3033640699eab87578a5e4986e29acc2dfe84b168",
+    "spatial.py": "7b92cd5730eb2bdbdcc46eeec3a0e426161289e56ec57832de1e512e0c26d851"
+  },
+  "models": {
+    "selected": "504d6d72a3c79ac13e6955b4a0573f81e9b98bc1d39e43ed9bc447c02b0fcfeb",
+    "official": "7e2e22feb4bc49367f478bd863f073e47d8a3e1dd5cc24d207b1a1d47b099dc4"
+  }
+}

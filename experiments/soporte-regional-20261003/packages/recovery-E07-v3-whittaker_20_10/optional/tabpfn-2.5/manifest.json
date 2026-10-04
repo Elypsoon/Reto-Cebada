@@ -1,0 +1,23 @@
+{
+  "repository": "https://huggingface.co/Prior-Labs/tabpfn_2_5",
+  "revision": "6c45f3a6d0d07c6c5f62572e04a0c2929de91b8b",
+  "checkpoint": "tabpfn-v2.5-regressor-v2.5_default.ckpt",
+  "sha256": "6e0308b7e5f3a8325b798b96d986b2b282c3608b1cda6e2991425a2a261d40b8",
+  "bytes": 40831995,
+  "license_file": "LICENSE",
+  "license_sha256": "ac1d23429431a622b91c73db741868e69a0140d401ebb20b9e869a835e036e28",
+  "model_version": "2.5",
+  "synthetic_pretraining": true,
+  "purpose": "evaluación local experimental; sin entrega comercial ni activación",
+  "parameters": {
+    "device": "cpu",
+    "n_estimators": 8,
+    "random_state": 2026,
+    "fit_mode": "fit_preprocessors",
+    "n_preprocessing_jobs": 1
+  },
+  "sources": [
+    "https://huggingface.co/Prior-Labs/tabpfn_2_5",
+    "https://arxiv.org/abs/2511.08667"
+  ]
+}

@@ -1,0 +1,592 @@
+ID_POLIGONO,sensor,status,usable
+AGC_001,Landsat,laguna mayor de 21 días,12
+AGC_001,Planet,válida,91
+AGC_001,Sentinel-2,laguna mayor de 21 días,33
+AGC_002,Landsat,laguna mayor de 21 días,19
+AGC_002,Planet,válida,88
+AGC_002,Sentinel-2,válida,30
+AGC_003,Landsat,laguna mayor de 21 días,13
+AGC_003,Planet,válida,62
+AGC_003,Sentinel-2,válida,32
+AGC_004,Landsat,laguna mayor de 21 días,13
+AGC_004,Planet,válida,96
+AGC_004,Sentinel-2,válida,36
+AGC_005,Landsat,laguna mayor de 21 días,24
+AGC_005,Planet,válida,88
+AGC_005,Sentinel-2,laguna mayor de 21 días,28
+AGC_006,Landsat,laguna mayor de 21 días,23
+AGC_006,Planet,válida,76
+AGC_006,Sentinel-2,laguna mayor de 21 días,26
+AGC_007,Landsat,laguna mayor de 21 días,10
+AGC_007,Planet,laguna mayor de 21 días,63
+AGC_007,Sentinel-2,laguna mayor de 21 días,31
+AGC_008,Landsat,laguna mayor de 21 días,15
+AGC_008,Planet,válida,83
+AGC_008,Sentinel-2,laguna mayor de 21 días,31
+AGC_009,Landsat,laguna mayor de 21 días,17
+AGC_009,Planet,laguna mayor de 21 días,73
+AGC_009,Sentinel-2,laguna mayor de 21 días,32
+AGC_010,Landsat,laguna mayor de 21 días,14
+AGC_010,Planet,válida,82
+AGC_010,Sentinel-2,laguna mayor de 21 días,34
+AGC_011,Landsat,laguna mayor de 21 días,29
+AGC_011,Planet,laguna mayor de 21 días,65
+AGC_011,Sentinel-2,laguna mayor de 21 días,32
+AGC_012,Landsat,laguna mayor de 21 días,24
+AGC_012,Planet,válida,78
+AGC_012,Sentinel-2,laguna mayor de 21 días,31
+AGC_013,Landsat,laguna mayor de 21 días,23
+AGC_013,Planet,válida,75
+AGC_013,Sentinel-2,laguna mayor de 21 días,29
+AGC_014,Landsat,laguna mayor de 21 días,16
+AGC_014,Planet,válida,80
+AGC_014,Sentinel-2,laguna mayor de 21 días,30
+AGC_015,Landsat,laguna mayor de 21 días,23
+AGC_015,Planet,válida,88
+AGC_015,Sentinel-2,válida,33
+AGC_016,Landsat,laguna mayor de 21 días,18
+AGC_016,Planet,válida,88
+AGC_016,Sentinel-2,válida,30
+AGC_017,Landsat,laguna mayor de 21 días,22
+AGC_017,Planet,válida,85
+AGC_017,Sentinel-2,válida,34
+AGC_018,Landsat,laguna mayor de 21 días,19
+AGC_018,Planet,laguna mayor de 21 días,83
+AGC_018,Sentinel-2,válida,32
+AGC_019,Landsat,laguna mayor de 21 días,15
+AGC_019,Planet,válida,93
+AGC_019,Sentinel-2,laguna mayor de 21 días,32
+AGC_020,Landsat,laguna mayor de 21 días,20
+AGC_020,Planet,válida,88
+AGC_020,Sentinel-2,laguna mayor de 21 días,37
+AGC_021,Landsat,laguna mayor de 21 días,27
+AGC_021,Planet,laguna mayor de 21 días,74
+AGC_021,Sentinel-2,válida,33
+AGC_022,Landsat,laguna mayor de 21 días,16
+AGC_022,Planet,válida,76
+AGC_022,Sentinel-2,válida,32
+AGC_023,Landsat,laguna mayor de 21 días,16
+AGC_023,Planet,válida,96
+AGC_023,Sentinel-2,válida,38
+AGC_024,Landsat,laguna mayor de 21 días,15
+AGC_024,Planet,válida,81
+AGC_024,Sentinel-2,laguna mayor de 21 días,30
+AGC_025,Landsat,laguna mayor de 21 días,16
+AGC_025,Planet,válida,94
+AGC_025,Sentinel-2,válida,39
+AGC_026,Landsat,laguna mayor de 21 días,21
+AGC_026,Planet,válida,85
+AGC_026,Sentinel-2,válida,32
+AGC_027,Landsat,laguna mayor de 21 días,13
+AGC_027,Planet,válida,91
+AGC_027,Sentinel-2,laguna mayor de 21 días,34
+AGC_028,Landsat,laguna mayor de 21 días,17
+AGC_028,Planet,válida,81
+AGC_028,Sentinel-2,válida,33
+AGC_029,Landsat,laguna mayor de 21 días,11
+AGC_029,Planet,válida,86
+AGC_029,Sentinel-2,laguna mayor de 21 días,34
+AGC_030,Landsat,laguna mayor de 21 días,10
+AGC_030,Planet,válida,56
+AGC_030,Sentinel-2,válida,29
+AGC_031,Landsat,laguna mayor de 21 días,14
+AGC_031,Planet,válida,84
+AGC_031,Sentinel-2,laguna mayor de 21 días,32
+AGC_032,Landsat,laguna mayor de 21 días,17
+AGC_032,Planet,válida,87
+AGC_032,Sentinel-2,válida,34
+AGC_033,Landsat,laguna mayor de 21 días,28
+AGC_033,Planet,laguna mayor de 21 días,70
+AGC_033,Sentinel-2,laguna mayor de 21 días,31
+AGC_034,Landsat,laguna mayor de 21 días,12
+AGC_034,Planet,válida,67
+AGC_034,Sentinel-2,laguna mayor de 21 días,31
+AGC_035,Landsat,laguna mayor de 21 días,18
+AGC_035,Planet,laguna mayor de 21 días,82
+AGC_035,Sentinel-2,laguna mayor de 21 días,33
+AGC_036,Landsat,laguna mayor de 21 días,20
+AGC_036,Planet,válida,87
+AGC_036,Sentinel-2,laguna mayor de 21 días,33
+AGC_037,Landsat,laguna mayor de 21 días,15
+AGC_037,Planet,válida,91
+AGC_037,Sentinel-2,laguna mayor de 21 días,37
+AGC_038,Landsat,laguna mayor de 21 días,13
+AGC_038,Planet,válida,70
+AGC_038,Sentinel-2,válida,34
+AGC_039,Landsat,laguna mayor de 21 días,15
+AGC_039,Planet,válida,85
+AGC_039,Sentinel-2,laguna mayor de 21 días,36
+AGC_040,Landsat,laguna mayor de 21 días,15
+AGC_040,Planet,válida,95
+AGC_040,Sentinel-2,válida,42
+AGC_041,Landsat,laguna mayor de 21 días,14
+AGC_041,Planet,válida,69
+AGC_041,Sentinel-2,válida,34
+AGC_042,Landsat,laguna mayor de 21 días,12
+AGC_042,Planet,válida,71
+AGC_042,Sentinel-2,laguna mayor de 21 días,35
+AGC_043,Landsat,laguna mayor de 21 días,16
+AGC_043,Planet,laguna mayor de 21 días,80
+AGC_043,Sentinel-2,laguna mayor de 21 días,32
+AGC_044,Landsat,laguna mayor de 21 días,19
+AGC_044,Planet,válida,89
+AGC_044,Sentinel-2,laguna mayor de 21 días,38
+AGC_045,Landsat,laguna mayor de 21 días,18
+AGC_045,Planet,laguna mayor de 21 días,84
+AGC_045,Sentinel-2,válida,32
+AGC_046,Landsat,laguna mayor de 21 días,13
+AGC_046,Planet,válida,86
+AGC_046,Sentinel-2,laguna mayor de 21 días,36
+AGC_047,Landsat,laguna mayor de 21 días,17
+AGC_047,Planet,válida,74
+AGC_047,Sentinel-2,laguna mayor de 21 días,33
+AGC_048,Landsat,laguna mayor de 21 días,16
+AGC_048,Planet,válida,84
+AGC_048,Sentinel-2,laguna mayor de 21 días,31
+AGC_049,Landsat,laguna mayor de 21 días,24
+AGC_049,Planet,válida,79
+AGC_049,Sentinel-2,laguna mayor de 21 días,30
+AGC_050,Landsat,laguna mayor de 21 días,13
+AGC_050,Planet,válida,83
+AGC_050,Sentinel-2,laguna mayor de 21 días,32
+AGC_051,Landsat,laguna mayor de 21 días,14
+AGC_051,Planet,válida,79
+AGC_051,Sentinel-2,laguna mayor de 21 días,31
+AGC_052,Landsat,laguna mayor de 21 días,15
+AGC_052,Planet,laguna mayor de 21 días,71
+AGC_052,Sentinel-2,laguna mayor de 21 días,32
+AGC_053,Landsat,laguna mayor de 21 días,13
+AGC_053,Planet,válida,84
+AGC_053,Sentinel-2,laguna mayor de 21 días,35
+AGC_054,Landsat,laguna mayor de 21 días,17
+AGC_054,Planet,válida,95
+AGC_054,Sentinel-2,laguna mayor de 21 días,36
+AGC_055,Landsat,laguna mayor de 21 días,30
+AGC_055,Planet,laguna mayor de 21 días,70
+AGC_055,Sentinel-2,válida,32
+AGC_056,Landsat,laguna mayor de 21 días,31
+AGC_056,Planet,laguna mayor de 21 días,70
+AGC_056,Sentinel-2,laguna mayor de 21 días,31
+AGC_057,Landsat,laguna mayor de 21 días,20
+AGC_057,Planet,válida,87
+AGC_057,Sentinel-2,válida,32
+AGC_058,Landsat,laguna mayor de 21 días,15
+AGC_058,Planet,válida,90
+AGC_058,Sentinel-2,laguna mayor de 21 días,34
+AGC_059,Landsat,laguna mayor de 21 días,20
+AGC_059,Planet,laguna mayor de 21 días,78
+AGC_059,Sentinel-2,laguna mayor de 21 días,31
+AGC_060,Landsat,laguna mayor de 21 días,18
+AGC_060,Planet,válida,81
+AGC_060,Sentinel-2,válida,33
+AGC_061,Landsat,laguna mayor de 21 días,15
+AGC_061,Planet,válida,80
+AGC_061,Sentinel-2,laguna mayor de 21 días,31
+AGC_062,Landsat,laguna mayor de 21 días,15
+AGC_062,Planet,válida,84
+AGC_062,Sentinel-2,válida,36
+AGC_063,Landsat,laguna mayor de 21 días,13
+AGC_063,Planet,válida,85
+AGC_063,Sentinel-2,laguna mayor de 21 días,33
+AGC_064,Landsat,laguna mayor de 21 días,17
+AGC_064,Planet,laguna mayor de 21 días,70
+AGC_064,Sentinel-2,laguna mayor de 21 días,33
+AGC_065,Landsat,laguna mayor de 21 días,14
+AGC_065,Planet,válida,73
+AGC_065,Sentinel-2,laguna mayor de 21 días,31
+AGC_066,Landsat,laguna mayor de 21 días,16
+AGC_066,Planet,laguna mayor de 21 días,89
+AGC_066,Sentinel-2,válida,36
+AGC_067,Landsat,laguna mayor de 21 días,10
+AGC_067,Planet,válida,63
+AGC_067,Sentinel-2,válida,29
+AGC_068,Landsat,laguna mayor de 21 días,14
+AGC_068,Planet,válida,94
+AGC_068,Sentinel-2,laguna mayor de 21 días,36
+AGC_069,Landsat,laguna mayor de 21 días,22
+AGC_069,Planet,válida,95
+AGC_069,Sentinel-2,laguna mayor de 21 días,33
+AGC_070,Landsat,laguna mayor de 21 días,13
+AGC_070,Planet,válida,65
+AGC_070,Sentinel-2,laguna mayor de 21 días,33
+AGC_071,Landsat,laguna mayor de 21 días,13
+AGC_071,Planet,válida,88
+AGC_071,Sentinel-2,laguna mayor de 21 días,36
+AGC_072,Landsat,laguna mayor de 21 días,23
+AGC_072,Planet,válida,79
+AGC_072,Sentinel-2,laguna mayor de 21 días,31
+AGC_073,Landsat,laguna mayor de 21 días,14
+AGC_073,Planet,válida,85
+AGC_073,Sentinel-2,laguna mayor de 21 días,33
+AGC_074,Landsat,laguna mayor de 21 días,13
+AGC_074,Planet,laguna mayor de 21 días,75
+AGC_074,Sentinel-2,laguna mayor de 21 días,32
+AGC_075,Landsat,laguna mayor de 21 días,15
+AGC_075,Planet,válida,91
+AGC_075,Sentinel-2,laguna mayor de 21 días,36
+AGC_076,Landsat,laguna mayor de 21 días,16
+AGC_076,Planet,válida,76
+AGC_076,Sentinel-2,válida,32
+AGC_077,Landsat,laguna mayor de 21 días,18
+AGC_077,Planet,válida,75
+AGC_077,Sentinel-2,laguna mayor de 21 días,29
+AGC_078,Landsat,laguna mayor de 21 días,11
+AGC_078,Planet,laguna mayor de 21 días,61
+AGC_078,Sentinel-2,válida,31
+AGC_079,Landsat,laguna mayor de 21 días,12
+AGC_079,Planet,laguna mayor de 21 días,63
+AGC_079,Sentinel-2,válida,29
+AGC_080,Landsat,laguna mayor de 21 días,11
+AGC_080,Planet,válida,59
+AGC_080,Sentinel-2,laguna mayor de 21 días,28
+AGC_081,Landsat,laguna mayor de 21 días,13
+AGC_081,Planet,válida,62
+AGC_081,Sentinel-2,válida,33
+AGC_082,Landsat,laguna mayor de 21 días,14
+AGC_082,Planet,válida,84
+AGC_082,Sentinel-2,laguna mayor de 21 días,35
+AGC_083,Landsat,laguna mayor de 21 días,17
+AGC_083,Planet,laguna mayor de 21 días,82
+AGC_083,Sentinel-2,válida,36
+AGC_084,Landsat,laguna mayor de 21 días,13
+AGC_084,Planet,válida,83
+AGC_084,Sentinel-2,laguna mayor de 21 días,31
+AGC_085,Landsat,laguna mayor de 21 días,20
+AGC_085,Planet,válida,85
+AGC_085,Sentinel-2,válida,32
+AGC_086,Landsat,laguna mayor de 21 días,13
+AGC_086,Planet,válida,94
+AGC_086,Sentinel-2,laguna mayor de 21 días,37
+AGC_087,Landsat,laguna mayor de 21 días,16
+AGC_087,Planet,válida,88
+AGC_087,Sentinel-2,laguna mayor de 21 días,33
+AGC_088,Landsat,laguna mayor de 21 días,23
+AGC_088,Planet,laguna mayor de 21 días,68
+AGC_088,Sentinel-2,laguna mayor de 21 días,29
+AGC_089,Landsat,laguna mayor de 21 días,11
+AGC_089,Planet,válida,63
+AGC_089,Sentinel-2,válida,29
+AGC_090,Landsat,laguna mayor de 21 días,14
+AGC_090,Planet,válida,87
+AGC_090,Sentinel-2,laguna mayor de 21 días,32
+AGC_091,Landsat,laguna mayor de 21 días,25
+AGC_091,Planet,válida,88
+AGC_091,Sentinel-2,válida,33
+AGC_092,Landsat,laguna mayor de 21 días,24
+AGC_092,Planet,válida,89
+AGC_092,Sentinel-2,laguna mayor de 21 días,30
+AGC_093,Landsat,laguna mayor de 21 días,14
+AGC_093,Planet,válida,90
+AGC_093,Sentinel-2,laguna mayor de 21 días,37
+AGC_094,Landsat,laguna mayor de 21 días,32
+AGC_094,Planet,laguna mayor de 21 días,67
+AGC_094,Sentinel-2,laguna mayor de 21 días,32
+AGC_095,Landsat,laguna mayor de 21 días,15
+AGC_095,Planet,válida,81
+AGC_095,Sentinel-2,válida,33
+AGC_096,Landsat,laguna mayor de 21 días,16
+AGC_096,Planet,válida,77
+AGC_096,Sentinel-2,válida,31
+AGC_097,Landsat,laguna mayor de 21 días,27
+AGC_097,Planet,laguna mayor de 21 días,74
+AGC_097,Sentinel-2,válida,34
+AGC_098,Landsat,laguna mayor de 21 días,12
+AGC_098,Planet,válida,87
+AGC_098,Sentinel-2,laguna mayor de 21 días,31
+AGC_099,Landsat,laguna mayor de 21 días,15
+AGC_099,Planet,válida,93
+AGC_099,Sentinel-2,válida,37
+AGC_100,Landsat,laguna mayor de 21 días,15
+AGC_100,Planet,laguna mayor de 21 días,83
+AGC_100,Sentinel-2,laguna mayor de 21 días,32
+AGC_101,Landsat,laguna mayor de 21 días,15
+AGC_101,Planet,válida,81
+AGC_101,Sentinel-2,laguna mayor de 21 días,29
+AGC_102,Landsat,laguna mayor de 21 días,15
+AGC_102,Planet,válida,82
+AGC_102,Sentinel-2,laguna mayor de 21 días,31
+AGC_103,Landsat,laguna mayor de 21 días,16
+AGC_103,Planet,válida,93
+AGC_103,Sentinel-2,laguna mayor de 21 días,34
+AGC_104,Landsat,laguna mayor de 21 días,22
+AGC_104,Planet,válida,89
+AGC_104,Sentinel-2,laguna mayor de 21 días,31
+AGC_105,Landsat,laguna mayor de 21 días,16
+AGC_105,Planet,laguna mayor de 21 días,80
+AGC_105,Sentinel-2,laguna mayor de 21 días,31
+AGC_106,Landsat,laguna mayor de 21 días,15
+AGC_106,Planet,válida,83
+AGC_106,Sentinel-2,laguna mayor de 21 días,31
+AGC_107,Landsat,laguna mayor de 21 días,20
+AGC_107,Planet,válida,84
+AGC_107,Sentinel-2,laguna mayor de 21 días,35
+AGC_108,Landsat,laguna mayor de 21 días,27
+AGC_108,Planet,laguna mayor de 21 días,64
+AGC_108,Sentinel-2,laguna mayor de 21 días,31
+AGC_109,Landsat,laguna mayor de 21 días,31
+AGC_109,Planet,válida,77
+AGC_109,Sentinel-2,válida,32
+AGC_110,Landsat,laguna mayor de 21 días,15
+AGC_110,Planet,laguna mayor de 21 días,82
+AGC_110,Sentinel-2,laguna mayor de 21 días,32
+AGC_111,Landsat,laguna mayor de 21 días,17
+AGC_111,Planet,laguna mayor de 21 días,76
+AGC_111,Sentinel-2,laguna mayor de 21 días,29
+AGC_112,Landsat,laguna mayor de 21 días,15
+AGC_112,Planet,válida,93
+AGC_112,Sentinel-2,válida,37
+AGC_113,Landsat,laguna mayor de 21 días,13
+AGC_113,Planet,laguna mayor de 21 días,65
+AGC_113,Sentinel-2,laguna mayor de 21 días,30
+AGC_114,Landsat,laguna mayor de 21 días,13
+AGC_114,Planet,válida,89
+AGC_114,Sentinel-2,laguna mayor de 21 días,34
+AGC_115,Landsat,laguna mayor de 21 días,14
+AGC_115,Planet,válida,86
+AGC_115,Sentinel-2,válida,33
+AGC_116,Landsat,laguna mayor de 21 días,16
+AGC_116,Planet,laguna mayor de 21 días,79
+AGC_116,Sentinel-2,laguna mayor de 21 días,32
+AGC_117,Landsat,laguna mayor de 21 días,14
+AGC_117,Planet,válida,83
+AGC_117,Sentinel-2,laguna mayor de 21 días,36
+AGC_118,Landsat,laguna mayor de 21 días,11
+AGC_118,Planet,laguna mayor de 21 días,70
+AGC_118,Sentinel-2,válida,32
+AGC_119,Landsat,laguna mayor de 21 días,17
+AGC_119,Planet,laguna mayor de 21 días,72
+AGC_119,Sentinel-2,laguna mayor de 21 días,33
+AGC_120,Landsat,laguna mayor de 21 días,13
+AGC_120,Planet,válida,86
+AGC_120,Sentinel-2,laguna mayor de 21 días,34
+AGC_121,Landsat,laguna mayor de 21 días,8
+AGC_121,Planet,válida,61
+AGC_121,Sentinel-2,válida,30
+AGC_122,Landsat,laguna mayor de 21 días,14
+AGC_122,Planet,válida,79
+AGC_122,Sentinel-2,laguna mayor de 21 días,34
+AGC_123,Landsat,laguna mayor de 21 días,15
+AGC_123,Planet,válida,80
+AGC_123,Sentinel-2,laguna mayor de 21 días,33
+AGC_124,Landsat,laguna mayor de 21 días,26
+AGC_124,Planet,válida,86
+AGC_124,Sentinel-2,válida,34
+AGC_125,Landsat,laguna mayor de 21 días,16
+AGC_125,Planet,laguna mayor de 21 días,79
+AGC_125,Sentinel-2,laguna mayor de 21 días,32
+AGC_126,Landsat,laguna mayor de 21 días,21
+AGC_126,Planet,válida,69
+AGC_126,Sentinel-2,laguna mayor de 21 días,28
+AGC_127,Landsat,laguna mayor de 21 días,18
+AGC_127,Planet,válida,81
+AGC_127,Sentinel-2,válida,33
+AGC_128,Landsat,laguna mayor de 21 días,19
+AGC_128,Planet,válida,86
+AGC_128,Sentinel-2,laguna mayor de 21 días,37
+AGC_129,Landsat,laguna mayor de 21 días,12
+AGC_129,Planet,laguna mayor de 21 días,58
+AGC_129,Sentinel-2,válida,31
+AGC_130,Landsat,laguna mayor de 21 días,19
+AGC_130,Planet,laguna mayor de 21 días,69
+AGC_130,Sentinel-2,laguna mayor de 21 días,33
+AGC_131,Landsat,laguna mayor de 21 días,15
+AGC_131,Planet,válida,82
+AGC_131,Sentinel-2,válida,33
+AGC_132,Landsat,laguna mayor de 21 días,23
+AGC_132,Planet,laguna mayor de 21 días,72
+AGC_132,Sentinel-2,laguna mayor de 21 días,30
+AGC_133,Landsat,laguna mayor de 21 días,18
+AGC_133,Planet,válida,74
+AGC_133,Sentinel-2,laguna mayor de 21 días,29
+AGC_134,Landsat,laguna mayor de 21 días,13
+AGC_134,Planet,válida,81
+AGC_134,Sentinel-2,laguna mayor de 21 días,31
+AGC_135,Landsat,laguna mayor de 21 días,19
+AGC_135,Planet,laguna mayor de 21 días,74
+AGC_135,Sentinel-2,válida,30
+AGC_136,Landsat,laguna mayor de 21 días,18
+AGC_136,Planet,válida,89
+AGC_136,Sentinel-2,válida,32
+AGC_137,Landsat,laguna mayor de 21 días,16
+AGC_137,Planet,válida,75
+AGC_137,Sentinel-2,laguna mayor de 21 días,35
+AGC_138,Landsat,laguna mayor de 21 días,13
+AGC_138,Planet,válida,83
+AGC_138,Sentinel-2,válida,32
+AGC_139,Landsat,laguna mayor de 21 días,14
+AGC_139,Planet,válida,83
+AGC_139,Sentinel-2,válida,33
+AGC_140,Landsat,laguna mayor de 21 días,10
+AGC_140,Planet,laguna mayor de 21 días,66
+AGC_140,Sentinel-2,válida,30
+AGC_141,Landsat,laguna mayor de 21 días,15
+AGC_141,Planet,válida,88
+AGC_141,Sentinel-2,laguna mayor de 21 días,34
+AGC_142,Landsat,laguna mayor de 21 días,21
+AGC_142,Planet,válida,86
+AGC_142,Sentinel-2,válida,32
+AGC_143,Landsat,laguna mayor de 21 días,17
+AGC_143,Planet,válida,82
+AGC_143,Sentinel-2,laguna mayor de 21 días,32
+AGC_144,Landsat,laguna mayor de 21 días,13
+AGC_144,Planet,válida,85
+AGC_144,Sentinel-2,laguna mayor de 21 días,36
+AGC_145,Landsat,laguna mayor de 21 días,16
+AGC_145,Planet,válida,85
+AGC_145,Sentinel-2,laguna mayor de 21 días,32
+AGC_146,Landsat,laguna mayor de 21 días,21
+AGC_146,Planet,válida,88
+AGC_146,Sentinel-2,laguna mayor de 21 días,35
+AGC_147,Landsat,laguna mayor de 21 días,13
+AGC_147,Planet,válida,86
+AGC_147,Sentinel-2,laguna mayor de 21 días,33
+AGC_148,Landsat,laguna mayor de 21 días,12
+AGC_148,Planet,válida,68
+AGC_148,Sentinel-2,válida,31
+AGC_149,Landsat,laguna mayor de 21 días,19
+AGC_149,Planet,laguna mayor de 21 días,70
+AGC_149,Sentinel-2,laguna mayor de 21 días,31
+AGC_150,Landsat,laguna mayor de 21 días,21
+AGC_150,Planet,válida,88
+AGC_150,Sentinel-2,laguna mayor de 21 días,33
+AGC_151,Landsat,laguna mayor de 21 días,17
+AGC_151,Planet,válida,77
+AGC_151,Sentinel-2,laguna mayor de 21 días,33
+AGC_152,Landsat,laguna mayor de 21 días,18
+AGC_152,Planet,válida,77
+AGC_152,Sentinel-2,laguna mayor de 21 días,33
+AGC_153,Landsat,laguna mayor de 21 días,15
+AGC_153,Planet,válida,85
+AGC_153,Sentinel-2,laguna mayor de 21 días,31
+AGC_154,Landsat,laguna mayor de 21 días,16
+AGC_154,Planet,válida,80
+AGC_154,Sentinel-2,válida,34
+AGC_155,Landsat,laguna mayor de 21 días,28
+AGC_155,Planet,laguna mayor de 21 días,68
+AGC_155,Sentinel-2,laguna mayor de 21 días,33
+AGC_156,Landsat,laguna mayor de 21 días,13
+AGC_156,Planet,laguna mayor de 21 días,62
+AGC_156,Sentinel-2,laguna mayor de 21 días,27
+AGC_157,Landsat,laguna mayor de 21 días,15
+AGC_157,Planet,válida,88
+AGC_157,Sentinel-2,laguna mayor de 21 días,34
+AGC_158,Landsat,laguna mayor de 21 días,15
+AGC_158,Planet,válida,83
+AGC_158,Sentinel-2,laguna mayor de 21 días,31
+AGC_159,Landsat,laguna mayor de 21 días,24
+AGC_159,Planet,válida,88
+AGC_159,Sentinel-2,laguna mayor de 21 días,33
+AGC_160,Landsat,laguna mayor de 21 días,30
+AGC_160,Planet,válida,80
+AGC_160,Sentinel-2,válida,34
+AGC_161,Landsat,laguna mayor de 21 días,29
+AGC_161,Planet,laguna mayor de 21 días,77
+AGC_161,Sentinel-2,válida,31
+AGC_162,Landsat,laguna mayor de 21 días,27
+AGC_162,Planet,laguna mayor de 21 días,75
+AGC_162,Sentinel-2,laguna mayor de 21 días,32
+AGC_163,Landsat,laguna mayor de 21 días,15
+AGC_163,Planet,válida,87
+AGC_163,Sentinel-2,laguna mayor de 21 días,33
+AGC_164,Landsat,laguna mayor de 21 días,18
+AGC_164,Planet,laguna mayor de 21 días,94
+AGC_164,Sentinel-2,válida,38
+AGC_165,Landsat,laguna mayor de 21 días,24
+AGC_165,Planet,válida,72
+AGC_165,Sentinel-2,laguna mayor de 21 días,29
+AGC_166,Landsat,laguna mayor de 21 días,13
+AGC_166,Planet,válida,70
+AGC_166,Sentinel-2,válida,31
+AGC_167,Landsat,laguna mayor de 21 días,25
+AGC_167,Planet,válida,87
+AGC_167,Sentinel-2,válida,31
+AGC_168,Landsat,laguna mayor de 21 días,17
+AGC_168,Planet,válida,78
+AGC_168,Sentinel-2,válida,34
+AGC_169,Landsat,laguna mayor de 21 días,15
+AGC_169,Planet,válida,92
+AGC_169,Sentinel-2,válida,38
+AGC_170,Landsat,laguna mayor de 21 días,17
+AGC_170,Planet,laguna mayor de 21 días,94
+AGC_170,Sentinel-2,válida,39
+AGC_171,Landsat,laguna mayor de 21 días,16
+AGC_171,Planet,válida,83
+AGC_171,Sentinel-2,laguna mayor de 21 días,31
+AGC_172,Landsat,laguna mayor de 21 días,24
+AGC_172,Planet,laguna mayor de 21 días,73
+AGC_172,Sentinel-2,laguna mayor de 21 días,31
+AGC_173,Landsat,laguna mayor de 21 días,18
+AGC_173,Planet,válida,92
+AGC_173,Sentinel-2,laguna mayor de 21 días,34
+AGC_174,Landsat,laguna mayor de 21 días,18
+AGC_174,Planet,laguna mayor de 21 días,76
+AGC_174,Sentinel-2,válida,36
+AGC_175,Landsat,laguna mayor de 21 días,21
+AGC_175,Planet,válida,85
+AGC_175,Sentinel-2,válida,33
+AGC_176,Landsat,laguna mayor de 21 días,25
+AGC_176,Planet,válida,82
+AGC_176,Sentinel-2,válida,35
+AGC_177,Landsat,laguna mayor de 21 días,18
+AGC_177,Planet,válida,85
+AGC_177,Sentinel-2,válida,32
+AGC_178,Landsat,laguna mayor de 21 días,14
+AGC_178,Planet,laguna mayor de 21 días,82
+AGC_178,Sentinel-2,válida,32
+AGC_179,Landsat,laguna mayor de 21 días,27
+AGC_179,Planet,válida,82
+AGC_179,Sentinel-2,válida,34
+AGC_180,Landsat,laguna mayor de 21 días,16
+AGC_180,Planet,válida,80
+AGC_180,Sentinel-2,laguna mayor de 21 días,31
+AGC_181,Landsat,laguna mayor de 21 días,17
+AGC_181,Planet,válida,85
+AGC_181,Sentinel-2,válida,33
+AGC_182,Landsat,laguna mayor de 21 días,24
+AGC_182,Planet,válida,78
+AGC_182,Sentinel-2,laguna mayor de 21 días,30
+AGC_183,Landsat,laguna mayor de 21 días,14
+AGC_183,Planet,válida,91
+AGC_183,Sentinel-2,laguna mayor de 21 días,34
+AGC_184,Landsat,laguna mayor de 21 días,19
+AGC_184,Planet,válida,86
+AGC_184,Sentinel-2,laguna mayor de 21 días,36
+AGC_185,Landsat,laguna mayor de 21 días,16
+AGC_185,Planet,laguna mayor de 21 días,84
+AGC_185,Sentinel-2,laguna mayor de 21 días,33
+AGC_186,Landsat,laguna mayor de 21 días,14
+AGC_186,Planet,válida,87
+AGC_186,Sentinel-2,laguna mayor de 21 días,35
+AGC_187,Landsat,laguna mayor de 21 días,17
+AGC_187,Planet,válida,90
+AGC_187,Sentinel-2,laguna mayor de 21 días,35
+AGC_188,Landsat,laguna mayor de 21 días,22
+AGC_188,Planet,válida,85
+AGC_188,Sentinel-2,válida,34
+AGC_189,Landsat,laguna mayor de 21 días,21
+AGC_189,Planet,válida,83
+AGC_189,Sentinel-2,laguna mayor de 21 días,30
+AGC_190,Landsat,laguna mayor de 21 días,23
+AGC_190,Planet,válida,73
+AGC_190,Sentinel-2,laguna mayor de 21 días,28
+AGC_191,Landsat,laguna mayor de 21 días,19
+AGC_191,Planet,válida,83
+AGC_191,Sentinel-2,válida,33
+AGC_192,Landsat,laguna mayor de 21 días,29
+AGC_192,Planet,válida,78
+AGC_192,Sentinel-2,válida,35
+AGC_193,Landsat,laguna mayor de 21 días,15
+AGC_193,Planet,válida,82
+AGC_193,Sentinel-2,laguna mayor de 21 días,30
+AGC_194,Landsat,laguna mayor de 21 días,14
+AGC_194,Planet,válida,69
+AGC_194,Sentinel-2,laguna mayor de 21 días,33
+AGC_195,Landsat,laguna mayor de 21 días,13
+AGC_195,Planet,válida,85
+AGC_195,Sentinel-2,laguna mayor de 21 días,32
+AGC_196,Landsat,laguna mayor de 21 días,18
+AGC_196,Planet,válida,90
+AGC_196,Sentinel-2,laguna mayor de 21 días,36
+AGC_197,Landsat,laguna mayor de 21 días,14
+AGC_197,Planet,válida,80
+AGC_197,Sentinel-2,laguna mayor de 21 días,31

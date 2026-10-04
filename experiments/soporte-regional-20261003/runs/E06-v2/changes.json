@@ -1,0 +1,18 @@
+{
+  "hypothesis": "Ruido GPR y optimización acotada",
+  "model_hashes": {
+    "official": "bc87b9cce7e8ca7d27d1a14137b7a88fcbd7ac68158ddd0a24129464c6064b51"
+  },
+  "control_run_id": "E00-v2",
+  "model_absent": false,
+  "previous_model_hashes": {
+    "official": "33172d9b5022659d00434cb7f541f13d33add0a7743af3739b2dae88c03877e6"
+  },
+  "_github_transport": {
+    "full_record": "changes.json.gz",
+    "original_sha256": "11fe71e597b719680f5eff234df3f7e382d7ae91eb397587a782e53e35160154",
+    "original_bytes": 30683877,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

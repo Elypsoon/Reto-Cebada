@@ -1,0 +1,640 @@
+{
+  "E01a-v2": {
+    "official": {
+      "threshold_diagnostics": {
+        "promote": false,
+        "checks": {
+          "three_valid_schemes": true,
+          "principal_gain_2pct": true,
+          "at_least_two_gains": true,
+          "mean_ratio_098": true,
+          "none_above_105": true,
+          "regional_protection": false,
+          "verification": true
+        },
+        "ratios": {
+          "principal-5": 0.9193770769163345,
+          "balanceado-4": 1.0177135394967007,
+          "rotado-45-5": 0.8212931347317991
+        },
+        "mean_ratio": 0.9194612503816115,
+        "invalid": [],
+        "regional_failures": [
+          {
+            "scheme": "rotado-45-5",
+            "state": "Puebla",
+            "n": 71,
+            "selected": {
+              "rmse": 0.5997039074385957,
+              "mae": 0.43333563578116235,
+              "r2": -0.06812409185885993
+            },
+            "official": {
+              "rmse": 0.5997039074385957,
+              "mae": 0.43333563578116235,
+              "r2": -0.06812409185885993
+            },
+            "regional_mean": {
+              "rmse": 0.5879313769791714,
+              "mae": 0.37792164303387904,
+              "r2": -0.02659993064948485
+            }
+          }
+        ]
+      },
+      "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+      "scope": "exploratorio",
+      "activated": false
+    }
+  },
+  "E01b-v2": {
+    "official": {
+      "threshold_diagnostics": {
+        "promote": false,
+        "checks": {
+          "three_valid_schemes": true,
+          "principal_gain_2pct": false,
+          "at_least_two_gains": false,
+          "mean_ratio_098": false,
+          "none_above_105": false,
+          "regional_protection": false,
+          "verification": true
+        },
+        "ratios": {
+          "principal-5": 1.1959924784020588,
+          "balanceado-4": 1.197765348396714,
+          "rotado-45-5": 0.8344802576027366
+        },
+        "mean_ratio": 1.0760793614671698,
+        "invalid": [],
+        "regional_failures": [
+          {
+            "scheme": "principal-5",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 1.2887684047882855,
+              "mae": 1.232413387065447,
+              "r2": -11.138007339425865
+            },
+            "official": {
+              "rmse": 1.2887684047882855,
+              "mae": 1.232413387065447,
+              "r2": -11.138007339425865
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          },
+          {
+            "scheme": "balanceado-4",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 1.2885291320309489,
+              "mae": 1.2318984218969942,
+              "r2": -11.133500672645063
+            },
+            "official": {
+              "rmse": 1.2885291320309489,
+              "mae": 1.2318984218969942,
+              "r2": -11.133500672645063
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          },
+          {
+            "scheme": "rotado-45-5",
+            "state": "Puebla",
+            "n": 71,
+            "selected": {
+              "rmse": 0.6055449811145848,
+              "mae": 0.44156246586918435,
+              "r2": -0.08903232709328757
+            },
+            "official": {
+              "rmse": 0.6055449811145848,
+              "mae": 0.44156246586918435,
+              "r2": -0.08903232709328757
+            },
+            "regional_mean": {
+              "rmse": 0.5879313769791714,
+              "mae": 0.37792164303387904,
+              "r2": -0.02659993064948485
+            }
+          }
+        ]
+      },
+      "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+      "scope": "exploratorio",
+      "activated": false
+    }
+  },
+  "E02-v2": {
+    "official": {
+      "threshold_diagnostics": {
+        "promote": false,
+        "checks": {
+          "three_valid_schemes": true,
+          "principal_gain_2pct": false,
+          "at_least_two_gains": false,
+          "mean_ratio_098": true,
+          "none_above_105": true,
+          "regional_protection": false,
+          "verification": true
+        },
+        "ratios": {
+          "principal-5": 1.016627092886654,
+          "balanceado-4": 1.028046770548701,
+          "rotado-45-5": 0.8215102514427026
+        },
+        "mean_ratio": 0.9553947049593526,
+        "invalid": [],
+        "regional_failures": [
+          {
+            "scheme": "principal-5",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 0.8105329769628427,
+              "mae": 0.7056489331115049,
+              "r2": -3.8010807770435164
+            },
+            "official": {
+              "rmse": 0.8105329769628427,
+              "mae": 0.7056489331115049,
+              "r2": -3.8010807770435164
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          },
+          {
+            "scheme": "balanceado-4",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 0.8120239190374764,
+              "mae": 0.7075706161802285,
+              "r2": -3.8187598032738546
+            },
+            "official": {
+              "rmse": 0.8120239190374764,
+              "mae": 0.7075706161802285,
+              "r2": -3.8187598032738546
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          }
+        ]
+      },
+      "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+      "scope": "exploratorio",
+      "activated": false
+    }
+  },
+  "E03-v2": {
+    "official": {
+      "threshold_diagnostics": {
+        "promote": false,
+        "checks": {
+          "three_valid_schemes": true,
+          "principal_gain_2pct": false,
+          "at_least_two_gains": false,
+          "mean_ratio_098": true,
+          "none_above_105": true,
+          "regional_protection": false,
+          "verification": true
+        },
+        "ratios": {
+          "principal-5": 1.0141849998426695,
+          "balanceado-4": 1.0275469028880075,
+          "rotado-45-5": 0.7963504708558771
+        },
+        "mean_ratio": 0.9460274578621849,
+        "invalid": [],
+        "regional_failures": [
+          {
+            "scheme": "principal-5",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 0.8114882438167087,
+              "mae": 0.7069004292798715,
+              "r2": -3.8124042298742964
+            },
+            "official": {
+              "rmse": 0.8114882438167087,
+              "mae": 0.7069004292798715,
+              "r2": -3.8124042298742964
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          },
+          {
+            "scheme": "balanceado-4",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 0.8100019428491898,
+              "mae": 0.7049175501499407,
+              "r2": -3.794791822586337
+            },
+            "official": {
+              "rmse": 0.8100019428491898,
+              "mae": 0.7049175501499407,
+              "r2": -3.794791822586337
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          }
+        ]
+      },
+      "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+      "scope": "exploratorio",
+      "activated": false
+    }
+  },
+  "E04a-v2": {
+    "official": {
+      "threshold_diagnostics": {
+        "promote": false,
+        "checks": {
+          "three_valid_schemes": true,
+          "principal_gain_2pct": false,
+          "at_least_two_gains": false,
+          "mean_ratio_098": true,
+          "none_above_105": true,
+          "regional_protection": false,
+          "verification": true
+        },
+        "ratios": {
+          "principal-5": 1.0166810545705207,
+          "balanceado-4": 1.0261009092633653,
+          "rotado-45-5": 0.8211829317261874
+        },
+        "mean_ratio": 0.9546549651866911,
+        "invalid": [],
+        "regional_failures": [
+          {
+            "scheme": "principal-5",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 0.8115048624222401,
+              "mae": 0.7069215416474144,
+              "r2": -3.8126013399792873
+            },
+            "official": {
+              "rmse": 0.8115048624222401,
+              "mae": 0.7069215416474144,
+              "r2": -3.8126013399792873
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          },
+          {
+            "scheme": "balanceado-4",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 0.8100019428491898,
+              "mae": 0.7049175501499407,
+              "r2": -3.794791822586337
+            },
+            "official": {
+              "rmse": 0.8100019428491898,
+              "mae": 0.7049175501499407,
+              "r2": -3.794791822586337
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          },
+          {
+            "scheme": "rotado-45-5",
+            "state": "Puebla",
+            "n": 71,
+            "selected": {
+              "rmse": 0.5897073762934711,
+              "mae": 0.418601067567397,
+              "r2": -0.03281152142476351
+            },
+            "official": {
+              "rmse": 0.5897073762934711,
+              "mae": 0.418601067567397,
+              "r2": -0.03281152142476351
+            },
+            "regional_mean": {
+              "rmse": 0.5879313769791714,
+              "mae": 0.37792164303387904,
+              "r2": -0.02659993064948485
+            }
+          }
+        ]
+      },
+      "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+      "scope": "exploratorio",
+      "activated": false
+    }
+  },
+  "E04b-v2": {
+    "official": {
+      "threshold_diagnostics": {
+        "promote": false,
+        "checks": {
+          "three_valid_schemes": true,
+          "principal_gain_2pct": false,
+          "at_least_two_gains": false,
+          "mean_ratio_098": true,
+          "none_above_105": true,
+          "regional_protection": false,
+          "verification": true
+        },
+        "ratios": {
+          "principal-5": 1.0166810545705207,
+          "balanceado-4": 1.0261009092633653,
+          "rotado-45-5": 0.8241237471945385
+        },
+        "mean_ratio": 0.9556352370094748,
+        "invalid": [],
+        "regional_failures": [
+          {
+            "scheme": "principal-5",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 0.8115048624222401,
+              "mae": 0.7069215416474144,
+              "r2": -3.8126013399792873
+            },
+            "official": {
+              "rmse": 0.8115048624222401,
+              "mae": 0.7069215416474144,
+              "r2": -3.8126013399792873
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          },
+          {
+            "scheme": "balanceado-4",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 0.8100019428491898,
+              "mae": 0.7049175501499407,
+              "r2": -3.794791822586337
+            },
+            "official": {
+              "rmse": 0.8100019428491898,
+              "mae": 0.7049175501499407,
+              "r2": -3.794791822586337
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          }
+        ]
+      },
+      "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+      "scope": "exploratorio",
+      "activated": false
+    }
+  },
+  "E05-v2": {
+    "official": {
+      "threshold_diagnostics": {
+        "promote": false,
+        "checks": {
+          "three_valid_schemes": true,
+          "principal_gain_2pct": false,
+          "at_least_two_gains": false,
+          "mean_ratio_098": true,
+          "none_above_105": true,
+          "regional_protection": false,
+          "verification": true
+        },
+        "ratios": {
+          "principal-5": 0.9860030201254163,
+          "balanceado-4": 1.0335937337439816,
+          "rotado-45-5": 0.8102929650024902
+        },
+        "mean_ratio": 0.943296572957296,
+        "invalid": [],
+        "regional_failures": [
+          {
+            "scheme": "principal-5",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 0.7742991946662056,
+              "mae": 0.6886323011899701,
+              "r2": -3.381423668358676
+            },
+            "official": {
+              "rmse": 0.7742991946662056,
+              "mae": 0.6886323011899701,
+              "r2": -3.381423668358676
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          },
+          {
+            "scheme": "balanceado-4",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 0.7737638687654402,
+              "mae": 0.6879274863599221,
+              "r2": -3.3753674079634512
+            },
+            "official": {
+              "rmse": 0.7737638687654402,
+              "mae": 0.6879274863599221,
+              "r2": -3.3753674079634512
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          }
+        ]
+      },
+      "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+      "scope": "exploratorio",
+      "activated": false
+    }
+  },
+  "E06-v2": {
+    "official": {
+      "threshold_diagnostics": {
+        "promote": false,
+        "checks": {
+          "three_valid_schemes": true,
+          "principal_gain_2pct": false,
+          "at_least_two_gains": false,
+          "mean_ratio_098": true,
+          "none_above_105": true,
+          "regional_protection": false,
+          "verification": true
+        },
+        "ratios": {
+          "principal-5": 1.0180108228885794,
+          "balanceado-4": 0.988118548707271,
+          "rotado-45-5": 0.8239942541621286
+        },
+        "mean_ratio": 0.9433745419193263,
+        "invalid": [],
+        "regional_failures": [
+          {
+            "scheme": "principal-5",
+            "state": "Tlaxcala",
+            "n": 31,
+            "selected": {
+              "rmse": 0.8105329769628427,
+              "mae": 0.7056489331115049,
+              "r2": -3.8010807770435164
+            },
+            "official": {
+              "rmse": 0.8105329769628427,
+              "mae": 0.7056489331115049,
+              "r2": -3.8010807770435164
+            },
+            "regional_mean": {
+              "rmse": 0.6156559575481392,
+              "mae": 0.5,
+              "r2": -1.7699619771863122
+            }
+          }
+        ]
+      },
+      "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+      "scope": "exploratorio",
+      "activated": false
+    }
+  },
+  "E08-v2": {
+    "official": {
+      "threshold_diagnostics": {
+        "promote": false,
+        "checks": {
+          "three_valid_schemes": true,
+          "principal_gain_2pct": true,
+          "at_least_two_gains": true,
+          "mean_ratio_098": true,
+          "none_above_105": true,
+          "regional_protection": false,
+          "verification": true
+        },
+        "ratios": {
+          "principal-5": 0.9250310412448863,
+          "balanceado-4": 1.0219118409948236,
+          "rotado-45-5": 0.8205634294032911
+        },
+        "mean_ratio": 0.9225021038810004,
+        "invalid": [],
+        "regional_failures": [
+          {
+            "scheme": "rotado-45-5",
+            "state": "Puebla",
+            "n": 71,
+            "selected": {
+              "rmse": 0.6012395780706254,
+              "mae": 0.42426526747441046,
+              "r2": -0.07360141802648035
+            },
+            "official": {
+              "rmse": 0.6012395780706254,
+              "mae": 0.42426526747441046,
+              "r2": -0.07360141802648035
+            },
+            "regional_mean": {
+              "rmse": 0.5879313769791714,
+              "mae": 0.37792164303387904,
+              "r2": -0.02659993064948485
+            }
+          }
+        ]
+      },
+      "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+      "scope": "E08",
+      "activated": false
+    },
+    "selected": {
+      "threshold_diagnostics": {
+        "promote": false,
+        "checks": {
+          "three_valid_schemes": true,
+          "principal_gain_2pct": true,
+          "at_least_two_gains": true,
+          "mean_ratio_098": true,
+          "none_above_105": true,
+          "regional_protection": false,
+          "verification": true
+        },
+        "ratios": {
+          "principal-5": 0.9242537134293746,
+          "balanceado-4": 1.0228660000033327,
+          "rotado-45-5": 0.8205634294032911
+        },
+        "mean_ratio": 0.9225610476119995,
+        "invalid": [],
+        "regional_failures": [
+          {
+            "scheme": "rotado-45-5",
+            "state": "Puebla",
+            "n": 71,
+            "selected": {
+              "rmse": 0.6012395780706254,
+              "mae": 0.42426526747441046,
+              "r2": -0.07360141802648035
+            },
+            "official": {
+              "rmse": 0.6012395780706254,
+              "mae": 0.42426526747441046,
+              "r2": -0.07360141802648035
+            },
+            "regional_mean": {
+              "rmse": 0.5879313769791714,
+              "mae": 0.37792164303387904,
+              "r2": -0.02659993064948485
+            }
+          }
+        ]
+      },
+      "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+      "scope": "E08",
+      "activated": false
+    }
+  }
+}

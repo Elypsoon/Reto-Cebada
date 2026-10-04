@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "phase_id": "soporte-regional-20261003",
+  "experiment_id": "E04b",
+  "run_id": "E04b-v2",
+  "control_run_id": "E04a-v2",
+  "parent_run_id": null,
+  "retry_of": "E04b",
+  "hypothesis": "AUC respaldada EVI/MSAVI",
+  "status": "completed",
+  "started_at": "2026-10-04T03:18:18.449406+00:00",
+  "finished_at": "2026-10-04T03:21:30.442920+00:00",
+  "cutoff": "2025-10-31",
+  "seed": 2026,
+  "protocol_hash": "c2ea7dec9fea4fa8a1f7ed4aeefc9b7ed885892853d4cd9fb2edc745d354551a",
+  "metrics": {
+    "official": {
+      "principal-5": {
+        "rmse": 0.7563859757497285,
+        "mae": 0.6023468774305338,
+        "r2": 0.20453286699465278,
+        "bias": 0.16193781397042797,
+        "control_delta_rmse": 0.0,
+        "regional_rmse": 0.7439756768844785
+      },
+      "balanceado-4": {
+        "rmse": 0.7635796385132191,
+        "mae": 0.5986528905144903,
+        "r2": 0.18933022243024566,
+        "bias": 0.18570994480503966,
+        "control_delta_rmse": 0.0,
+        "regional_rmse": 0.7441564778082017
+      },
+      "rotado-45-5": {
+        "rmse": 0.7515520375656937,
+        "mae": 0.5921558466009804,
+        "r2": 0.21466777675471782,
+        "bias": 0.14876653197200151,
+        "control_delta_rmse": 0.002681849497563782,
+        "regional_rmse": 0.9119407614743639
+      }
+    }
+  },
+  "verification": {
+    "passed": true,
+    "routes": {
+      "official": {
+        "predictions": 59,
+        "hash": "ca78c918d4a2cd2b43f700c99fb1eddbba25f5644d54240be39b07896a01819a",
+        "contract": "7f991f861b39c4c898280f132c4b49be74226d866c18a591768004a14c64e4c4"
+      }
+    },
+    "metrics": true
+  },
+  "decision": {
+    "promotion_scope": "exploratorio",
+    "activated": false,
+    "by_route": {},
+    "reason": "Elegibilidad separada de activación; conservar activa"
+  },
+  "limitations": [
+    "Desarrollo sobre las mismas 138 etiquetas; sin campaña nueva ni evaluación oficial."
+  ],
+  "data_hashes": {
+    "parcels.parquet": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+    "satellite.parquet": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9",
+    "source-manifest.json": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+  },
+  "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+  "dependency_manifest": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "geopandas": "1.2.0",
+    "rasterio": "1.5.2",
+    "catboost": "1.2.10",
+    "streamlit": "1.65.0"
+  },
+  "scheme_hash": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334",
+  "feature_manifest": {
+    "monthly_20_10": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa",
+    "segmented_evi_20_10": "995bed0503b06c9e74ae09c4272e7fc461bf91f7625afb39bb340b37980977c1"
+  },
+  "reason": null,
+  "pid": 34656,
+  "artifact_manifest": "3bc84412b8d58b99b920d60a61a7c008574b3b7ad3f4a24fa01fd69088034e90",
+  "_github_transport": {
+    "full_record": "run.json.gz",
+    "original_sha256": "121032d9790421b5dbd9566d03b324c01042f06336b0545893a436d824a83fc1",
+    "original_bytes": 14722487,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

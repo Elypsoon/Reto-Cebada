@@ -1,0 +1,14 @@
+whittaker_20_10 principal-5 0 train 104 validation 34
+whittaker_20_10 principal-5 1 train 104 validation 34
+whittaker_20_10 principal-5 2 train 103 validation 35
+whittaker_20_10 principal-5 3 train 121 validation 17
+whittaker_20_10 principal-5 4 train 120 validation 18
+whittaker_20_10 balanceado-4 0 train 104 validation 34
+whittaker_20_10 balanceado-4 1 train 103 validation 35
+whittaker_20_10 balanceado-4 2 train 104 validation 34
+whittaker_20_10 balanceado-4 3 train 103 validation 35
+whittaker_20_10 rotado-45-5 0 train 104 validation 34
+whittaker_20_10 rotado-45-5 1 train 104 validation 34
+whittaker_20_10 rotado-45-5 2 train 103 validation 35
+whittaker_20_10 rotado-45-5 3 train 121 validation 17
+whittaker_20_10 rotado-45-5 4 train 120 validation 18

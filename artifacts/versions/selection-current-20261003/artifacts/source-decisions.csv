@@ -1,0 +1,11 @@
+fold,source,admitted,reference_rmse,candidate_rmse,tested_families
+0,nasa,False,0.7194220730649485,0.7470530086783108,"['elastic', 'bayesian', 'gpr', 'catboost', 'svr']"
+0,siap,False,0.7194220730649485,0.7414758207941196,"['elastic', 'bayesian', 'gpr', 'catboost', 'svr']"
+1,nasa,False,0.49757701569347446,0.5165337892717253,"['elastic', 'gpr', 'bayesian', 'catboost', 'svr']"
+1,siap,False,0.49757701569347446,0.496925552220031,"['elastic', 'gpr', 'bayesian', 'catboost', 'svr']"
+2,nasa,False,0.7736957506563096,0.6313983540864647,"['gpr', 'elastic', 'catboost', 'svr', 'bayesian']"
+2,siap,False,0.7736957506563096,0.655632993280155,"['gpr', 'elastic', 'catboost', 'svr', 'bayesian']"
+3,nasa,False,0.8496364574132388,0.7401244240534972,"['catboost', 'bayesian', 'elastic', 'svr', 'gpr']"
+3,siap,False,0.8496364574132388,0.6762938940672564,"['catboost', 'bayesian', 'elastic', 'svr', 'gpr']"
+4,nasa,True,0.701165969376327,0.684938480100866,"['gpr', 'elastic', 'svr', 'catboost', 'bayesian']"
+4,siap,False,0.684938480100866,0.7371545917229351,"['gpr', 'elastic', 'svr', 'catboost', 'bayesian']"

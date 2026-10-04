@@ -1,0 +1,72 @@
+run_id,experiment,status,route,scheme,rmse,mae,bias,control_delta_rmse,reason,r2,regional_rmse
+E00,E00,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E00-v2,E00,completed,official,principal-5,0.7563458295694481,0.6031691463832336,0.15903996800030848,0.0,,0.20461730568193015,0.7439756768844785
+E00-v2,E00,completed,official,balanceado-4,0.7643894761566522,0.5999470955520225,0.18059177086557965,0.0,,0.18760974951437404,0.7441564778082017
+E00-v2,E00,completed,official,rotado-45-5,0.7491686842596543,0.5920948746039706,0.14969672550828012,0.0,,0.21964083573715354,0.9119407614743639
+E00-v2,E00,completed,official,intraestado-3,0.6477048359344116,0.4840621385671005,-0.00740289981513567,,,0.41670321378556774,0.6522650657772627
+E00-v2,E00,completed,selected,principal-5,0.7494578260600603,0.5965526073254858,0.15825332258446978,0.0,,0.2190383599522182,0.7439756768844785
+E00-v2,E00,completed,selected,balanceado-4,0.7694358644633517,0.6031652188614002,0.198138798701377,0.0,,0.17684777700757648,0.7441564778082017
+E00-v2,E00,completed,selected,rotado-45-5,0.7491686842596543,0.5920948746039706,0.14969672550828012,0.0,,0.21964083573715354,0.9119407614743639
+E00-v2,E00,completed,selected,intraestado-3,0.6477048359344116,0.4840621385671005,-0.00740289981513567,,,0.41670321378556774,0.6522650657772627
+E01a,E01a,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E01a-v2,E01a,completed,official,principal-5,0.6839941831109031,0.5391557605999142,-0.12896032178253777,-0.07235164645854497,,0.3495107540442979,0.7439756768844785
+E01a-v2,E01a,completed,official,balanceado-4,0.7573381229695831,0.5815456614590455,-0.0724085495870674,-0.007051353187069065,,0.20252892044761883,0.7441564778082017
+E01a-v2,E01a,completed,official,rotado-45-5,0.7489706866809842,0.5970049384527321,0.15226673434874693,-0.00019799757867011714,,0.2200532630333375,0.9119407614743639
+E01b,E01b,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E01b-v2,E01b,completed,official,principal-5,0.8897893136679168,0.721320046023771,0.26398730190252295,0.13344348409846873,,-0.10080318012512968,0.7439756768844785
+E01b-v2,E01b,completed,official,balanceado-4,0.8913248429036122,0.716169124154015,0.2834962008195193,0.12693536674696004,,-0.10460581957553505,0.7441564778082017
+E01b-v2,E01b,completed,official,rotado-45-5,0.7609965615535631,0.6097242662541519,0.13702973404455235,0.011827877293908773,,0.19480569724608932,0.9119407614743639
+E02,E02,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E02-v2,E02,completed,official,principal-5,0.7563458295694481,0.6031691463832336,0.15903996800030848,0.0,,0.20461730568193015,0.7439756768844785
+E02-v2,E02,completed,official,balanceado-4,0.765027663793618,0.5997956883867769,0.18926162802065055,0.0006381876369657702,,0.18625265640911193,0.7441564778082017
+E02-v2,E02,completed,official,rotado-45-5,0.7491686842596543,0.5920948746039706,0.14969672550828012,0.0,,0.21964083573715354,0.9119407614743639
+E03,E03,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E03-v2,E03,completed,official,principal-5,0.7545289717440348,0.6008035773547593,0.16047330353034653,-0.0018168578254132983,,0.2084339766917246,0.7439756768844785
+E03-v2,E03,completed,official,balanceado-4,0.7646556840358659,0.5964456819737793,0.1849820346335557,0.00026620787921372013,,0.1870438015236734,0.7441564778082017
+E03-v2,E03,completed,official,rotado-45-5,0.7262244547927768,0.572099760493842,0.14078569066167237,-0.022944229466877575,,0.2667078382954541,0.9119407614743639
+E04a,E04a,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E04a-v2,E04a,completed,official,principal-5,0.7563859757497285,0.6023468774305338,0.16193781397042797,4.0146180280475896e-05,,0.20453286699465278,0.7439756768844785
+E04a-v2,E04a,completed,official,balanceado-4,0.7635796385132191,0.5986528905144903,0.18570994480503966,-0.00080983764343312,,0.18933022243024566,0.7441564778082017
+E04a-v2,E04a,completed,official,rotado-45-5,0.7488701880681299,0.5956144652232488,0.13996915392776782,-0.0002984961915244444,,0.22026255909182268,0.9119407614743639
+E04b,E04b,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E04b-v2,E04b,completed,official,principal-5,0.7563859757497285,0.6023468774305338,0.16193781397042797,0.0,,0.20453286699465278,0.7439756768844785
+E04b-v2,E04b,completed,official,balanceado-4,0.7635796385132191,0.5986528905144903,0.18570994480503966,0.0,,0.18933022243024566,0.7441564778082017
+E04b-v2,E04b,completed,official,rotado-45-5,0.7515520375656937,0.5921558466009804,0.14876653197200151,0.002681849497563782,,0.21466777675471782,0.9119407614743639
+E05,E05,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E05-v2,E05,completed,official,principal-5,0.7335622643079467,0.5833907199483909,0.15799037206504643,-0.02278356526150138,,0.2518145311486585,0.7439756768844785
+E05-v2,E05,completed,official,balanceado-4,0.7691554723875497,0.6058300243236001,0.18419976231052237,0.004765996230897462,,0.17744760167648066,0.7441564778082017
+E05-v2,E05,completed,official,rotado-45-5,0.738939183521691,0.5826735961133699,0.14486645253666802,-0.01022950073796336,,0.24080612241393762,0.9119407614743639
+E06,E06,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E06-v2,E06,completed,official,principal-5,0.7573752910342558,0.6058473987815258,0.15433757178572263,0.0010294614648077571,,0.20245064316803574,0.7439756768844785
+E06-v2,E06,completed,official,balanceado-4,0.7353148188629548,0.5668028959683569,0.10251160337791224,-0.029074657293697403,,0.24823527890808816,0.7441564778082017
+E06-v2,E06,completed,official,rotado-45-5,0.751433947591112,0.5936221230584733,0.14989990066661865,0.002265263331457712,,0.21491455295017714,0.9119407614743639
+E07,E07,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E07-monthly_20_10,E07,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E07-v2,E07,failed,,,,,,,"CalledProcessError(1, ['C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\optional\\tabpfn-2.5\\env\\Scripts\\python.exe', '-m', 'agrocebada.optional', 'verify', 'monthly_20_10', 'C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\runs\\E07-v2-monthly_20_10\\artifacts'])",,
+E07-v2-monthly_20_10,E07,failed,,,,,,,"CalledProcessError(1, ['C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\optional\\tabpfn-2.5\\env\\Scripts\\python.exe', '-m', 'agrocebada.optional', 'verify', 'monthly_20_10', 'C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\runs\\E07-v2-monthly_20_10\\artifacts'])",,
+E07-v2-whittaker_20_10,E07,failed,,,,,,,No llegó a entrenar: falló la comprobación de exportación de su configuración hermana. Sustituida por E07-v3-whittaker_20_10.,,
+E07-v3,E07,completed,,,,,,,,,
+E07-v3-monthly_20_10,E07,completed,official,principal-5,0.7537396269344443,0.5696362280500108,0.106106836968574,-0.0026062026350037737,,0.2100892920758345,
+E07-v3-monthly_20_10,E07,completed,official,balanceado-4,0.7807060047593325,0.5911102883021037,0.08867552598317467,0.01631652860268029,,0.1525572983207334,
+E07-v3-monthly_20_10,E07,completed,official,rotado-45-5,0.6638604554560072,0.5185027549577795,0.09133828660716183,-0.08530822880364708,,0.3872421220647051,
+E07-v3-whittaker_20_10,E07,completed,official,principal-5,0.7477153122603928,0.5698050402212835,0.09544440048328347,-0.008630517309055286,,0.22266566063029336,
+E07-v3-whittaker_20_10,E07,completed,official,balanceado-4,0.7726517816403764,0.5896681708183841,0.07423370928004171,0.008262305483724197,,0.16995253969692337,
+E07-v3-whittaker_20_10,E07,completed,official,rotado-45-5,0.665157508498096,0.5227526663351749,0.08145094719485962,-0.08401117576155837,,0.3848453656841967,
+E07-whittaker_20_10,E07,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E08,E08,failed,,,,,,,"Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian. Sin modelo final; ejecución sustituida por un nuevo ID.",,
+E08-v2,E08,completed,official,principal-5,0.6882005950493183,0.5418573785734101,-0.13135199137003245,-0.06814523452012977,,0.3414854246269269,0.7439756768844785
+E08-v2,E08,completed,official,balanceado-4,0.7604623162252031,0.5781752575856418,-0.06495737437316551,-0.003927159931449098,,0.19593584768038386,0.7441564778082017
+E08-v2,E08,completed,official,rotado-45-5,0.7483052386480527,0.5901622169345883,0.15743106831562462,-0.0008634456116016764,,0.2214385868209202,0.9119407614743639
+E08-v2,E08,completed,official,intraestado-3,0.6522650657772627,0.4778673204557802,0.00048244020087234637,0.0045602298428510935,,0.40846078252606144,0.6522650657772627
+E08-v2,E08,completed,selected,principal-5,0.6876222820616118,0.5410331630812873,-0.12666231580631668,-0.06183554399844848,,0.3425916937135719,0.7439756768844785
+E08-v2,E08,completed,selected,balanceado-4,0.7611723598322441,0.5800649252072669,-0.06350931965556614,-0.008263504631107588,,0.1944336374246377,0.7441564778082017
+E08-v2,E08,completed,selected,rotado-45-5,0.7483052386480527,0.5901622169345883,0.15743106831562462,-0.0008634456116016764,,0.2214385868209202,0.9119407614743639
+E08-v2,E08,completed,selected,intraestado-3,0.6522650657772627,0.4778673204557802,0.00048244020087234637,0.0045602298428510935,,0.40846078252606144,0.6522650657772627
+H00-vigente,H00-vigente,completed,selected,principal-5,0.7640529246030533,0.5926849423673781,,,,0.1883249634716917,
+H00-vigente,H00-vigente,completed,official,principal-5,0.7645734286732019,0.5935091578595009,,,,0.1872186943850468,
+H01-regional,H01-regional,completed,selected,principal-5,0.7494578260600603,0.5965526073254858,,,,0.2190383599522182,
+H01-regional,H01-regional,completed,selected,balanceado-4,0.7694358644633517,0.6031652188614002,,,,0.17684777700757648,
+H01-regional,H01-regional,completed,selected,rotado-45-5,0.7491686842596543,0.5920948746039706,,,,0.21964083573715354,
+H01-regional,H01-regional,completed,official,principal-5,0.7563458295694481,0.6031691463832337,,,,0.20461730568193015,
+H01-regional,H01-regional,completed,official,balanceado-4,0.7643894761566522,0.5999470955520225,,,,0.18760974951437404,
+H01-regional,H01-regional,completed,official,rotado-45-5,0.7491686842596543,0.5920948746039706,,,,0.21964083573715354,

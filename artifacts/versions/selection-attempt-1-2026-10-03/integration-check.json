@@ -1,0 +1,9 @@
+{
+  "predictions": 59,
+  "oof": 138,
+  "finite": true,
+  "same_predictions": true,
+  "metrics_reproduced": true,
+  "selected_sources": [],
+  "model_hash": "ea6f83ae81603486a7a7b278834f9f64e6731584285b0a05facfb0e95082fae0"
+}

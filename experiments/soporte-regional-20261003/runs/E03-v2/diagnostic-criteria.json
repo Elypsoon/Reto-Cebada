@@ -1,0 +1,68 @@
+{
+  "official": {
+    "threshold_diagnostics": {
+      "promote": false,
+      "checks": {
+        "three_valid_schemes": true,
+        "principal_gain_2pct": false,
+        "at_least_two_gains": false,
+        "mean_ratio_098": true,
+        "none_above_105": true,
+        "regional_protection": false,
+        "verification": true
+      },
+      "ratios": {
+        "principal-5": 1.0141849998426695,
+        "balanceado-4": 1.0275469028880075,
+        "rotado-45-5": 0.7963504708558771
+      },
+      "mean_ratio": 0.9460274578621849,
+      "invalid": [],
+      "regional_failures": [
+        {
+          "scheme": "principal-5",
+          "state": "Tlaxcala",
+          "n": 31,
+          "selected": {
+            "rmse": 0.8114882438167087,
+            "mae": 0.7069004292798715,
+            "r2": -3.8124042298742964
+          },
+          "official": {
+            "rmse": 0.8114882438167087,
+            "mae": 0.7069004292798715,
+            "r2": -3.8124042298742964
+          },
+          "regional_mean": {
+            "rmse": 0.6156559575481392,
+            "mae": 0.5,
+            "r2": -1.7699619771863122
+          }
+        },
+        {
+          "scheme": "balanceado-4",
+          "state": "Tlaxcala",
+          "n": 31,
+          "selected": {
+            "rmse": 0.8100019428491898,
+            "mae": 0.7049175501499407,
+            "r2": -3.794791822586337
+          },
+          "official": {
+            "rmse": 0.8100019428491898,
+            "mae": 0.7049175501499407,
+            "r2": -3.794791822586337
+          },
+          "regional_mean": {
+            "rmse": 0.6156559575481392,
+            "mae": 0.5,
+            "r2": -1.7699619771863122
+          }
+        }
+      ]
+    },
+    "interpretation": "Diagnóstico descriptivo de umbrales sobre las mismas etiquetas; solo E08 recibe elegibilidad y ninguna ejecución se activa",
+    "scope": "exploratorio",
+    "activated": false
+  }
+}

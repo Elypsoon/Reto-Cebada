@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "routes": {
+    "official": {
+      "predictions": 59,
+      "hash": "8b7b5d70b38b43c96a3a115dde9fdf04f024af17843fbdcb3ae5162562edba53",
+      "contract": "b81b8d43112fb9e09c9fd022fc5fa79d58adfb32b4938097790107ee350666be"
+    }
+  },
+  "metrics": true
+}

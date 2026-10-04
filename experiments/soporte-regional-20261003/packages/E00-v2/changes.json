@@ -1,0 +1,20 @@
+{
+  "hypothesis": "Reproducción del control regional",
+  "model_hashes": {
+    "official": "33172d9b5022659d00434cb7f541f13d33add0a7743af3739b2dae88c03877e6",
+    "selected": "45370d34ca3e27bb4575a4fc4fdec861e5f4f11a0183f4f8d878f8e762035a33"
+  },
+  "control_run_id": "H01-regional",
+  "model_absent": false,
+  "previous_model_hashes": {
+    "official": "522e23ebc0c58da892ff62254076ecad930c162e8d4f67f953511261f17ebf02",
+    "selected": "fbdadc4cebeb15bddb0cf896cca7d45d4b57e6a7fb58ef060d9ea2ef30d6e2f2"
+  },
+  "_github_transport": {
+    "full_record": "changes.json.gz",
+    "original_sha256": "4d9146ddcb80df80609f530ec07ea26f336271e2f64a79c42428925204515d59",
+    "original_bytes": 32729112,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

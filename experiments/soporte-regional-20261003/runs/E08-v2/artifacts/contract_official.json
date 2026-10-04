@@ -1,0 +1,11 @@
+{
+  "phase_id": "soporte-regional-20261003",
+  "run_id": "E08-v2",
+  "_github_transport": {
+    "full_record": "contract_official.json.gz",
+    "original_sha256": "37e265c195f36129b0bdf899d5012ec8071fd41cb50f08f1cd3c33b37d6f456e",
+    "original_bytes": 2185300,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

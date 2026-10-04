@@ -1,0 +1,8 @@
+{
+  "model_absent": false,
+  "children": [
+    "E07-v3-monthly_20_10",
+    "E07-v3-whittaker_20_10"
+  ],
+  "adapter_code_hash": "7a6111108c4fa45795f96ecefc7115b3a04c54304e7063b2543d56c3481590f7"
+}

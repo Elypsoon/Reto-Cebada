@@ -1,0 +1,12 @@
+{
+  "name": "agrocebada-2026",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Modelo predictivo y herramienta de consulta para AgroCebada 2026",
+  "scripts": {
+    "openspec": "openspec"
+  },
+  "devDependencies": {
+    "@fission-ai/openspec": "1.14.0"
+  }
+}

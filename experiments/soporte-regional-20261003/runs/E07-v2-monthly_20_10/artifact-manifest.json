@@ -1,0 +1,13 @@
+{
+  "context-contract.json": "b706d066db5bef40ae5d039d933eb37bb24a523e15ebfac1a78e87a31b11eef9",
+  "oof-balanceado-4.csv": "5fefdba1d32c893217f429a80177efc7e99247a1f7bb47a67b06097138956318",
+  "oof-principal-5.csv": "3032d3178b3e873e5253bb15441afbc850eb47ea2c985f65d593f7a0fc348df8",
+  "oof-rotado-45-5.csv": "6b109016e7831b8d0cefdda75415111692740d4c28b62c4447b7534f2ddc552c",
+  "predictions_official_only_59.csv": "69229ac73c3122849fe3647da05a7d26039ddfdf6d6d54b73c23a7450217e7da",
+  "resources.json": "4de6568ae2e576afe2a753685e9812d4e000b1a065dd0129da543c7cb75f2c7d",
+  "training-context.npz": "9cd0dba122b75eb5c9f8054b49a2bff52cdba0bcba2e8f0f2bb680ce6aa94b56",
+  "validation-balanceado-4.json": "ec0bc7a29547ffb4fc9727439062c3f8a0fe2e49b9dbcd41be771b0728d8c824",
+  "validation-principal-5.json": "ab384d25ef72e25548448043103d4a77d680963e8d4f7814138671f98ea42de7",
+  "validation-rotado-45-5.json": "c35bb1a305e6058a0f6314435964ed1b33e0e7d0f89995c5a8e5aa289742dc7e",
+  "worker-metrics.json": "f37e78cd4646b3387adcd5cba688b6067c211b46e6f4cf3e8435f791d26375fb"
+}

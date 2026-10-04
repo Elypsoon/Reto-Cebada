@@ -1,0 +1,207 @@
+{
+  "method": "Comprobacion exploratoria; centro de bounding box por parcela y celda mas cercana. No es extraccion zonal final ni validacion contra estaciones.",
+  "nasa": [
+    {
+      "file": "nasa_power_19.5_-98.125_20250401_20251031.json",
+      "days": 214,
+      "missing": 0,
+      "invalid_Tmin_Tmax": 0,
+      "units": {
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "T2M_MIN": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters Minimum"
+        },
+        "T2M_MAX": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters Maximum"
+        },
+        "T2MDEW": {
+          "units": "C",
+          "longname": "Dew/Frost Point at 2 Meters"
+        },
+        "RH2M": {
+          "units": "%",
+          "longname": "Relative Humidity at 2 Meters"
+        },
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "MJ/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS2M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 2 Meters"
+        },
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "longname": "Precipitation Corrected"
+        }
+      }
+    },
+    {
+      "file": "nasa_power_19.5_-98.75_20250401_20251031.json",
+      "days": 214,
+      "missing": 0,
+      "invalid_Tmin_Tmax": 0,
+      "units": {
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "T2M_MIN": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters Minimum"
+        },
+        "T2M_MAX": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters Maximum"
+        },
+        "T2MDEW": {
+          "units": "C",
+          "longname": "Dew/Frost Point at 2 Meters"
+        },
+        "RH2M": {
+          "units": "%",
+          "longname": "Relative Humidity at 2 Meters"
+        },
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "MJ/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS2M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 2 Meters"
+        },
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "longname": "Precipitation Corrected"
+        }
+      }
+    },
+    {
+      "file": "nasa_power_20.0_-98.125_20250401_20251031.json",
+      "days": 214,
+      "missing": 0,
+      "invalid_Tmin_Tmax": 0,
+      "units": {
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "T2M_MIN": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters Minimum"
+        },
+        "T2M_MAX": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters Maximum"
+        },
+        "T2MDEW": {
+          "units": "C",
+          "longname": "Dew/Frost Point at 2 Meters"
+        },
+        "RH2M": {
+          "units": "%",
+          "longname": "Relative Humidity at 2 Meters"
+        },
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "MJ/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS2M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 2 Meters"
+        },
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "longname": "Precipitation Corrected"
+        }
+      }
+    },
+    {
+      "file": "nasa_power_20.0_-98.75_20250401_20251031.json",
+      "days": 214,
+      "missing": 0,
+      "invalid_Tmin_Tmax": 0,
+      "units": {
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "T2M_MIN": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters Minimum"
+        },
+        "T2M_MAX": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters Maximum"
+        },
+        "T2MDEW": {
+          "units": "C",
+          "longname": "Dew/Frost Point at 2 Meters"
+        },
+        "RH2M": {
+          "units": "%",
+          "longname": "Relative Humidity at 2 Meters"
+        },
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "MJ/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS2M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 2 Meters"
+        },
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "longname": "Precipitation Corrected"
+        }
+      }
+    }
+  ],
+  "approx_grid_counts": {
+    "(-98.125, 20.0)": 146,
+    "(-98.75, 19.5)": 50,
+    "(-98.125, 19.5)": 1
+  },
+  "monthly_comparison_to_supplied_chirts": {
+    "Tmax": {
+      "pairs": 1379,
+      "mean_bias_c": -0.5652099627864463,
+      "mean_absolute_difference_c": 1.2482779402209148,
+      "range_c": [
+        -2.531126608079475,
+        2.2175314429498414
+      ]
+    },
+    "Tmin": {
+      "pairs": 1379,
+      "mean_bias_c": -1.2995361148087903,
+      "mean_absolute_difference_c": 1.313987639298442,
+      "range_c": [
+        -3.3683468399047847,
+        0.7912651148150047
+      ]
+    }
+  },
+  "unique_solar_series": 2
+}

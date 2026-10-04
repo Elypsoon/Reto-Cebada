@@ -1,0 +1,147 @@
+{
+  "rows": 197,
+  "training": 138,
+  "hidden": 59,
+  "crs": "EPSG:4326",
+  "invalid_geometries": 0,
+  "overlaps_gt_1m2": [],
+  "states": {
+    "count": {
+      "Hidalgo": 36,
+      "Puebla": 71,
+      "Tlaxcala": 31
+    },
+    "mean": {
+      "Hidalgo": 3.7624999999999997,
+      "Puebla": 4.477323943661972,
+      "Tlaxcala": 2.9838709677419355
+    },
+    "nunique": {
+      "Hidalgo": 21,
+      "Puebla": 54,
+      "Tlaxcala": 3
+    }
+  },
+  "satellite": {
+    "Landsat": {
+      "rows": 48626,
+      "date_min": "2022-01-05",
+      "date_max": "2025-12-31",
+      "available": {
+        "ndvi_promedio": 0,
+        "evi_promedio": 0,
+        "crc_promedio": 0,
+        "mcrc_promedio": 0,
+        "ndsvi_promedio": 0,
+        "srndi_promedio": 0,
+        "mra_promedio": 0,
+        "lai_promedio": 0,
+        "fapar_promedio": 0,
+        "savi_promedio": 0,
+        "vi6t_promedio": 31048,
+        "ndti_promedio": 0,
+        "sti_promedio": 0,
+        "ndwi_promedio": 0,
+        "endwi_promedio": 0,
+        "msi_promedio": 0,
+        "emsi_promedio": 0,
+        "dswi2_promedio": 0,
+        "dswi3_promedio": 0,
+        "dswi4_promedio": 0,
+        "dswi5_promedio": 0,
+        "nddi_promedio": 0,
+        "enddi_promedio": 0,
+        "msavi_promedio": 0
+      },
+      "cloud_missing": 3056,
+      "negative_lai": 0,
+      "inconsistent_stats": {}
+    },
+    "Planet": {
+      "rows": 47804,
+      "date_min": "2025-01-01",
+      "date_max": "2025-12-30",
+      "available": {
+        "ndvi_promedio": 35747,
+        "evi_promedio": 35747,
+        "crc_promedio": 0,
+        "mcrc_promedio": 0,
+        "ndsvi_promedio": 0,
+        "srndi_promedio": 0,
+        "mra_promedio": 0,
+        "lai_promedio": 35747,
+        "fapar_promedio": 0,
+        "savi_promedio": 0,
+        "vi6t_promedio": 0,
+        "ndti_promedio": 0,
+        "sti_promedio": 0,
+        "ndwi_promedio": 0,
+        "endwi_promedio": 0,
+        "msi_promedio": 0,
+        "emsi_promedio": 0,
+        "dswi2_promedio": 0,
+        "dswi3_promedio": 0,
+        "dswi4_promedio": 0,
+        "dswi5_promedio": 0,
+        "nddi_promedio": 0,
+        "enddi_promedio": 0,
+        "msavi_promedio": 35747
+      },
+      "cloud_missing": 0,
+      "negative_lai": 1,
+      "inconsistent_stats": {}
+    },
+    "Sentinel-2": {
+      "rows": 59040,
+      "date_min": "2022-01-01",
+      "date_max": "2025-12-31",
+      "available": {
+        "ndvi_promedio": 44877,
+        "evi_promedio": 44877,
+        "crc_promedio": 44877,
+        "mcrc_promedio": 44877,
+        "ndsvi_promedio": 44877,
+        "srndi_promedio": 44877,
+        "mra_promedio": 44877,
+        "lai_promedio": 44877,
+        "fapar_promedio": 44873,
+        "savi_promedio": 44877,
+        "vi6t_promedio": 0,
+        "ndti_promedio": 44877,
+        "sti_promedio": 44877,
+        "ndwi_promedio": 44877,
+        "endwi_promedio": 44877,
+        "msi_promedio": 44877,
+        "emsi_promedio": 44877,
+        "dswi2_promedio": 44877,
+        "dswi3_promedio": 44877,
+        "dswi4_promedio": 44877,
+        "dswi5_promedio": 44877,
+        "nddi_promedio": 44877,
+        "enddi_promedio": 44877,
+        "msavi_promedio": 0
+      },
+      "cloud_missing": 0,
+      "negative_lai": 18916,
+      "inconsistent_stats": {}
+    }
+  },
+  "units": {
+    "yield": "t/ha",
+    "area": "ha",
+    "precip": "mm/mes",
+    "temperatures": "°C; medias mensuales",
+    "elevation": "m",
+    "slope": "grados"
+  },
+  "tlaxcala_labels": {
+    "2.5": 9,
+    "3.0": 14,
+    "3.5": 8
+  },
+  "encodings": {
+    "csv": "UTF-8; fechas día/mes/año",
+    "shapefile": "UTF-8 explícito, alias ID_POLIGON",
+    "siap": "CP1252 verificado"
+  }
+}

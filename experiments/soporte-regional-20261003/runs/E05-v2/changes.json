@@ -1,0 +1,18 @@
+{
+  "hypothesis": "Ablación de sensores y conteos de adquisición",
+  "model_hashes": {
+    "official": "f48c05f0680b6e87ff1bec9840e6709327fa0f415f05e08a1eba458245762a28"
+  },
+  "control_run_id": "E00-v2",
+  "model_absent": false,
+  "previous_model_hashes": {
+    "official": "33172d9b5022659d00434cb7f541f13d33add0a7743af3739b2dae88c03877e6"
+  },
+  "_github_transport": {
+    "full_record": "changes.json.gz",
+    "original_sha256": "4a7745e825de32c964f53c9df7fa40ccc15bbcaf5db90d34f3c647ec779b9748",
+    "original_bytes": 54970524,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

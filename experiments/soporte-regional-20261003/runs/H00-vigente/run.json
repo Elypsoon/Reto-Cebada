@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "phase_id": "soporte-regional-20261003",
+  "experiment_id": "H00-vigente",
+  "run_id": "H00-vigente",
+  "control_run_id": null,
+  "parent_run_id": null,
+  "retry_of": null,
+  "hypothesis": "Antecedente verificado",
+  "status": "completed",
+  "started_at": null,
+  "finished_at": "2026-10-04T02:50:19.990960+00:00",
+  "cutoff": "2025-10-31",
+  "seed": 2026,
+  "protocol_hash": "9fe6c3bf6db817445e912e7ff69ca545bd40943ae4fb2933d363f3e1622aea6e",
+  "metrics": {
+    "selected": {
+      "principal-5": {
+        "rmse": 0.7640529246030533,
+        "mae": 0.5926849423673781,
+        "r2": 0.1883249634716917
+      }
+    },
+    "official": {
+      "principal-5": {
+        "rmse": 0.7645734286732019,
+        "mae": 0.5935091578595009,
+        "r2": 0.1872186943850468
+      }
+    }
+  },
+  "verification": {
+    "passed": true,
+    "kind": "source_hashes"
+  },
+  "decision": {
+    "activated": true,
+    "eligible": false,
+    "reason": "Antecedente; no resultado nuevo"
+  },
+  "limitations": [
+    "Desarrollo sobre las mismas 138 etiquetas; sin campaña nueva ni evaluación oficial."
+  ],
+  "data_hashes": null,
+  "code_hash": null,
+  "dependency_manifest": null,
+  "scheme_hash": null,
+  "feature_manifest": null,
+  "origin": "historical",
+  "imported_at": "2026-10-04T02:50:19.990960+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "predictions": 59,
+  "oof": 138,
+  "finite": true,
+  "same_predictions": true,
+  "metrics_reproduced": true,
+  "selected_sources": [
+    "nasa"
+  ],
+  "model_hash": "fbdadc4cebeb15bddb0cf896cca7d45d4b57e6a7fb58ef060d9ea2ef30d6e2f2"
+}

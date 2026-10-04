@@ -1,0 +1,17 @@
+
+# Entornos y archivos de trabajo locales
+node_modules/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+**/tmp/
+verification/
+.env
+.env.*
+secrets.toml
+/Reto-Cebada/
+/checkout-relocation.json
+**/workspace.origin.json
+*.restore-tmp

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-03",
+  "changed_source": "common.py",
+  "reason": "Resolver la evidencia en el cambio activo o archivado",
+  "before_code_hash": "a91a34ba578deb937449a24240d0218fc859c24bd600bbe7e3b06cb769ebb9be",
+  "after_code_hash": "ef7e66a286bc8e8986953c3453fde5d67fc2853b71812a8767c1d38a9ee7004b",
+  "retrained": false,
+  "backup": "artifacts\\versions\\archive-2026-10-03",
+  "models": {
+    "selected": {
+      "before_model_hash": "504d6d72a3c79ac13e6955b4a0573f81e9b98bc1d39e43ed9bc447c02b0fcfeb",
+      "after_model_hash": "ea6f83ae81603486a7a7b278834f9f64e6731584285b0a05facfb0e95082fae0",
+      "parcels_compared": 197,
+      "prediction_and_interval_tolerance": 1e-10
+    },
+    "official": {
+      "before_model_hash": "7e2e22feb4bc49367f478bd863f073e47d8a3e1dd5cc24d207b1a1d47b099dc4",
+      "after_model_hash": "553c540dc62599f471a5e5fd97a18d8f581b4225476d21e7089b594f0ffbf968",
+      "parcels_compared": 197,
+      "prediction_and_interval_tolerance": 1e-10
+    }
+  }
+}

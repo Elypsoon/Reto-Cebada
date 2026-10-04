@@ -1,0 +1,128 @@
+..........................................F....................F....     [100%]
+================================== FAILURES ===================================
+______________ test_registry_partial_closure_and_valid_recovery _______________
+
+tmp_path = WindowsPath('C:/Users/leonf/OneDrive/Documentos/Hack Cebada 2026/experiments/soporte-regional-20261003/tmp/test-a4a062822f8a449c803afc3878981175')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x0000021B4BC605C0>
+
+    def test_registry_partial_closure_and_valid_recovery(tmp_path,monkeypatch):
+        from agrocebada import tracking
+>       reg=Registry(tmp_path);folder=reg.create('E1',{},run_id='a');reg.transition('a','running')
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_phase.py:110: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\agrocebada\tracking.py:93: in transition
+    atomic_json(path,state);self.event(run_id,status,reason);self.publish()
+                                                             ^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <agrocebada.tracking.Registry object at 0x0000021B4BC63B00>
+
+    def publish(self):
+        rows=[]
+        for folder in sorted((self.root/'runs').iterdir()):
+            if not (folder/'run.json').exists():continue
+            state=read(folder/'run.json');status=state['status']
+            if status in ['completed','failed','skipped'] and state.get('origin')!='historical':
+                if not check_manifest(folder/'artifacts',read(folder/'artifact-manifest.json')):status='integrity_error'
+            metrics=state.get('metrics') or {}
+            if not metrics:rows.append({'run_id':folder.name,'experiment':state['experiment_id'],'status':status,'route':None,'scheme':None,'rmse':None,'mae':None,'bias':None,'control_delta_rmse':None,'reason':state.get('reason')})
+            for route,schemes in metrics.items():
+                for scheme,values in schemes.items():rows.append({'run_id':folder.name,'experiment':state['experiment_id'],'status':status,'route':route,'scheme':scheme,**values})
+        frame=pd.DataFrame(rows)
+>       temp=self.folder/'summary.csv.tmp';frame.to_csv(temp,index=False);os.replace(temp,self.folder/'summary.csv')
+                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\tmp\\test-a4a062822f8a449c803afc3878981175\\registry\\summary.csv.tmp' -> 'C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\tmp\\test-a4a062822f8a449c803afc3878981175\\registry\\summary.csv'
+
+src\agrocebada\tracking.py:151: PermissionError
+___________ test_interval_disabled_when_principal_coverage_below_85 ___________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x0000021B4297C380>
+tmp_path = WindowsPath('C:/Users/leonf/OneDrive/Documentos/Hack Cebada 2026/experiments/soporte-regional-20261003/tmp/test-883abb193eb1421fa9c5f33ab683d245')
+
+    def test_interval_disabled_when_principal_coverage_below_85(monkeypatch,tmp_path):
+        """Ejecuta el flujo de exportaci�n con evaluaci�n controlada, conservando fit real."""
+        real_artifacts=ARTIFACTS;receipt=json.loads((real_artifacts/'freeze-receipt.json').read_text(encoding='utf-8'))
+        for name in ['oof-principal-5.csv','selected-features-principal-5.csv','schemes.csv']:shutil.copy2(real_artifacts/name,tmp_path/name)
+        monkeypatch.setattr(r,'ARTIFACTS',tmp_path);monkeypatch.setattr(r,'freeze',lambda:receipt)
+        monkeypatch.setattr(r,'active_intact',lambda:True);monkeypatch.setattr(r,'diagnostics',lambda *args:None);monkeypatch.setattr(r,'audit_originals',lambda *args:None)
+        controlled=mock_reports()
+        for report in controlled.values():report.update(interval={'nominal':.9,'n':138,'valid_n':138,'coverage':.84,'mean_width':2.,'by_state':{}},folds=[],by_area={})
+        monkeypatch.setattr(r,'evaluate',lambda name,*args:controlled[name]);monkeypatch.setattr(r,'stress',lambda *args:[])
+        selection={'candidates':[m.Candidate('monthly_20_10','regional_mean',0)],'weights':np.ones(1),'decisions':[],'strategy':'individual','inner_rmse':1.,'scores':[],'_raw_scores':[]}
+        monkeypatch.setattr(m,'select',lambda *args,**kwargs:selection)
+        monkeypatch.setattr(m,'calibrate',lambda *args:{'calibration_n':25,'radius':1.,'selection':selection})
+        saved=[];monkeypatch.setattr(r,'save_bundle',lambda name,s,model,interval,*args:saved.append((name,interval)))
+>       r.run();assert saved==[('selected',None),('official',None)]
+        ^^^^^^^
+
+tests\test_robust.py:168: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+official_only = False
+
+    def run(official_only=False):
+        started=time.perf_counter();receipt=freeze();master=gpd.read_parquet(PROCESSED/'parcels.parquet');validate_population(master)
+>       if not all(v['valid'] for v in receipt['validity'].values()):
+                                       ^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'validity'
+
+src\agrocebada\robust.py:256: KeyError
+============================== warnings summary ===============================
+tests/test_phase.py: 41 warnings
+  C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\.venv\Lib\site-packages\sklearn\gaussian_process\kernels.py:445: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified lower bound 0.3. Decreasing the bound and calling fit again may find a better value.
+    warnings.warn(
+
+tests/test_phase.py: 56 warnings
+  C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\.venv\Lib\site-packages\sklearn\gaussian_process\kernels.py:445: ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 0.01. Decreasing the bound and calling fit again may find a better value.
+    warnings.warn(
+
+tests/test_spatial.py::test_small_parcel_without_pixel_centers
+tests/test_spatial.py::test_small_parcel_without_pixel_centers
+  C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\src\agrocebada\spatial.py:29: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+    x0,y0=src.transform*(c0+cc,r0+rr)
+
+tests/test_spatial.py::test_small_parcel_without_pixel_centers
+tests/test_spatial.py::test_small_parcel_without_pixel_centers
+  C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\src\agrocebada\spatial.py:30: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+    x1,y1=src.transform*(c0+cc+1,r0+rr+1)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_phase.py::test_registry_partial_closure_and_valid_recovery
+FAILED tests/test_robust.py::test_interval_disabled_when_principal_coverage_below_85
+2 failed, 66 passed, 101 warnings in 139.22s (0:02:19)
+
+Traceback (most recent call last):
+  File "<frozen os>", line 366, in walk
+PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\leonf\\AppData\\Local\\Temp\\tmpvnoup8bc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 939, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 623, in _rmtree_unsafe
+    for dirpath, dirnames, filenames in results:
+                                        ^^^^^^^
+  File "<frozen os>", line 369, in walk
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 621, in onerror
+    onexc(os.scandir, err.filename, err)
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\leonf\\AppData\\Local\\Temp\\tmpvnoup8bc'

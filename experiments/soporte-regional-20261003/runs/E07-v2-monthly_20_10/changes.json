@@ -1,0 +1,158 @@
+{
+  "model_absent": true,
+  "reason": "CalledProcessError(1, ['C:\\\\Users\\\\leonf\\\\OneDrive\\\\Documentos\\\\Hack Cebada 2026\\\\experiments\\\\soporte-regional-20261003\\\\optional\\\\tabpfn-2.5\\\\env\\\\Scripts\\\\python.exe', '-m', 'agrocebada.optional', 'verify', 'monthly_20_10', 'C:\\\\Users\\\\leonf\\\\OneDrive\\\\Documentos\\\\Hack Cebada 2026\\\\experiments\\\\soporte-regional-20261003\\\\runs\\\\E07-v2-monthly_20_10\\\\artifacts'])",
+  "procedure": {
+    "experiment": "E07",
+    "hypothesis": "Candidato TabPFN-2.5",
+    "keys": [
+      "monthly_20_10"
+    ],
+    "candidates": [],
+    "routes": [
+      "official"
+    ],
+    "schemes": [
+      "principal-5",
+      "balanceado-4",
+      "rotado-45-5"
+    ],
+    "support": "none",
+    "centered": false,
+    "seed": 2026,
+    "cutoff": "2025-10-31",
+    "data_hashes": {
+      "parcels.parquet": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+      "satellite.parquet": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9",
+      "source-manifest.json": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+    },
+    "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+    "dependency_manifest": {
+      "python": "3.12.14",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scikit-learn": "1.9.1",
+      "geopandas": "1.2.0",
+      "rasterio": "1.5.2",
+      "catboost": "1.2.10",
+      "streamlit": "1.65.0"
+    },
+    "scheme_hash": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334",
+    "feature_manifest": {
+      "monthly_20_10": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa",
+      "whittaker_20_10": "8cc323e05a5e0e7483faf4a8532552985d8d0c836c0e5b9b03eb7f3b0cbc564d"
+    },
+    "admission": {
+      "rmse_ratio": 0.98,
+      "better_folds": 2,
+      "state_n": 10,
+      "state_mae_ratio": 1.1
+    },
+    "optional": true,
+    "combined": null,
+    "external_manifest": {},
+    "population": {
+      "total": 197,
+      "labeled": 138,
+      "hidden": 59
+    },
+    "ensembles": [
+      [
+        "gpr",
+        "catboost"
+      ],
+      [
+        "regional_mean",
+        "gpr"
+      ],
+      [
+        "regional_mean",
+        "catboost"
+      ],
+      [
+        "regional_mean",
+        "gpr",
+        "catboost"
+      ]
+    ],
+    "external_ablations": [],
+    "promotion": {
+      "principal_ratio": 0.98,
+      "min_improved_schemes": 2,
+      "mean_ratio": 0.98,
+      "max_ratio": 1.05,
+      "state_mae_ratio": 1.1,
+      "all_schemes_valid": true,
+      "verification_required": true
+    },
+    "interval": {
+      "nominal": 0.9,
+      "min_calibration": 25,
+      "min_principal_coverage": 0.85
+    },
+    "grid": [],
+    "mandatory": false,
+    "max_candidates": 160,
+    "optional_preflight": {
+      "available": true,
+      "reason": null,
+      "versions": {
+        "tabpfn": "6.4.1",
+        "torch": "2.8.0+cpu",
+        "numpy": "2.5.3",
+        "pandas": "2.3.3",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1"
+      },
+      "checkpoint": {
+        "repository": "https://huggingface.co/Prior-Labs/tabpfn_2_5",
+        "revision": "6c45f3a6d0d07c6c5f62572e04a0c2929de91b8b",
+        "checkpoint": "tabpfn-v2.5-regressor-v2.5_default.ckpt",
+        "sha256": "6e0308b7e5f3a8325b798b96d986b2b282c3608b1cda6e2991425a2a261d40b8",
+        "bytes": 40831995,
+        "license_file": "LICENSE",
+        "license_sha256": "ac1d23429431a622b91c73db741868e69a0140d401ebb20b9e869a835e036e28",
+        "model_version": "2.5",
+        "synthetic_pretraining": true,
+        "purpose": "evaluación local experimental; sin entrega comercial ni activación",
+        "parameters": {
+          "device": "cpu",
+          "n_estimators": 8,
+          "random_state": 2026,
+          "fit_mode": "fit_preprocessors",
+          "n_preprocessing_jobs": 1
+        },
+        "sources": [
+          "https://huggingface.co/Prior-Labs/tabpfn_2_5",
+          "https://arxiv.org/abs/2511.08667"
+        ]
+      },
+      "device": "cpu",
+      "threads": 2,
+      "smoke_seconds": 7.304478500038385,
+      "smoke_rss_mb": 487.97265625,
+      "available_memory_mb": 2975.13671875,
+      "no_active_dependencies_changed": true,
+      "requirements_lock_hash": "a537d98cbe91fc11f4a02bb467090ca4c4dcc64617b57bb911b2b3db5abe495b",
+      "effective_parameters": {
+        "average_before_softmax": "False",
+        "categorical_features_indices": "None",
+        "device": "'cpu'",
+        "differentiable_input": "False",
+        "fit_mode": "'fit_preprocessors'",
+        "ignore_pretraining_limits": "False",
+        "inference_config": "None",
+        "inference_precision": "'auto'",
+        "memory_saving_mode": "'auto'",
+        "model_path": "WindowsPath('C:/Users/leonf/OneDrive/Documentos/Hack Cebada 2026/experiments/soporte-regional-20261003/optional/tabpfn-2.5/tabpfn-v2.5-regressor-v2.5_default.ckpt')",
+        "n_estimators": "8",
+        "n_jobs": "None",
+        "n_preprocessing_jobs": "1",
+        "random_state": "2026",
+        "softmax_temperature": "0.9"
+      }
+    },
+    "revision": 2,
+    "revision_reason": "Defecto de construcción geométrica detectado por tamaños, antes de comparar variantes: intraestado-3 produjo 68/35/35 y train mínimo70; se reemplaza por tres cortes iguales sobre el eje geométrico de mayor extensión, con desempate por ID; E08 y los tres esquemas históricos no cambian.",
+    "optional_config": "monthly_20_10"
+  }
+}

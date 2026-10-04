@@ -1,0 +1,9 @@
+{
+  "_github_transport": {
+    "full_record": "stress.json.gz",
+    "original_sha256": "0e06381af2b46d366db0e24d88531147f491122d5ab323e8072f7d3a9e5098a3",
+    "original_bytes": 10932863,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

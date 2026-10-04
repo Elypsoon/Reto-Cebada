@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "counts": {
+    "passed": 66,
+    "failed": 2,
+    "skipped": 0,
+    "errors": 0
+  },
+  "run_id": "E08-v2",
+  "immutable_training_artifacts": true,
+  "test_artifact_copy": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\tmp\\integration-f2ae4fff44484dd5b6a9b7d5b0c3bf09",
+  "log": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\registry\\test-suite.log"
+}

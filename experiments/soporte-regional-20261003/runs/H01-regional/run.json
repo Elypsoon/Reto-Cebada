@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "phase_id": "soporte-regional-20261003",
+  "experiment_id": "H01-regional",
+  "run_id": "H01-regional",
+  "control_run_id": null,
+  "parent_run_id": null,
+  "retry_of": null,
+  "hypothesis": "Antecedente verificado",
+  "status": "completed",
+  "started_at": null,
+  "finished_at": "2026-10-04T02:50:20.089605+00:00",
+  "cutoff": "2025-10-31",
+  "seed": 2026,
+  "protocol_hash": "512188661e3ae37360292f0e8606fe2ea2003a006125aef0eeb90acb40530565",
+  "metrics": {
+    "selected": {
+      "principal-5": {
+        "rmse": 0.7494578260600603,
+        "mae": 0.5965526073254858,
+        "r2": 0.2190383599522182
+      },
+      "balanceado-4": {
+        "rmse": 0.7694358644633517,
+        "mae": 0.6031652188614002,
+        "r2": 0.17684777700757648
+      },
+      "rotado-45-5": {
+        "rmse": 0.7491686842596543,
+        "mae": 0.5920948746039706,
+        "r2": 0.21964083573715354
+      }
+    },
+    "official": {
+      "principal-5": {
+        "rmse": 0.7563458295694481,
+        "mae": 0.6031691463832337,
+        "r2": 0.20461730568193015
+      },
+      "balanceado-4": {
+        "rmse": 0.7643894761566522,
+        "mae": 0.5999470955520225,
+        "r2": 0.18760974951437404
+      },
+      "rotado-45-5": {
+        "rmse": 0.7491686842596543,
+        "mae": 0.5920948746039706,
+        "r2": 0.21964083573715354
+      }
+    }
+  },
+  "verification": {
+    "passed": true,
+    "kind": "source_hashes"
+  },
+  "decision": {
+    "activated": false,
+    "eligible": false,
+    "reason": "Antecedente; no resultado nuevo"
+  },
+  "limitations": [
+    "Desarrollo sobre las mismas 138 etiquetas; sin campaña nueva ni evaluación oficial."
+  ],
+  "data_hashes": null,
+  "code_hash": null,
+  "dependency_manifest": null,
+  "scheme_hash": null,
+  "feature_manifest": null,
+  "origin": "historical",
+  "imported_at": "2026-10-04T02:50:20.089605+00:00"
+}

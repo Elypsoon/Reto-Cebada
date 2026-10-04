@@ -1,0 +1,13 @@
+{
+  "revision": 3,
+  "reason": "CSV de float32 redondeó hasta 2.2082519546273716e-7; predicciones reconstruidas idénticas al convertir el CSV a float32. Se exporta float64 con 17 dígitos, sin modificar modelo, parámetros, tablas ni particiones. Nuevos IDs y código separado.",
+  "no_model_selection_change": true,
+  "adapter_code_hash": "7a6111108c4fa45795f96ecefc7115b3a04c54304e7063b2543d56c3481590f7",
+  "adapter_manifest_hash": "08f357ba8b34f62834bed167be0f31fe8e84c7d60db073db1a451d64c74ddad0",
+  "base_catalog_hash": "08d2ba7fb62c17510554d7ea773e54bf5b2ec0b4062d946d9eeba83a1e2addc5",
+  "runs": {
+    "E07-v3": "1bc68887084186e1da3b01a8a71396e1bdee68dd7ffada4e50d9dccf654bb874",
+    "E07-v3-monthly_20_10": "361017775668e7b26ec92d21aa6918a21e916045940d87d369562e1c8f2f74fa",
+    "E07-v3-whittaker_20_10": "c1628a65104ca59de8d000d47a44f4bca765e1bdd74f6fa80e5c4752283c5afd"
+  }
+}

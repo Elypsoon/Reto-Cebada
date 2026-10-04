@@ -1,0 +1,33 @@
+{
+  "global": {
+    "nominal": 0.9,
+    "coverage": 0.9202898550724637,
+    "available": true,
+    "mean_width": 2.935260466589146,
+    "calibration_min": 25,
+    "limitation": "Dependencia espacial; cobertura empírica, sin garantía por estado o año futuro; centro de modelo separado de calibración"
+  },
+  "by_state": [
+    {
+      "estado": "Hidalgo",
+      "n": 36,
+      "valid": 36,
+      "coverage": 0.8055555555555556,
+      "mean_width": 3.0061137704173038
+    },
+    {
+      "estado": "Puebla",
+      "n": 71,
+      "valid": 71,
+      "coverage": 0.9436619718309859,
+      "mean_width": 2.2327218086561675
+    },
+    {
+      "estado": "Tlaxcala",
+      "n": 31,
+      "valid": 31,
+      "coverage": 1.0,
+      "mean_width": 4.4620193625706905
+    }
+  ]
+}

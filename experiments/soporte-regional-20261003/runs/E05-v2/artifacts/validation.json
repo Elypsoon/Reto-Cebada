@@ -1,0 +1,41 @@
+{
+  "metrics": {
+    "selected": {
+      "rmse": 0.7335622643079467,
+      "mae": 0.5833907199483909,
+      "r2": 0.2518145311486585
+    },
+    "official": {
+      "rmse": 0.7335622643079467,
+      "mae": 0.5833907199483909,
+      "r2": 0.2518145311486585
+    },
+    "global_mean": {
+      "rmse": 0.9929950930147986,
+      "mae": 0.885302482751397,
+      "r2": -0.37097491706506514
+    },
+    "regional_mean": {
+      "rmse": 0.7439756768844785,
+      "mae": 0.5697312198651008,
+      "r2": 0.2304217611706254
+    },
+    "gpr": {
+      "rmse": 0.6963241213847138,
+      "mae": 0.5337922953706519,
+      "r2": 0.3258474461795249
+    },
+    "catboost": {
+      "rmse": 0.7361408030643725,
+      "mae": 0.5859277056774354,
+      "r2": 0.24654540533773517
+    }
+  },
+  "_github_transport": {
+    "full_record": "validation.json.gz",
+    "original_sha256": "e56142221631acc41600bc5164c3d952c2226d56018b3836b9bfa3ff12809c10",
+    "original_bytes": 38549099,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

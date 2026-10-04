@@ -1,0 +1,40 @@
+{
+  "policy_hash": "71353aead0fc1dd2a87e01444fb34f349ad4f9736d0e65afcd68fa638c94c099",
+  "scheme_hash": "b988b4e089c298c1442808b1aa549251448a17dbcbba0437f120cfb6f98b23c0",
+  "data_hash": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+  "validity": {
+    "principal-5": {
+      "valid": true,
+      "counts": {
+        "0": 34,
+        "1": 34,
+        "2": 35,
+        "3": 17,
+        "4": 18
+      },
+      "minimum_train": 103
+    },
+    "balanceado-4": {
+      "valid": true,
+      "counts": {
+        "0": 34,
+        "1": 35,
+        "2": 34,
+        "3": 35
+      },
+      "minimum_train": 103
+    },
+    "rotado-45-5": {
+      "valid": true,
+      "counts": {
+        "0": 34,
+        "1": 34,
+        "2": 35,
+        "3": 17,
+        "4": 18
+      },
+      "minimum_train": 103
+    }
+  },
+  "frozen_before_first_fit": true
+}

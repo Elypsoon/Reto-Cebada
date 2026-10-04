@@ -1,0 +1,123 @@
+{
+  "missing_s2_peak_labeled": 88,
+  "state_counts": {
+    "Puebla": 71,
+    "Hidalgo": 36,
+    "Tlaxcala": 31
+  },
+  "diagnostics": {
+    "principal-5": {
+      "tlaxcala_bias": 0.7039263070859999,
+      "source_hash": "16b103a6bf35895a1bfe4d8b8d5000ccf013c96f77384566edf6fcba1998ca25",
+      "train_counts_by_fold": {
+        "0": {
+          "Puebla": 71,
+          "Hidalgo": 32,
+          "Tlaxcala": 1
+        },
+        "1": {
+          "Puebla": 58,
+          "Tlaxcala": 31,
+          "Hidalgo": 15
+        },
+        "2": {
+          "Puebla": 36,
+          "Hidalgo": 36,
+          "Tlaxcala": 31
+        },
+        "3": {
+          "Puebla": 66,
+          "Tlaxcala": 30,
+          "Hidalgo": 25
+        },
+        "4": {
+          "Puebla": 53,
+          "Hidalgo": 36,
+          "Tlaxcala": 31
+        }
+      }
+    },
+    "balanceado-4": {
+      "tlaxcala_bias": 0.7031949241244357,
+      "source_hash": "e0ed72485e0cb7f27125d3a04c5f6eca8e309a72e8609749d20c6646ba69ba28",
+      "train_counts_by_fold": {
+        "0": {
+          "Puebla": 71,
+          "Hidalgo": 32,
+          "Tlaxcala": 1
+        },
+        "1": {
+          "Puebla": 48,
+          "Tlaxcala": 30,
+          "Hidalgo": 25
+        },
+        "2": {
+          "Puebla": 58,
+          "Tlaxcala": 31,
+          "Hidalgo": 15
+        },
+        "3": {
+          "Puebla": 36,
+          "Hidalgo": 36,
+          "Tlaxcala": 31
+        }
+      }
+    },
+    "rotado-45-5": {
+      "tlaxcala_bias": 0.849602609719385,
+      "source_hash": "7de734bbcca93d2c3a1490b2d330dc08a2e3c1e33c813392b24384bcdb87f1c8",
+      "train_counts_by_fold": {
+        "0": {
+          "Puebla": 71,
+          "Hidalgo": 33
+        },
+        "1": {
+          "Puebla": 37,
+          "Hidalgo": 36,
+          "Tlaxcala": 31
+        },
+        "2": {
+          "Puebla": 41,
+          "Tlaxcala": 31,
+          "Hidalgo": 31
+        },
+        "3": {
+          "Puebla": 71,
+          "Tlaxcala": 31,
+          "Hidalgo": 19
+        },
+        "4": {
+          "Puebla": 64,
+          "Tlaxcala": 31,
+          "Hidalgo": 25
+        }
+      }
+    }
+  },
+  "future_data": [
+    {
+      "priority": 1,
+      "data": "Rendimientos parcelarios de una nueva campaña, medidos y con unidades/área verificadas",
+      "purpose": "Confirmar generalización temporal en etiquetas no utilizadas para desarrollar la política",
+      "availability": "pendiente de obtención y verificación"
+    },
+    {
+      "priority": 2,
+      "data": "Fechas de siembra/cosecha, variedad, riego, fertilización y manejo por parcela",
+      "purpose": "Explicar variación parcelaria y alinear ventanas fenológicas",
+      "availability": "pendiente de obtención y verificación"
+    },
+    {
+      "priority": 3,
+      "data": "Protocolo de medición, humedad/calidad de cosecha y fuente del rendimiento",
+      "purpose": "Resolver cuantización y discrepancias con evidencia primaria",
+      "availability": "pendiente de obtención y verificación"
+    },
+    {
+      "priority": 4,
+      "data": "Más etiquetas verificadas de Hidalgo y municipios con pocos casos",
+      "purpose": "Evaluar cobertura y errores regionales con mayor soporte",
+      "availability": "pendiente de obtención y verificación"
+    }
+  ]
+}

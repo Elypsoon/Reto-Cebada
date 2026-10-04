@@ -1,0 +1,181 @@
+{
+  "files": [
+    {
+      "file": "siap_municipal_2018.csv",
+      "encoding": "cp1252",
+      "total_rows": 36637,
+      "crop_names": [
+        "Cebada grano"
+      ],
+      "year_values": [
+        2018
+      ],
+      "selected_rows_name_only": 9,
+      "selected_rows_verified_state_municipality": 9
+    },
+    {
+      "file": "siap_municipal_2019.csv",
+      "encoding": "cp1252",
+      "total_rows": 36695,
+      "crop_names": [
+        "Cebada grano"
+      ],
+      "year_values": [
+        2019
+      ],
+      "selected_rows_name_only": 10,
+      "selected_rows_verified_state_municipality": 9
+    },
+    {
+      "file": "siap_municipal_2020.csv",
+      "encoding": "cp1252",
+      "total_rows": 28661,
+      "crop_names": [
+        "Cebada grano"
+      ],
+      "year_values": [
+        2020
+      ],
+      "selected_rows_name_only": 10,
+      "selected_rows_verified_state_municipality": 9
+    },
+    {
+      "file": "siap_municipal_2021.csv",
+      "encoding": "cp1252",
+      "total_rows": 28741,
+      "crop_names": [
+        "Cebada grano"
+      ],
+      "year_values": [
+        2021
+      ],
+      "selected_rows_name_only": 10,
+      "selected_rows_verified_state_municipality": 9
+    },
+    {
+      "file": "siap_municipal_2022.csv",
+      "encoding": "cp1252",
+      "total_rows": 37555,
+      "crop_names": [
+        "Cebada grano"
+      ],
+      "year_values": [
+        2022
+      ],
+      "selected_rows_name_only": 10,
+      "selected_rows_verified_state_municipality": 9
+    },
+    {
+      "file": "siap_municipal_2023.csv",
+      "encoding": "cp1252",
+      "total_rows": 38696,
+      "crop_names": [
+        "Cebada grano"
+      ],
+      "year_values": [
+        2023
+      ],
+      "selected_rows_name_only": 10,
+      "selected_rows_verified_state_municipality": 9
+    },
+    {
+      "file": "siap_municipal_2024.csv",
+      "encoding": "cp1252",
+      "total_rows": 36992,
+      "crop_names": [
+        "Cebada grano"
+      ],
+      "year_values": [
+        2024
+      ],
+      "selected_rows_name_only": 10,
+      "selected_rows_verified_state_municipality": 9
+    }
+  ],
+  "selected_rows": 63,
+  "municipality_years": 63,
+  "missing_yield": 0,
+  "units": [
+    "Tonelada"
+  ],
+  "filter": {
+    "crop": "Cebada grano",
+    "mode": "Temporal",
+    "cycle": "Primavera-Verano",
+    "years": "2018-2024",
+    "join_keys": "Idestado + Idmunicipio; exact verified Estado/Municipio pairs for initial screening"
+  },
+  "aggregation": "sum(Volumenproduccion)/sum(Cosechada), not mean(Rendimiento)",
+  "historical_yield_by_municipality": [
+    {
+      "Nomestado": "Hidalgo",
+      "Nommunicipio": "Almoloya",
+      "min": 2.19,
+      "max": 2.779999822228543,
+      "mean": 2.447142920823485
+    },
+    {
+      "Nomestado": "Hidalgo",
+      "Nommunicipio": "Apan",
+      "min": 2.0,
+      "max": 2.7060793986375384,
+      "mean": 2.383725701717521
+    },
+    {
+      "Nomestado": "Hidalgo",
+      "Nommunicipio": "Cuautepec de Hinojosa",
+      "min": 1.965629652674385,
+      "max": 3.4003390844719257,
+      "mean": 2.590852675931252
+    },
+    {
+      "Nomestado": "Hidalgo",
+      "Nommunicipio": "Emiliano Zapata",
+      "min": 1.9,
+      "max": 2.5,
+      "mean": 2.224285231678284
+    },
+    {
+      "Nomestado": "Hidalgo",
+      "Nommunicipio": "Singuilucan",
+      "min": 2.0,
+      "max": 3.450248290752069,
+      "mean": 2.5680346662162257
+    },
+    {
+      "Nomestado": "Hidalgo",
+      "Nommunicipio": "Tepeapulco",
+      "min": 1.9,
+      "max": 2.4000000000000004,
+      "mean": 2.1442855788346167
+    },
+    {
+      "Nomestado": "Puebla",
+      "Nommunicipio": "Chignahuapan",
+      "min": 2.65,
+      "max": 3.45,
+      "mean": 2.964285557866106
+    },
+    {
+      "Nomestado": "Tlaxcala",
+      "Nommunicipio": "Calpulalpan",
+      "min": 2.48,
+      "max": 2.799984858808388,
+      "mean": 2.598569265544055
+    },
+    {
+      "Nomestado": "Tlaxcala",
+      "Nommunicipio": "Nanacamilpa de Mariano Arista",
+      "min": 2.38,
+      "max": 2.699977543229284,
+      "mean": 2.498568220461326
+    }
+  ],
+  "subset_sha256": "a3a6b04dab0c700a2941ad9e277518e9ed932d1b2f965b30e938418e6aaec954",
+  "excluded_same_named_municipality": {
+    "state": "Tlaxcala",
+    "municipality": "Emiliano Zapata",
+    "rows": 6,
+    "reason": "The project parcel is in Hidalgo"
+  }
+}
