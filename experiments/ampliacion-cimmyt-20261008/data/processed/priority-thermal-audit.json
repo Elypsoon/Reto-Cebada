@@ -1,0 +1,108 @@
+{
+  "start": "2025-04-01",
+  "cutoff": "2025-10-31",
+  "base_C": 0,
+  "cap_C": 26,
+  "origin": "G(t)-G(2025-04-01)",
+  "units": "grado-día",
+  "interpretation": "Contexto regional desde origen convencional; siembra no observada.",
+  "mapping_source_sha256": "10f3523910aa349182b1f7392395c2487978ec6e567d92b426ff53afc10b3e8e",
+  "daily_sources": {
+    "nasa_power_19.5_-98.125_20250401_20251031.json": "69bfe2e143c581cf01b830071500a5f640f9b83d71b1a2ca2c58f43f69e67875",
+    "nasa_power_19.5_-98.75_20250401_20251031.json": "1e0a9a361fbbbf1a646072774468c7a6b18d112932eb2d2363e8c90990366fdb",
+    "nasa_power_20.0_-98.125_20250401_20251031.json": "27c89259f764247a3ebd9402c1c1ff2a85f7afa2e677712a1ffe8d13a88e6b17",
+    "nasa_power_20.0_-98.75_20250401_20251031.json": "b184956e4f920303357ab901fa6cbf364ba59384f9230e0c4be5a6a14369a6e4"
+  },
+  "native_cells": 4,
+  "cells_used": [
+    {
+      "longitude": -98.75,
+      "latitude": 19.5,
+      "parcels": 50
+    },
+    {
+      "longitude": -98.125,
+      "latitude": 19.5,
+      "parcels": 1
+    },
+    {
+      "longitude": -98.125,
+      "latitude": 20.0,
+      "parcels": 146
+    }
+  ],
+  "original_audit": [
+    {
+      "file": "nasa_power_19.5_-98.125_20250401_20251031.json",
+      "days": 214,
+      "minimum_coverage": 1.0,
+      "status": "candidato regional",
+      "time": "LST",
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "T2MDEW": "C",
+        "RH2M": "%",
+        "ALLSKY_SFC_SW_DWN": "MJ/m^2/day",
+        "WS2M": "m/s",
+        "PS": "kPa",
+        "PRECTOTCORR": "mm/day"
+      }
+    },
+    {
+      "file": "nasa_power_19.5_-98.75_20250401_20251031.json",
+      "days": 214,
+      "minimum_coverage": 1.0,
+      "status": "candidato regional",
+      "time": "LST",
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "T2MDEW": "C",
+        "RH2M": "%",
+        "ALLSKY_SFC_SW_DWN": "MJ/m^2/day",
+        "WS2M": "m/s",
+        "PS": "kPa",
+        "PRECTOTCORR": "mm/day"
+      }
+    },
+    {
+      "file": "nasa_power_20.0_-98.125_20250401_20251031.json",
+      "days": 214,
+      "minimum_coverage": 1.0,
+      "status": "candidato regional",
+      "time": "LST",
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "T2MDEW": "C",
+        "RH2M": "%",
+        "ALLSKY_SFC_SW_DWN": "MJ/m^2/day",
+        "WS2M": "m/s",
+        "PS": "kPa",
+        "PRECTOTCORR": "mm/day"
+      }
+    },
+    {
+      "file": "nasa_power_20.0_-98.75_20250401_20251031.json",
+      "days": 214,
+      "minimum_coverage": 1.0,
+      "status": "candidato regional",
+      "time": "LST",
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "T2MDEW": "C",
+        "RH2M": "%",
+        "ALLSKY_SFC_SW_DWN": "MJ/m^2/day",
+        "WS2M": "m/s",
+        "PS": "kPa",
+        "PRECTOTCORR": "mm/day"
+      }
+    }
+  ]
+}

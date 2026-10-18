@@ -1,0 +1,105 @@
+{
+  "at": "2026-10-14T00:22:21.190742+00:00",
+  "passed": true,
+  "synthetic": true,
+  "real_labels_used": false,
+  "root": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\senal-clima-20261013\\tmp\\preflight-2026-10-14T002125.9699850000",
+  "runs": {
+    "F00": {
+      "proof": {
+        "at": "2026-10-14T00:21:41.396567+00:00",
+        "passed": true,
+        "offline": true,
+        "n_hidden": 59,
+        "metrics_recalculated": true,
+        "batch_single_invariant": true
+      },
+      "train_resources": {
+        "at": "2026-10-14T00:21:37.850835+00:00",
+        "exit_code": 0,
+        "seconds": 5.533298099995591,
+        "peak_tree_rss_bytes": 199139328,
+        "reason": null,
+        "memory_limit_bytes": 6442450944,
+        "time_limit_seconds": 21600,
+        "includes_children": true,
+        "threads": 2
+      },
+      "verify_resources": {
+        "at": "2026-10-14T00:21:41.650461+00:00",
+        "exit_code": 0,
+        "seconds": 3.777040799963288,
+        "peak_tree_rss_bytes": 198332416,
+        "reason": null,
+        "memory_limit_bytes": 6442450944,
+        "time_limit_seconds": 21594.466701900004,
+        "includes_children": true,
+        "threads": 2
+      }
+    },
+    "F04": {
+      "proof": {
+        "at": "2026-10-14T00:22:20.648566+00:00",
+        "passed": true,
+        "offline": true,
+        "n_hidden": 59,
+        "metrics_recalculated": true,
+        "batch_single_invariant": true
+      },
+      "train_resources": {
+        "at": "2026-10-14T00:22:16.978392+00:00",
+        "exit_code": 0,
+        "seconds": 32.39375829999335,
+        "peak_tree_rss_bytes": 199233536,
+        "reason": null,
+        "memory_limit_bytes": 6442450944,
+        "time_limit_seconds": 21600,
+        "includes_children": true,
+        "threads": 2
+      },
+      "verify_resources": {
+        "at": "2026-10-14T00:22:21.015905+00:00",
+        "exit_code": 0,
+        "seconds": 4.0252659999532625,
+        "peak_tree_rss_bytes": 198279168,
+        "reason": null,
+        "memory_limit_bytes": 6442450944,
+        "time_limit_seconds": 21567.606241700007,
+        "includes_children": true,
+        "threads": 2
+      }
+    }
+  },
+  "unique_candidates_max": 82,
+  "expected_fit_upper_bound_all_viable": {
+    "F00": 1041,
+    "F01": 1953,
+    "F02": 1953,
+    "F03": 1953,
+    "F04": 2865,
+    "F05": 4689
+  },
+  "all_viable_total": 14454,
+  "method": "sum outer k*(k-1)*c plus outer k; final 5*c+1; k=5,4,5, before failures",
+  "limits": {
+    "run_seconds": 21600,
+    "tree_memory_bytes": 6442450944,
+    "threads": 2
+  },
+  "production_frozen": false,
+  "code_hashes": {
+    "src\\signalclima\\acquisition.py": "1ca20eef8fa4d2b5d604dddb7ff9cbfa4cef9e80724a081862cdb89803366bff",
+    "src\\signalclima\\agronomic.py": "eabfefca8c9ea700ae5ab0a73450dad1697e36042072c2a3f52984ac90631787",
+    "src\\signalclima\\common.py": "35c6ecded32a746023029d1a20847779536f3f7895941df45ab32f4a0ba7da0f",
+    "src\\signalclima\\features.py": "90a26c82120cd223809f3c8403888ff32e9e4cbdb4d2055b218e9805fc6a2c10",
+    "src\\signalclima\\modeling.py": "4bf077b030887c192019b4144465a692ebebe8260e78f148885c3402b3133411",
+    "src\\signalclima\\rangefile.py": "7b55ffa6042826e42993c7c744a5a9484e9a3d99cfb93fc2a1d66640b4833685",
+    "src\\signalclima\\raster.py": "e0b747ede27e8082579b7447b2c04e4548beb6213170da682396e1d644c6e4d3",
+    "src\\signalclima\\registry.py": "8b138769e0c773b3fe7d7bba0c8e81abf035fd7c0cd3a46ea2834a2b8198b884",
+    "src\\signalclima\\resources.py": "a018eabcb6018d561d192fc16b3c9e713b98a35283fde9f2f43cd279d4d97363",
+    "src\\signalclima\\run.py": "b209c5c31896ca5101d88f34bc14109f91481762cb9709ee831de02209a6e1a2",
+    "src\\signalclima\\validation.py": "3f769b34bdf6b6d38615236412c9f05065698916b5b8d0546977d9c2537cf152",
+    "src\\signalclima\\weather.py": "0616ca4b24449775b77251fb38668988819d03b0988e5db7c8eb23ad476de7a0",
+    "src\\signalclima\\__init__.py": "78d484c83b7b91860c1f53f945372a104f72cde4c4b4465cd3606c556c72e3bc"
+  }
+}

@@ -1,0 +1,1212 @@
+{
+  "hypotheses": [
+    {
+      "id": "P00",
+      "hypothesis_and_control": "Reproducción de C-activa/C-soporte.",
+      "families_and_representations": "Procedimientos históricos originales; ninguna búsqueda ampliada.",
+      "planned_grid": "Sus catálogos históricos, con resultados separados por control/ruta.",
+      "evidence_ids": [
+        "L01",
+        "L08"
+      ],
+      "status": "completed",
+      "metrics": {
+        "P00-C-activa": {
+          "balanceado-4": {
+            "official": {
+              "rmse": 0.808493973734743,
+              "mae": 0.6152280754874845,
+              "r2": 0.09115697469677642
+            },
+            "selected": {
+              "rmse": 0.808493973734743,
+              "mae": 0.6152280754874845,
+              "r2": 0.09115697469677642
+            },
+            "regional_mean": {
+              "rmse": 0.7441564778082017,
+              "mae": 0.5701330695763228,
+              "r2": 0.23004767000680437
+            }
+          },
+          "intraestado-3": {
+            "official": {
+              "rmse": 0.6320233022208782,
+              "mae": 0.47503492504812517,
+              "r2": 0.44460561373763496
+            },
+            "selected": {
+              "rmse": 0.6320233022208782,
+              "mae": 0.47503492504812517,
+              "r2": 0.44460561373763496
+            },
+            "regional_mean": {
+              "rmse": 0.6522650657772625,
+              "mae": 0.4778673204557802,
+              "r2": 0.40846078252606177
+            }
+          },
+          "principal-5": {
+            "official": {
+              "rmse": 0.7645734286732019,
+              "mae": 0.5935091578595009,
+              "r2": 0.1872186943850468
+            },
+            "selected": {
+              "rmse": 0.7640529246030533,
+              "mae": 0.5926849423673781,
+              "r2": 0.1883249634716917
+            },
+            "regional_mean": {
+              "rmse": 0.7439756768844785,
+              "mae": 0.5697312198651008,
+              "r2": 0.2304217611706254
+            }
+          },
+          "rotado-45-5": {
+            "official": {
+              "rmse": 0.7610483102234628,
+              "mae": 0.633836118738334,
+              "r2": 0.19469618518516496
+            },
+            "selected": {
+              "rmse": 0.7761105885538725,
+              "mae": 0.6466387884098787,
+              "r2": 0.16250442405697563
+            },
+            "regional_mean": {
+              "rmse": 0.9119407614743639,
+              "mae": 0.7105620220214793,
+              "r2": -0.15629476760536876
+            }
+          }
+        },
+        "P00-C-soporte": {
+          "balanceado-4": {
+            "official": {
+              "rmse": 0.7643894761566522,
+              "mae": 0.5999470955520225,
+              "r2": 0.18760974951437404
+            },
+            "selected": {
+              "rmse": 0.7694358644633517,
+              "mae": 0.6031652188614002,
+              "r2": 0.17684777700757648
+            },
+            "regional_mean": {
+              "rmse": 0.7441564778082017,
+              "mae": 0.5701330695763228,
+              "r2": 0.23004767000680437
+            }
+          },
+          "intraestado-3": {
+            "official": {
+              "rmse": 0.6477048359344115,
+              "mae": 0.4840621385671004,
+              "r2": 0.41670321378556807
+            },
+            "selected": {
+              "rmse": 0.6477048359344115,
+              "mae": 0.4840621385671004,
+              "r2": 0.41670321378556807
+            },
+            "regional_mean": {
+              "rmse": 0.6522650657772625,
+              "mae": 0.4778673204557802,
+              "r2": 0.40846078252606177
+            }
+          },
+          "principal-5": {
+            "official": {
+              "rmse": 0.7563458295694481,
+              "mae": 0.6031691463832337,
+              "r2": 0.20461730568193015
+            },
+            "selected": {
+              "rmse": 0.7494578260600603,
+              "mae": 0.5965526073254858,
+              "r2": 0.2190383599522182
+            },
+            "regional_mean": {
+              "rmse": 0.7439756768844785,
+              "mae": 0.5697312198651008,
+              "r2": 0.2304217611706254
+            }
+          },
+          "rotado-45-5": {
+            "official": {
+              "rmse": 0.7491686842596543,
+              "mae": 0.5920948746039706,
+              "r2": 0.21964083573715354
+            },
+            "selected": {
+              "rmse": 0.7491686842596543,
+              "mae": 0.5920948746039706,
+              "r2": 0.21964083573715354
+            },
+            "regional_mean": {
+              "rmse": 0.9119407614743639,
+              "mae": 0.7105620220214793,
+              "r2": -0.15629476760536876
+            }
+          }
+        }
+      },
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo.",
+      "run_ids": [
+        "P00-C-activa",
+        "P00-C-soporte"
+      ],
+      "verified_runs": 2,
+      "registered_runs": 2,
+      "runs": [
+        {
+          "id": "P00-C-activa",
+          "status": "completed",
+          "reason": null,
+          "metrics": {
+            "balanceado-4": {
+              "official": {
+                "rmse": 0.808493973734743,
+                "mae": 0.6152280754874845,
+                "r2": 0.09115697469677642
+              },
+              "selected": {
+                "rmse": 0.808493973734743,
+                "mae": 0.6152280754874845,
+                "r2": 0.09115697469677642
+              },
+              "regional_mean": {
+                "rmse": 0.7441564778082017,
+                "mae": 0.5701330695763228,
+                "r2": 0.23004767000680437
+              }
+            },
+            "intraestado-3": {
+              "official": {
+                "rmse": 0.6320233022208782,
+                "mae": 0.47503492504812517,
+                "r2": 0.44460561373763496
+              },
+              "selected": {
+                "rmse": 0.6320233022208782,
+                "mae": 0.47503492504812517,
+                "r2": 0.44460561373763496
+              },
+              "regional_mean": {
+                "rmse": 0.6522650657772625,
+                "mae": 0.4778673204557802,
+                "r2": 0.40846078252606177
+              }
+            },
+            "principal-5": {
+              "official": {
+                "rmse": 0.7645734286732019,
+                "mae": 0.5935091578595009,
+                "r2": 0.1872186943850468
+              },
+              "selected": {
+                "rmse": 0.7640529246030533,
+                "mae": 0.5926849423673781,
+                "r2": 0.1883249634716917
+              },
+              "regional_mean": {
+                "rmse": 0.7439756768844785,
+                "mae": 0.5697312198651008,
+                "r2": 0.2304217611706254
+              }
+            },
+            "rotado-45-5": {
+              "official": {
+                "rmse": 0.7610483102234628,
+                "mae": 0.633836118738334,
+                "r2": 0.19469618518516496
+              },
+              "selected": {
+                "rmse": 0.7761105885538725,
+                "mae": 0.6466387884098787,
+                "r2": 0.16250442405697563
+              },
+              "regional_mean": {
+                "rmse": 0.9119407614743639,
+                "mae": 0.7105620220214793,
+                "r2": -0.15629476760536876
+              }
+            }
+          },
+          "protocol_hash": "09687f90d2560ab271f5ce7befeeab53310ef480242b98734391f85280314f45",
+          "predictively_tested": true
+        },
+        {
+          "id": "P00-C-soporte",
+          "status": "completed",
+          "reason": null,
+          "metrics": {
+            "balanceado-4": {
+              "official": {
+                "rmse": 0.7643894761566522,
+                "mae": 0.5999470955520225,
+                "r2": 0.18760974951437404
+              },
+              "selected": {
+                "rmse": 0.7694358644633517,
+                "mae": 0.6031652188614002,
+                "r2": 0.17684777700757648
+              },
+              "regional_mean": {
+                "rmse": 0.7441564778082017,
+                "mae": 0.5701330695763228,
+                "r2": 0.23004767000680437
+              }
+            },
+            "intraestado-3": {
+              "official": {
+                "rmse": 0.6477048359344115,
+                "mae": 0.4840621385671004,
+                "r2": 0.41670321378556807
+              },
+              "selected": {
+                "rmse": 0.6477048359344115,
+                "mae": 0.4840621385671004,
+                "r2": 0.41670321378556807
+              },
+              "regional_mean": {
+                "rmse": 0.6522650657772625,
+                "mae": 0.4778673204557802,
+                "r2": 0.40846078252606177
+              }
+            },
+            "principal-5": {
+              "official": {
+                "rmse": 0.7563458295694481,
+                "mae": 0.6031691463832337,
+                "r2": 0.20461730568193015
+              },
+              "selected": {
+                "rmse": 0.7494578260600603,
+                "mae": 0.5965526073254858,
+                "r2": 0.2190383599522182
+              },
+              "regional_mean": {
+                "rmse": 0.7439756768844785,
+                "mae": 0.5697312198651008,
+                "r2": 0.2304217611706254
+              }
+            },
+            "rotado-45-5": {
+              "official": {
+                "rmse": 0.7491686842596543,
+                "mae": 0.5920948746039706,
+                "r2": 0.21964083573715354
+              },
+              "selected": {
+                "rmse": 0.7491686842596543,
+                "mae": 0.5920948746039706,
+                "r2": 0.21964083573715354
+              },
+              "regional_mean": {
+                "rmse": 0.9119407614743639,
+                "mae": 0.7105620220214793,
+                "r2": -0.15629476760536876
+              }
+            }
+          },
+          "protocol_hash": "ae7cd05ce4df56a90aa711049bdaca180946e4f43b649f5d71918d85ff3e7be2",
+          "predictively_tested": true
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "hypothesis_and_control": "Ranking marginal frente a conjunto agronómico fijo y todas las columnas elegibles; control: la variante con ranking de este mismo bloque.",
+      "families_and_representations": "GPR/CatBoost; `monthly_20_10` y `whittaker_20_10`; mismos parámetros y fuentes oficiales.",
+      "planned_grid": "2 tablas × 3 selectores × (2 longitudes GPR + 2 profundidades CatBoost) + 2 = 26.",
+      "evidence_ids": [
+        "L01",
+        "L08"
+      ],
+      "status": "completed",
+      "metrics": {
+        "P01": {
+          "principal-5": {
+            "rmse": 0.7561296294653649,
+            "mae": 0.6073502538991448,
+            "r2": 0.20507195813610102,
+            "bias": 0.14404528965012128,
+            "n": 138
+          },
+          "balanceado-4": {
+            "rmse": 0.7827917482303249,
+            "mae": 0.6326900937634742,
+            "r2": 0.14802317363732198,
+            "bias": 0.1679344815357953,
+            "n": 138
+          },
+          "rotado-45-5": {
+            "rmse": 0.7876795728255109,
+            "mae": 0.6202284056297604,
+            "r2": 0.1373503108333729,
+            "bias": 0.1899229237721732,
+            "n": 138
+          }
+        }
+      },
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo.",
+      "run_ids": [
+        "P01"
+      ],
+      "verified_runs": 1,
+      "registered_runs": 1,
+      "runs": [
+        {
+          "id": "P01",
+          "status": "completed",
+          "reason": null,
+          "metrics": {
+            "principal-5": {
+              "rmse": 0.7561296294653649,
+              "mae": 0.6073502538991448,
+              "r2": 0.20507195813610102,
+              "bias": 0.14404528965012128,
+              "n": 138
+            },
+            "balanceado-4": {
+              "rmse": 0.7827917482303249,
+              "mae": 0.6326900937634742,
+              "r2": 0.14802317363732198,
+              "bias": 0.1679344815357953,
+              "n": 138
+            },
+            "rotado-45-5": {
+              "rmse": 0.7876795728255109,
+              "mae": 0.6202284056297604,
+              "r2": 0.1373503108333729,
+              "bias": 0.1899229237721732,
+              "n": 138
+            }
+          },
+          "protocol_hash": "597791dd3e8a0d9956fe96174190074f9bef45bb64acd33cc266177a17af1c7b",
+          "predictively_tested": true
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "hypothesis_and_control": "Eje térmico frente a calendario; control: resumen calendarizado del mismo bloque enriquecido, con los mismos datos NASA y covariables.",
+      "families_and_representations": "GPR/CatBoost; resúmenes por segmentos calendario/térmico; NASA como dependencia de ambas variantes.",
+      "planned_grid": "2 ejes × (2 longitudes + 2 profundidades) + 2 = 10.",
+      "evidence_ids": [
+        "L02",
+        "L08"
+      ],
+      "status": "completed",
+      "metrics": {
+        "P02": {
+          "principal-5": {
+            "rmse": 0.7813254183037248,
+            "mae": 0.623695942536836,
+            "r2": 0.1512120397482275,
+            "bias": 0.16235100686458573,
+            "n": 138
+          },
+          "balanceado-4": {
+            "rmse": 0.7801012183621552,
+            "mae": 0.6228024149290795,
+            "r2": 0.15386975985843476,
+            "bias": 0.18099438796386266,
+            "n": 138
+          },
+          "rotado-45-5": {
+            "rmse": 0.8082980307316179,
+            "mae": 0.6288237444480265,
+            "r2": 0.0915974476205581,
+            "bias": 0.22669598045301478,
+            "n": 138
+          }
+        }
+      },
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo.",
+      "run_ids": [
+        "P02"
+      ],
+      "verified_runs": 1,
+      "registered_runs": 1,
+      "runs": [
+        {
+          "id": "P02",
+          "status": "completed",
+          "reason": null,
+          "metrics": {
+            "principal-5": {
+              "rmse": 0.7813254183037248,
+              "mae": 0.623695942536836,
+              "r2": 0.1512120397482275,
+              "bias": 0.16235100686458573,
+              "n": 138
+            },
+            "balanceado-4": {
+              "rmse": 0.7801012183621552,
+              "mae": 0.6228024149290795,
+              "r2": 0.15386975985843476,
+              "bias": 0.18099438796386266,
+              "n": 138
+            },
+            "rotado-45-5": {
+              "rmse": 0.8082980307316179,
+              "mae": 0.6288237444480265,
+              "r2": 0.0915974476205581,
+              "bias": 0.22669598045301478,
+              "n": 138
+            }
+          },
+          "protocol_hash": "c237e77b23b3f40a773c1a41b5fb3c2f8f49b4ef0b4f03b4f70bae4a6146623f",
+          "predictively_tested": true
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "hypothesis_and_control": "Compartir efectos estatales con regularización; control: variantes sin efecto estatal del mismo bloque, además de media regional.",
+      "families_and_representations": "Ridge jerárquico/GPR jerárquico; tablas monthly/whittaker oficiales con selector fijo.",
+      "planned_grid": "2 tablas × (4 penalizaciones estatales × 3 ridge + 3 varianzas estatales × 2 longitudes GPR) + 2 = 38.",
+      "evidence_ids": [
+        "L04",
+        "L05",
+        "L08"
+      ],
+      "status": "completed",
+      "metrics": {
+        "P03": {
+          "principal-5": {
+            "rmse": 0.7569148216996686,
+            "mae": 0.5872373205062533,
+            "r2": 0.20342013712034945,
+            "bias": 0.051450202976756676,
+            "n": 138
+          },
+          "balanceado-4": {
+            "rmse": 0.7502314135553648,
+            "mae": 0.5797943791989975,
+            "r2": 0.2174253166704061,
+            "bias": 0.09204240700944294,
+            "n": 138
+          },
+          "rotado-45-5": {
+            "rmse": 0.8838963445067692,
+            "mae": 0.7216952521229196,
+            "r2": -0.08627048619350619,
+            "bias": 0.2259362469272147,
+            "n": 138
+          }
+        }
+      },
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo.",
+      "run_ids": [
+        "P03"
+      ],
+      "verified_runs": 1,
+      "registered_runs": 1,
+      "runs": [
+        {
+          "id": "P03",
+          "status": "completed",
+          "reason": null,
+          "metrics": {
+            "principal-5": {
+              "rmse": 0.7569148216996686,
+              "mae": 0.5872373205062533,
+              "r2": 0.20342013712034945,
+              "bias": 0.051450202976756676,
+              "n": 138
+            },
+            "balanceado-4": {
+              "rmse": 0.7502314135553648,
+              "mae": 0.5797943791989975,
+              "r2": 0.2174253166704061,
+              "bias": 0.09204240700944294,
+              "n": 138
+            },
+            "rotado-45-5": {
+              "rmse": 0.8838963445067692,
+              "mae": 0.7216952521229196,
+              "r2": -0.08627048619350619,
+              "bias": 0.2259362469272147,
+              "n": 138
+            }
+          },
+          "protocol_hash": "1c4181fc98acae825e5ff7e25f1d9afb4a127af9cac874cd1dc126f774b8d9a8",
+          "predictively_tested": true
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "hypothesis_and_control": "Efectos suaves/aditivos y pocas interacciones frente al control congelado.",
+      "families_and_representations": "GAM/EBM; tabla mensual y conjunto agronómico fijo.",
+      "planned_grid": "GAM: 2 números de nudos × 3 penalizaciones; EBM: 2 resoluciones × 2 conjuntos de interacciones; + 2 = 12.",
+      "evidence_ids": [
+        "L03",
+        "L05",
+        "L08"
+      ],
+      "status": "completed",
+      "metrics": {
+        "P04": {
+          "principal-5": {
+            "rmse": 0.7793069865157303,
+            "mae": 0.6290550404650047,
+            "r2": 0.15559179661181577,
+            "bias": 0.1726922845565742,
+            "n": 138
+          },
+          "balanceado-4": {
+            "rmse": 0.7746065879047288,
+            "mae": 0.6173884121531669,
+            "r2": 0.16574719240585967,
+            "bias": 0.1725473062173527,
+            "n": 138
+          },
+          "rotado-45-5": {
+            "rmse": 0.821665077726896,
+            "mae": 0.6591575673708981,
+            "r2": 0.06130401031220012,
+            "bias": 0.15716636045997479,
+            "n": 138
+          }
+        }
+      },
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo.",
+      "run_ids": [
+        "P04"
+      ],
+      "verified_runs": 1,
+      "registered_runs": 1,
+      "runs": [
+        {
+          "id": "P04",
+          "status": "completed",
+          "reason": null,
+          "metrics": {
+            "principal-5": {
+              "rmse": 0.7793069865157303,
+              "mae": 0.6290550404650047,
+              "r2": 0.15559179661181577,
+              "bias": 0.1726922845565742,
+              "n": 138
+            },
+            "balanceado-4": {
+              "rmse": 0.7746065879047288,
+              "mae": 0.6173884121531669,
+              "r2": 0.16574719240585967,
+              "bias": 0.1725473062173527,
+              "n": 138
+            },
+            "rotado-45-5": {
+              "rmse": 0.821665077726896,
+              "mae": 0.6591575673708981,
+              "r2": 0.06130401031220012,
+              "bias": 0.15716636045997479,
+              "n": 138
+            }
+          },
+          "protocol_hash": "6636390e7c4f482603026382ee9da83f6061fc917966e404dd49ec78ea2cf662",
+          "predictively_tested": true
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "hypothesis_and_control": "Forma de las curvas frente a sus resúmenes; control: resúmenes calendarizados con idénticas covariables y calidad.",
+      "families_and_representations": "GPR/Ridge; resúmenes de calendario/proyección funcional de calendario.",
+      "planned_grid": "Resúmenes: 5 ajustes; funcional con 2 o 3 componentes por rama: 10 ajustes; + 2 = 17.",
+      "evidence_ids": [
+        "L03",
+        "L08"
+      ],
+      "status": "completed",
+      "metrics": {
+        "P05": {
+          "principal-5": {
+            "rmse": 0.8226068455331967,
+            "mae": 0.6513315946537455,
+            "r2": 0.059150966904683355,
+            "bias": 0.00411380984875877,
+            "n": 138
+          },
+          "balanceado-4": {
+            "rmse": 0.8135834874100746,
+            "mae": 0.6403374766870097,
+            "r2": 0.07967852646739593,
+            "bias": 0.013282116954364055,
+            "n": 138
+          },
+          "rotado-45-5": {
+            "rmse": 0.9202926763390717,
+            "mae": 0.7788927081927932,
+            "r2": -0.17757136460626954,
+            "bias": 0.1490134277622994,
+            "n": 138
+          }
+        }
+      },
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo.",
+      "run_ids": [
+        "P05"
+      ],
+      "verified_runs": 1,
+      "registered_runs": 1,
+      "runs": [
+        {
+          "id": "P05",
+          "status": "completed",
+          "reason": null,
+          "metrics": {
+            "principal-5": {
+              "rmse": 0.8226068455331967,
+              "mae": 0.6513315946537455,
+              "r2": 0.059150966904683355,
+              "bias": 0.00411380984875877,
+              "n": 138
+            },
+            "balanceado-4": {
+              "rmse": 0.8135834874100746,
+              "mae": 0.6403374766870097,
+              "r2": 0.07967852646739593,
+              "bias": 0.013282116954364055,
+              "n": 138
+            },
+            "rotado-45-5": {
+              "rmse": 0.9202926763390717,
+              "mae": 0.7788927081927932,
+              "r2": -0.17757136460626954,
+              "bias": 0.1490134277622994,
+              "n": 138
+            }
+          },
+          "protocol_hash": "43b34247581966dca7e0876b3258f4be644e23c85fc9830e938bd4c49c8251c2",
+          "predictively_tested": true
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "hypothesis_and_control": "Combinado predeclarado de selección compacta, jerarquía y curvas; elegibilidad oficial únicamente.",
+      "families_and_representations": "GPR jerárquico/GAM jerárquico; compacto mensual/proyección funcional calendarizada con 2 componentes por rama.",
+      "planned_grid": "2 representaciones × (3 varianzas estatales × 2 longitudes GPR + 3 penalizaciones estatales × 2 GAM) + 2 = 26.",
+      "evidence_ids": [
+        "L01",
+        "L03",
+        "L04",
+        "L05",
+        "L08"
+      ],
+      "status": "completed",
+      "metrics": {
+        "P06": {
+          "principal-5": {
+            "rmse": 0.7543692337306919,
+            "mae": 0.6009412705213317,
+            "r2": 0.20876909914390918,
+            "bias": 0.12192549936328864,
+            "n": 138
+          },
+          "balanceado-4": {
+            "rmse": 0.7388431870817759,
+            "mae": 0.5712134527889439,
+            "r2": 0.24100336510216502,
+            "bias": 0.14310305285387223,
+            "n": 138
+          },
+          "rotado-45-5": {
+            "rmse": 0.9186341445588987,
+            "mae": 0.760834392556757,
+            "r2": -0.17333080131863143,
+            "bias": 0.22621677531486756,
+            "n": 138
+          },
+          "intraestado-3": {
+            "rmse": 0.6432389999907674,
+            "mae": 0.4948984458741909,
+            "r2": 0.42471898692467014,
+            "bias": -0.02368497101876629,
+            "n": 138
+          }
+        }
+      },
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo.",
+      "run_ids": [
+        "P06"
+      ],
+      "verified_runs": 1,
+      "registered_runs": 1,
+      "runs": [
+        {
+          "id": "P06",
+          "status": "completed",
+          "reason": null,
+          "metrics": {
+            "principal-5": {
+              "rmse": 0.7543692337306919,
+              "mae": 0.6009412705213317,
+              "r2": 0.20876909914390918,
+              "bias": 0.12192549936328864,
+              "n": 138
+            },
+            "balanceado-4": {
+              "rmse": 0.7388431870817759,
+              "mae": 0.5712134527889439,
+              "r2": 0.24100336510216502,
+              "bias": 0.14310305285387223,
+              "n": 138
+            },
+            "rotado-45-5": {
+              "rmse": 0.9186341445588987,
+              "mae": 0.760834392556757,
+              "r2": -0.17333080131863143,
+              "bias": 0.22621677531486756,
+              "n": 138
+            },
+            "intraestado-3": {
+              "rmse": 0.6432389999907674,
+              "mae": 0.4948984458741909,
+              "r2": 0.42471898692467014,
+              "bias": -0.02368497101876629,
+              "n": 138
+            }
+          },
+          "protocol_hash": "8fa5d02d1bb39db14349d567c923c221f4797643fb69710b536aa2f828eab85d",
+          "predictively_tested": true
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "hypothesis_and_control": "TabICLv2 frente a C-soporte y TabPFN 2.5 histórico.",
+      "families_and_representations": "Un modelo, dos tablas oficiales fijas: monthly/whittaker.",
+      "planned_grid": "Dos configuraciones, evaluadas individualmente; sin seleccionar la mejor con OOF externa.",
+      "evidence_ids": [
+        "L06",
+        "L08"
+      ],
+      "status": "completed",
+      "metrics": {
+        "P07-monthly_20_10": {
+          "principal-5": {
+            "rmse": 0.7497561996518611,
+            "mae": 0.5649325282331825,
+            "r2": 0.21841640443707777,
+            "bias": 0.1493864312379257
+          },
+          "balanceado-4": {
+            "rmse": 0.7550852160460623,
+            "mae": 0.5693627215122832,
+            "r2": 0.20726644991848242,
+            "bias": 0.14418807002081388
+          },
+          "rotado-45-5": {
+            "rmse": 0.6246334423294367,
+            "mae": 0.4874377471122189,
+            "r2": 0.4575174549123202,
+            "bias": 0.08873042099717736
+          }
+        },
+        "P07-whittaker_20_10": {
+          "principal-5": {
+            "rmse": 0.7615847134938892,
+            "mae": 0.5765625523138738,
+            "r2": 0.19356059412165083,
+            "bias": 0.13350686757460886
+          },
+          "balanceado-4": {
+            "rmse": 0.7643854259256796,
+            "mae": 0.5790807665258214,
+            "r2": 0.1876183586319503,
+            "bias": 0.13132241435672926
+          },
+          "rotado-45-5": {
+            "rmse": 0.6435782796540337,
+            "mae": 0.5063589639940124,
+            "r2": 0.4241119571175709,
+            "bias": 0.07932851563329284
+          }
+        }
+      },
+      "protocol": null,
+      "run_id": null,
+      "optional": true,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo.",
+      "run_ids": [
+        "P07-monthly_20_10",
+        "P07-whittaker_20_10"
+      ],
+      "verified_runs": 2,
+      "registered_runs": 2,
+      "runs": [
+        {
+          "id": "P07-monthly_20_10",
+          "status": "completed",
+          "reason": null,
+          "metrics": {
+            "principal-5": {
+              "rmse": 0.7497561996518611,
+              "mae": 0.5649325282331825,
+              "r2": 0.21841640443707777,
+              "bias": 0.1493864312379257
+            },
+            "balanceado-4": {
+              "rmse": 0.7550852160460623,
+              "mae": 0.5693627215122832,
+              "r2": 0.20726644991848242,
+              "bias": 0.14418807002081388
+            },
+            "rotado-45-5": {
+              "rmse": 0.6246334423294367,
+              "mae": 0.4874377471122189,
+              "r2": 0.4575174549123202,
+              "bias": 0.08873042099717736
+            }
+          },
+          "protocol_hash": "8c4b730baa170047411177e68bd0e8a48bbdf3b1de37ad741a0a2bf778eb2f2e",
+          "predictively_tested": true
+        },
+        {
+          "id": "P07-whittaker_20_10",
+          "status": "completed",
+          "reason": null,
+          "metrics": {
+            "principal-5": {
+              "rmse": 0.7615847134938892,
+              "mae": 0.5765625523138738,
+              "r2": 0.19356059412165083,
+              "bias": 0.13350686757460886
+            },
+            "balanceado-4": {
+              "rmse": 0.7643854259256796,
+              "mae": 0.5790807665258214,
+              "r2": 0.1876183586319503,
+              "bias": 0.13132241435672926
+            },
+            "rotado-45-5": {
+              "rmse": 0.6435782796540337,
+              "mae": 0.5063589639940124,
+              "r2": 0.4241119571175709,
+              "bias": 0.07932851563329284
+            }
+          },
+          "protocol_hash": "14011cb0c26d2e8eafbc79aac5bf31104bb8f79ae19dcfa399b30c87f8ab18be",
+          "predictively_tested": true
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "hypothesis_and_control": "TabPFN-3 frente a los mismos controles.",
+      "families_and_representations": "Un modelo, las mismas dos tablas fijas.",
+      "planned_grid": "Dos configuraciones independientes, sin incorporación a P06.",
+      "evidence_ids": [
+        "L07",
+        "L08"
+      ],
+      "status": "completed",
+      "metrics": {
+        "P08-monthly_20_10": {
+          "principal-5": {
+            "rmse": 0.7376675966436856,
+            "mae": 0.5423444875288226,
+            "r2": 0.24341675767876159,
+            "bias": 0.12033777931670515
+          },
+          "balanceado-4": {
+            "rmse": 0.7338527972523918,
+            "mae": 0.5408167967400141,
+            "r2": 0.251221764634183,
+            "bias": 0.11655224247799927
+          },
+          "rotado-45-5": {
+            "rmse": 0.6878377534584783,
+            "mae": 0.520954010949358,
+            "r2": 0.3421796219011596,
+            "bias": 0.12010459993432118
+          }
+        },
+        "P08-whittaker_20_10": {
+          "principal-5": {
+            "rmse": 0.744175229172158,
+            "mae": 0.5463812005104078,
+            "r2": 0.23000886677468768,
+            "bias": 0.12328329462200942
+          },
+          "balanceado-4": {
+            "rmse": 0.744782485768083,
+            "mae": 0.5490073511739006,
+            "r2": 0.2287517086413019,
+            "bias": 0.11297695596628593
+          },
+          "rotado-45-5": {
+            "rmse": 0.6894261799378053,
+            "mae": 0.5285297642884872,
+            "r2": 0.33913789935240124,
+            "bias": 0.11422501242807552
+          }
+        }
+      },
+      "protocol": null,
+      "run_id": null,
+      "optional": true,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo.",
+      "run_ids": [
+        "P08-monthly_20_10",
+        "P08-whittaker_20_10"
+      ],
+      "verified_runs": 2,
+      "registered_runs": 2,
+      "runs": [
+        {
+          "id": "P08-monthly_20_10",
+          "status": "completed",
+          "reason": null,
+          "metrics": {
+            "principal-5": {
+              "rmse": 0.7376675966436856,
+              "mae": 0.5423444875288226,
+              "r2": 0.24341675767876159,
+              "bias": 0.12033777931670515
+            },
+            "balanceado-4": {
+              "rmse": 0.7338527972523918,
+              "mae": 0.5408167967400141,
+              "r2": 0.251221764634183,
+              "bias": 0.11655224247799927
+            },
+            "rotado-45-5": {
+              "rmse": 0.6878377534584783,
+              "mae": 0.520954010949358,
+              "r2": 0.3421796219011596,
+              "bias": 0.12010459993432118
+            }
+          },
+          "protocol_hash": "5bfb39f0feff52972583d5177cec090f5755ec66ead07f751a664b0dd09f2b6e",
+          "predictively_tested": true
+        },
+        {
+          "id": "P08-whittaker_20_10",
+          "status": "completed",
+          "reason": null,
+          "metrics": {
+            "principal-5": {
+              "rmse": 0.744175229172158,
+              "mae": 0.5463812005104078,
+              "r2": 0.23000886677468768,
+              "bias": 0.12328329462200942
+            },
+            "balanceado-4": {
+              "rmse": 0.744782485768083,
+              "mae": 0.5490073511739006,
+              "r2": 0.2287517086413019,
+              "bias": 0.11297695596628593
+            },
+            "rotado-45-5": {
+              "rmse": 0.6894261799378053,
+              "mae": 0.5285297642884872,
+              "r2": 0.33913789935240124,
+              "bias": 0.11422501242807552
+            }
+          },
+          "protocol_hash": "0172adf47b0717846dc90849a78f012d917b69d45e6f0ece652f306ea125ab7c",
+          "predictively_tested": true
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "L01",
+      "title_and_source": "[Código del selector](../../../src/agrocebada/modeling.py), [historial de la fase](../../../experiments/soporte-regional-20261003/docs/phase-results.md)",
+      "sources": [
+        {
+          "title": "Código del selector",
+          "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\src\\agrocebada\\modeling.py",
+          "sha256": "279335ecf181bf7dfc91b2407b8e48467b4f284686d3e0ad754f311785f4d933"
+        },
+        {
+          "title": "historial de la fase",
+          "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\docs\\phase-results.md",
+          "sha256": "4a255fe7b56fc6d9bff900b74614c2a611e08442c1ef2571fab25f41b9501846"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Archivos locales leídos: filtro marginal, resultados negativos y protección regional fallida. No demuestra que el filtro sea la causa del error.",
+      "application": "P01 y criterios de P06.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L02",
+      "title_and_source": "Franch et al., 2026, [The yield strikes back](https://doi.org/10.1016/j.jag.2026.105140)",
+      "sources": [
+        {
+          "title": "The yield strikes back",
+          "url": "https://doi.org/10.1016/j.jag.2026.105140"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Resumen y fragmentos indexados del PDF institucional sobre trigo/cebada, tiempo térmico y fusión óptica–SAR. No se recuperó íntegramente el texto; no se copian sus parámetros ni ganancias.",
+      "application": "P02; adaptación explícita con NASA existente, sin reproducir el método completo ni usar radar.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L03",
+      "title_and_source": "Zou y Okhrin, 2026, [Stagewise crop yield prediction with multisource functional indices](https://onlinelibrary.wiley.com/doi/full/10.1002/cjs.70043)",
+      "sources": [
+        {
+          "title": "Stagewise crop yield prediction with multisource functional indices",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/cjs.70043"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Texto consultado: GAM y modelos funcionales; también resultados negativos de representaciones excesivas y componentes ruidosos. Datos, objetivos y escalas difieren del reto.",
+      "application": "P04/P05; pocas bases y componentes, sin promesa de mejora.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L04",
+      "title_and_source": "[Tutorial de modelos multinivel de Stan](https://mc-stan.org/learn-stan/case-studies/tutorial_rstanarm.html)",
+      "sources": [
+        {
+          "title": "Tutorial de modelos multinivel de Stan",
+          "url": "https://mc-stan.org/learn-stan/case-studies/tutorial_rstanarm.html"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Documentación de interceptos/pendientes y pooling parcial. Es fundamento estadístico, no evidencia de rendimiento agrícola local.",
+      "application": "P03/P06, regularización de efectos regionales.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L05",
+      "title_and_source": "[Documentación oficial de EBM](https://interpret.ml/docs/ebm.html), [GPML](https://gaussianprocess.org/gpml/chapters/)",
+      "sources": [
+        {
+          "title": "Documentación oficial de EBM",
+          "url": "https://interpret.ml/docs/ebm.html"
+        },
+        {
+          "title": "GPML",
+          "url": "https://gaussianprocess.org/gpml/chapters/"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Modelos aditivos, interacciones y covarianzas. No fija una complejidad óptima para 138 etiquetas.",
+      "application": "GAM/EBM y kernel aditivo jerárquico.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L06",
+      "title_and_source": "Qu et al., ICML 2026, [TabICLv2](https://proceedings.mlr.press/v306/qu26a.html), [implementación oficial](https://github.com/soda-inria/tabicl)",
+      "sources": [
+        {
+          "title": "TabICLv2",
+          "url": "https://proceedings.mlr.press/v306/qu26a.html"
+        },
+        {
+          "title": "implementación oficial",
+          "url": "https://github.com/soda-inria/tabicl"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Resumen del paper y documentación: soporte de regresión y benchmark tabular; pesos concretos aún no verificados localmente.",
+      "application": "P07, comparación opcional independiente.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L07",
+      "title_and_source": "Prior Labs, mayo 2026, [TabPFN-3: Technical Report](https://arxiv.org/abs/2605.13986), [implementación oficial](https://github.com/PriorLabs/TabPFN)",
+      "sources": [
+        {
+          "title": "TabPFN-3: Technical Report",
+          "url": "https://arxiv.org/abs/2605.13986"
+        },
+        {
+          "title": "implementación oficial",
+          "url": "https://github.com/PriorLabs/TabPFN"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Informe/resumen y documentación. Su benchmark no valida estas parcelas y no sustituye TabPFN 2.5 retroactivamente.",
+      "application": "P08, comparación opcional independiente.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L08",
+      "title_and_source": "[Cawley y Talbot, 2010](https://www.jmlr.org/papers/v11/cawley10a.html), [Roberts et al., 2017](https://doi.org/10.1111/ecog.02881)",
+      "sources": [
+        {
+          "title": "Cawley y Talbot, 2010",
+          "url": "https://www.jmlr.org/papers/v11/cawley10a.html"
+        },
+        {
+          "title": "Roberts et al., 2017",
+          "url": "https://doi.org/10.1111/ecog.02881"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Selección repetida y validación con estructura espacial. No aporta un umbral universal de mejora o distancia.",
+      "application": "Congelación, separación interna/externa y límites de inferencia.",
+      "local_predictive_metrics": null
+    }
+  ],
+  "deferred": [
+    {
+      "name": "BART, TabM y NGBoost",
+      "status": "deferred",
+      "predictively_tested": false,
+      "reason": "Prioridad secundaria; no ampliar familias sobre las mismas 138 etiquetas."
+    },
+    {
+      "name": "Radar e imágenes originales nuevas",
+      "status": "deferred",
+      "predictively_tested": false,
+      "reason": "Nueva adquisición y procesamiento fuera de esta fase."
+    },
+    {
+      "name": "ERA5, SoilGrids y AlphaEarth",
+      "status": "deferred",
+      "predictively_tested": false,
+      "reason": "Proveedores nuevos fuera del alcance aprobado."
+    },
+    {
+      "name": "Simulación completa de cultivo",
+      "status": "deferred",
+      "predictively_tested": false,
+      "reason": "No se observan fechas de siembra ni parámetros de cultivo suficientes."
+    },
+    {
+      "name": "Pendientes estatales, kernels anisotrópicos y muchas interacciones",
+      "status": "deferred",
+      "predictively_tested": false,
+      "reason": "Complejidad excesiva con tres estados y 138 etiquetas."
+    }
+  ],
+  "frozen_evidence_hash": "0193448cfd3c47bbcb4df8dc50dd022961cece033c8f28ccc352fd45bff1dde5",
+  "development_evidence_only": true
+}

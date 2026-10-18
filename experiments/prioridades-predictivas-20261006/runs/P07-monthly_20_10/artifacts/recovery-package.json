@@ -1,0 +1,10 @@
+{
+  "snapshot": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\versions\\f582940ed8bbb99e0d7d21065bca6df347cffc877fdcf2766151c24e9969facf",
+  "snapshot_manifest_hash": "aa2ad4db3ec6b8c099d375a8fba31cdffa6bc69b43c6115d911a18dccccf93e8",
+  "protocol_hash": "8c4b730baa170047411177e68bd0e8a48bbdf3b1de37ad741a0a2bf778eb2f2e",
+  "shared_immutable_inputs": true,
+  "fitted_objects_or_context": true,
+  "offline_verified": true,
+  "atol": 1e-10,
+  "rtol": 0
+}

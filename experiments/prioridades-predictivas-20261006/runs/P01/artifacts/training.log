@@ -1,0 +1,14 @@
+P01 principal-5 fold 0 train 104 validación 34
+P01 principal-5 fold 1 train 104 validación 34
+P01 principal-5 fold 2 train 103 validación 35
+P01 principal-5 fold 3 train 121 validación 17
+P01 principal-5 fold 4 train 120 validación 18
+P01 balanceado-4 fold 0 train 104 validación 34
+P01 balanceado-4 fold 1 train 103 validación 35
+P01 balanceado-4 fold 2 train 104 validación 34
+P01 balanceado-4 fold 3 train 103 validación 35
+P01 rotado-45-5 fold 0 train 104 validación 34
+P01 rotado-45-5 fold 1 train 104 validación 34
+P01 rotado-45-5 fold 2 train 103 validación 35
+P01 rotado-45-5 fold 3 train 121 validación 17
+P01 rotado-45-5 fold 4 train 120 validación 18

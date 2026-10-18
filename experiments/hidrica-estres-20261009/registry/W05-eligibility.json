@@ -1,0 +1,55 @@
+{
+  "eligible": false,
+  "checks": {
+    "three_schemes": true,
+    "principal_regional_2pct": false,
+    "two_schemes_2pct": false,
+    "mean_ratio_098": false,
+    "max_ratio_105": false,
+    "regional_protection": false,
+    "principal_active_2pct": false,
+    "max_active_ratio_105": false,
+    "new_information_admitted": false,
+    "verification": true,
+    "control_verified": true
+  },
+  "regional_ratios": {
+    "principal-5": 1.2446488835254046,
+    "balanceado-4": 1.2445416952906339,
+    "rotado-45-5": 1.0244717903655352
+  },
+  "active_ratios": {
+    "principal-5": 1.2119428717394152,
+    "balanceado-4": 1.145504845478019,
+    "rotado-45-5": 1.2037686360596547
+  },
+  "state_failures": [
+    {
+      "scheme": "principal-5",
+      "state": "Tlaxcala",
+      "n": 31,
+      "mae": 1.2289702233250623,
+      "regional_mae": 0.5
+    },
+    {
+      "scheme": "balanceado-4",
+      "state": "Tlaxcala",
+      "n": 31,
+      "mae": 1.2289702233250623,
+      "regional_mae": 0.5
+    },
+    {
+      "scheme": "rotado-45-5",
+      "state": "Puebla",
+      "n": 71,
+      "mae": 0.5216251632232424,
+      "regional_mae": 0.37792164303387926
+    }
+  ],
+  "invalid_schemes": [],
+  "activated": false,
+  "deployed": false,
+  "sent": false,
+  "interval_available": false,
+  "evidence": "Desarrollo sobre las mismas 138 etiquetas; sin campaña independiente."
+}

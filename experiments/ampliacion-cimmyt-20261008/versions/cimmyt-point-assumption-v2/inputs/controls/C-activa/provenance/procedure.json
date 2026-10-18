@@ -1,0 +1,642 @@
+{
+  "control": "C-activa",
+  "code_hash": "6e716d736573833d919d0693562e9028184376d50e900179c0884110a1d0c996",
+  "keys": [
+    "monthly_10_10",
+    "whittaker_10_10",
+    "whittaker_10_100",
+    "monthly_20_10",
+    "whittaker_20_10",
+    "whittaker_20_100",
+    "monthly_40_10",
+    "whittaker_40_10",
+    "whittaker_40_100"
+  ],
+  "candidate_grid": [
+    {
+      "features": "monthly_10_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_10_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_10_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_10_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_10_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_10_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_10_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_10_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_10_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_10_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_20_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_20_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_20_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_20_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_20_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_20_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_20_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_20_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_20_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_20_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_40_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_40_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_40_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_40_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_40_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_40_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_40_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_40_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "monthly_40_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_10",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_10",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_10",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_10",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_10",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_10",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_10",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_10",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_10",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_100",
+      "family": "elastic",
+      "setting": 0.05,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_100",
+      "family": "elastic",
+      "setting": 0.2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_100",
+      "family": "bayesian",
+      "setting": 0,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_100",
+      "family": "svr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_100",
+      "family": "svr",
+      "setting": 10,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_100",
+      "family": "catboost",
+      "setting": 2,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_100",
+      "family": "catboost",
+      "setting": 3,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_100",
+      "family": "gpr",
+      "setting": 1,
+      "sources": [],
+      "geo": false
+    },
+    {
+      "features": "whittaker_40_100",
+      "family": "gpr",
+      "setting": 5,
+      "sources": [],
+      "geo": false
+    }
+  ],
+  "sources": [
+    "nasa",
+    "siap"
+  ],
+  "routes": [
+    "official",
+    "selected"
+  ],
+  "schemes": [
+    "principal-5",
+    "balanceado-4",
+    "rotado-45-5",
+    "intraestado-3"
+  ],
+  "data_hashes": {
+    "audit.json": "79e55e3b3e02861a077a0a1a95ff10188b6b99867fcde3478c84739c2e7d000f",
+    "curves.parquet": "17231962b2d245d349713d2c1fd72d5cba2c0fdf9dd0828a9600f1da0733e130",
+    "environment.parquet": "7fbff6a715a1a06957b911d73b7321ea3dc4f6d393b377a320cb92cb454337b2",
+    "external_nasa.parquet": "35dcffc0a6e86a4120ff50fae55c0a4b0e42d6f541634f39fdcb5343b7271ea9",
+    "external_siap.parquet": "8aa0e8243577b1c844e862f48309e8941366eb4555c3000475066aa75efa5e86",
+    "feature-configs.json": "d7235f7814ac454bb9adc8e90a3bf7a02c8a5f4e1222ab8a4ddb762704358bbc",
+    "feature-dictionary.json": "6da71ab49e32157665128834f667efaccb48856a4f2c487aeff2b324981d8361",
+    "features_monthly_10_10.parquet": "7f4c7b0c3571988f2f3b6e5d2e09ef8f7a8972fe80f072921faa8503dc169ce1",
+    "features_monthly_20_10.parquet": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa",
+    "features_monthly_40_10.parquet": "416cd92ffd38a67b609ee3d2565423b5472379eed1d6c78fdedc150a5540b3b6",
+    "features_whittaker_10_10.parquet": "ca36e53cfdd8794a409f295de9e20b4e4dd60e10051cf0b7f3dce0e2ddecd8bb",
+    "features_whittaker_10_100.parquet": "9cb81cd454ab35c07fd1c3f9c339e2a75d61ca26f1a3fc2644a1afe4e893d515",
+    "features_whittaker_20_10.parquet": "8cc323e05a5e0e7483faf4a8532552985d8d0c836c0e5b9b03eb7f3b0cbc564d",
+    "features_whittaker_20_100.parquet": "701b3516b8c0b27f2b677b165eab8292373be2f6c37417b7b8478969d0c93ce1",
+    "features_whittaker_40_10.parquet": "1da06d25ea46952748d1b7d4d5b0868be00e3f68a5081b74a089adfff7dd8072",
+    "features_whittaker_40_100.parquet": "4d82b08d14ab1b6fe11a1d6d8a169292e992df101572c7a542848c9b9937d74e",
+    "history-comparability.json": "e71b5e0b366ae4f2163563dacbb49cb2855ef12803d2f58b81d98b570c5d7981",
+    "monthly-climate.parquet": "46b471e9246244d22061fc3ef90d9eb5462a372f342fd2ee50c1be1facc275e1",
+    "monthly-satellite.parquet": "743728bb146744756b8b616a67369bddc7297e6d9204bc7298e578250711e403",
+    "nasa-cells.csv": "10f3523910aa349182b1f7392395c2487978ec6e567d92b426ff53afc10b3e8e",
+    "nasa-quality.json": "4a3101d1739db95805691f4177ac9d60fe43d7e027ce90eb3f9b21ba19f9471e",
+    "parcel-raster-coverage.parquet": "662242e7b4d8c6bc3871fa3ca962606b22e1507ecd62f587a1a640070a81fff0",
+    "parcels.parquet": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+    "preparation.json": "b6ab8d43b57f097b778a6af7204fcd9c6fe4829e8b70b8e435271ad3b76cbab6",
+    "quality_monthly_10_10.parquet": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18",
+    "quality_monthly_20_10.parquet": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410",
+    "quality_monthly_40_10.parquet": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0",
+    "quality_whittaker_10_10.parquet": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18",
+    "quality_whittaker_10_100.parquet": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18",
+    "quality_whittaker_20_10.parquet": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410",
+    "quality_whittaker_20_100.parquet": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410",
+    "quality_whittaker_40_10.parquet": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0",
+    "quality_whittaker_40_100.parquet": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0",
+    "raster-extraction.json": "99dec9a00950790e3fa977470275eeedbe5a73722860e376a14cfd853887bb7d",
+    "satellite.parquet": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9",
+    "siap-history.csv": "4ccf997d4365c900f201333f85c3e9469fe68f3d88d4461158e91df07e5579f2",
+    "siap-quality.json": "344c8f9377b506e90550c0b12d3bc8acde3c0c0dbf8fc1ff6fda1d59e107e52b",
+    "source-manifest.json": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+  },
+  "selection": "Procedimiento histórico original sin cambiar parámetros, grilla, admisión o ensambles.",
+  "atol": 1e-10,
+  "rtol": 0,
+  "new_metrics": null
+}

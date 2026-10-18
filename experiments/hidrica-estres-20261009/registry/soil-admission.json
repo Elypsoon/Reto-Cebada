@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-13T05:01:55.079286+00:00",
+  "G_admitted": false,
+  "metadata": {
+    "provider": "ISRIC",
+    "version": "SoilGrids250m 2.0 water retention",
+    "published_at": "2021-11-05",
+    "license": "CC BY 4.0 según documentación oficial",
+    "units": "0.001 m3/m3",
+    "volume_reference": "volumen de suelo según ficha ISO",
+    "resolution_m": 250,
+    "pressures_kpa": [
+      33,
+      1500
+    ],
+    "depths": [
+      "0-5cm",
+      "5-15cm",
+      "15-30cm",
+      "30-60cm"
+    ],
+    "statistics": [
+      "mean",
+      "Q05",
+      "Q95"
+    ],
+    "source_sha256": "4e8989c72249f36395ffbe2a651aff1d6b7ac0393231d907b08404b18fdeab32",
+    "crs": null,
+    "nodata_verified": false
+  },
+  "required_layer_count": 24,
+  "complete_valid_layer_count": 0,
+  "audit": {
+    "admitted": false,
+    "missing": [
+      "crs",
+      "NoData comprobado"
+    ]
+  },
+  "reason": "Primera cobertura WCS recuperada a 250 m sin CRS ni NoData en el GeoTIFF; DescribeCoverage contiene unidad radiométrica incongruente y nilValues vacío. La ficha ISO confirma retención/unidades para 33 kPa, pero no completa la máscara ni la integridad del conjunto de 24 capas. Se conserva el intento y se excluye G con la regla previa.",
+  "read_documents": [
+    {
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\registry\\soil-access\\iso-wv0033.xml",
+      "sha256": "4e8989c72249f36395ffbe2a651aff1d6b7ac0393231d907b08404b18fdeab32"
+    }
+  ],
+  "not_evaluated_scientifically": true,
+  "scope_not_replaced": true,
+  "labels_used": false
+}

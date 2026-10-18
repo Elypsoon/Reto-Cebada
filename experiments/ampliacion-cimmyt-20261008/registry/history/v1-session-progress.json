@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-08T18:37:48.048988+00:00",
+  "completed_tasks": 9,
+  "total_tasks": 28,
+  "tests_passed": 20,
+  "protected_files_intact": 2596,
+  "a00_recovered": true,
+  "cimmyt_training_started": false,
+  "state": "awaiting_spatial_protocol_decision",
+  "audit_report_sha256": "d196e45c8b10e2b3c1d25c1261e6e474a2b35451350b7d0fb2aaf48469eb6bb1",
+  "code": {
+    "src/cimmyt/acquisition.py": "9de19b3e475dcde785f84ce86c769fe621f0c5de5a96dad27f4c3272f30b09da",
+    "src/cimmyt/audit.py": "6a58235b01687e85a913cdc8e5cc85584c4b46347cd4977887a02ddaeb054403",
+    "src/cimmyt/common.py": "77fdc1abb2e5c42ee8d09884741cf08c79233391adce20a0f23ba5e48763be41",
+    "src/cimmyt/weighted.py": "a683b3a058e802a90662aa303181c7e4623a66385f7ac82e21e99cc125379c80",
+    "src/cimmyt/__init__.py": "33633d6f1927a1a22032b92b7704ba21db59d0d5df2be42771dfa42417dca60b"
+  }
+}

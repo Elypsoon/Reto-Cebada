@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-14T00:22:45.897580+00:00",
+  "primary_predictors_changed": false,
+  "project_data_transmitted": false,
+  "credentials_logged": false,
+  "SMN": {
+    "metadata_file": "data\\external\\access\\smn-stations.html",
+    "metadata_hash": "509098c3292dfdca6a59c4c9f024c3df824aebb894c6cf549dbfd0e6abf1992c",
+    "declared_encoding": "utf-8",
+    "encoding_mismatch": true,
+    "candidate_links": [
+      "/es/climatologia/temperaturas-y-lluvias/mapas-diarios-de-temperatura-y-lluvia",
+      "/es/climatologia/temperaturas-y-lluvias/resumenes-mensuales-de-temperaturas-y-lluvias",
+      "/es/climatologia/informacion-climatologica/informacion-estadistica-climatologica",
+      "/es/climatologia/informacion-climatologica/normales-climatologicas-por-estado",
+      "/es/climatologia/informacion-climatologica/mapas-de-climatologia-1981-2010",
+      "/es/climatologia/informacion-climatologica/climogramas-1991-2020",
+      "/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
+      "/es/climatologia/monitor-de-sequia/monitor-de-sequia-de-america-del-norte",
+      "/es/climatologia/monitor-de-sequia/spi",
+      "/es/climatologia/diagnostico-climatico/reporte-del-clima-en-mexico",
+      "/es/climatologia/diagnostico-climatico/estatus-del-nino",
+      "/es/climatologia/diagnostico-climatico/boletin-para-incendios",
+      "/es/climatologia/pronostico-climatico/precipitacion-form",
+      "/es/climatologia/pronostico-climatico/temperatura-form",
+      "/es/climatologia/pronostico-climatico/frentes-frios",
+      "/es/climatologia/foro-de-prediccion-climatica",
+      "/es/climatologia/canicula",
+      "/es/observando-el-tiempo/estaciones-meteorologicas-automaticas-ema-s"
+    ],
+    "series_2025_downloaded": false,
+    "coverage_verified": false,
+    "status": "metadata_only; station-series audit remains pending"
+  },
+  "ERA5-Land": {
+    "metadata_file": "data/external/access/era5-land.html",
+    "metadata_hash": "98a03b3f8c3fd47dccae25ce1e355bcb96656fb5bb74782bd956055d2b90f44e",
+    "configured_access_detected": false,
+    "series_2025_downloaded": false,
+    "coverage_verified": false,
+    "status": "excluded: no preconfigured CDS access",
+    "native_scale_km": 9,
+    "distribution_grid_degrees": 0.1,
+    "no_account_created": true
+  }
+}

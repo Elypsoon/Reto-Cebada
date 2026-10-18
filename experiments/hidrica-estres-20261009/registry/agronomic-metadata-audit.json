@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-13T04:54:56.416962+00:00",
+  "fields": {
+    "variedad": {
+      "present_in_official_master": false,
+      "assigned": false
+    },
+    "cultivar": {
+      "present_in_official_master": false,
+      "assigned": false
+    },
+    "siembra": {
+      "present_in_official_master": false,
+      "assigned": false
+    },
+    "fecha_siembra": {
+      "present_in_official_master": false,
+      "assigned": false
+    },
+    "riego": {
+      "present_in_official_master": false,
+      "assigned": false
+    }
+  },
+  "official_columns": [
+    "ID_POLIGONO",
+    "Estado",
+    "Municipio",
+    "geometry",
+    "AREA_HA",
+    "RENDIMIENTO_T_HA",
+    "CONJUNTO",
+    "spatial_group"
+  ],
+  "nasa_regional_temperature": [
+    {
+      "file": "nasa_power_19.5_-98.125_20250401_20251031.json",
+      "sha256": "69bfe2e143c581cf01b830071500a5f640f9b83d71b1a2ca2c58f43f69e67875",
+      "min_tmin_c": 1.74,
+      "days_below_zero": 0
+    },
+    {
+      "file": "nasa_power_19.5_-98.75_20250401_20251031.json",
+      "sha256": "1e0a9a361fbbbf1a646072774468c7a6b18d112932eb2d2363e8c90990366fdb",
+      "min_tmin_c": 2.4,
+      "days_below_zero": 0
+    },
+    {
+      "file": "nasa_power_20.0_-98.125_20250401_20251031.json",
+      "sha256": "27c89259f764247a3ebd9402c1c1ff2a85f7afa2e677712a1ffe8d13a88e6b17",
+      "min_tmin_c": 4.38,
+      "days_below_zero": 0
+    },
+    {
+      "file": "nasa_power_20.0_-98.75_20250401_20251031.json",
+      "sha256": "b184956e4f920303357ab901fa6cbf364ba59384f9230e0c4be5a6a14369a6e4",
+      "min_tmin_c": 3.91,
+      "days_below_zero": 0
+    }
+  ],
+  "local_frost_observations": null,
+  "variety_by_official_id": null,
+  "sowing_by_official_id": null,
+  "new_predictive_fields": [],
+  "labels_used": false,
+  "search_scope": "Tabla oficial, cabeceras originales, diccionario y series NASA verificadas. Datos auxiliares CIMMYT no identifican variedades/siembra de IDs oficiales.",
+  "interpretation": "Cero días regionales bajo cero no descarta heladas parcelarias; ausencia de metadatos queda desconocida."
+}

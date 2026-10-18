@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "protected_files_intact": 133,
+  "historical_copy_and_source_hash_pairs": 984,
+  "frozen_version_intact": "f582940ed8bbb99e0d7d21065bca6df347cffc877fdcf2766151c24e9969facf",
+  "historical_standard_cases": 12,
+  "historical_routes_per_case": 2,
+  "historical_optional_contexts": 2,
+  "historical_optional_pending": 0,
+  "n_queries_per_route": 59,
+  "new_verified_runs": 12,
+  "closing_tests_passed": 47,
+  "atol": 1e-10,
+  "rtol": 0,
+  "activated": false,
+  "deployed": false,
+  "sent": false,
+  "preserved_failed_attempts": [
+    {
+      "receipt": "historic-recovery/resources-E07-v3-monthly_20_10.json",
+      "reason": "Primer supervisor impuso entorno numérico nuevo. Se recuperaron ambos contextos con su entorno histórico, sin cambiar fuente, parámetros ni tolerancia."
+    }
+  ],
+  "evidence": "Desarrollo sobre las mismas 138 etiquetas; sin otra campaña validada."
+}

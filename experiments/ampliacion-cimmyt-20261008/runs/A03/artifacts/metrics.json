@@ -1,0 +1,53 @@
+{
+  "principal-5": {
+    "0.25": {
+      "complete_official_oof": false,
+      "available_predictions": 0,
+      "metrics": null
+    },
+    "0.5": {
+      "complete_official_oof": false,
+      "available_predictions": 0,
+      "metrics": null
+    },
+    "1": {
+      "complete_official_oof": false,
+      "available_predictions": 34,
+      "metrics": null
+    }
+  },
+  "balanceado-4": {
+    "0.25": {
+      "complete_official_oof": false,
+      "available_predictions": 0,
+      "metrics": null
+    },
+    "0.5": {
+      "complete_official_oof": false,
+      "available_predictions": 0,
+      "metrics": null
+    },
+    "1": {
+      "complete_official_oof": false,
+      "available_predictions": 69,
+      "metrics": null
+    }
+  },
+  "rotado-45-5": {
+    "0.25": {
+      "complete_official_oof": false,
+      "available_predictions": 0,
+      "metrics": null
+    },
+    "0.5": {
+      "complete_official_oof": false,
+      "available_predictions": 0,
+      "metrics": null
+    },
+    "1": {
+      "complete_official_oof": false,
+      "available_predictions": 0,
+      "metrics": null
+    }
+  }
+}

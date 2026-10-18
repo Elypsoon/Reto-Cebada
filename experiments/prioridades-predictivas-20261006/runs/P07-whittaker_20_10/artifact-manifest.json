@@ -1,0 +1,18 @@
+{
+  "context-contract.json": "7692cef807360a6e53553cd73eee41acaca553edd4d827741f11b0ba3baed107",
+  "fresh-process-check.json": "7f68b8620eae7408b27b98fd20c43a18c59e7ebb7c85c0ea09a9e04fffb092a2",
+  "metrics.json": "cc5a26a8fedf0c85055964dfa16e7e159bd5883c208d3eca8c5947af44d46108",
+  "oof-balanceado-4.csv": "43454058aba5701ca9d5831416d6f4eae3bb2bb5ebb1f2e26d43b5f68ed8b9b7",
+  "oof-principal-5.csv": "f190938d27404f01019d114e97069405a731d994dae36d534215ecb0afee9bae",
+  "oof-rotado-45-5.csv": "d57d84ed91c58c5db3ecc9e42b4bc89050356239574d6949355404b8b375f29d",
+  "predictions_59.csv": "e982ad15e55ab6d74ab09c870cf80bae4791fae7f4634b2531a1b9b76b5e6983",
+  "recovery-package.json": "a2b4a8e9ee7e257b7d79e952fa36ebe08ec9be67a312925baa05ee90de611664",
+  "resources-run.json": "17d132e07082cec931efae0638fe918c2f9957f4ed144a7c9651150580a66beb",
+  "resources-verify.json": "e39377e602116f01510c7d76ba910edd344d351d9911c6685a03711919b0c597",
+  "training-context.npz": "683eb50e6f257d1258d51a0d6a38a5ef768f71a558ac4b223213f98d1803e0cf",
+  "training.log": "853cee704feeddf99bb1b86090a301859ce1e032472e8c69ef089f6272a238e7",
+  "validation-balanceado-4.json": "4387889bc4d2e2c769b3f5877a4540a2bcd1bdefce37e25580d566679eaf5f52",
+  "validation-principal-5.json": "22bbcc1747af02fbce46530aae119881913949f9c97fe48bb682e14ee29a10d7",
+  "validation-rotado-45-5.json": "9c53dfe6d12c475cb0fc5093d631c82342155ceaa3a5d1abb8eb680ee376b07d",
+  "verification.log": "84871ff155d3c537d932a2f8806dfc32c0e17c72a438b5eb4bb8b2a49233d66e"
+}

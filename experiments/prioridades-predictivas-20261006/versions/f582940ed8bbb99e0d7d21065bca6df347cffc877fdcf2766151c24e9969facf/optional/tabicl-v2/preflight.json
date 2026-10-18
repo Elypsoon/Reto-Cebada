@@ -1,0 +1,64 @@
+{
+  "available": true,
+  "synthetic_only": true,
+  "manifest": {
+    "model": "tabicl-v2",
+    "repository": "jingang/TabICL",
+    "revision": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19",
+    "checkpoint": "tabicl-regressor-v2-20260212.ckpt",
+    "sha256": "0db9cb538f114e79026bf08f45f41ad8dd7ad2de2aaca9a5ca8cd3bd9748ae7a",
+    "bytes": 114324594,
+    "license_sha256": "c959a1db8bc4b2f41c315a9b077c822372a4a84e1a83636bdb962715aaae6874",
+    "package": "tabicl",
+    "package_version": "2.2.0",
+    "code_repository_revision": "0dbff3ec8fc68c123c87af77b0ea8b25cd2d23f3",
+    "purpose": "Evaluación local experimental; sin activación ni entrega comercial.",
+    "parameters": {
+      "device": "cpu",
+      "n_estimators": 8,
+      "random_state": 2026
+    },
+    "threads": 2
+  },
+  "effective_parameters": {
+    "allow_auto_download": "False",
+    "batch_size": "8",
+    "checkpoint_version": "'tabicl-regressor-v2-20260212.ckpt'",
+    "device": "'cpu'",
+    "disk_offload_dir": "None",
+    "feat_shuffle_method": "'latin'",
+    "inference_config": "None",
+    "kv_cache": "False",
+    "model_path": "'C:\\\\Users\\\\leonf\\\\OneDrive\\\\Documentos\\\\Hack Cebada 2026\\\\experiments\\\\prioridades-predictivas-20261006\\\\optional\\\\tabicl-v2\\\\tabicl-regressor-v2-20260212.ckpt'",
+    "n_estimators": "8",
+    "n_jobs": "2",
+    "norm_methods": "None",
+    "offload_mode": "'auto'",
+    "outlier_threshold": "4.0",
+    "random_state": "2026",
+    "use_amp": "False",
+    "use_fa3": "'auto'",
+    "verbose": "False"
+  },
+  "seconds": 8.6619720000308,
+  "rss_mb": 1263.00390625,
+  "checkpoint_guard": true,
+  "context_guard": true,
+  "fresh_process_verified": true,
+  "limits": {
+    "rss_mb": 4096,
+    "seconds_per_configuration": 1800,
+    "cpu_threads": 2
+  },
+  "dependencies": {
+    "tabicl": "2.2.0",
+    "torch": "2.8.0+cpu",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "license_context": "BSD-3-Clause",
+  "limits_enforced": true,
+  "offline_recovery_verified": true
+}

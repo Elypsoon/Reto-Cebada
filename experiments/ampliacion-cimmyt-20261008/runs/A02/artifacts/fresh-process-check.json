@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "offline": true,
+  "atol": 1e-10,
+  "rtol": 0,
+  "model_predictions_checked": 471,
+  "metrics_recalculated": true,
+  "cohorts_weights_contracts_checked": true,
+  "hidden_queries_checked": true,
+  "run": "A02"
+}

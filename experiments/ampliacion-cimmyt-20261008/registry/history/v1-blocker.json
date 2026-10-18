@@ -1,0 +1,22 @@
+{
+  "status": "needs_protocol_decision",
+  "at": "2026-10-08T18:36:08.197810+00:00",
+  "issue": "Los originales entregan puntos sin polígonos ni datum declarado; no permiten aplicar las envolventes espaciales aprobadas",
+  "blocked_tasks": [
+    "2.5",
+    "2.6",
+    "3.1",
+    "3.3",
+    "3.4",
+    "4.7",
+    "5.2"
+  ],
+  "options": [
+    "Metadatos documentados para el protocolo vigente",
+    "Revisión explícita para diagnóstico por puntos aproximados"
+  ],
+  "report": "docs/auditoria-cimmyt.md",
+  "label_candidates_national": 48,
+  "admitted_training_labels": null,
+  "active_changed": false
+}

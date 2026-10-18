@@ -1,0 +1,698 @@
+{
+  "src/agrocebada/cli.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\cli.py",
+    "sha256": "7e389551e16d8dc9482ce792298b050d02c44f2abb28a53cd17c21d835ddf1cf"
+  },
+  "src/agrocebada/common.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\common.py",
+    "sha256": "9b7fc18903bab1a048137a9dec974e7d610ab19c66dd1039d8409f81d47dc124"
+  },
+  "src/agrocebada/data.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\data.py",
+    "sha256": "9be60f7e974bf98d5cff2ff745cb831991df10ca8454c97f0a9437f635052623"
+  },
+  "src/agrocebada/external.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\external.py",
+    "sha256": "8e29c7031bb913811ac2d86d00e96254be0a2a18a9c55deb18a80e61daec953f"
+  },
+  "src/agrocebada/features.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\features.py",
+    "sha256": "7cb8d4e32f8672b88c20533035e1961613d21441414aa3696501cfc9fd9a87ee"
+  },
+  "src/agrocebada/inference.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\inference.py",
+    "sha256": "190f929350aceed71cdc4da97e5abcce808bbc8e3892ecf5a78d8d54702b3995"
+  },
+  "src/agrocebada/modeling.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\modeling.py",
+    "sha256": "9f76a676eb063fd5952bb8dd15390457fdab0c108453e04285d2b78b06630cd6"
+  },
+  "src/agrocebada/optional.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\optional.py",
+    "sha256": "8b37e94a5f96a6ef5e4ad3cf60fee31f283529b64c0ab426a2252a6fa6ea80e6"
+  },
+  "src/agrocebada/phase.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\phase.py",
+    "sha256": "1ce87c218d287d5f137689f42f078e3d80c64790675210f94bbc7e67fe3a2c8d"
+  },
+  "src/agrocebada/priority_adapter.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_adapter.py",
+    "sha256": "0af272e69cdefb5e93ad76362dbc60062c1d1412ac5c4a03b078e2e19e2dedb3"
+  },
+  "src/agrocebada/priority_catalog.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_catalog.py",
+    "sha256": "2396fdd69fa5998e217b457774aafe33995397a2de1be7e60e0b132e77fd5e09"
+  },
+  "src/agrocebada/priority_curves.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_curves.py",
+    "sha256": "544fa49bfe85c2d85cc23ee55f8c79adddf31c7e28e1ccd1a3d58a73e2c38d2a"
+  },
+  "src/agrocebada/priority_data.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_data.py",
+    "sha256": "9108e16158424c3f30b31f2ff8c64117173c3ee4995b41981901e0dbe82f3b5c"
+  },
+  "src/agrocebada/priority_functional.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_functional.py",
+    "sha256": "6a25d87dd055a05e70458c5cc7c9389509abbe18f3b1f5382d04d4d648cab918"
+  },
+  "src/agrocebada/priority_models.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_models.py",
+    "sha256": "43e6e590518ac1714fe6a983e41b649ebc9a7807641d0e9460b9a735fd3771c2"
+  },
+  "src/agrocebada/priority_optional.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_optional.py",
+    "sha256": "55fb0e9070fc851fa37c901bde35960a90591d78db646353cf1012ebab578942"
+  },
+  "src/agrocebada/priority_population.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_population.py",
+    "sha256": "8e4b3c4639e550223ecc229dcbb9f0b4d6639044c924145e3127e73a421288c5"
+  },
+  "src/agrocebada/priority_registry.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_registry.py",
+    "sha256": "ad9a089a67d911778eb1289465ae20dff7b83e6a16800c26f6267f3612e2aa0f"
+  },
+  "src/agrocebada/priority_resources.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_resources.py",
+    "sha256": "bd0234e921fd19545b102fd22cc84942b12035f1a5d7c58f8daaae66d7684619"
+  },
+  "src/agrocebada/priority_run.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_run.py",
+    "sha256": "e5c29f41a15e7053c0b1302c8147cda259869c65f669d7cbdc49c84edb60cf6f"
+  },
+  "src/agrocebada/priority_selection.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_selection.py",
+    "sha256": "7f4b96b5b04c9decce36ed067ed33ac61524c17bfd2154264acd05da86933133"
+  },
+  "src/agrocebada/priority_selectors.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_selectors.py",
+    "sha256": "b92474392f869f781147ac871f671c7297238ca7eed187c40cb48de51d25c6c2"
+  },
+  "src/agrocebada/priority_validation.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\priority_validation.py",
+    "sha256": "0282d9532284d3b83a0e9494f2db67631510f2dd1bd08aaf764127cda49ca7af"
+  },
+  "src/agrocebada/robust.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\robust.py",
+    "sha256": "46a888fb40648096d7823197c8038add7a6b5727c18ca88ab97d19ecbb960774"
+  },
+  "src/agrocebada/segments.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\segments.py",
+    "sha256": "28454b8e800bc4a8e5554d1e9a65300e4343a70725e2db135eaf791c34e59adf"
+  },
+  "src/agrocebada/spatial.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\spatial.py",
+    "sha256": "7b92cd5730eb2bdbdcc46eeec3a0e426161289e56ec57832de1e512e0c26d851"
+  },
+  "src/agrocebada/tracking.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\tracking.py",
+    "sha256": "c48aba5ff3fc7e14265ca1747b426692004f1436c0d89c3a0153daf9bf39152a"
+  },
+  "src/agrocebada/variants.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\variants.py",
+    "sha256": "e1a7bf7e1a46ec8fc690cb5005962b87a3dcb994c871a63a3b38d02fa0b82dd8"
+  },
+  "src/agrocebada/__init__.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\src\\agrocebada\\__init__.py",
+    "sha256": "c0e9a63bf7f9894613024d21fce1561d76c84ec34bc5ce579bbec47da1d5a90c"
+  },
+  "data/processed/audit.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\audit.json",
+    "sha256": "79e55e3b3e02861a077a0a1a95ff10188b6b99867fcde3478c84739c2e7d000f"
+  },
+  "data/processed/curves.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\curves.parquet",
+    "sha256": "17231962b2d245d349713d2c1fd72d5cba2c0fdf9dd0828a9600f1da0733e130"
+  },
+  "data/processed/environment.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\environment.parquet",
+    "sha256": "7fbff6a715a1a06957b911d73b7321ea3dc4f6d393b377a320cb92cb454337b2"
+  },
+  "data/processed/external_nasa.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\external_nasa.parquet",
+    "sha256": "35dcffc0a6e86a4120ff50fae55c0a4b0e42d6f541634f39fdcb5343b7271ea9"
+  },
+  "data/processed/external_siap.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\external_siap.parquet",
+    "sha256": "8aa0e8243577b1c844e862f48309e8941366eb4555c3000475066aa75efa5e86"
+  },
+  "data/processed/feature-configs.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\feature-configs.json",
+    "sha256": "daba1173d3c2023854254adfda6f6d20b94d6de9610d42e62179f329c9d2a433"
+  },
+  "data/processed/feature-dictionary.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\feature-dictionary.json",
+    "sha256": "6da71ab49e32157665128834f667efaccb48856a4f2c487aeff2b324981d8361"
+  },
+  "data/processed/features_monthly_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_monthly_10_10.parquet",
+    "sha256": "7f4c7b0c3571988f2f3b6e5d2e09ef8f7a8972fe80f072921faa8503dc169ce1"
+  },
+  "data/processed/features_monthly_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_monthly_20_10.parquet",
+    "sha256": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa"
+  },
+  "data/processed/features_monthly_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_monthly_40_10.parquet",
+    "sha256": "416cd92ffd38a67b609ee3d2565423b5472379eed1d6c78fdedc150a5540b3b6"
+  },
+  "data/processed/features_priority_calendar.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_priority_calendar.parquet",
+    "sha256": "78a54245f2285338c3a633f21b987c4f3845ae7f3c1e0a0b6eabd1edcc719c18"
+  },
+  "data/processed/features_priority_calendar_nasa.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_priority_calendar_nasa.parquet",
+    "sha256": "9cf1926119c8f9c8f5c4302536d06ba1fdf3ee87b28e2f61fbe0414e95d429e1"
+  },
+  "data/processed/features_priority_thermal.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_priority_thermal.parquet",
+    "sha256": "1120034a726b397a954e25786ea6df25d3367d8ed535b1f16ad54b5ae72a6cff"
+  },
+  "data/processed/features_segmented_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_segmented_20_10.parquet",
+    "sha256": "d73291050744d988486bf87b4cd031c919026d54ef4ec2864d8636037adbc198"
+  },
+  "data/processed/features_segmented_evi_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_segmented_evi_20_10.parquet",
+    "sha256": "995bed0503b06c9e74ae09c4272e7fc461bf91f7625afb39bb340b37980977c1"
+  },
+  "data/processed/features_whittaker_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_whittaker_10_10.parquet",
+    "sha256": "ca36e53cfdd8794a409f295de9e20b4e4dd60e10051cf0b7f3dce0e2ddecd8bb"
+  },
+  "data/processed/features_whittaker_10_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_whittaker_10_100.parquet",
+    "sha256": "9cb81cd454ab35c07fd1c3f9c339e2a75d61ca26f1a3fc2644a1afe4e893d515"
+  },
+  "data/processed/features_whittaker_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_whittaker_20_10.parquet",
+    "sha256": "8cc323e05a5e0e7483faf4a8532552985d8d0c836c0e5b9b03eb7f3b0cbc564d"
+  },
+  "data/processed/features_whittaker_20_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_whittaker_20_100.parquet",
+    "sha256": "701b3516b8c0b27f2b677b165eab8292373be2f6c37417b7b8478969d0c93ce1"
+  },
+  "data/processed/features_whittaker_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_whittaker_40_10.parquet",
+    "sha256": "1da06d25ea46952748d1b7d4d5b0868be00e3f68a5081b74a089adfff7dd8072"
+  },
+  "data/processed/features_whittaker_40_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\features_whittaker_40_100.parquet",
+    "sha256": "4d82b08d14ab1b6fe11a1d6d8a169292e992df101572c7a542848c9b9937d74e"
+  },
+  "data/processed/history-comparability.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\history-comparability.json",
+    "sha256": "e71b5e0b366ae4f2163563dacbb49cb2855ef12803d2f58b81d98b570c5d7981"
+  },
+  "data/processed/monthly-climate.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\monthly-climate.parquet",
+    "sha256": "46b471e9246244d22061fc3ef90d9eb5462a372f342fd2ee50c1be1facc275e1"
+  },
+  "data/processed/monthly-satellite.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\monthly-satellite.parquet",
+    "sha256": "743728bb146744756b8b616a67369bddc7297e6d9204bc7298e578250711e403"
+  },
+  "data/processed/nasa-cells.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\nasa-cells.csv",
+    "sha256": "10f3523910aa349182b1f7392395c2487978ec6e567d92b426ff53afc10b3e8e"
+  },
+  "data/processed/nasa-quality.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\nasa-quality.json",
+    "sha256": "4a3101d1739db95805691f4177ac9d60fe43d7e027ce90eb3f9b21ba19f9471e"
+  },
+  "data/processed/parcel-raster-coverage.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\parcel-raster-coverage.parquet",
+    "sha256": "662242e7b4d8c6bc3871fa3ca962606b22e1507ecd62f587a1a640070a81fff0"
+  },
+  "data/processed/parcels.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\parcels.parquet",
+    "sha256": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e"
+  },
+  "data/processed/preparation.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\preparation.json",
+    "sha256": "b6ab8d43b57f097b778a6af7204fcd9c6fe4829e8b70b8e435271ad3b76cbab6"
+  },
+  "data/processed/priority-calendar-support.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\priority-calendar-support.json",
+    "sha256": "1d1165627a6e49fbbca8147d74374b2ac323871f729962322d17bf4a029bd6da"
+  },
+  "data/processed/priority-covariates.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\priority-covariates.parquet",
+    "sha256": "2f0f97abd01e017cf6aa364c29c2f34e026f92d90acaeb5a4390e3a3cdde3689"
+  },
+  "data/processed/priority-functional-coefficients.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\priority-functional-coefficients.parquet",
+    "sha256": "affa60e08c891c0fe8ed6eddd3f26e8ace80af637010bdbb8d612c07fbf755aa"
+  },
+  "data/processed/priority-functional-support.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\priority-functional-support.json",
+    "sha256": "2de26b63f4b3f424e2975066873eaa8459e719889ae814cbc19deef18ee32029"
+  },
+  "data/processed/priority-quality.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\priority-quality.parquet",
+    "sha256": "e2ce4b586b95fdf20c9e112491ed7ae5d15e486bae2b16ef63415c0676354c6f"
+  },
+  "data/processed/priority-thermal-audit.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\priority-thermal-audit.json",
+    "sha256": "5376933171c82fa7b63a1df2459f21be3861d447543ce9e53ba344646e8e25fc"
+  },
+  "data/processed/priority-thermal-support.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\priority-thermal-support.json",
+    "sha256": "d666f7a27a8c6bbf3649ca06d3dd395771bb0dc7b095c8674021e994c71e4f3b"
+  },
+  "data/processed/quality_monthly_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\quality_monthly_10_10.parquet",
+    "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18"
+  },
+  "data/processed/quality_monthly_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\quality_monthly_20_10.parquet",
+    "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410"
+  },
+  "data/processed/quality_monthly_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\quality_monthly_40_10.parquet",
+    "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0"
+  },
+  "data/processed/quality_whittaker_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\quality_whittaker_10_10.parquet",
+    "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18"
+  },
+  "data/processed/quality_whittaker_10_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\quality_whittaker_10_100.parquet",
+    "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18"
+  },
+  "data/processed/quality_whittaker_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\quality_whittaker_20_10.parquet",
+    "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410"
+  },
+  "data/processed/quality_whittaker_20_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\quality_whittaker_20_100.parquet",
+    "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410"
+  },
+  "data/processed/quality_whittaker_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\quality_whittaker_40_10.parquet",
+    "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0"
+  },
+  "data/processed/quality_whittaker_40_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\quality_whittaker_40_100.parquet",
+    "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0"
+  },
+  "data/processed/raster-extraction.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\raster-extraction.json",
+    "sha256": "99dec9a00950790e3fa977470275eeedbe5a73722860e376a14cfd853887bb7d"
+  },
+  "data/processed/satellite.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\satellite.parquet",
+    "sha256": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9"
+  },
+  "data/processed/segmented-curves.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\segmented-curves.parquet",
+    "sha256": "10e812c086691459cb38c1a1e2ea6e9fd2e6cf0dc8fc091eddbeacf8be663572"
+  },
+  "data/processed/segmented-dictionary.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\segmented-dictionary.json",
+    "sha256": "9be836cabaf2297cabd058703b0917307ad840591195d5a2faa03cef8ec2d330"
+  },
+  "data/processed/segmented-quality.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\segmented-quality.json",
+    "sha256": "80e0577ecbfc07679e5573c8d99d65b489ba688659d5e96fec07a82c7af4abcd"
+  },
+  "data/processed/siap-history.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\siap-history.csv",
+    "sha256": "4ccf997d4365c900f201333f85c3e9469fe68f3d88d4461158e91df07e5579f2"
+  },
+  "data/processed/siap-quality.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\siap-quality.json",
+    "sha256": "344c8f9377b506e90550c0b12d3bc8acde3c0c0dbf8fc1ff6fda1d59e107e52b"
+  },
+  "data/processed/source-manifest.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\processed\\source-manifest.json",
+    "sha256": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+  },
+  "data/external/nasa_power_19.5_-98.125_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\external\\nasa_power_19.5_-98.125_20250401_20251031.json",
+    "sha256": "69bfe2e143c581cf01b830071500a5f640f9b83d71b1a2ca2c58f43f69e67875"
+  },
+  "data/external/nasa_power_19.5_-98.75_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\external\\nasa_power_19.5_-98.75_20250401_20251031.json",
+    "sha256": "1e0a9a361fbbbf1a646072774468c7a6b18d112932eb2d2363e8c90990366fdb"
+  },
+  "data/external/nasa_power_20.0_-98.125_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\external\\nasa_power_20.0_-98.125_20250401_20251031.json",
+    "sha256": "27c89259f764247a3ebd9402c1c1ff2a85f7afa2e677712a1ffe8d13a88e6b17"
+  },
+  "data/external/nasa_power_20.0_-98.75_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\external\\nasa_power_20.0_-98.75_20250401_20251031.json",
+    "sha256": "b184956e4f920303357ab901fa6cbf364ba59384f9230e0c4be5a6a14369a6e4"
+  },
+  "data/external/siap_dictionary.xlsx": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\external\\siap_dictionary.xlsx",
+    "sha256": "ab6fa27d390a70dd9eb9d19f98e9c0417a5e80cae3251ecca3f70b0a73bd8ffb"
+  },
+  "data/external/siap_municipal_2018.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\external\\siap_municipal_2018.csv",
+    "sha256": "9af11d1d342ad2cb632cdc004cca7cbf62ae20026c52254c352eec8cdb1babd5"
+  },
+  "data/external/siap_municipal_2019.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\external\\siap_municipal_2019.csv",
+    "sha256": "f6a01472287c65bc50d237d7edcbaf4400c4439d3c3389f93bd40bf8c74fbf98"
+  },
+  "data/external/siap_municipal_2020.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\external\\siap_municipal_2020.csv",
+    "sha256": "ebf3f12a5ec4fa5a65d2f0d87158da0528280c51b6035e6bc1eb5e96cf4c4304"
+  },
+  "data/external/siap_municipal_2021.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\external\\siap_municipal_2021.csv",
+    "sha256": "1f03b2f405c18ea00b63766f9732c7ed2f944b589e815ba6492c723e9b2cb65b"
+  },
+  "data/external/siap_municipal_2022.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\external\\siap_municipal_2022.csv",
+    "sha256": "745f5189592446aa4348ffeba2780fd858f7071aef8dfd338414abbf2bc46162"
+  },
+  "data/external/siap_municipal_2023.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\external\\siap_municipal_2023.csv",
+    "sha256": "30b3e90714d646821a6320645681b18e8e8fdbba8b88f59d4b5904b23acf4bf6"
+  },
+  "data/external/siap_municipal_2024.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\data\\external\\siap_municipal_2024.csv",
+    "sha256": "cffa7d638d74b4fc18966154c411ff207530d8be962abc9e311d2b08f3ffbb11"
+  },
+  "pyproject.toml": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\pyproject.toml",
+    "sha256": "fae733c6a8236258f2770dc9cfcd80543f392a76fd806dd0b225e5f5e1d1f0be"
+  },
+  "requirements.lock": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\requirements.lock",
+    "sha256": "f5224a75434f153d401534ed31a7ecddd76c07639e1c192b3dba8f8e3e8bd304"
+  },
+  "registry/schemes.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\registry\\schemes.csv",
+    "sha256": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334"
+  },
+  "scripts/offline_worker.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\scripts\\offline_worker.py",
+    "sha256": "204133a0f12eb466bca58d3c126389f1f2dc1ff5fa69b7a2a10cce46ce67cdc6"
+  },
+  "controls/C-activa/src/agrocebada/cli.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\cli.py",
+    "sha256": "1b418e833b25d28cc8983d6ef015d911eaa019d75317f66a1a4a11c6cc6aa259"
+  },
+  "controls/C-activa/src/agrocebada/common.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\common.py",
+    "sha256": "a1d8204b16fe3c2deefa0750e14ed346ba99aaf0e7f50854d24b05a38e4aae8d"
+  },
+  "controls/C-activa/src/agrocebada/data.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\data.py",
+    "sha256": "9be60f7e974bf98d5cff2ff745cb831991df10ca8454c97f0a9437f635052623"
+  },
+  "controls/C-activa/src/agrocebada/external.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\external.py",
+    "sha256": "8e29c7031bb913811ac2d86d00e96254be0a2a18a9c55deb18a80e61daec953f"
+  },
+  "controls/C-activa/src/agrocebada/features.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\features.py",
+    "sha256": "7cb8d4e32f8672b88c20533035e1961613d21441414aa3696501cfc9fd9a87ee"
+  },
+  "controls/C-activa/src/agrocebada/inference.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\inference.py",
+    "sha256": "df9b02bad022edaf8f9a0208241c4a401febc4e20e09b7017a617990194b9c46"
+  },
+  "controls/C-activa/src/agrocebada/modeling.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\modeling.py",
+    "sha256": "279335ecf181bf7dfc91b2407b8e48467b4f284686d3e0ad754f311785f4d933"
+  },
+  "controls/C-activa/src/agrocebada/spatial.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\spatial.py",
+    "sha256": "7b92cd5730eb2bdbdcc46eeec3a0e426161289e56ec57832de1e512e0c26d851"
+  },
+  "controls/C-activa/src/agrocebada/__init__.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\__init__.py",
+    "sha256": "c0e9a63bf7f9894613024d21fce1561d76c84ec34bc5ce579bbec47da1d5a90c"
+  },
+  "controls/C-activa/data/processed/audit.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\audit.json",
+    "sha256": "79e55e3b3e02861a077a0a1a95ff10188b6b99867fcde3478c84739c2e7d000f"
+  },
+  "controls/C-activa/data/processed/curves.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\curves.parquet",
+    "sha256": "17231962b2d245d349713d2c1fd72d5cba2c0fdf9dd0828a9600f1da0733e130"
+  },
+  "controls/C-activa/data/processed/environment.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\environment.parquet",
+    "sha256": "7fbff6a715a1a06957b911d73b7321ea3dc4f6d393b377a320cb92cb454337b2"
+  },
+  "controls/C-activa/data/processed/external_nasa.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\external_nasa.parquet",
+    "sha256": "35dcffc0a6e86a4120ff50fae55c0a4b0e42d6f541634f39fdcb5343b7271ea9"
+  },
+  "controls/C-activa/data/processed/external_siap.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\external_siap.parquet",
+    "sha256": "8aa0e8243577b1c844e862f48309e8941366eb4555c3000475066aa75efa5e86"
+  },
+  "controls/C-activa/data/processed/feature-configs.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\feature-configs.json",
+    "sha256": "d7235f7814ac454bb9adc8e90a3bf7a02c8a5f4e1222ab8a4ddb762704358bbc"
+  },
+  "controls/C-activa/data/processed/feature-dictionary.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\feature-dictionary.json",
+    "sha256": "6da71ab49e32157665128834f667efaccb48856a4f2c487aeff2b324981d8361"
+  },
+  "controls/C-activa/data/processed/features_monthly_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_monthly_10_10.parquet",
+    "sha256": "7f4c7b0c3571988f2f3b6e5d2e09ef8f7a8972fe80f072921faa8503dc169ce1"
+  },
+  "controls/C-activa/data/processed/features_monthly_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_monthly_20_10.parquet",
+    "sha256": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa"
+  },
+  "controls/C-activa/data/processed/features_monthly_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_monthly_40_10.parquet",
+    "sha256": "416cd92ffd38a67b609ee3d2565423b5472379eed1d6c78fdedc150a5540b3b6"
+  },
+  "controls/C-activa/data/processed/features_whittaker_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_whittaker_10_10.parquet",
+    "sha256": "ca36e53cfdd8794a409f295de9e20b4e4dd60e10051cf0b7f3dce0e2ddecd8bb"
+  },
+  "controls/C-activa/data/processed/features_whittaker_10_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_whittaker_10_100.parquet",
+    "sha256": "9cb81cd454ab35c07fd1c3f9c339e2a75d61ca26f1a3fc2644a1afe4e893d515"
+  },
+  "controls/C-activa/data/processed/features_whittaker_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_whittaker_20_10.parquet",
+    "sha256": "8cc323e05a5e0e7483faf4a8532552985d8d0c836c0e5b9b03eb7f3b0cbc564d"
+  },
+  "controls/C-activa/data/processed/features_whittaker_20_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_whittaker_20_100.parquet",
+    "sha256": "701b3516b8c0b27f2b677b165eab8292373be2f6c37417b7b8478969d0c93ce1"
+  },
+  "controls/C-activa/data/processed/features_whittaker_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_whittaker_40_10.parquet",
+    "sha256": "1da06d25ea46952748d1b7d4d5b0868be00e3f68a5081b74a089adfff7dd8072"
+  },
+  "controls/C-activa/data/processed/features_whittaker_40_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_whittaker_40_100.parquet",
+    "sha256": "4d82b08d14ab1b6fe11a1d6d8a169292e992df101572c7a542848c9b9937d74e"
+  },
+  "controls/C-activa/data/processed/history-comparability.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\history-comparability.json",
+    "sha256": "e71b5e0b366ae4f2163563dacbb49cb2855ef12803d2f58b81d98b570c5d7981"
+  },
+  "controls/C-activa/data/processed/monthly-climate.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\monthly-climate.parquet",
+    "sha256": "46b471e9246244d22061fc3ef90d9eb5462a372f342fd2ee50c1be1facc275e1"
+  },
+  "controls/C-activa/data/processed/monthly-satellite.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\monthly-satellite.parquet",
+    "sha256": "743728bb146744756b8b616a67369bddc7297e6d9204bc7298e578250711e403"
+  },
+  "controls/C-activa/data/processed/nasa-cells.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\nasa-cells.csv",
+    "sha256": "10f3523910aa349182b1f7392395c2487978ec6e567d92b426ff53afc10b3e8e"
+  },
+  "controls/C-activa/data/processed/nasa-quality.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\nasa-quality.json",
+    "sha256": "4a3101d1739db95805691f4177ac9d60fe43d7e027ce90eb3f9b21ba19f9471e"
+  },
+  "controls/C-activa/data/processed/parcel-raster-coverage.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\parcel-raster-coverage.parquet",
+    "sha256": "662242e7b4d8c6bc3871fa3ca962606b22e1507ecd62f587a1a640070a81fff0"
+  },
+  "controls/C-activa/data/processed/parcels.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\parcels.parquet",
+    "sha256": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e"
+  },
+  "controls/C-activa/data/processed/preparation.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\preparation.json",
+    "sha256": "b6ab8d43b57f097b778a6af7204fcd9c6fe4829e8b70b8e435271ad3b76cbab6"
+  },
+  "controls/C-activa/data/processed/quality_monthly_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_monthly_10_10.parquet",
+    "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18"
+  },
+  "controls/C-activa/data/processed/quality_monthly_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_monthly_20_10.parquet",
+    "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410"
+  },
+  "controls/C-activa/data/processed/quality_monthly_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_monthly_40_10.parquet",
+    "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0"
+  },
+  "controls/C-activa/data/processed/quality_whittaker_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_whittaker_10_10.parquet",
+    "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18"
+  },
+  "controls/C-activa/data/processed/quality_whittaker_10_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_whittaker_10_100.parquet",
+    "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18"
+  },
+  "controls/C-activa/data/processed/quality_whittaker_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_whittaker_20_10.parquet",
+    "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410"
+  },
+  "controls/C-activa/data/processed/quality_whittaker_20_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_whittaker_20_100.parquet",
+    "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410"
+  },
+  "controls/C-activa/data/processed/quality_whittaker_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_whittaker_40_10.parquet",
+    "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0"
+  },
+  "controls/C-activa/data/processed/quality_whittaker_40_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_whittaker_40_100.parquet",
+    "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0"
+  },
+  "controls/C-activa/data/processed/raster-extraction.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\raster-extraction.json",
+    "sha256": "99dec9a00950790e3fa977470275eeedbe5a73722860e376a14cfd853887bb7d"
+  },
+  "controls/C-activa/data/processed/satellite.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\satellite.parquet",
+    "sha256": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9"
+  },
+  "controls/C-activa/data/processed/siap-history.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\siap-history.csv",
+    "sha256": "4ccf997d4365c900f201333f85c3e9469fe68f3d88d4461158e91df07e5579f2"
+  },
+  "controls/C-activa/data/processed/siap-quality.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\siap-quality.json",
+    "sha256": "344c8f9377b506e90550c0b12d3bc8acde3c0c0dbf8fc1ff6fda1d59e107e52b"
+  },
+  "controls/C-activa/data/processed/source-manifest.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\source-manifest.json",
+    "sha256": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+  },
+  "controls/C-activa/data/external/nasa_power_19.5_-98.125_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\external\\nasa_power_19.5_-98.125_20250401_20251031.json",
+    "sha256": "69bfe2e143c581cf01b830071500a5f640f9b83d71b1a2ca2c58f43f69e67875"
+  },
+  "controls/C-activa/data/external/nasa_power_19.5_-98.75_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\external\\nasa_power_19.5_-98.75_20250401_20251031.json",
+    "sha256": "1e0a9a361fbbbf1a646072774468c7a6b18d112932eb2d2363e8c90990366fdb"
+  },
+  "controls/C-activa/data/external/nasa_power_20.0_-98.125_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\external\\nasa_power_20.0_-98.125_20250401_20251031.json",
+    "sha256": "27c89259f764247a3ebd9402c1c1ff2a85f7afa2e677712a1ffe8d13a88e6b17"
+  },
+  "controls/C-activa/data/external/nasa_power_20.0_-98.75_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\external\\nasa_power_20.0_-98.75_20250401_20251031.json",
+    "sha256": "b184956e4f920303357ab901fa6cbf364ba59384f9230e0c4be5a6a14369a6e4"
+  },
+  "controls/C-activa/data/external/siap_dictionary.xlsx": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\external\\siap_dictionary.xlsx",
+    "sha256": "ab6fa27d390a70dd9eb9d19f98e9c0417a5e80cae3251ecca3f70b0a73bd8ffb"
+  },
+  "controls/C-activa/data/external/siap_municipal_2018.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\external\\siap_municipal_2018.csv",
+    "sha256": "9af11d1d342ad2cb632cdc004cca7cbf62ae20026c52254c352eec8cdb1babd5"
+  },
+  "controls/C-activa/data/external/siap_municipal_2019.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\external\\siap_municipal_2019.csv",
+    "sha256": "f6a01472287c65bc50d237d7edcbaf4400c4439d3c3389f93bd40bf8c74fbf98"
+  },
+  "controls/C-activa/data/external/siap_municipal_2020.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\external\\siap_municipal_2020.csv",
+    "sha256": "ebf3f12a5ec4fa5a65d2f0d87158da0528280c51b6035e6bc1eb5e96cf4c4304"
+  },
+  "controls/C-activa/data/external/siap_municipal_2021.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\external\\siap_municipal_2021.csv",
+    "sha256": "1f03b2f405c18ea00b63766f9732c7ed2f944b589e815ba6492c723e9b2cb65b"
+  },
+  "controls/C-activa/data/external/siap_municipal_2022.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\external\\siap_municipal_2022.csv",
+    "sha256": "745f5189592446aa4348ffeba2780fd858f7071aef8dfd338414abbf2bc46162"
+  },
+  "controls/C-activa/data/external/siap_municipal_2023.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\external\\siap_municipal_2023.csv",
+    "sha256": "30b3e90714d646821a6320645681b18e8e8fdbba8b88f59d4b5904b23acf4bf6"
+  },
+  "controls/C-activa/data/external/siap_municipal_2024.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\external\\siap_municipal_2024.csv",
+    "sha256": "cffa7d638d74b4fc18966154c411ff207530d8be962abc9e311d2b08f3ffbb11"
+  },
+  "controls/C-activa/provenance/contract_official.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\provenance\\contract_official.json",
+    "sha256": "e2eaaac96c8fd702a79e98de14a2e191a3368e331305ddc953d0abde0896d10f"
+  },
+  "controls/C-activa/provenance/contract_selected.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\provenance\\contract_selected.json",
+    "sha256": "a8ed4213e36209bf385a3778b0ce5cb60ba5e3c0d8a47283dc6c2015dbfc0e17"
+  },
+  "controls/C-activa/provenance/procedure.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\provenance\\procedure.json",
+    "sha256": "668c5ec4ab5f0ef3b4ac955bc13918f3a2d0b51bbbcf760bdd6b915180159a23"
+  },
+  "controls/C-activa/requirements.lock": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\requirements.lock",
+    "sha256": "c6dc98762ae205977c04c2d1f4a4e68a92bbc8967d02f94bbe32386bbbfaad28"
+  },
+  "controls/C-activa/pyproject.toml": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\pyproject.toml",
+    "sha256": "edfbd16fc4d9323b794efc6ac9ffec5b5f8c7bedcc05d5d30cf7f0790ac5dc56"
+  },
+  "runs/A00/artifacts/metrics-balanceado-4.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\metrics-balanceado-4.json",
+    "sha256": "8e51e871525cb8ee804c2ea8e2b6726e7185c4aca965b255899058e52762b6f7"
+  },
+  "runs/A00/artifacts/metrics-intraestado-3.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\metrics-intraestado-3.json",
+    "sha256": "704ded4a254544f910a042bd4b404c83e4b23184d0f884c275131dcfd71c6a94"
+  },
+  "runs/A00/artifacts/metrics-principal-5.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\metrics-principal-5.json",
+    "sha256": "4c68cb01aad12a5fef89816ff9a2f5934469118573a8fb7a3a50b4784af476a1"
+  },
+  "runs/A00/artifacts/metrics-rotado-45-5.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\metrics-rotado-45-5.json",
+    "sha256": "3afacc1aa8ae1679b6f753cd6e7d489dfdf7b357d2705106de761e2aa262bd30"
+  },
+  "runs/A00/artifacts/model_official.joblib": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\model_official.joblib",
+    "sha256": "58b12031aa10ecdc37117f264c628b41e66f973b3905bd9cc73ab40b5183ee56"
+  },
+  "runs/A00/artifacts/model_selected.joblib": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\model_selected.joblib",
+    "sha256": "e81344a909f606ff64de9b4beecfee5b8a6c5d37edde6ca9ecc911c0e0148c36"
+  },
+  "runs/A00/artifacts/oof-balanceado-4.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\oof-balanceado-4.csv",
+    "sha256": "bfca3509f85dd1b5917ce7cdfee88adc9bed3ceb1d8de1f38ba729380ee53640"
+  },
+  "runs/A00/artifacts/oof-intraestado-3.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\oof-intraestado-3.csv",
+    "sha256": "399194f81f69f2aea7faf6378e9676dece7187ce1fb2f19d9a9da3068e1d44a4"
+  },
+  "runs/A00/artifacts/oof-principal-5.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\oof-principal-5.csv",
+    "sha256": "d9fa956c49a9e34bd8f8dda3d751484fafceba4d15ea0d6889b7daf4069ca0c1"
+  },
+  "runs/A00/artifacts/oof-rotado-45-5.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\oof-rotado-45-5.csv",
+    "sha256": "5efd947875d305250de76e5d9cf676f5944762e6941439b40b759719837ec719"
+  },
+  "runs/A00/artifacts/predictions_59.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\predictions_59.csv",
+    "sha256": "c547b56bac45ff2bfd2b231fabd1e3999ed66cd715d11d34a2994cc26f91fa36"
+  },
+  "runs/A00/artifacts/predictions_official_only_59.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\predictions_official_only_59.csv",
+    "sha256": "2db6b0bb20da5597c77e917e6d4b26c3afe3e0c5a5ade0b97e2beb7492544b75"
+  }
+}

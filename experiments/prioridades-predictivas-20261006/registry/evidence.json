@@ -1,0 +1,323 @@
+{
+  "sources": [
+    {
+      "id": "L01",
+      "title_and_source": "[Código del selector](../../../src/agrocebada/modeling.py), [historial de la fase](../../../experiments/soporte-regional-20261003/docs/phase-results.md)",
+      "sources": [
+        {
+          "title": "Código del selector",
+          "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\src\\agrocebada\\modeling.py",
+          "sha256": "279335ecf181bf7dfc91b2407b8e48467b4f284686d3e0ad754f311785f4d933"
+        },
+        {
+          "title": "historial de la fase",
+          "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\docs\\phase-results.md",
+          "sha256": "4a255fe7b56fc6d9bff900b74614c2a611e08442c1ef2571fab25f41b9501846"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Archivos locales leídos: filtro marginal, resultados negativos y protección regional fallida. No demuestra que el filtro sea la causa del error.",
+      "application": "P01 y criterios de P06.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L02",
+      "title_and_source": "Franch et al., 2026, [The yield strikes back](https://doi.org/10.1016/j.jag.2026.105140)",
+      "sources": [
+        {
+          "title": "The yield strikes back",
+          "url": "https://doi.org/10.1016/j.jag.2026.105140"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Resumen y fragmentos indexados del PDF institucional sobre trigo/cebada, tiempo térmico y fusión óptica–SAR. No se recuperó íntegramente el texto; no se copian sus parámetros ni ganancias.",
+      "application": "P02; adaptación explícita con NASA existente, sin reproducir el método completo ni usar radar.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L03",
+      "title_and_source": "Zou y Okhrin, 2026, [Stagewise crop yield prediction with multisource functional indices](https://onlinelibrary.wiley.com/doi/full/10.1002/cjs.70043)",
+      "sources": [
+        {
+          "title": "Stagewise crop yield prediction with multisource functional indices",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/cjs.70043"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Texto consultado: GAM y modelos funcionales; también resultados negativos de representaciones excesivas y componentes ruidosos. Datos, objetivos y escalas difieren del reto.",
+      "application": "P04/P05; pocas bases y componentes, sin promesa de mejora.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L04",
+      "title_and_source": "[Tutorial de modelos multinivel de Stan](https://mc-stan.org/learn-stan/case-studies/tutorial_rstanarm.html)",
+      "sources": [
+        {
+          "title": "Tutorial de modelos multinivel de Stan",
+          "url": "https://mc-stan.org/learn-stan/case-studies/tutorial_rstanarm.html"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Documentación de interceptos/pendientes y pooling parcial. Es fundamento estadístico, no evidencia de rendimiento agrícola local.",
+      "application": "P03/P06, regularización de efectos regionales.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L05",
+      "title_and_source": "[Documentación oficial de EBM](https://interpret.ml/docs/ebm.html), [GPML](https://gaussianprocess.org/gpml/chapters/)",
+      "sources": [
+        {
+          "title": "Documentación oficial de EBM",
+          "url": "https://interpret.ml/docs/ebm.html"
+        },
+        {
+          "title": "GPML",
+          "url": "https://gaussianprocess.org/gpml/chapters/"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Modelos aditivos, interacciones y covarianzas. No fija una complejidad óptima para 138 etiquetas.",
+      "application": "GAM/EBM y kernel aditivo jerárquico.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L06",
+      "title_and_source": "Qu et al., ICML 2026, [TabICLv2](https://proceedings.mlr.press/v306/qu26a.html), [implementación oficial](https://github.com/soda-inria/tabicl)",
+      "sources": [
+        {
+          "title": "TabICLv2",
+          "url": "https://proceedings.mlr.press/v306/qu26a.html"
+        },
+        {
+          "title": "implementación oficial",
+          "url": "https://github.com/soda-inria/tabicl"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Resumen del paper y documentación: soporte de regresión y benchmark tabular; pesos concretos aún no verificados localmente.",
+      "application": "P07, comparación opcional independiente.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L07",
+      "title_and_source": "Prior Labs, mayo 2026, [TabPFN-3: Technical Report](https://arxiv.org/abs/2605.13986), [implementación oficial](https://github.com/PriorLabs/TabPFN)",
+      "sources": [
+        {
+          "title": "TabPFN-3: Technical Report",
+          "url": "https://arxiv.org/abs/2605.13986"
+        },
+        {
+          "title": "implementación oficial",
+          "url": "https://github.com/PriorLabs/TabPFN"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Informe/resumen y documentación. Su benchmark no valida estas parcelas y no sustituye TabPFN 2.5 retroactivamente.",
+      "application": "P08, comparación opcional independiente.",
+      "local_predictive_metrics": null
+    },
+    {
+      "id": "L08",
+      "title_and_source": "[Cawley y Talbot, 2010](https://www.jmlr.org/papers/v11/cawley10a.html), [Roberts et al., 2017](https://doi.org/10.1111/ecog.02881)",
+      "sources": [
+        {
+          "title": "Cawley y Talbot, 2010",
+          "url": "https://www.jmlr.org/papers/v11/cawley10a.html"
+        },
+        {
+          "title": "Roberts et al., 2017",
+          "url": "https://doi.org/10.1111/ecog.02881"
+        }
+      ],
+      "consulted_at": "2026-10-06",
+      "reading_scope_and_limitation": "Selección repetida y validación con estructura espacial. No aporta un umbral universal de mejora o distancia.",
+      "application": "Congelación, separación interna/externa y límites de inferencia.",
+      "local_predictive_metrics": null
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "P00",
+      "hypothesis_and_control": "Reproducción de C-activa/C-soporte.",
+      "families_and_representations": "Procedimientos históricos originales; ninguna búsqueda ampliada.",
+      "planned_grid": "Sus catálogos históricos, con resultados separados por control/ruta.",
+      "evidence_ids": [
+        "L01",
+        "L08"
+      ],
+      "status": "pending",
+      "metrics": null,
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo."
+    },
+    {
+      "id": "P01",
+      "hypothesis_and_control": "Ranking marginal frente a conjunto agronómico fijo y todas las columnas elegibles; control: la variante con ranking de este mismo bloque.",
+      "families_and_representations": "GPR/CatBoost; `monthly_20_10` y `whittaker_20_10`; mismos parámetros y fuentes oficiales.",
+      "planned_grid": "2 tablas × 3 selectores × (2 longitudes GPR + 2 profundidades CatBoost) + 2 = 26.",
+      "evidence_ids": [
+        "L01",
+        "L08"
+      ],
+      "status": "pending",
+      "metrics": null,
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo."
+    },
+    {
+      "id": "P02",
+      "hypothesis_and_control": "Eje térmico frente a calendario; control: resumen calendarizado del mismo bloque enriquecido, con los mismos datos NASA y covariables.",
+      "families_and_representations": "GPR/CatBoost; resúmenes por segmentos calendario/térmico; NASA como dependencia de ambas variantes.",
+      "planned_grid": "2 ejes × (2 longitudes + 2 profundidades) + 2 = 10.",
+      "evidence_ids": [
+        "L02",
+        "L08"
+      ],
+      "status": "pending",
+      "metrics": null,
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo."
+    },
+    {
+      "id": "P03",
+      "hypothesis_and_control": "Compartir efectos estatales con regularización; control: variantes sin efecto estatal del mismo bloque, además de media regional.",
+      "families_and_representations": "Ridge jerárquico/GPR jerárquico; tablas monthly/whittaker oficiales con selector fijo.",
+      "planned_grid": "2 tablas × (4 penalizaciones estatales × 3 ridge + 3 varianzas estatales × 2 longitudes GPR) + 2 = 38.",
+      "evidence_ids": [
+        "L04",
+        "L05",
+        "L08"
+      ],
+      "status": "pending",
+      "metrics": null,
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo."
+    },
+    {
+      "id": "P04",
+      "hypothesis_and_control": "Efectos suaves/aditivos y pocas interacciones frente al control congelado.",
+      "families_and_representations": "GAM/EBM; tabla mensual y conjunto agronómico fijo.",
+      "planned_grid": "GAM: 2 números de nudos × 3 penalizaciones; EBM: 2 resoluciones × 2 conjuntos de interacciones; + 2 = 12.",
+      "evidence_ids": [
+        "L03",
+        "L05",
+        "L08"
+      ],
+      "status": "pending",
+      "metrics": null,
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo."
+    },
+    {
+      "id": "P05",
+      "hypothesis_and_control": "Forma de las curvas frente a sus resúmenes; control: resúmenes calendarizados con idénticas covariables y calidad.",
+      "families_and_representations": "GPR/Ridge; resúmenes de calendario/proyección funcional de calendario.",
+      "planned_grid": "Resúmenes: 5 ajustes; funcional con 2 o 3 componentes por rama: 10 ajustes; + 2 = 17.",
+      "evidence_ids": [
+        "L03",
+        "L08"
+      ],
+      "status": "pending",
+      "metrics": null,
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo."
+    },
+    {
+      "id": "P06",
+      "hypothesis_and_control": "Combinado predeclarado de selección compacta, jerarquía y curvas; elegibilidad oficial únicamente.",
+      "families_and_representations": "GPR jerárquico/GAM jerárquico; compacto mensual/proyección funcional calendarizada con 2 componentes por rama.",
+      "planned_grid": "2 representaciones × (3 varianzas estatales × 2 longitudes GPR + 3 penalizaciones estatales × 2 GAM) + 2 = 26.",
+      "evidence_ids": [
+        "L01",
+        "L03",
+        "L04",
+        "L05",
+        "L08"
+      ],
+      "status": "pending",
+      "metrics": null,
+      "protocol": null,
+      "run_id": null,
+      "optional": false,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo."
+    },
+    {
+      "id": "P07",
+      "hypothesis_and_control": "TabICLv2 frente a C-soporte y TabPFN 2.5 histórico.",
+      "families_and_representations": "Un modelo, dos tablas oficiales fijas: monthly/whittaker.",
+      "planned_grid": "Dos configuraciones, evaluadas individualmente; sin seleccionar la mejor con OOF externa.",
+      "evidence_ids": [
+        "L06",
+        "L08"
+      ],
+      "status": "pending",
+      "metrics": null,
+      "protocol": null,
+      "run_id": null,
+      "optional": true,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo."
+    },
+    {
+      "id": "P08",
+      "hypothesis_and_control": "TabPFN-3 frente a los mismos controles.",
+      "families_and_representations": "Un modelo, las mismas dos tablas fijas.",
+      "planned_grid": "Dos configuraciones independientes, sin incorporación a P06.",
+      "evidence_ids": [
+        "L07",
+        "L08"
+      ],
+      "status": "pending",
+      "metrics": null,
+      "protocol": null,
+      "run_id": null,
+      "optional": true,
+      "interpretation": "Hipótesis de diseño; sin resultado predictivo nuevo."
+    }
+  ],
+  "deferred": [
+    {
+      "name": "BART, TabM y NGBoost",
+      "status": "deferred",
+      "predictively_tested": false,
+      "reason": "Prioridad secundaria; no ampliar familias sobre las mismas 138 etiquetas."
+    },
+    {
+      "name": "Radar e imágenes originales nuevas",
+      "status": "deferred",
+      "predictively_tested": false,
+      "reason": "Nueva adquisición y procesamiento fuera de esta fase."
+    },
+    {
+      "name": "ERA5, SoilGrids y AlphaEarth",
+      "status": "deferred",
+      "predictively_tested": false,
+      "reason": "Proveedores nuevos fuera del alcance aprobado."
+    },
+    {
+      "name": "Simulación completa de cultivo",
+      "status": "deferred",
+      "predictively_tested": false,
+      "reason": "No se observan fechas de siembra ni parámetros de cultivo suficientes."
+    },
+    {
+      "name": "Pendientes estatales, kernels anisotrópicos y muchas interacciones",
+      "status": "deferred",
+      "predictively_tested": false,
+      "reason": "Complejidad excesiva con tres estados y 138 etiquetas."
+    }
+  ],
+  "design_sha256": "24655cf01ea1420233dd43cd47840b0a317e9bdc3c72445c2187d68d388faedb",
+  "training_started": false
+}

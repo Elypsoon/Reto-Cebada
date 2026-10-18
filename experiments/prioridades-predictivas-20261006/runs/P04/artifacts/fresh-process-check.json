@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "n": 59,
+  "atol": 1e-10,
+  "rtol": 0,
+  "offline": true,
+  "metrics_recalculated": true,
+  "no_transform_refit": true
+}

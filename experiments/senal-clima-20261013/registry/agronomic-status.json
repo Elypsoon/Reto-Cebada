@@ -1,0 +1,10 @@
+{
+  "status": "absent",
+  "n": 0,
+  "unknown_fields": [
+    "siembra",
+    "variedad",
+    "riego"
+  ],
+  "predictive_use": false
+}

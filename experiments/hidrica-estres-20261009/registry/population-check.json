@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "n": 197,
+  "labeled": 138,
+  "hidden": 59,
+  "cutoff": "2025-10-31",
+  "scheme_hash": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334",
+  "schemes": {
+    "principal-5": {
+      "n": 138,
+      "counts": {
+        "0": 34,
+        "1": 34,
+        "2": 35,
+        "3": 17,
+        "4": 18
+      },
+      "same_assignments": true
+    },
+    "balanceado-4": {
+      "n": 138,
+      "counts": {
+        "0": 34,
+        "1": 35,
+        "2": 34,
+        "3": 35
+      },
+      "same_assignments": true
+    },
+    "rotado-45-5": {
+      "n": 138,
+      "counts": {
+        "0": 34,
+        "1": 34,
+        "2": 35,
+        "3": 17,
+        "4": 18
+      },
+      "same_assignments": true
+    }
+  },
+  "at": "2026-10-13T04:52:09.554885+00:00"
+}

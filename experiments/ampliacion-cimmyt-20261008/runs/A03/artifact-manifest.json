@@ -1,0 +1,13 @@
+{
+  "curve-balanceado-4.csv": "71072b62a30ae9eb536380fd476766a92d1e5404d63b76fef3347d213c044edd",
+  "curve-principal-5.csv": "2bea8e1f6282c2afb16cd2a43d94c8bbfed45c13001f6e692b8fdb625dad9d4f",
+  "curve-rotado-45-5.csv": "aa00c2b828703ae6a81a0d33fd1058f69ca84f099bb7c0ebd6340d02f1e61812",
+  "curve-status.json": "ff4a7fb505741ca8c6a1de76c34b95143e0537bd68ab3524733a4425581ba433",
+  "fresh-process-check.json": "0fa4c57a2e2db61f2501a3ef1548545046aee979534a1f47d9d22c2515809607",
+  "metrics.json": "4a321a11306bb882b0e968718b61a90540cde7cb58e0d88e54f1af881ba8c6e8",
+  "models.joblib": "d373a29c1ff9e9917144bf008ea9987d0ae0a56eaa472aa0920561df56595262",
+  "resources-run.json": "8bb249e77cc7f212945cacfe5e476fee6cffc10890ecf484ef82ca3aababa4e9",
+  "resources-verify.json": "fa5be2ba5a6c0055e216bf8377ed94161dcafc4ab6b87cac645989bef30b59ee",
+  "training.log": "4eab1d1b8e251502c9840904d9fe43fe7e4cd06fb2fe8c1b02250c69cac0a2bc",
+  "verification.log": "5bb9bc674ff1bfc12168d85190454e3c396b93c9099ea6167dcaaa83209ee462"
+}

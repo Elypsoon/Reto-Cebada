@@ -1,0 +1,39 @@
+{
+  "run_id": "P04",
+  "block": "P04",
+  "status": "completed",
+  "protocol_hash": "6636390e7c4f482603026382ee9da83f6061fc917966e404dd49ec78ea2cf662",
+  "created_at": "2026-10-06T19:39:07.722678+00:00",
+  "metrics": {
+    "principal-5": {
+      "rmse": 0.7793069865157303,
+      "mae": 0.6290550404650047,
+      "r2": 0.15559179661181577,
+      "bias": 0.1726922845565742,
+      "n": 138
+    },
+    "balanceado-4": {
+      "rmse": 0.7746065879047288,
+      "mae": 0.6173884121531669,
+      "r2": 0.16574719240585967,
+      "bias": 0.1725473062173527,
+      "n": 138
+    },
+    "rotado-45-5": {
+      "rmse": 0.821665077726896,
+      "mae": 0.6591575673708981,
+      "r2": 0.06130401031220012,
+      "bias": 0.15716636045997479,
+      "n": 138
+    }
+  },
+  "verified": true,
+  "predictively_tested": true,
+  "administratively_closed": true,
+  "activated": false,
+  "deployed": false,
+  "sent": false,
+  "reason": null,
+  "started_at": "2026-10-06T19:53:33.690309+00:00",
+  "finished_at": "2026-10-06T20:38:33.551277+00:00"
+}

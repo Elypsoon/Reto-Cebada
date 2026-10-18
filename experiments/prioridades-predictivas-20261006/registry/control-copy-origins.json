@@ -1,0 +1,697 @@
+{
+  "controls/C-activa/src/agrocebada/__init__.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\src\\agrocebada\\__init__.py",
+    "sha256": "c0e9a63bf7f9894613024d21fce1561d76c84ec34bc5ce579bbec47da1d5a90c",
+    "verified_copy": true
+  },
+  "controls/C-activa/src/agrocebada/cli.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\src\\agrocebada\\cli.py",
+    "sha256": "1b418e833b25d28cc8983d6ef015d911eaa019d75317f66a1a4a11c6cc6aa259",
+    "verified_copy": true
+  },
+  "controls/C-activa/src/agrocebada/common.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\src\\agrocebada\\common.py",
+    "sha256": "a1d8204b16fe3c2deefa0750e14ed346ba99aaf0e7f50854d24b05a38e4aae8d",
+    "verified_copy": true
+  },
+  "controls/C-activa/src/agrocebada/data.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\src\\agrocebada\\data.py",
+    "sha256": "9be60f7e974bf98d5cff2ff745cb831991df10ca8454c97f0a9437f635052623",
+    "verified_copy": true
+  },
+  "controls/C-activa/src/agrocebada/external.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\src\\agrocebada\\external.py",
+    "sha256": "8e29c7031bb913811ac2d86d00e96254be0a2a18a9c55deb18a80e61daec953f",
+    "verified_copy": true
+  },
+  "controls/C-activa/src/agrocebada/features.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\src\\agrocebada\\features.py",
+    "sha256": "7cb8d4e32f8672b88c20533035e1961613d21441414aa3696501cfc9fd9a87ee",
+    "verified_copy": true
+  },
+  "controls/C-activa/src/agrocebada/inference.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\src\\agrocebada\\inference.py",
+    "sha256": "df9b02bad022edaf8f9a0208241c4a401febc4e20e09b7017a617990194b9c46",
+    "verified_copy": true
+  },
+  "controls/C-activa/src/agrocebada/modeling.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\src\\agrocebada\\modeling.py",
+    "sha256": "279335ecf181bf7dfc91b2407b8e48467b4f284686d3e0ad754f311785f4d933",
+    "verified_copy": true
+  },
+  "controls/C-activa/src/agrocebada/spatial.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\src\\agrocebada\\spatial.py",
+    "sha256": "7b92cd5730eb2bdbdcc46eeec3a0e426161289e56ec57832de1e512e0c26d851",
+    "verified_copy": true
+  },
+  "controls/C-activa/requirements.lock": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\requirements.lock",
+    "sha256": "c6dc98762ae205977c04c2d1f4a4e68a92bbc8967d02f94bbe32386bbbfaad28",
+    "verified_copy": true
+  },
+  "controls/C-activa/pyproject.toml": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\pyproject.toml",
+    "sha256": "edfbd16fc4d9323b794efc6ac9ffec5b5f8c7bedcc05d5d30cf7f0790ac5dc56",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/audit.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\audit.json",
+    "sha256": "79e55e3b3e02861a077a0a1a95ff10188b6b99867fcde3478c84739c2e7d000f",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/curves.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\curves.parquet",
+    "sha256": "17231962b2d245d349713d2c1fd72d5cba2c0fdf9dd0828a9600f1da0733e130",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/environment.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\environment.parquet",
+    "sha256": "7fbff6a715a1a06957b911d73b7321ea3dc4f6d393b377a320cb92cb454337b2",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/external_nasa.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\external_nasa.parquet",
+    "sha256": "35dcffc0a6e86a4120ff50fae55c0a4b0e42d6f541634f39fdcb5343b7271ea9",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/external_siap.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\external_siap.parquet",
+    "sha256": "8aa0e8243577b1c844e862f48309e8941366eb4555c3000475066aa75efa5e86",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/feature-configs.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\feature-configs.json",
+    "sha256": "d7235f7814ac454bb9adc8e90a3bf7a02c8a5f4e1222ab8a4ddb762704358bbc",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/feature-dictionary.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\feature-dictionary.json",
+    "sha256": "6da71ab49e32157665128834f667efaccb48856a4f2c487aeff2b324981d8361",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/features_monthly_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\features_monthly_10_10.parquet",
+    "sha256": "7f4c7b0c3571988f2f3b6e5d2e09ef8f7a8972fe80f072921faa8503dc169ce1",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/features_monthly_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\features_monthly_20_10.parquet",
+    "sha256": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/features_monthly_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\features_monthly_40_10.parquet",
+    "sha256": "416cd92ffd38a67b609ee3d2565423b5472379eed1d6c78fdedc150a5540b3b6",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/features_whittaker_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\features_whittaker_10_10.parquet",
+    "sha256": "ca36e53cfdd8794a409f295de9e20b4e4dd60e10051cf0b7f3dce0e2ddecd8bb",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/features_whittaker_10_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\features_whittaker_10_100.parquet",
+    "sha256": "9cb81cd454ab35c07fd1c3f9c339e2a75d61ca26f1a3fc2644a1afe4e893d515",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/features_whittaker_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\features_whittaker_20_10.parquet",
+    "sha256": "8cc323e05a5e0e7483faf4a8532552985d8d0c836c0e5b9b03eb7f3b0cbc564d",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/features_whittaker_20_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\features_whittaker_20_100.parquet",
+    "sha256": "701b3516b8c0b27f2b677b165eab8292373be2f6c37417b7b8478969d0c93ce1",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/features_whittaker_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\features_whittaker_40_10.parquet",
+    "sha256": "1da06d25ea46952748d1b7d4d5b0868be00e3f68a5081b74a089adfff7dd8072",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/features_whittaker_40_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\features_whittaker_40_100.parquet",
+    "sha256": "4d82b08d14ab1b6fe11a1d6d8a169292e992df101572c7a542848c9b9937d74e",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/history-comparability.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\history-comparability.json",
+    "sha256": "e71b5e0b366ae4f2163563dacbb49cb2855ef12803d2f58b81d98b570c5d7981",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/monthly-climate.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\monthly-climate.parquet",
+    "sha256": "46b471e9246244d22061fc3ef90d9eb5462a372f342fd2ee50c1be1facc275e1",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/monthly-satellite.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\monthly-satellite.parquet",
+    "sha256": "743728bb146744756b8b616a67369bddc7297e6d9204bc7298e578250711e403",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/nasa-cells.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\nasa-cells.csv",
+    "sha256": "10f3523910aa349182b1f7392395c2487978ec6e567d92b426ff53afc10b3e8e",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/nasa-quality.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\nasa-quality.json",
+    "sha256": "4a3101d1739db95805691f4177ac9d60fe43d7e027ce90eb3f9b21ba19f9471e",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/parcel-raster-coverage.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\parcel-raster-coverage.parquet",
+    "sha256": "662242e7b4d8c6bc3871fa3ca962606b22e1507ecd62f587a1a640070a81fff0",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/parcels.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\parcels.parquet",
+    "sha256": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/preparation.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\preparation.json",
+    "sha256": "b6ab8d43b57f097b778a6af7204fcd9c6fe4829e8b70b8e435271ad3b76cbab6",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/quality_monthly_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\quality_monthly_10_10.parquet",
+    "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/quality_monthly_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\quality_monthly_20_10.parquet",
+    "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/quality_monthly_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\quality_monthly_40_10.parquet",
+    "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/quality_whittaker_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\quality_whittaker_10_10.parquet",
+    "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/quality_whittaker_10_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\quality_whittaker_10_100.parquet",
+    "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/quality_whittaker_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\quality_whittaker_20_10.parquet",
+    "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/quality_whittaker_20_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\quality_whittaker_20_100.parquet",
+    "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/quality_whittaker_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\quality_whittaker_40_10.parquet",
+    "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/quality_whittaker_40_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\quality_whittaker_40_100.parquet",
+    "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/raster-extraction.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\raster-extraction.json",
+    "sha256": "99dec9a00950790e3fa977470275eeedbe5a73722860e376a14cfd853887bb7d",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/satellite.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\satellite.parquet",
+    "sha256": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/siap-history.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\siap-history.csv",
+    "sha256": "4ccf997d4365c900f201333f85c3e9469fe68f3d88d4461158e91df07e5579f2",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/siap-quality.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\siap-quality.json",
+    "sha256": "344c8f9377b506e90550c0b12d3bc8acde3c0c0dbf8fc1ff6fda1d59e107e52b",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/processed/source-manifest.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\source-manifest.json",
+    "sha256": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/external/nasa_power_19.5_-98.125_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\nasa_power_19.5_-98.125_20250401_20251031.json",
+    "sha256": "69bfe2e143c581cf01b830071500a5f640f9b83d71b1a2ca2c58f43f69e67875",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/external/nasa_power_19.5_-98.75_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\nasa_power_19.5_-98.75_20250401_20251031.json",
+    "sha256": "1e0a9a361fbbbf1a646072774468c7a6b18d112932eb2d2363e8c90990366fdb",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/external/nasa_power_20.0_-98.125_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\nasa_power_20.0_-98.125_20250401_20251031.json",
+    "sha256": "27c89259f764247a3ebd9402c1c1ff2a85f7afa2e677712a1ffe8d13a88e6b17",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/external/nasa_power_20.0_-98.75_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\nasa_power_20.0_-98.75_20250401_20251031.json",
+    "sha256": "b184956e4f920303357ab901fa6cbf364ba59384f9230e0c4be5a6a14369a6e4",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/external/siap_dictionary.xlsx": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\siap_dictionary.xlsx",
+    "sha256": "ab6fa27d390a70dd9eb9d19f98e9c0417a5e80cae3251ecca3f70b0a73bd8ffb",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/external/siap_municipal_2018.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\siap_municipal_2018.csv",
+    "sha256": "9af11d1d342ad2cb632cdc004cca7cbf62ae20026c52254c352eec8cdb1babd5",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/external/siap_municipal_2019.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\siap_municipal_2019.csv",
+    "sha256": "f6a01472287c65bc50d237d7edcbaf4400c4439d3c3389f93bd40bf8c74fbf98",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/external/siap_municipal_2020.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\siap_municipal_2020.csv",
+    "sha256": "ebf3f12a5ec4fa5a65d2f0d87158da0528280c51b6035e6bc1eb5e96cf4c4304",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/external/siap_municipal_2021.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\siap_municipal_2021.csv",
+    "sha256": "1f03b2f405c18ea00b63766f9732c7ed2f944b589e815ba6492c723e9b2cb65b",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/external/siap_municipal_2022.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\siap_municipal_2022.csv",
+    "sha256": "745f5189592446aa4348ffeba2780fd858f7071aef8dfd338414abbf2bc46162",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/external/siap_municipal_2023.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\siap_municipal_2023.csv",
+    "sha256": "30b3e90714d646821a6320645681b18e8e8fdbba8b88f59d4b5904b23acf4bf6",
+    "verified_copy": true
+  },
+  "controls/C-activa/data/external/siap_municipal_2024.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\siap_municipal_2024.csv",
+    "sha256": "cffa7d638d74b4fc18966154c411ff207530d8be962abc9e311d2b08f3ffbb11",
+    "verified_copy": true
+  },
+  "controls/C-activa/provenance/contract_official.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\artifacts\\contract_official.json",
+    "sha256": "e2eaaac96c8fd702a79e98de14a2e191a3368e331305ddc953d0abde0896d10f",
+    "verified_copy": true
+  },
+  "controls/C-activa/provenance/contract_selected.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\artifacts\\contract_selected.json",
+    "sha256": "a8ed4213e36209bf385a3778b0ce5cb60ba5e3c0d8a47283dc6c2015dbfc0e17",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/__init__.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\__init__.py",
+    "sha256": "c0e9a63bf7f9894613024d21fce1561d76c84ec34bc5ce579bbec47da1d5a90c",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/cli.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\cli.py",
+    "sha256": "7e389551e16d8dc9482ce792298b050d02c44f2abb28a53cd17c21d835ddf1cf",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/common.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\common.py",
+    "sha256": "9b7fc18903bab1a048137a9dec974e7d610ab19c66dd1039d8409f81d47dc124",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/data.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\data.py",
+    "sha256": "9be60f7e974bf98d5cff2ff745cb831991df10ca8454c97f0a9437f635052623",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/external.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\external.py",
+    "sha256": "8e29c7031bb913811ac2d86d00e96254be0a2a18a9c55deb18a80e61daec953f",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/features.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\features.py",
+    "sha256": "7cb8d4e32f8672b88c20533035e1961613d21441414aa3696501cfc9fd9a87ee",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/inference.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\inference.py",
+    "sha256": "190f929350aceed71cdc4da97e5abcce808bbc8e3892ecf5a78d8d54702b3995",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/modeling.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\modeling.py",
+    "sha256": "9f76a676eb063fd5952bb8dd15390457fdab0c108453e04285d2b78b06630cd6",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/optional.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\optional.py",
+    "sha256": "8b37e94a5f96a6ef5e4ad3cf60fee31f283529b64c0ab426a2252a6fa6ea80e6",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/phase.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\phase.py",
+    "sha256": "1ce87c218d287d5f137689f42f078e3d80c64790675210f94bbc7e67fe3a2c8d",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/robust.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\robust.py",
+    "sha256": "46a888fb40648096d7823197c8038add7a6b5727c18ca88ab97d19ecbb960774",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/segments.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\segments.py",
+    "sha256": "28454b8e800bc4a8e5554d1e9a65300e4343a70725e2db135eaf791c34e59adf",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/spatial.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\spatial.py",
+    "sha256": "7b92cd5730eb2bdbdcc46eeec3a0e426161289e56ec57832de1e512e0c26d851",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/tracking.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\tracking.py",
+    "sha256": "c48aba5ff3fc7e14265ca1747b426692004f1436c0d89c3a0153daf9bf39152a",
+    "verified_copy": true
+  },
+  "controls/C-soporte/src/agrocebada/variants.py": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\src\\agrocebada\\variants.py",
+    "sha256": "e1a7bf7e1a46ec8fc690cb5005962b87a3dcb994c871a63a3b38d02fa0b82dd8",
+    "verified_copy": true
+  },
+  "controls/C-soporte/requirements.lock": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\requirements.lock",
+    "sha256": "c6dc98762ae205977c04c2d1f4a4e68a92bbc8967d02f94bbe32386bbbfaad28",
+    "verified_copy": true
+  },
+  "controls/C-soporte/pyproject.toml": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59\\pyproject.toml",
+    "sha256": "edfbd16fc4d9323b794efc6ac9ffec5b5f8c7bedcc05d5d30cf7f0790ac5dc56",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/audit.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\audit.json",
+    "sha256": "79e55e3b3e02861a077a0a1a95ff10188b6b99867fcde3478c84739c2e7d000f",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/curves.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\curves.parquet",
+    "sha256": "17231962b2d245d349713d2c1fd72d5cba2c0fdf9dd0828a9600f1da0733e130",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/environment.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\environment.parquet",
+    "sha256": "7fbff6a715a1a06957b911d73b7321ea3dc4f6d393b377a320cb92cb454337b2",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/external_nasa.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\external_nasa.parquet",
+    "sha256": "35dcffc0a6e86a4120ff50fae55c0a4b0e42d6f541634f39fdcb5343b7271ea9",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/external_siap.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\external_siap.parquet",
+    "sha256": "8aa0e8243577b1c844e862f48309e8941366eb4555c3000475066aa75efa5e86",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/feature-configs.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\feature-configs.json",
+    "sha256": "daba1173d3c2023854254adfda6f6d20b94d6de9610d42e62179f329c9d2a433",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/feature-dictionary.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\feature-dictionary.json",
+    "sha256": "6da71ab49e32157665128834f667efaccb48856a4f2c487aeff2b324981d8361",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/features_monthly_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\features_monthly_10_10.parquet",
+    "sha256": "7f4c7b0c3571988f2f3b6e5d2e09ef8f7a8972fe80f072921faa8503dc169ce1",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/features_monthly_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\features_monthly_20_10.parquet",
+    "sha256": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/features_monthly_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\features_monthly_40_10.parquet",
+    "sha256": "416cd92ffd38a67b609ee3d2565423b5472379eed1d6c78fdedc150a5540b3b6",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/features_segmented_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\features_segmented_20_10.parquet",
+    "sha256": "d73291050744d988486bf87b4cd031c919026d54ef4ec2864d8636037adbc198",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/features_segmented_evi_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\features_segmented_evi_20_10.parquet",
+    "sha256": "995bed0503b06c9e74ae09c4272e7fc461bf91f7625afb39bb340b37980977c1",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/features_whittaker_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\features_whittaker_10_10.parquet",
+    "sha256": "ca36e53cfdd8794a409f295de9e20b4e4dd60e10051cf0b7f3dce0e2ddecd8bb",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/features_whittaker_10_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\features_whittaker_10_100.parquet",
+    "sha256": "9cb81cd454ab35c07fd1c3f9c339e2a75d61ca26f1a3fc2644a1afe4e893d515",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/features_whittaker_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\features_whittaker_20_10.parquet",
+    "sha256": "8cc323e05a5e0e7483faf4a8532552985d8d0c836c0e5b9b03eb7f3b0cbc564d",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/features_whittaker_20_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\features_whittaker_20_100.parquet",
+    "sha256": "701b3516b8c0b27f2b677b165eab8292373be2f6c37417b7b8478969d0c93ce1",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/features_whittaker_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\features_whittaker_40_10.parquet",
+    "sha256": "1da06d25ea46952748d1b7d4d5b0868be00e3f68a5081b74a089adfff7dd8072",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/features_whittaker_40_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\features_whittaker_40_100.parquet",
+    "sha256": "4d82b08d14ab1b6fe11a1d6d8a169292e992df101572c7a542848c9b9937d74e",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/history-comparability.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\history-comparability.json",
+    "sha256": "e71b5e0b366ae4f2163563dacbb49cb2855ef12803d2f58b81d98b570c5d7981",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/monthly-climate.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\monthly-climate.parquet",
+    "sha256": "46b471e9246244d22061fc3ef90d9eb5462a372f342fd2ee50c1be1facc275e1",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/monthly-satellite.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\monthly-satellite.parquet",
+    "sha256": "743728bb146744756b8b616a67369bddc7297e6d9204bc7298e578250711e403",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/nasa-cells.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\nasa-cells.csv",
+    "sha256": "10f3523910aa349182b1f7392395c2487978ec6e567d92b426ff53afc10b3e8e",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/nasa-quality.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\nasa-quality.json",
+    "sha256": "4a3101d1739db95805691f4177ac9d60fe43d7e027ce90eb3f9b21ba19f9471e",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/parcel-raster-coverage.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\parcel-raster-coverage.parquet",
+    "sha256": "662242e7b4d8c6bc3871fa3ca962606b22e1507ecd62f587a1a640070a81fff0",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/parcels.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\parcels.parquet",
+    "sha256": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/preparation.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\preparation.json",
+    "sha256": "b6ab8d43b57f097b778a6af7204fcd9c6fe4829e8b70b8e435271ad3b76cbab6",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/quality_monthly_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\quality_monthly_10_10.parquet",
+    "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/quality_monthly_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\quality_monthly_20_10.parquet",
+    "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/quality_monthly_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\quality_monthly_40_10.parquet",
+    "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/quality_whittaker_10_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\quality_whittaker_10_10.parquet",
+    "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/quality_whittaker_10_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\quality_whittaker_10_100.parquet",
+    "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/quality_whittaker_20_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\quality_whittaker_20_10.parquet",
+    "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/quality_whittaker_20_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\quality_whittaker_20_100.parquet",
+    "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/quality_whittaker_40_10.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\quality_whittaker_40_10.parquet",
+    "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/quality_whittaker_40_100.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\quality_whittaker_40_100.parquet",
+    "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/raster-extraction.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\raster-extraction.json",
+    "sha256": "99dec9a00950790e3fa977470275eeedbe5a73722860e376a14cfd853887bb7d",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/satellite.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\satellite.parquet",
+    "sha256": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/segmented-curves.parquet": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\segmented-curves.parquet",
+    "sha256": "10e812c086691459cb38c1a1e2ea6e9fd2e6cf0dc8fc091eddbeacf8be663572",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/segmented-dictionary.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\segmented-dictionary.json",
+    "sha256": "9be836cabaf2297cabd058703b0917307ad840591195d5a2faa03cef8ec2d330",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/segmented-quality.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\segmented-quality.json",
+    "sha256": "80e0577ecbfc07679e5573c8d99d65b489ba688659d5e96fec07a82c7af4abcd",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/siap-history.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\siap-history.csv",
+    "sha256": "4ccf997d4365c900f201333f85c3e9469fe68f3d88d4461158e91df07e5579f2",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/siap-quality.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\siap-quality.json",
+    "sha256": "344c8f9377b506e90550c0b12d3bc8acde3c0c0dbf8fc1ff6fda1d59e107e52b",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/processed/source-manifest.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\processed\\source-manifest.json",
+    "sha256": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/external/nasa_power_19.5_-98.125_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\external\\nasa_power_19.5_-98.125_20250401_20251031.json",
+    "sha256": "69bfe2e143c581cf01b830071500a5f640f9b83d71b1a2ca2c58f43f69e67875",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/external/nasa_power_19.5_-98.75_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\external\\nasa_power_19.5_-98.75_20250401_20251031.json",
+    "sha256": "1e0a9a361fbbbf1a646072774468c7a6b18d112932eb2d2363e8c90990366fdb",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/external/nasa_power_20.0_-98.125_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\external\\nasa_power_20.0_-98.125_20250401_20251031.json",
+    "sha256": "27c89259f764247a3ebd9402c1c1ff2a85f7afa2e677712a1ffe8d13a88e6b17",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/external/nasa_power_20.0_-98.75_20250401_20251031.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\external\\nasa_power_20.0_-98.75_20250401_20251031.json",
+    "sha256": "b184956e4f920303357ab901fa6cbf364ba59384f9230e0c4be5a6a14369a6e4",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/external/siap_dictionary.xlsx": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\external\\siap_dictionary.xlsx",
+    "sha256": "ab6fa27d390a70dd9eb9d19f98e9c0417a5e80cae3251ecca3f70b0a73bd8ffb",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/external/siap_municipal_2018.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\external\\siap_municipal_2018.csv",
+    "sha256": "9af11d1d342ad2cb632cdc004cca7cbf62ae20026c52254c352eec8cdb1babd5",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/external/siap_municipal_2019.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\external\\siap_municipal_2019.csv",
+    "sha256": "f6a01472287c65bc50d237d7edcbaf4400c4439d3c3389f93bd40bf8c74fbf98",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/external/siap_municipal_2020.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\external\\siap_municipal_2020.csv",
+    "sha256": "ebf3f12a5ec4fa5a65d2f0d87158da0528280c51b6035e6bc1eb5e96cf4c4304",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/external/siap_municipal_2021.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\external\\siap_municipal_2021.csv",
+    "sha256": "1f03b2f405c18ea00b63766f9732c7ed2f944b589e815ba6492c723e9b2cb65b",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/external/siap_municipal_2022.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\external\\siap_municipal_2022.csv",
+    "sha256": "745f5189592446aa4348ffeba2780fd858f7071aef8dfd338414abbf2bc46162",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/external/siap_municipal_2023.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\external\\siap_municipal_2023.csv",
+    "sha256": "30b3e90714d646821a6320645681b18e8e8fdbba8b88f59d4b5904b23acf4bf6",
+    "verified_copy": true
+  },
+  "controls/C-soporte/data/external/siap_municipal_2024.csv": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\data\\external\\siap_municipal_2024.csv",
+    "sha256": "cffa7d638d74b4fc18966154c411ff207530d8be962abc9e311d2b08f3ffbb11",
+    "verified_copy": true
+  },
+  "controls/C-soporte/active-manifest.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\active-manifest.json",
+    "sha256": "61bfc9cd5641651cc96b8bae24c2d8abf181619b18ff53549353b994cd8d5e80",
+    "verified_copy": true
+  },
+  "controls/C-soporte/provenance/original-protocol.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\runs\\E00-v2\\protocol.json",
+    "sha256": "a8484c142f41ffbea2586148e0f2daad42fbe84a30a9cfb950445ca8a57f9175",
+    "verified_copy": true
+  },
+  "controls/C-soporte/provenance/contract_official.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\runs\\E00-v2\\artifacts\\contract_official.json",
+    "sha256": "b40ce52dd28cbdef86883c8f3bc8f04aebe045b73d6405ba9490fc92aac16976",
+    "verified_copy": true
+  },
+  "controls/C-soporte/provenance/contract_selected.json": {
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\runs\\E00-v2\\artifacts\\contract_selected.json",
+    "sha256": "d24169832140294d72b947da249ec641ed2a487dab9ba3bcc5dd55f7d92f98c4",
+    "verified_copy": true
+  }
+}

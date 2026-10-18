@@ -1,0 +1,647 @@
+{
+  "candidates": {
+    "gam-70c1458bbef59265": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7332924503108271,
+        "mae": 0.5760775046426593,
+        "r2": 0.2523648151432132
+      }
+    },
+    "gam-17e515cc95833101": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7665921336853502,
+        "mae": 0.6197310972690524,
+        "r2": 0.1829210515620987
+      }
+    },
+    "gam-a9f2c4557606bfd5": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 100,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8954591553106631,
+        "mae": 0.7841520294240688,
+        "r2": -0.1148767703918383
+      }
+    },
+    "gam-50aa772b33f825b9": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 4,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.818116230102318,
+        "mae": 0.6411265027729559,
+        "r2": 0.06939512931011893
+      }
+    },
+    "gam-975f99c7abd76035": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 4,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.774316186934498,
+        "mae": 0.6216381190633634,
+        "r2": 0.16637259997473774
+      }
+    },
+    "gam-5720790df62ca25f": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 100,
+        "state_setting": null,
+        "knots": 4,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8811934406260018,
+        "mae": 0.7631377735649679,
+        "r2": -0.07963713932579375
+      }
+    },
+    "ebm-dd3d763f3d11e7c0": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "ebm",
+        "selector": "agronomic",
+        "setting": 8,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7407804333438178,
+        "mae": 0.5698220686282689,
+        "r2": 0.23701796991834756
+      }
+    },
+    "ebm-fdb8ce38d3138842": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "ebm",
+        "selector": "agronomic",
+        "setting": 8,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "fixed_pairs"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7380112383960923,
+        "mae": 0.5670899512148636,
+        "r2": 0.24271168631247064
+      }
+    },
+    "ebm-dc1bdc2511935ad5": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "ebm",
+        "selector": "agronomic",
+        "setting": 16,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7015917958875982,
+        "mae": 0.541831502711032,
+        "r2": 0.3156089709059362
+      }
+    },
+    "ebm-19e1ed56fa9c3ca1": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "ebm",
+        "selector": "agronomic",
+        "setting": 16,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "fixed_pairs"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7246033614275283,
+        "mae": 0.5569875790621606,
+        "r2": 0.26997792453588365
+      }
+    },
+    "gam-4b0e8242fddf2659": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8845509136960908,
+        "mae": 0.6931318485471425,
+        "r2": -0.08787995652538161
+      }
+    },
+    "gam-f8ba8f7f93134736": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8775309968423146,
+        "mae": 0.7023326658108813,
+        "r2": -0.0706813458551887
+      }
+    },
+    "gam-6248ab8d47ba50c6": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8931375328600787,
+        "mae": 0.6978229236051156,
+        "r2": -0.10910326838034767
+      }
+    },
+    "gam-9e5406bb82e37345": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.883969096756453,
+        "mae": 0.7026327393493805,
+        "r2": -0.08644931230698316
+      }
+    },
+    "gam-752e5793cc60f73d": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 100,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9061130307116153,
+        "mae": 0.7050870721199779,
+        "r2": -0.14156345272211746
+      }
+    },
+    "gam-ecd903e239005e61": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 100,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9010525171107878,
+        "mae": 0.7008970652739466,
+        "r2": -0.12884811676618302
+      }
+    },
+    "gam-5f62d30ce96b6659": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 4,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8975099378959798,
+        "mae": 0.7052876985083808,
+        "r2": -0.1199892045584674
+      }
+    },
+    "gam-3c7aebf13d71d8f2": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 4,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9016545330637047,
+        "mae": 0.7232152022567583,
+        "r2": -0.13035704457142483
+      }
+    },
+    "gam-98d04750a1d833a4": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 4,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8951679637463013,
+        "mae": 0.699886391492499,
+        "r2": -0.11415180170032024
+      }
+    },
+    "gam-426e123e89bcf49d": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 4,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8887809200155703,
+        "mae": 0.7070161435444788,
+        "r2": -0.0983095247860446
+      }
+    },
+    "gam-372ee42d3e52bf0b": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 100,
+        "state_setting": null,
+        "knots": 4,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.905468764872278,
+        "mae": 0.7052466671010414,
+        "r2": -0.13994067754176398
+      }
+    },
+    "gam-8f2ad13d8cc7637e": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "gam",
+        "selector": "agronomic",
+        "setting": 100,
+        "state_setting": null,
+        "knots": 4,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9003346298719802,
+        "mae": 0.7023775904332631,
+        "r2": -0.12705007987785444
+      }
+    },
+    "ebm-08714df592791cba": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "ebm",
+        "selector": "agronomic",
+        "setting": 8,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8860985641893641,
+        "mae": 0.6938257249433538,
+        "r2": -0.09169009526922278
+      }
+    },
+    "ebm-a457221e6009d557": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "ebm",
+        "selector": "agronomic",
+        "setting": 8,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8896812052009764,
+        "mae": 0.7147239310277419,
+        "r2": -0.10053570351506513
+      }
+    },
+    "ebm-ec3d4a2dbed8ee6a": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "ebm",
+        "selector": "agronomic",
+        "setting": 8,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "fixed_pairs"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8794854150996391,
+        "mae": 0.6890496099200941,
+        "r2": -0.07545585394471765
+      }
+    },
+    "ebm-e28d0f20b70dab74": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "ebm",
+        "selector": "agronomic",
+        "setting": 8,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "fixed_pairs"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8761971695492492,
+        "mae": 0.7085533598325161,
+        "r2": -0.06742899656268286
+      }
+    },
+    "ebm-7962bada13ce80d4": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "ebm",
+        "selector": "agronomic",
+        "setting": 16,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.887548914563472,
+        "mae": 0.6982084669981872,
+        "r2": -0.09526673784125284
+      }
+    },
+    "ebm-c7043e374f19ecb8": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "ebm",
+        "selector": "agronomic",
+        "setting": 16,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8898698677652007,
+        "mae": 0.7149519441866813,
+        "r2": -0.1010025042100815
+      }
+    },
+    "ebm-02d9461e9026122a": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "ebm",
+        "selector": "agronomic",
+        "setting": 16,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "fixed_pairs"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8846317687748745,
+        "mae": 0.6952298930878428,
+        "r2": -0.0880788475974148
+      }
+    },
+    "ebm-c74634961d110be1": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "ebm",
+        "selector": "agronomic",
+        "setting": 16,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "fixed_pairs"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8866875057386396,
+        "mae": 0.7115449769695733,
+        "r2": -0.09314175165647787
+      }
+    },
+    "global_mean-6c579de49191790c": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "global_mean",
+        "selector": "all",
+        "setting": 1.0,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.997828445007797,
+        "mae": 0.8957946844622178,
+        "r2": -0.38435369654507245
+      }
+    },
+    "regional_mean-f60b7c7c46c6a70f": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "regional_mean",
+        "selector": "all",
+        "setting": 1.0,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9119407614743639,
+        "mae": 0.7105620220214793,
+        "r2": -0.15629476760536898
+      }
+    }
+  },
+  "failures": [],
+  "outer_selects_configuration": false,
+  "interpretation": "Diagnósticos de configuraciones fijas; no redefinen P06."
+}

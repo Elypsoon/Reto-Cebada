@@ -1,0 +1,9 @@
+{
+  "_github_transport": {
+    "full_record": "folds-balanceado-4.json.gz",
+    "original_sha256": "489f9ad9c73a09b470219daf8dd7cdc03d6167677d577438abf4e20311f9b433",
+    "original_bytes": 8404644,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-09T16:42:45.375445+00:00",
+  "completed_tasks": 29,
+  "total_tasks": 29,
+  "tests_passed": 52,
+  "protected_files_intact": 2596,
+  "frozen_inputs_intact": 229,
+  "a00_recovered": true,
+  "cimmyt_training_started": true,
+  "cimmyt_training_completed": true,
+  "state": "all_done",
+  "protocol_id": "cimmyt-point-assumption-v2",
+  "protocol_sha256": "db106b82591d469818a4e38cf6b1de8a6028d43164c1f05a4547d7d6c3789c51",
+  "coverage": "registry/coverage-v2.json",
+  "conclusions": "docs/conclusions.md",
+  "label_contribution_passed": false,
+  "competitiveness_passed": false,
+  "activated": false,
+  "deployed": false,
+  "sent": false,
+  "openspec_strict_validation_passed": true
+}

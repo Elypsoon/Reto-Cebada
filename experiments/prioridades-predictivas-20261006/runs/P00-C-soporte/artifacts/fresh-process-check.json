@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "n_per_route": 59,
+  "offline": true,
+  "metrics_recalculated": true,
+  "atol": 1e-10,
+  "rtol": 0,
+  "no_refit": true
+}

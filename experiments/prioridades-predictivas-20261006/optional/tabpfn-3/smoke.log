@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\src\agrocebada\priority_optional.py", line 181, in <module>
+    smoke(args.name)
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\src\agrocebada\priority_optional.py", line 80, in smoke
+    model = estimator(name).fit(X[:60], y[:60])
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\src\agrocebada\priority_optional.py", line 44, in estimator
+    from tabpfn import TabPFNRegressor
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\optional\tabpfn-3\env\Lib\site-packages\tabpfn\__init__.py", line 9, in <module>
+    from tabpfn.base import ModelSpecs
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\optional\tabpfn-3\env\Lib\site-packages\tabpfn\base.py", line 48, in <module>
+    from tabpfn.preprocessing.datetimes import DateTransformer
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\optional\tabpfn-3\env\Lib\site-packages\tabpfn\preprocessing\datetimes.py", line 27, in <module>
+    from skrub import DatetimeEncoder
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\optional\tabpfn-3\env\Lib\site-packages\skrub\__init__.py", line 21, in <module>
+    from ._config import config_context, get_config, set_config
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\optional\tabpfn-3\env\Lib\site-packages\skrub\_config.py", line 88, in <module>
+    "data_dir": _get_default_data_dir(),
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\optional\tabpfn-3\env\Lib\site-packages\skrub\_config.py", line 38, in _get_default_data_dir
+    data_home.mkdir(parents=True, exist_ok=True)
+  File "C:\Users\leonf\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\leonf\\skrub_data'
+tabpfn-3 preflight sintético completado
+tabpfn-3 preflight sintético completado

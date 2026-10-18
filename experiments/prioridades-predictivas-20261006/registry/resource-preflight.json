@@ -1,0 +1,13 @@
+{
+  "physical_available_gib": 3.5677452087402344,
+  "physical_total_gib": 15.627994537353516,
+  "sequential_workers": true,
+  "worker_limit_gib": 4,
+  "mandatory_seconds": 7200,
+  "optional_seconds": 1800,
+  "cpu_threads": 2,
+  "protected_files": 133,
+  "protected_sources_intact": true,
+  "new_external_metrics": null,
+  "synthetic_tests_passed": 47
+}

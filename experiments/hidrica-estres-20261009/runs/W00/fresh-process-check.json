@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "offline": true,
+  "n_hidden": 59,
+  "routes": [
+    "official",
+    "selected"
+  ],
+  "historical_code_hash": "6e716d736573833d919d0693562e9028184376d50e900179c0884110a1d0c996",
+  "metrics_recalculated": true,
+  "new_training": false,
+  "atol": 1e-10,
+  "rtol": 0,
+  "at": "2026-10-13T05:17:57.866753+00:00"
+}

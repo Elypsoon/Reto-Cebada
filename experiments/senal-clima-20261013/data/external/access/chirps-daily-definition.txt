@@ -1,0 +1,62 @@
+
+Information about CHIRPS Daily Precipitation
+
+CHIRPS is fundamentally a pentadal and monthly precipitation product. CHIRPS is calculated at the pentadal and monthly time steps by blending station observations with CHIRP satellite-based precipitation estimates. The pentadal values are rescaled so that the pentads within a month sum to the monthly CHIRPS total.
+
+Daily CHIRPS values are derived from the pentadal product. There is no separate daily station-blending step.
+
+Two versions of CHIRPS v3 daily precipitation are provided:
+
+The identifiers 'rnl' and 'sat' represent the type of data used for disaggregation: A reanalysis dataset and a satellite dataset. 
+
+	rnl uses daily precipitation from the ECMWF ERA5 reanalysis to distribute each 
+	CHIRPS3 pentadal total among its constituent days. Available from 1981 to present.
+
+	sat uses daily precipitation from NASA IMERG Late V07 to distribute each 
+	CHIRPS3 pentadal total among its constituent days. Available from 1998 to present.
+
+Both products begin with the same CHIRPS pentadal precipitation total. 
+They differ only in how that precipitation is distributed among days within the pentad.
+
+
+Daily disaggregation:
+
+In each case, the daily IMERG or ERA5 data are converted to ratios of the corresponding pentad total. 
+These daily ratios are multiplied by the CHIRPS3 pentad total to produce daily CHIRPS3 estimates. 
+When the ERA5 or IMERG pentad totals are zero, and the CHIRPS3 total is not, the CHIRPS3 total is divided evenly amongst the days.
+
+Therefore,
+	i. rnl and sat sum to the same CHIRPS3 pentadal precipitation total
+	ii. they may assign that precipitation differently among individual days
+	
+
+Temporal convention:
+
+ERA5 and IMERG are used according to their standard UTC calendar-day convention, without shifting. A CHIRPS3 daily value labelled with date D therefore uses the disaggregation information for approximately 00:00 UTC on D to 00:00 UTC on D+1.
+However, this UTC convention applies to the daily disaggregation, not necessarily to all station observations contributing to the underlying CHIRPS3 pentadal total. CHIRPS3 incorporates station data from many sources, and for many stations the exact observation window is unknown. Some datasets use different reporting periods; for example, some GTS observations represent approximately 06:00 UTC to 06:00 UTC the following day.
+
+The date on a daily CHIRPS3 value should therefore be interpreted as a consistent UTC calendar-day label used during disaggregation, rather than as a uniform 24-hour observation window for all contributing station data. This distinction is especially important for analyses that depend on the timing of individual rainfall events.
+
+
+Spatial resolution:
+
+ERA5 has a native spatial resolution of approximately 0.25°, while IMERGv7 has a native resolution of 0.1°. For production of the 
+0.05° CHIRPS3 daily products, both datasets are resampled to the CHIRPS3 0.05° grid using bilinear interpolation.
+The 0.05° grid spacing of the daily products therefore should not be interpreted as indicating that the ERA5 or IMERG data used for temporal disaggregation contain information at 0.05° resolution.
+
+
+Preliminary daily CHIRPS3:
+
+IMERGv7 is available with sufficiently low latency to support the CHIRPS Preliminary production schedule. Therefore, the current preliminary daily CHIRPS v3 product uses the IMERG-based (sat) disaggregation. As with other CHIRPS Preliminary products, it should be replaced with CHIRPS Final once it is available.
+
+
+Reference:
+
+The CHIRPS v3 methodology is described in:
+Funk, C., Peterson, P., Harrison, L., et al. (2026). The Climate Hazards Center Infrared Precipitation with Stations, Version 3. Scientific Data, 13, 718. https://doi.org/10.1038/s41597-026-07096-4
+
+
+
+CHIRPS2 Daily:
+
+Information about CHIRPS2 daily data is available here: https://chc.ucsb.edu/data/chirps

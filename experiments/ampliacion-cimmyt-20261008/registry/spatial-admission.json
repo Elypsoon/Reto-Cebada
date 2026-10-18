@@ -1,0 +1,9 @@
+{
+  "_github_transport": {
+    "full_record": "spatial-admission.json.gz",
+    "original_sha256": "9513423054d57f08c9b94f709e5e10e1d759a68679c0c9e5a439dbb0f2b9ac7b",
+    "original_bytes": 2554351,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-09T16:26:39.697561+00:00",
+  "passed": true,
+  "synthetic_resources": [
+    {
+      "exit_code": 0,
+      "seconds": 3.517202000002726,
+      "peak_tree_rss_mb": 155.12109375,
+      "reason": null,
+      "limits": {
+        "seconds": 120,
+        "rss_mb": 4096,
+        "threads": 2
+      },
+      "includes_children": true,
+      "offline": true,
+      "ip_socket_connections_blocked": true
+    },
+    {
+      "exit_code": 0,
+      "seconds": 3.51729460000206,
+      "peak_tree_rss_mb": 155.640625,
+      "reason": null,
+      "limits": {
+        "seconds": 120,
+        "rss_mb": 4096,
+        "threads": 2
+      },
+      "includes_children": true,
+      "offline": true,
+      "ip_socket_connections_blocked": true
+    }
+  ],
+  "synthetic_recovery": {
+    "passed": true,
+    "offline": true,
+    "atol": 1e-10,
+    "rtol": 0,
+    "query_rows": 59
+  },
+  "one_worker": true,
+  "threads": 2,
+  "max_context": 394,
+  "features": 14,
+  "optional": {
+    "status": "omitted_before_model_preflight_for_insufficient_local_support",
+    "reason": "29 local candidates < 30 required; no TabPFN synthetic or official fit performed",
+    "checkpoint_hash": "311ce18d97e9533d8585eaadafe040fbdd8070533209ed8696641dadc97a7301",
+    "license_hash": "dca491280b68f471312a15d54add7b8e724adf19fb0e113544b1ef91e060f5d5",
+    "package_version": "9.1.0",
+    "environment_lock_sha256": "06bc1a55719fd1f53b8464333031a21e52fcce90e8167eee133a2ecf1005320a",
+    "identity_verified": true,
+    "noncommercial_professional_experimental_purpose_previously_authorized": true
+  },
+  "implementation_tests_sha256": "8cb0080046d11b46bfac7a0c092a990f1094ce0be7c656857d0014e7a5b3661f"
+}

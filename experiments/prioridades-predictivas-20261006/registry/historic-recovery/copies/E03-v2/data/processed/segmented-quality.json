@@ -1,0 +1,9 @@
+{
+  "_github_transport": {
+    "full_record": "segmented-quality.json.gz",
+    "original_sha256": "80e0577ecbfc07679e5573c8d99d65b489ba688659d5e96fec07a82c7af4abcd",
+    "original_bytes": 2813287,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

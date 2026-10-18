@@ -1,0 +1,9 @@
+{
+  "_github_transport": {
+    "full_record": "validation-principal-5.json.gz",
+    "original_sha256": "553097155894d8de4e81189bcbfccbcedd4053df69fd7eb2b4d4cbf30711b2af",
+    "original_bytes": 9243875,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

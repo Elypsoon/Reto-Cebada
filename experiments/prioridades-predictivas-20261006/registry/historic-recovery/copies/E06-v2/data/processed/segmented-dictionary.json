@@ -1,0 +1,14 @@
+{
+  "cutoff": "2025-10-31",
+  "cloud": 20,
+  "lambda": 10,
+  "gap_days": 21,
+  "minimum_segment_observations": 4,
+  "units": {
+    "supported_auc": "índice × días respaldados",
+    "auc_per_supported_day": "índice",
+    "supported_days": "días",
+    "local_peak_doy": "día del año del máximo local respaldado"
+  },
+  "interpretation": "Integrales de soporte observado; no integral de toda la campaña ni antesis confirmada"
+}

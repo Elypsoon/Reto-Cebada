@@ -1,0 +1,979 @@
+{
+  "at": "2026-10-09T16:39:40.951026+00:00",
+  "protocol": "cimmyt-point-assumption-v2",
+  "comparisons": {
+    "principal-5": {
+      "A00": {
+        "rmse": 0.7645734286732019,
+        "mae": 0.5935091578595009,
+        "r2": 0.1872186943850468,
+        "bias": 0.10938181614239574,
+        "n": 138
+      },
+      "A01": {
+        "rmse": 0.8075729125822652,
+        "mae": 0.610208900768766,
+        "r2": 0.09322655890266052,
+        "bias": -0.05211189192270993,
+        "n": 138
+      },
+      "A02": {
+        "rmse": 0.8295476628836363,
+        "mae": 0.6347497710236276,
+        "r2": 0.043206992806632205,
+        "bias": -0.046776953505908124,
+        "n": 138
+      },
+      "regional_mean": {
+        "rmse": 0.7439756768844785,
+        "mae": 0.5697312198651009,
+        "r2": 0.23042176117062563,
+        "bias": -0.08714749950401213,
+        "n": 138
+      }
+    },
+    "balanceado-4": {
+      "A00": {
+        "rmse": 0.808493973734743,
+        "mae": 0.6152280754874845,
+        "r2": 0.09115697469677642,
+        "bias": 0.15011005221858145,
+        "n": 138
+      },
+      "A01": {
+        "rmse": 0.8085089101989726,
+        "mae": 0.611565861382849,
+        "r2": 0.09112339367533906,
+        "bias": -0.0488641870004864,
+        "n": 138
+      },
+      "A02": {
+        "rmse": 0.828062995323061,
+        "mae": 0.6338873946001432,
+        "r2": 0.04662873318202543,
+        "bias": -0.04598757934034182,
+        "n": 138
+      },
+      "regional_mean": {
+        "rmse": 0.7441564778082017,
+        "mae": 0.5701330695763228,
+        "r2": 0.23004767000680437,
+        "bias": -0.08521606974290652,
+        "n": 138
+      }
+    },
+    "rotado-45-5": {
+      "A00": {
+        "rmse": 0.7610483102234628,
+        "mae": 0.633836118738334,
+        "r2": 0.19469618518516496,
+        "bias": 0.15650625835852083,
+        "n": 138
+      },
+      "A01": {
+        "rmse": 0.7628331825879642,
+        "mae": 0.5622406956674895,
+        "r2": 0.19091442779388357,
+        "bias": 0.07016051298147098,
+        "n": 138
+      },
+      "A02": {
+        "rmse": 0.7628331825879642,
+        "mae": 0.5622406956674895,
+        "r2": 0.19091442779388357,
+        "bias": 0.07016051298147098,
+        "n": 138
+      },
+      "regional_mean": {
+        "rmse": 0.9119407614743639,
+        "mae": 0.7105620220214793,
+        "r2": -0.15629476760536898,
+        "bias": 0.2650159307133824,
+        "n": 138
+      }
+    }
+  },
+  "donor_usage": {
+    "principal-5": {
+      "outer_fits": 5,
+      "donor_fits": 1,
+      "fallback_fits": 4,
+      "support_by_fit": [
+        {
+          "fold": 0,
+          "chosen": "ridge-official-lambda0-alpha10",
+          "donor_labels": 0,
+          "donor_groups": 0,
+          "admission": {
+            "labels": 0,
+            "groups": 0,
+            "campaigns": 0,
+            "viable": false
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": false,
+            "relative_rmse_gain": -0.0018293121647516332,
+            "inner_folds_won": 2,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 32,
+                "control_mae": 1.1381107053511428,
+                "candidate_mae": 1.1197796865573522,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 71,
+                "control_mae": 0.4319795791080297,
+                "candidate_mae": 0.4561712191121229,
+                "passed": true
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.25-alpha10"
+          }
+        },
+        {
+          "fold": 1,
+          "chosen": "ridge-C-mexico-lambda0.25-alpha1",
+          "donor_labels": 43,
+          "donor_groups": 25,
+          "admission": {
+            "labels": 43,
+            "groups": 25,
+            "campaigns": 8,
+            "viable": true
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": true,
+            "relative_rmse_gain": 0.06868762171818671,
+            "inner_folds_won": 4,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 15,
+                "control_mae": 0.336259319493538,
+                "candidate_mae": 0.21615183475081715,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 58,
+                "control_mae": 0.37009495177075374,
+                "candidate_mae": 0.3627982623083742,
+                "passed": true
+              },
+              "Tlaxcala": {
+                "n": 31,
+                "control_mae": 0.3633471536673784,
+                "candidate_mae": 0.32596763355936126,
+                "passed": true
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.25-alpha1"
+          }
+        },
+        {
+          "fold": 2,
+          "chosen": "ridge-official-lambda0-alpha10",
+          "donor_labels": 0,
+          "donor_groups": 0,
+          "admission": {
+            "labels": 0,
+            "groups": 0,
+            "campaigns": 0,
+            "viable": false
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": false,
+            "relative_rmse_gain": 0.012610994090007224,
+            "inner_folds_won": 2,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 36,
+                "control_mae": 1.0682019601079846,
+                "candidate_mae": 0.9886366252595864,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 36,
+                "control_mae": 0.4102610168892624,
+                "candidate_mae": 0.46434852730020637,
+                "passed": false
+              },
+              "Tlaxcala": {
+                "n": 31,
+                "control_mae": 0.37044962101763035,
+                "candidate_mae": 0.3930386475019426,
+                "passed": true
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.25-alpha10"
+          }
+        },
+        {
+          "fold": 3,
+          "chosen": "ridge-official-lambda0-alpha1",
+          "donor_labels": 0,
+          "donor_groups": 0,
+          "admission": {
+            "labels": 0,
+            "groups": 0,
+            "campaigns": 0,
+            "viable": false
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": false,
+            "relative_rmse_gain": -0.008079952090433851,
+            "inner_folds_won": 2,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 25,
+                "control_mae": 1.030620856899734,
+                "candidate_mae": 1.0035401548425487,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 66,
+                "control_mae": 0.41168747619345747,
+                "candidate_mae": 0.4898904254655858,
+                "passed": false
+              },
+              "Tlaxcala": {
+                "n": 30,
+                "control_mae": 0.9248030607531202,
+                "candidate_mae": 0.9069783612158824,
+                "passed": true
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.25-alpha10"
+          }
+        },
+        {
+          "fold": 4,
+          "chosen": "ridge-official-lambda0-alpha10",
+          "donor_labels": 0,
+          "donor_groups": 0,
+          "admission": {
+            "labels": 0,
+            "groups": 0,
+            "campaigns": 0,
+            "viable": false
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": false,
+            "relative_rmse_gain": 0.014227512172711544,
+            "inner_folds_won": 2,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 36,
+                "control_mae": 1.115803642830122,
+                "candidate_mae": 1.1187414976097014,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 53,
+                "control_mae": 0.5256873658689917,
+                "candidate_mae": 0.48095738331977017,
+                "passed": true
+              },
+              "Tlaxcala": {
+                "n": 31,
+                "control_mae": 0.3678668716612648,
+                "candidate_mae": 0.31492441733989407,
+                "passed": true
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.25-alpha1"
+          }
+        }
+      ]
+    },
+    "balanceado-4": {
+      "outer_fits": 4,
+      "donor_fits": 2,
+      "fallback_fits": 2,
+      "support_by_fit": [
+        {
+          "fold": 0,
+          "chosen": "ridge-official-lambda0-alpha10",
+          "donor_labels": 0,
+          "donor_groups": 0,
+          "admission": {
+            "labels": 0,
+            "groups": 0,
+            "campaigns": 0,
+            "viable": false
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": false,
+            "relative_rmse_gain": 0.0028761489647484823,
+            "inner_folds_won": 1,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 32,
+                "control_mae": 1.1417350037105884,
+                "candidate_mae": 1.1459649372766771,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 71,
+                "control_mae": 0.4376830462423964,
+                "candidate_mae": 0.46046431461890225,
+                "passed": true
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.25-alpha10"
+          }
+        },
+        {
+          "fold": 1,
+          "chosen": "ridge-C-mexico-lambda1-alpha1",
+          "donor_labels": 42,
+          "donor_groups": 24,
+          "admission": {
+            "labels": 42,
+            "groups": 24,
+            "campaigns": 7,
+            "viable": true
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": true,
+            "relative_rmse_gain": 0.13916335766361027,
+            "inner_folds_won": 2,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 25,
+                "control_mae": 1.0676137827920622,
+                "candidate_mae": 0.8444605213518928,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 48,
+                "control_mae": 0.481923825466934,
+                "candidate_mae": 0.5117150438516016,
+                "passed": true
+              },
+              "Tlaxcala": {
+                "n": 30,
+                "control_mae": 0.9285430043188,
+                "candidate_mae": 0.7711773751535643,
+                "passed": true
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda1-alpha1"
+          }
+        },
+        {
+          "fold": 2,
+          "chosen": "ridge-C-mexico-lambda0.25-alpha1",
+          "donor_labels": 43,
+          "donor_groups": 25,
+          "admission": {
+            "labels": 43,
+            "groups": 25,
+            "campaigns": 8,
+            "viable": true
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": true,
+            "relative_rmse_gain": 0.06997029669186013,
+            "inner_folds_won": 3,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 15,
+                "control_mae": 0.30023634692625034,
+                "candidate_mae": 0.18119279942831404,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 58,
+                "control_mae": 0.3720842719935967,
+                "candidate_mae": 0.3646576357997946,
+                "passed": true
+              },
+              "Tlaxcala": {
+                "n": 31,
+                "control_mae": 0.3636799324275571,
+                "candidate_mae": 0.3259557129489686,
+                "passed": true
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.25-alpha1"
+          }
+        },
+        {
+          "fold": 3,
+          "chosen": "ridge-official-lambda0-alpha10",
+          "donor_labels": 0,
+          "donor_groups": 0,
+          "admission": {
+            "labels": 0,
+            "groups": 0,
+            "campaigns": 0,
+            "viable": false
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": false,
+            "relative_rmse_gain": 0.0002895243135202734,
+            "inner_folds_won": 1,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 36,
+                "control_mae": 1.071876267573258,
+                "candidate_mae": 0.9986425106168907,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 36,
+                "control_mae": 0.46228438393838167,
+                "candidate_mae": 0.5400527235033104,
+                "passed": false
+              },
+              "Tlaxcala": {
+                "n": 31,
+                "control_mae": 0.3706324351332211,
+                "candidate_mae": 0.393153108799414,
+                "passed": true
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.25-alpha10"
+          }
+        }
+      ]
+    },
+    "rotado-45-5": {
+      "outer_fits": 5,
+      "donor_fits": 0,
+      "fallback_fits": 5,
+      "support_by_fit": [
+        {
+          "fold": 0,
+          "chosen": "ridge-official-lambda0-alpha10",
+          "donor_labels": 0,
+          "donor_groups": 0,
+          "admission": {
+            "labels": 0,
+            "groups": 0,
+            "campaigns": 0,
+            "viable": false
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": false,
+            "relative_rmse_gain": 0.010798554250156994,
+            "inner_folds_won": 2,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 33,
+                "control_mae": 0.9945320238383205,
+                "candidate_mae": 0.9640501306772319,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 71,
+                "control_mae": 0.39884248778379966,
+                "candidate_mae": 0.44620211944141264,
+                "passed": false
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.5-alpha10"
+          }
+        },
+        {
+          "fold": 1,
+          "chosen": "ridge-official-lambda0-alpha1",
+          "donor_labels": 0,
+          "donor_groups": 0,
+          "admission": {
+            "labels": 0,
+            "groups": 0,
+            "campaigns": 0,
+            "viable": false
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": false,
+            "relative_rmse_gain": 0.0039009110262516393,
+            "inner_folds_won": 2,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 36,
+                "control_mae": 0.9984463835585348,
+                "candidate_mae": 0.915145238667874,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 37,
+                "control_mae": 0.40270411682362633,
+                "candidate_mae": 0.627705658246712,
+                "passed": false
+              },
+              "Tlaxcala": {
+                "n": 31,
+                "control_mae": 0.4497171775199258,
+                "candidate_mae": 0.44236093003722315,
+                "passed": true
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.25-alpha10"
+          }
+        },
+        {
+          "fold": 2,
+          "chosen": "ridge-official-lambda0-alpha1",
+          "donor_labels": 0,
+          "donor_groups": 0,
+          "admission": {
+            "labels": 0,
+            "groups": 0,
+            "campaigns": 0,
+            "viable": false
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": false,
+            "relative_rmse_gain": -0.03959311269184816,
+            "inner_folds_won": 1,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 31,
+                "control_mae": 1.112140361867721,
+                "candidate_mae": 0.9598623420754937,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 41,
+                "control_mae": 0.49351928626565633,
+                "candidate_mae": 0.7028353911454522,
+                "passed": false
+              },
+              "Tlaxcala": {
+                "n": 31,
+                "control_mae": 0.47804219516077723,
+                "candidate_mae": 0.5791934925342627,
+                "passed": false
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.25-alpha10"
+          }
+        },
+        {
+          "fold": 3,
+          "chosen": "ridge-official-lambda0-alpha1",
+          "donor_labels": 0,
+          "donor_groups": 0,
+          "admission": {
+            "labels": 0,
+            "groups": 0,
+            "campaigns": 0,
+            "viable": false
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": false,
+            "relative_rmse_gain": -0.12546867523349187,
+            "inner_folds_won": 1,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 19,
+                "control_mae": 1.0372114270905495,
+                "candidate_mae": 1.0629947943490201,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 71,
+                "control_mae": 0.3791609053485719,
+                "candidate_mae": 0.43945996110379487,
+                "passed": false
+              },
+              "Tlaxcala": {
+                "n": 31,
+                "control_mae": 0.9144102440146452,
+                "candidate_mae": 1.1972020491743225,
+                "passed": false
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.25-alpha10"
+          }
+        },
+        {
+          "fold": 4,
+          "chosen": "ridge-official-lambda0-alpha1",
+          "donor_labels": 0,
+          "donor_groups": 0,
+          "admission": {
+            "labels": 0,
+            "groups": 0,
+            "campaigns": 0,
+            "viable": false
+          },
+          "viable_augmented_candidates": 6,
+          "decision": {
+            "admitted": false,
+            "relative_rmse_gain": -0.02039602118977719,
+            "inner_folds_won": 2,
+            "state_checks": {
+              "Hidalgo": {
+                "n": 25,
+                "control_mae": 0.5584568620925066,
+                "candidate_mae": 0.42648877145564384,
+                "passed": true
+              },
+              "Puebla": {
+                "n": 64,
+                "control_mae": 0.3809090643011744,
+                "candidate_mae": 0.424259605046151,
+                "passed": false
+              },
+              "Tlaxcala": {
+                "n": 31,
+                "control_mae": 0.3721444613268988,
+                "candidate_mae": 0.46785446792090407,
+                "passed": false
+              }
+            },
+            "candidate_id": "ridge-C-mexico-lambda0.25-alpha10"
+          }
+        }
+      ]
+    }
+  },
+  "conclusions": {
+    "label_contribution_conditioned_on_point_assumption": {
+      "passed": false,
+      "checks": {
+        "principal_gain": false,
+        "at_least_two_schemes": false,
+        "mean_ratio": false,
+        "no_scheme_above_1_05": true,
+        "state_mae": true,
+        "donors_in_every_scheme": false
+      },
+      "rmse_ratios": {
+        "principal-5": 1.027210856083701,
+        "balanceado-4": 1.0241853675048258,
+        "rotado-45-5": 1.0
+      },
+      "state_checks": [
+        {
+          "scheme": "principal-5",
+          "state": "Hidalgo",
+          "n": 36,
+          "reference_mae": 1.152364978107548,
+          "candidate_mae": 1.2168937271971736,
+          "passed": true
+        },
+        {
+          "scheme": "principal-5",
+          "state": "Puebla",
+          "n": 71,
+          "reference_mae": 0.4356728827537157,
+          "candidate_mae": 0.450653236668425,
+          "passed": true
+        },
+        {
+          "scheme": "principal-5",
+          "state": "Tlaxcala",
+          "n": 31,
+          "reference_mae": 0.38035207802271526,
+          "candidate_mae": 0.38035207802271526,
+          "passed": true
+        },
+        {
+          "scheme": "balanceado-4",
+          "state": "Hidalgo",
+          "n": 36,
+          "reference_mae": 1.1536876785287276,
+          "candidate_mae": 1.2035366812278152,
+          "passed": true
+        },
+        {
+          "scheme": "balanceado-4",
+          "state": "Puebla",
+          "n": 71,
+          "reference_mae": 0.4376801112942527,
+          "candidate_mae": 0.45499872951268194,
+          "passed": true
+        },
+        {
+          "scheme": "balanceado-4",
+          "state": "Tlaxcala",
+          "n": 31,
+          "reference_mae": 0.38025950135183967,
+          "candidate_mae": 0.38207193984574117,
+          "passed": true
+        },
+        {
+          "scheme": "rotado-45-5",
+          "state": "Hidalgo",
+          "n": 36,
+          "reference_mae": 0.967478316250104,
+          "candidate_mae": 0.967478316250104,
+          "passed": true
+        },
+        {
+          "scheme": "rotado-45-5",
+          "state": "Puebla",
+          "n": 71,
+          "reference_mae": 0.3788502556487762,
+          "candidate_mae": 0.3788502556487762,
+          "passed": true
+        },
+        {
+          "scheme": "rotado-45-5",
+          "state": "Tlaxcala",
+          "n": 31,
+          "reference_mae": 0.5116654343886028,
+          "candidate_mae": 0.5116654343886028,
+          "passed": true
+        }
+      ]
+    },
+    "competitiveness_against_active": {
+      "passed": false,
+      "checks": {
+        "principal_gain": false,
+        "at_least_two_schemes": false,
+        "mean_ratio": false,
+        "no_scheme_above_1_05": false,
+        "state_mae": false,
+        "donors_in_every_scheme": true
+      },
+      "rmse_ratios": {
+        "principal-5": 1.084981025724615,
+        "balanceado-4": 1.0242042887443197,
+        "rotado-45-5": 1.002345281292297
+      },
+      "state_checks": [
+        {
+          "scheme": "principal-5",
+          "state": "Hidalgo",
+          "n": 36,
+          "reference_mae": 0.9826968560963402,
+          "candidate_mae": 1.2168937271971736,
+          "passed": false
+        },
+        {
+          "scheme": "principal-5",
+          "state": "Puebla",
+          "n": 71,
+          "reference_mae": 0.4425371494494925,
+          "candidate_mae": 0.450653236668425,
+          "passed": true
+        },
+        {
+          "scheme": "principal-5",
+          "state": "Tlaxcala",
+          "n": 31,
+          "reference_mae": 0.48732385013641605,
+          "candidate_mae": 0.38035207802271526,
+          "passed": true
+        },
+        {
+          "scheme": "balanceado-4",
+          "state": "Hidalgo",
+          "n": 36,
+          "reference_mae": 1.1059395757090185,
+          "candidate_mae": 1.2035366812278152,
+          "passed": true
+        },
+        {
+          "scheme": "balanceado-4",
+          "state": "Puebla",
+          "n": 71,
+          "reference_mae": 0.4203527495256266,
+          "candidate_mae": 0.45499872951268194,
+          "passed": true
+        },
+        {
+          "scheme": "balanceado-4",
+          "state": "Tlaxcala",
+          "n": 31,
+          "reference_mae": 0.4916969185622164,
+          "candidate_mae": 0.38207193984574117,
+          "passed": true
+        },
+        {
+          "scheme": "rotado-45-5",
+          "state": "Hidalgo",
+          "n": 36,
+          "reference_mae": 0.6858687898527758,
+          "candidate_mae": 0.967478316250104,
+          "passed": false
+        },
+        {
+          "scheme": "rotado-45-5",
+          "state": "Puebla",
+          "n": 71,
+          "reference_mae": 0.5270013014691981,
+          "candidate_mae": 0.3788502556487762,
+          "passed": true
+        },
+        {
+          "scheme": "rotado-45-5",
+          "state": "Tlaxcala",
+          "n": 31,
+          "reference_mae": 0.8180972757057126,
+          "candidate_mae": 0.5116654343886028,
+          "passed": true
+        }
+      ]
+    },
+    "comparison_against_regional_mean": {
+      "passed": false,
+      "checks": {
+        "principal_gain": false,
+        "at_least_two_schemes": false,
+        "mean_ratio": false,
+        "no_scheme_above_1_05": false,
+        "state_mae": false,
+        "donors_in_every_scheme": true
+      },
+      "rmse_ratios": {
+        "principal-5": 1.1150198704848857,
+        "balanceado-4": 1.1127538629536533,
+        "rotado-45-5": 0.8364942272726874
+      },
+      "state_checks": [
+        {
+          "scheme": "principal-5",
+          "state": "Hidalgo",
+          "n": 36,
+          "reference_mae": 0.9350967592592592,
+          "candidate_mae": 1.2168937271971736,
+          "passed": false
+        },
+        {
+          "scheme": "principal-5",
+          "state": "Puebla",
+          "n": 71,
+          "reference_mae": 0.41492147898662796,
+          "candidate_mae": 0.450653236668425,
+          "passed": true
+        },
+        {
+          "scheme": "principal-5",
+          "state": "Tlaxcala",
+          "n": 31,
+          "reference_mae": 0.5,
+          "candidate_mae": 0.38035207802271526,
+          "passed": true
+        },
+        {
+          "scheme": "balanceado-4",
+          "state": "Hidalgo",
+          "n": 36,
+          "reference_mae": 0.9350967592592592,
+          "candidate_mae": 1.2035366812278152,
+          "passed": false
+        },
+        {
+          "scheme": "balanceado-4",
+          "state": "Puebla",
+          "n": 71,
+          "reference_mae": 0.4157025389887216,
+          "candidate_mae": 0.45499872951268194,
+          "passed": true
+        },
+        {
+          "scheme": "balanceado-4",
+          "state": "Tlaxcala",
+          "n": 31,
+          "reference_mae": 0.5,
+          "candidate_mae": 0.38207193984574117,
+          "passed": true
+        },
+        {
+          "scheme": "rotado-45-5",
+          "state": "Hidalgo",
+          "n": 36,
+          "reference_mae": 0.8812427157826138,
+          "candidate_mae": 0.967478316250104,
+          "passed": true
+        },
+        {
+          "scheme": "rotado-45-5",
+          "state": "Puebla",
+          "n": 71,
+          "reference_mae": 0.37792164303387926,
+          "candidate_mae": 0.3788502556487762,
+          "passed": true
+        },
+        {
+          "scheme": "rotado-45-5",
+          "state": "Tlaxcala",
+          "n": 31,
+          "reference_mae": 1.2742059553349874,
+          "candidate_mae": 0.5116654343886028,
+          "passed": true
+        }
+      ]
+    }
+  },
+  "auxiliary_population": {
+    "labels": 45,
+    "plots": 37,
+    "known_farmers": 28,
+    "campaigns": 8,
+    "groups": 27,
+    "cells": 5
+  },
+  "geographic_sensitivity": "detected",
+  "development_labels": 138,
+  "hidden_unlabeled_queries": 59,
+  "independent_validation_campaign": false,
+  "A03_status": "completed",
+  "A04_status": "non_viable",
+  "limits": [
+    "unknown source CRS, point semantics and effective precision",
+    "spatial policy sensitivity tested only for admission, not predictive sensitivity",
+    "heterogeneous external measurements; official moisture and water regime unknown",
+    "technical assistance and campaign shift; auxiliary weights do not remove all domain bias"
+  ],
+  "activated": false,
+  "deployed": false,
+  "sent": false,
+  "A03_fraction_status_counts": [
+    {
+      "fraction": 0.25,
+      "status": "non_viable",
+      "count": 3
+    },
+    {
+      "fraction": 0.25,
+      "status": "not_applicable",
+      "count": 11
+    },
+    {
+      "fraction": 0.5,
+      "status": "non_viable",
+      "count": 3
+    },
+    {
+      "fraction": 0.5,
+      "status": "not_applicable",
+      "count": 11
+    },
+    {
+      "fraction": 1.0,
+      "status": "completed",
+      "count": 3
+    },
+    {
+      "fraction": 1.0,
+      "status": "not_applicable",
+      "count": 11
+    }
+  ],
+  "tests_passed": 52,
+  "completed_tasks": 29,
+  "total_tasks": 29,
+  "frozen_inputs_verified": 229,
+  "protected_files_verified": 2596
+}

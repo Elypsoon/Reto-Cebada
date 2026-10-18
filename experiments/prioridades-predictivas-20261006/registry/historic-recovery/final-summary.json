@@ -1,0 +1,265 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "activa",
+      "passed": true,
+      "routes": {
+        "official": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "26d128e2e953c5296d8977fef753c71b4cb7fa6a320c1bef5dec04489cc859fe",
+          "no_refit": true
+        },
+        "selected": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "8ee63e3b1d07ec5e9be0fd98dcc9bb0bc7091c934a34a9eb5bbd642847f80313",
+          "no_refit": true
+        }
+      },
+      "code_hash": "6e716d736573833d919d0693562e9028184376d50e900179c0884110a1d0c996",
+      "offline": true
+    },
+    {
+      "case": "regional",
+      "passed": true,
+      "routes": {
+        "official": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "522e23ebc0c58da892ff62254076ecad930c162e8d4f67f953511261f17ebf02",
+          "no_refit": true
+        },
+        "selected": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "fbdadc4cebeb15bddb0cf896cca7d45d4b57e6a7fb58ef060d9ea2ef30d6e2f2",
+          "no_refit": true
+        }
+      },
+      "code_hash": "ac5277e4913ce223ccc4c7d176ed4ab3b4fd0e4a72dc39fbb3231c44f29513a8",
+      "offline": true
+    },
+    {
+      "case": "E00-v2",
+      "passed": true,
+      "routes": {
+        "official": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "33172d9b5022659d00434cb7f541f13d33add0a7743af3739b2dae88c03877e6",
+          "no_refit": true
+        },
+        "selected": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "45370d34ca3e27bb4575a4fc4fdec861e5f4f11a0183f4f8d878f8e762035a33",
+          "no_refit": true
+        }
+      },
+      "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+      "offline": true
+    },
+    {
+      "case": "E01a-v2",
+      "passed": true,
+      "routes": {
+        "official": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "898c4304b677d933b6c716a1bec66f6deed131823131e23a9a1da6d6107bd791",
+          "no_refit": true
+        },
+        "selected": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "9e4e2a27be72f5433428e46be1a2f313a715afe16353df74a828c1c48318fb90",
+          "no_refit": true
+        }
+      },
+      "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+      "offline": true
+    },
+    {
+      "case": "E01b-v2",
+      "passed": true,
+      "routes": {
+        "official": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "f5984969f2348ff1161c7f35c44f456683a96a877dd8630e1a8256fc6c1d0898",
+          "no_refit": true
+        },
+        "selected": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "2f7214651e6d8eeb02a3e313014c21e434ba3452a09be5fff1c6c14b2a52c4a6",
+          "no_refit": true
+        }
+      },
+      "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+      "offline": true
+    },
+    {
+      "case": "E02-v2",
+      "passed": true,
+      "routes": {
+        "official": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "b74ae0a70df4edff97049562a237779118923c0c9c604b33dd3c2d12760c09f9",
+          "no_refit": true
+        },
+        "selected": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "b4fb1671b35bbc96cf65837f50ae6a9fd3fd48bc8e8ece51c79a2604bbf78178",
+          "no_refit": true
+        }
+      },
+      "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+      "offline": true
+    },
+    {
+      "case": "E03-v2",
+      "passed": true,
+      "routes": {
+        "official": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "500af4cbdfb05111199fefc21d80c4116d088c8825d95429f6ecb2b4de47e322",
+          "no_refit": true
+        },
+        "selected": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "594b025cc7cefa69d9478a4d42c8846e7da1f3d6b4ae85beb12eef385846eb38",
+          "no_refit": true
+        }
+      },
+      "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+      "offline": true
+    },
+    {
+      "case": "E04a-v2",
+      "passed": true,
+      "routes": {
+        "official": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "7d37d513eed1a9825f12b614a6a36d0ad19231281fe028210e5f8f4d0302efaf",
+          "no_refit": true
+        },
+        "selected": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "ecae0eef1a37825a9cc4434f9cfa6b11f0b00d61db8e0889d8dcb676fef4c7d4",
+          "no_refit": true
+        }
+      },
+      "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+      "offline": true
+    },
+    {
+      "case": "E04b-v2",
+      "passed": true,
+      "routes": {
+        "official": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "2c530d92904124f67abb16fb867dcb3ce35fc3e7b1b8d2e42ebe62a9b9b19ebf",
+          "no_refit": true
+        },
+        "selected": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "5d9f02dc774da727826767bf21e5f58c6cc6ac21af817ca8d0f6d4af4ef488bd",
+          "no_refit": true
+        }
+      },
+      "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+      "offline": true
+    },
+    {
+      "case": "E05-v2",
+      "passed": true,
+      "routes": {
+        "official": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "f48c05f0680b6e87ff1bec9840e6709327fa0f415f05e08a1eba458245762a28",
+          "no_refit": true
+        },
+        "selected": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "f48c05f0680b6e87ff1bec9840e6709327fa0f415f05e08a1eba458245762a28",
+          "no_refit": true
+        }
+      },
+      "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+      "offline": true
+    },
+    {
+      "case": "E06-v2",
+      "passed": true,
+      "routes": {
+        "official": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "bc87b9cce7e8ca7d27d1a14137b7a88fcbd7ac68158ddd0a24129464c6064b51",
+          "no_refit": true
+        },
+        "selected": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "6c8e8a426875e3118a38c872f1224dd04ff3f512cbe670ddcb49757a5f75268a",
+          "no_refit": true
+        }
+      },
+      "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+      "offline": true
+    },
+    {
+      "case": "E08-v2",
+      "passed": true,
+      "routes": {
+        "official": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "1aa9bd597557165684a6cd014171dae2485deb91f092832cb0ccd7f3c5abadfd",
+          "no_refit": true
+        },
+        "selected": {
+          "n": 59,
+          "passed": true,
+          "model_hash": "7730bfdbfea164e336c2d4921ea05f655df28737771ab2e818ebcd3571ba4d9a",
+          "no_refit": true
+        }
+      },
+      "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+      "offline": true
+    }
+  ],
+  "optional_contexts_pending": [],
+  "optional_contexts_recovered": [
+    {
+      "run_id": "E07-v3-monthly_20_10",
+      "passed": true,
+      "predictions": 59,
+      "checkpoint_hash": "6e0308b7e5f3a8325b798b96d986b2b282c3608b1cda6e2991425a2a261d40b8",
+      "context_hash": "9cd0dba122b75eb5c9f8054b49a2bff52cdba0bcba2e8f0f2bb680ce6aa94b56",
+      "tolerance": 1e-10
+    },
+    {
+      "run_id": "E07-v3-whittaker_20_10",
+      "passed": true,
+      "predictions": 59,
+      "checkpoint_hash": "6e0308b7e5f3a8325b798b96d986b2b282c3608b1cda6e2991425a2a261d40b8",
+      "context_hash": "6530d9b930444500dea841c24651d1b22223af56088cbedd713e278793389fa6",
+      "tolerance": 1e-10
+    }
+  ],
+  "all_original_hashes_intact": true
+}

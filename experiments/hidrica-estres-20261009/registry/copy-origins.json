@@ -1,0 +1,487 @@
+{
+  "at": "2026-10-13T04:51:02.145632+00:00",
+  "copies": [
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\cli.py",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\src\\agrocebada\\cli.py",
+      "sha256": "1b418e833b25d28cc8983d6ef015d911eaa019d75317f66a1a4a11c6cc6aa259"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\common.py",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\src\\agrocebada\\common.py",
+      "sha256": "a1d8204b16fe3c2deefa0750e14ed346ba99aaf0e7f50854d24b05a38e4aae8d"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\data.py",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\src\\agrocebada\\data.py",
+      "sha256": "9be60f7e974bf98d5cff2ff745cb831991df10ca8454c97f0a9437f635052623"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\external.py",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\src\\agrocebada\\external.py",
+      "sha256": "8e29c7031bb913811ac2d86d00e96254be0a2a18a9c55deb18a80e61daec953f"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\features.py",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\src\\agrocebada\\features.py",
+      "sha256": "7cb8d4e32f8672b88c20533035e1961613d21441414aa3696501cfc9fd9a87ee"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\inference.py",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\src\\agrocebada\\inference.py",
+      "sha256": "df9b02bad022edaf8f9a0208241c4a401febc4e20e09b7017a617990194b9c46"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\modeling.py",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\src\\agrocebada\\modeling.py",
+      "sha256": "279335ecf181bf7dfc91b2407b8e48467b4f284686d3e0ad754f311785f4d933"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\spatial.py",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\src\\agrocebada\\spatial.py",
+      "sha256": "7b92cd5730eb2bdbdcc46eeec3a0e426161289e56ec57832de1e512e0c26d851"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\__init__.py",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\src\\agrocebada\\__init__.py",
+      "sha256": "c0e9a63bf7f9894613024d21fce1561d76c84ec34bc5ce579bbec47da1d5a90c"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\audit.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\audit.json",
+      "sha256": "79e55e3b3e02861a077a0a1a95ff10188b6b99867fcde3478c84739c2e7d000f"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\curves.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\curves.parquet",
+      "sha256": "17231962b2d245d349713d2c1fd72d5cba2c0fdf9dd0828a9600f1da0733e130"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\environment.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\environment.parquet",
+      "sha256": "7fbff6a715a1a06957b911d73b7321ea3dc4f6d393b377a320cb92cb454337b2"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\external_nasa.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\external_nasa.parquet",
+      "sha256": "35dcffc0a6e86a4120ff50fae55c0a4b0e42d6f541634f39fdcb5343b7271ea9"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\external_siap.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\external_siap.parquet",
+      "sha256": "8aa0e8243577b1c844e862f48309e8941366eb4555c3000475066aa75efa5e86"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\feature-configs.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\feature-configs.json",
+      "sha256": "d7235f7814ac454bb9adc8e90a3bf7a02c8a5f4e1222ab8a4ddb762704358bbc"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\feature-dictionary.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\feature-dictionary.json",
+      "sha256": "6da71ab49e32157665128834f667efaccb48856a4f2c487aeff2b324981d8361"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_monthly_10_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\features_monthly_10_10.parquet",
+      "sha256": "7f4c7b0c3571988f2f3b6e5d2e09ef8f7a8972fe80f072921faa8503dc169ce1"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_monthly_20_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\features_monthly_20_10.parquet",
+      "sha256": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_monthly_40_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\features_monthly_40_10.parquet",
+      "sha256": "416cd92ffd38a67b609ee3d2565423b5472379eed1d6c78fdedc150a5540b3b6"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_whittaker_10_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\features_whittaker_10_10.parquet",
+      "sha256": "ca36e53cfdd8794a409f295de9e20b4e4dd60e10051cf0b7f3dce0e2ddecd8bb"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_whittaker_10_100.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\features_whittaker_10_100.parquet",
+      "sha256": "9cb81cd454ab35c07fd1c3f9c339e2a75d61ca26f1a3fc2644a1afe4e893d515"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_whittaker_20_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\features_whittaker_20_10.parquet",
+      "sha256": "8cc323e05a5e0e7483faf4a8532552985d8d0c836c0e5b9b03eb7f3b0cbc564d"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_whittaker_20_100.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\features_whittaker_20_100.parquet",
+      "sha256": "701b3516b8c0b27f2b677b165eab8292373be2f6c37417b7b8478969d0c93ce1"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_whittaker_40_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\features_whittaker_40_10.parquet",
+      "sha256": "1da06d25ea46952748d1b7d4d5b0868be00e3f68a5081b74a089adfff7dd8072"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\features_whittaker_40_100.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\features_whittaker_40_100.parquet",
+      "sha256": "4d82b08d14ab1b6fe11a1d6d8a169292e992df101572c7a542848c9b9937d74e"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\history-comparability.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\history-comparability.json",
+      "sha256": "e71b5e0b366ae4f2163563dacbb49cb2855ef12803d2f58b81d98b570c5d7981"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\monthly-climate.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\monthly-climate.parquet",
+      "sha256": "46b471e9246244d22061fc3ef90d9eb5462a372f342fd2ee50c1be1facc275e1"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\monthly-satellite.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\monthly-satellite.parquet",
+      "sha256": "743728bb146744756b8b616a67369bddc7297e6d9204bc7298e578250711e403"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\nasa-cells.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\nasa-cells.csv",
+      "sha256": "10f3523910aa349182b1f7392395c2487978ec6e567d92b426ff53afc10b3e8e"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\nasa-quality.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\nasa-quality.json",
+      "sha256": "4a3101d1739db95805691f4177ac9d60fe43d7e027ce90eb3f9b21ba19f9471e"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\parcel-raster-coverage.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\parcel-raster-coverage.parquet",
+      "sha256": "662242e7b4d8c6bc3871fa3ca962606b22e1507ecd62f587a1a640070a81fff0"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\parcels.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\parcels.parquet",
+      "sha256": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\preparation.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\preparation.json",
+      "sha256": "b6ab8d43b57f097b778a6af7204fcd9c6fe4829e8b70b8e435271ad3b76cbab6"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_monthly_10_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\quality_monthly_10_10.parquet",
+      "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_monthly_20_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\quality_monthly_20_10.parquet",
+      "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_monthly_40_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\quality_monthly_40_10.parquet",
+      "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_whittaker_10_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\quality_whittaker_10_10.parquet",
+      "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_whittaker_10_100.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\quality_whittaker_10_100.parquet",
+      "sha256": "b42a5395c01062a0a3004cb872beb6c42342d0ba7d8fae624e80f52126a18c18"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_whittaker_20_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\quality_whittaker_20_10.parquet",
+      "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_whittaker_20_100.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\quality_whittaker_20_100.parquet",
+      "sha256": "bf5c6005aa69a9245636c980c9cbd18522f5423a2bd68377220ffa4b65909410"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_whittaker_40_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\quality_whittaker_40_10.parquet",
+      "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\quality_whittaker_40_100.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\quality_whittaker_40_100.parquet",
+      "sha256": "71079966222f7ac96ff32f6426c00d9b49cb1f7f20fd35b76a1042ef844156e0"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\raster-extraction.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\raster-extraction.json",
+      "sha256": "99dec9a00950790e3fa977470275eeedbe5a73722860e376a14cfd853887bb7d"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\satellite.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\satellite.parquet",
+      "sha256": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\siap-history.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\siap-history.csv",
+      "sha256": "4ccf997d4365c900f201333f85c3e9469fe68f3d88d4461158e91df07e5579f2"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\siap-quality.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\siap-quality.json",
+      "sha256": "344c8f9377b506e90550c0b12d3bc8acde3c0c0dbf8fc1ff6fda1d59e107e52b"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed\\source-manifest.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\data\\processed\\source-manifest.json",
+      "sha256": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\folds-balanceado-4.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\folds-balanceado-4.json",
+      "sha256": "b53e3b8476489956178ad2a273f2bee1c972986fa3a47c8d1821503a892349d2"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\folds-intraestado-3.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\folds-intraestado-3.json",
+      "sha256": "5082e40177a8badfbd7cce522fb717a97e82e104f7251e3d686d74e256f84a8c"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\folds-principal-5.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\folds-principal-5.json",
+      "sha256": "c0eeeab37de506d74e525f344be73f0b6282a76f782483fdfc951710cc14d135"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\folds-rotado-45-5.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\folds-rotado-45-5.json",
+      "sha256": "0862fd5f56b83463aeca07b991e5112836414823a37615de5f9c889a4925ab6d"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\fresh-process-check.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\fresh-process-check.json",
+      "sha256": "67cdf32aa4c9e4472d2c4613425989ef1d8f41bdd18a06ea0f0c13da397965a7"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\metrics-balanceado-4.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\metrics-balanceado-4.json",
+      "sha256": "8e51e871525cb8ee804c2ea8e2b6726e7185c4aca965b255899058e52762b6f7"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\metrics-intraestado-3.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\metrics-intraestado-3.json",
+      "sha256": "704ded4a254544f910a042bd4b404c83e4b23184d0f884c275131dcfd71c6a94"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\metrics-principal-5.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\metrics-principal-5.json",
+      "sha256": "4c68cb01aad12a5fef89816ff9a2f5934469118573a8fb7a3a50b4784af476a1"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\metrics-rotado-45-5.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\metrics-rotado-45-5.json",
+      "sha256": "3afacc1aa8ae1679b6f753cd6e7d489dfdf7b357d2705106de761e2aa262bd30"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\model_official.joblib",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\model_official.joblib",
+      "sha256": "58b12031aa10ecdc37117f264c628b41e66f973b3905bd9cc73ab40b5183ee56"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\model_selected.joblib",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\model_selected.joblib",
+      "sha256": "e81344a909f606ff64de9b4beecfee5b8a6c5d37edde6ca9ecc911c0e0148c36"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\oof-balanceado-4.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\oof-balanceado-4.csv",
+      "sha256": "bfca3509f85dd1b5917ce7cdfee88adc9bed3ceb1d8de1f38ba729380ee53640"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\oof-intraestado-3.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\oof-intraestado-3.csv",
+      "sha256": "399194f81f69f2aea7faf6378e9676dece7187ce1fb2f19d9a9da3068e1d44a4"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\oof-principal-5.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\oof-principal-5.csv",
+      "sha256": "d9fa956c49a9e34bd8f8dda3d751484fafceba4d15ea0d6889b7daf4069ca0c1"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\oof-rotado-45-5.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\oof-rotado-45-5.csv",
+      "sha256": "5efd947875d305250de76e5d9cf676f5944762e6941439b40b759719837ec719"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\predictions_59.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\predictions_59.csv",
+      "sha256": "c547b56bac45ff2bfd2b231fabd1e3999ed66cd715d11d34a2994cc26f91fa36"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\predictions_official_only_59.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\predictions_official_only_59.csv",
+      "sha256": "2db6b0bb20da5597c77e917e6d4b26c3afe3e0c5a5ade0b97e2beb7492544b75"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts\\reproduction.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\artifacts\\reproduction.json",
+      "sha256": "bcae7d8ec36861846608257f454c65019ce91b314d8e93ed62d0039e1072a3db"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\provenance\\contract_official.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\provenance\\contract_official.json",
+      "sha256": "e2eaaac96c8fd702a79e98de14a2e191a3368e331305ddc953d0abde0896d10f"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\provenance\\contract_selected.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\provenance\\contract_selected.json",
+      "sha256": "a8ed4213e36209bf385a3778b0ce5cb60ba5e3c0d8a47283dc6c2015dbfc0e17"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\provenance\\procedure.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\provenance\\procedure.json",
+      "sha256": "668c5ec4ab5f0ef3b4ac955bc13918f3a2d0b51bbbcf760bdd6b915180159a23"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\requirements.lock",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\C-activa\\requirements.lock",
+      "sha256": "c6dc98762ae205977c04c2d1f4a4e68a92bbc8967d02f94bbe32386bbbfaad28"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\metrics-balanceado-4.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\W00-artifacts\\metrics-balanceado-4.json",
+      "sha256": "8e51e871525cb8ee804c2ea8e2b6726e7185c4aca965b255899058e52762b6f7"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\metrics-intraestado-3.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\W00-artifacts\\metrics-intraestado-3.json",
+      "sha256": "704ded4a254544f910a042bd4b404c83e4b23184d0f884c275131dcfd71c6a94"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\metrics-principal-5.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\W00-artifacts\\metrics-principal-5.json",
+      "sha256": "4c68cb01aad12a5fef89816ff9a2f5934469118573a8fb7a3a50b4784af476a1"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\metrics-rotado-45-5.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\W00-artifacts\\metrics-rotado-45-5.json",
+      "sha256": "3afacc1aa8ae1679b6f753cd6e7d489dfdf7b357d2705106de761e2aa262bd30"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\model_official.joblib",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\W00-artifacts\\model_official.joblib",
+      "sha256": "58b12031aa10ecdc37117f264c628b41e66f973b3905bd9cc73ab40b5183ee56"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\model_selected.joblib",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\W00-artifacts\\model_selected.joblib",
+      "sha256": "e81344a909f606ff64de9b4beecfee5b8a6c5d37edde6ca9ecc911c0e0148c36"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\oof-balanceado-4.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\W00-artifacts\\oof-balanceado-4.csv",
+      "sha256": "bfca3509f85dd1b5917ce7cdfee88adc9bed3ceb1d8de1f38ba729380ee53640"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\oof-intraestado-3.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\W00-artifacts\\oof-intraestado-3.csv",
+      "sha256": "399194f81f69f2aea7faf6378e9676dece7187ce1fb2f19d9a9da3068e1d44a4"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\oof-principal-5.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\W00-artifacts\\oof-principal-5.csv",
+      "sha256": "d9fa956c49a9e34bd8f8dda3d751484fafceba4d15ea0d6889b7daf4069ca0c1"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\oof-rotado-45-5.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\W00-artifacts\\oof-rotado-45-5.csv",
+      "sha256": "5efd947875d305250de76e5d9cf676f5944762e6941439b40b759719837ec719"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\predictions_59.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\W00-artifacts\\predictions_59.csv",
+      "sha256": "c547b56bac45ff2bfd2b231fabd1e3999ed66cd715d11d34a2994cc26f91fa36"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\runs\\P00-C-activa\\artifacts\\predictions_official_only_59.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\controls\\W00-artifacts\\predictions_official_only_59.csv",
+      "sha256": "2db6b0bb20da5597c77e917e6d4b26c3afe3e0c5a5ade0b97e2beb7492544b75"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\parcels.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\data\\processed\\parcels.parquet",
+      "sha256": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\features_monthly_20_10.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\data\\processed\\features_monthly_20_10.parquet",
+      "sha256": "85a7d6049a7d3df26bff7ee466732db597157933e1e4b9ccd645f8948443c9aa"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\external_nasa.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\data\\processed\\external_nasa.parquet",
+      "sha256": "35dcffc0a6e86a4120ff50fae55c0a4b0e42d6f541634f39fdcb5343b7271ea9"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\nasa-cells.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\data\\processed\\nasa-cells.csv",
+      "sha256": "10f3523910aa349182b1f7392395c2487978ec6e567d92b426ff53afc10b3e8e"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\nasa-quality.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\data\\processed\\nasa-quality.json",
+      "sha256": "4a3101d1739db95805691f4177ac9d60fe43d7e027ce90eb3f9b21ba19f9471e"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\satellite.parquet",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\data\\processed\\satellite.parquet",
+      "sha256": "83beb5676ec3da00fec2f11040fcb5cf856a81fafe7e802cb52cdc9434efbec9"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\processed\\source-manifest.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\data\\processed\\source-manifest.json",
+      "sha256": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\nasa_power_19.5_-98.125_20250401_20251031.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\data\\external\\nasa_power_19.5_-98.125_20250401_20251031.json",
+      "sha256": "69bfe2e143c581cf01b830071500a5f640f9b83d71b1a2ca2c58f43f69e67875"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\nasa_power_19.5_-98.75_20250401_20251031.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\data\\external\\nasa_power_19.5_-98.75_20250401_20251031.json",
+      "sha256": "1e0a9a361fbbbf1a646072774468c7a6b18d112932eb2d2363e8c90990366fdb"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\nasa_power_20.0_-98.125_20250401_20251031.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\data\\external\\nasa_power_20.0_-98.125_20250401_20251031.json",
+      "sha256": "27c89259f764247a3ebd9402c1c1ff2a85f7afa2e677712a1ffe8d13a88e6b17"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\data\\external\\nasa_power_20.0_-98.75_20250401_20251031.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\data\\external\\nasa_power_20.0_-98.75_20250401_20251031.json",
+      "sha256": "b184956e4f920303357ab901fa6cbf364ba59384f9230e0c4be5a6a14369a6e4"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\registry\\schemes.csv",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\registry\\schemes.csv",
+      "sha256": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\registry\\scheme-validation.json",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\registry\\scheme-validation.json",
+      "sha256": "672d8456f62436af78235edd3844becc03b0acc6529491091f46da4302073fcd"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\scripts\\offline_worker.py",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\scripts\\offline_worker.py",
+      "sha256": "204133a0f12eb466bca58d3c126389f1f2dc1ff5fa69b7a2a10cce46ce67cdc6"
+    },
+    {
+      "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\requirements.lock",
+      "target": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\requirements.lock",
+      "sha256": "c6dc98762ae205977c04c2d1f4a4e68a92bbc8967d02f94bbe32386bbbfaad28"
+    }
+  ],
+  "all_verified": true,
+  "isolated_destinations": true
+}

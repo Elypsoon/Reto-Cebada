@@ -15,3 +15,8 @@ secrets.toml
 /checkout-relocation.json
 **/workspace.origin.json
 *.restore-tmp
+
+# Dependencias locales y pesos descargables de modelos opcionales
+**/vendor/
+**/.cache/
+*.ckpt

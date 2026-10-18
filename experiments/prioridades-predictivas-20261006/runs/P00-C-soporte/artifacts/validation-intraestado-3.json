@@ -1,0 +1,9 @@
+{
+  "_github_transport": {
+    "full_record": "validation-intraestado-3.json.gz",
+    "original_sha256": "d38f2f713e64f57268b96472fbf3ae2be409fbc667c1a545d4f3222c485c92a3",
+    "original_bytes": 3257793,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

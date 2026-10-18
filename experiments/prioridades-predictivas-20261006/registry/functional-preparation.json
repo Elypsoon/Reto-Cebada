@@ -1,0 +1,14 @@
+{
+  "population": 197,
+  "branches": 5,
+  "coefficients_per_branch": 6,
+  "shared_bases_fit": false,
+  "new_metrics": null,
+  "available_individuals": {
+    "landsat_vi6t": 178,
+    "planet_msavi": 197,
+    "planet_ndvi": 197,
+    "s2_evi": 197,
+    "s2_ndvi": 197
+  }
+}

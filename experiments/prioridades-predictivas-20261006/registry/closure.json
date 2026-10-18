@@ -1,0 +1,11 @@
+{
+  "administratively_closed": true,
+  "mandatory_predictive_coverage_complete": true,
+  "optional_verified": 4,
+  "eligible_P06": false,
+  "activated": false,
+  "deployed": false,
+  "sent": false,
+  "all_protected_sources_intact": true,
+  "final_requested": true
+}

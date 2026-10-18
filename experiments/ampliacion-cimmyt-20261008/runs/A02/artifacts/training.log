@@ -1,0 +1,14 @@
+A02 principal-5 fold 0 recipe ridge-official-lambda0-alpha10 donors 0
+A02 principal-5 fold 1 recipe ridge-C-mexico-lambda0.25-alpha1 donors 43
+A02 principal-5 fold 2 recipe ridge-official-lambda0-alpha10 donors 0
+A02 principal-5 fold 3 recipe ridge-official-lambda0-alpha1 donors 0
+A02 principal-5 fold 4 recipe ridge-official-lambda0-alpha10 donors 0
+A02 balanceado-4 fold 0 recipe ridge-official-lambda0-alpha10 donors 0
+A02 balanceado-4 fold 1 recipe ridge-C-mexico-lambda1-alpha1 donors 42
+A02 balanceado-4 fold 2 recipe ridge-C-mexico-lambda0.25-alpha1 donors 43
+A02 balanceado-4 fold 3 recipe ridge-official-lambda0-alpha10 donors 0
+A02 rotado-45-5 fold 0 recipe ridge-official-lambda0-alpha10 donors 0
+A02 rotado-45-5 fold 1 recipe ridge-official-lambda0-alpha1 donors 0
+A02 rotado-45-5 fold 2 recipe ridge-official-lambda0-alpha1 donors 0
+A02 rotado-45-5 fold 3 recipe ridge-official-lambda0-alpha1 donors 0
+A02 rotado-45-5 fold 4 recipe ridge-official-lambda0-alpha1 donors 0

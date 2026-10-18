@@ -1,0 +1,966 @@
+{
+  "dataset_hash": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f",
+  "code_hash": "6e716d736573833d919d0693562e9028184376d50e900179c0884110a1d0c996",
+  "dependencies": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "geopandas": "1.2.0",
+    "rasterio": "1.5.2",
+    "catboost": "1.2.10",
+    "streamlit": "1.65.0"
+  },
+  "cutoff": "2025-10-31",
+  "seed": 2026,
+  "selection": {
+    "candidates": [
+      {
+        "features": "whittaker_40_10",
+        "family": "gpr",
+        "setting": 5,
+        "sources": [],
+        "geo": false
+      }
+    ],
+    "weights": [
+      1.0
+    ],
+    "decisions": [
+      {
+        "baseline": "regional_mean",
+        "reference_rmse": 0.7439756768844785,
+        "best_model_rmse": 0.657171163643802,
+        "eligible_families": [
+          "gpr",
+          "elastic"
+        ]
+      },
+      {
+        "ensemble": "diverso",
+        "admitted": false,
+        "weights": [
+          0.16666666666666666,
+          0.16666666666666666,
+          0.16666666666666666,
+          0.16666666666666666,
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "reference_rmse": 0.657171163643802,
+        "candidate_rmse": 0.6614370378284241
+      },
+      {
+        "ensemble": "convexo",
+        "weights": [
+          0.6472450519837626,
+          0.3527549480162375
+        ],
+        "candidate_rmse": 0.6466627395639856,
+        "fit": "OOF internas de train"
+      }
+    ],
+    "strategy": "individual",
+    "inner_rmse": 0.657171163643802,
+    "scores": [
+      {
+        "candidate": {
+          "features": "whittaker_40_10",
+          "family": "gpr",
+          "setting": 5,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.657171163643802
+      },
+      {
+        "candidate": {
+          "features": "monthly_20_10",
+          "family": "gpr",
+          "setting": 5,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6663638006600542
+      },
+      {
+        "candidate": {
+          "features": "monthly_40_10",
+          "family": "gpr",
+          "setting": 5,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6665041933230691
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_100",
+          "family": "gpr",
+          "setting": 5,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6668165332800704
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_10",
+          "family": "gpr",
+          "setting": 5,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6682613752698031
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_100",
+          "family": "gpr",
+          "setting": 5,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6698240065009001
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_100",
+          "family": "catboost",
+          "setting": 2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6813950806435032
+      },
+      {
+        "candidate": {
+          "features": "monthly_20_10",
+          "family": "catboost",
+          "setting": 2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6833827882892646
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_100",
+          "family": "catboost",
+          "setting": 2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6865381734678669
+      },
+      {
+        "candidate": {
+          "features": "monthly_10_10",
+          "family": "catboost",
+          "setting": 2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6881336192639347
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_10",
+          "family": "catboost",
+          "setting": 2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6886554247662657
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_10",
+          "family": "catboost",
+          "setting": 2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6892913707426812
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_10",
+          "family": "catboost",
+          "setting": 2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6908893213772997
+      },
+      {
+        "candidate": {
+          "features": "monthly_10_10",
+          "family": "gpr",
+          "setting": 5,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6916044486812185
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_100",
+          "family": "catboost",
+          "setting": 2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6924673721502728
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_10",
+          "family": "gpr",
+          "setting": 5,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6928020756660294
+      },
+      {
+        "candidate": {
+          "features": "monthly_40_10",
+          "family": "catboost",
+          "setting": 2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6942938566799393
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_100",
+          "family": "catboost",
+          "setting": 3,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.696686843029229
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_100",
+          "family": "gpr",
+          "setting": 5,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.6991614566411809
+      },
+      {
+        "candidate": {
+          "features": "monthly_40_10",
+          "family": "catboost",
+          "setting": 3,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7022550419163524
+      },
+      {
+        "candidate": {
+          "features": "monthly_20_10",
+          "family": "elastic",
+          "setting": 0.2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7028678317466096
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_10",
+          "family": "catboost",
+          "setting": 3,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7049301793213335
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_100",
+          "family": "catboost",
+          "setting": 3,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.705984834092565
+      },
+      {
+        "candidate": {
+          "features": "monthly_10_10",
+          "family": "elastic",
+          "setting": 0.2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.706220967996849
+      },
+      {
+        "candidate": {
+          "features": "monthly_40_10",
+          "family": "elastic",
+          "setting": 0.2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7089612846721667
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_10",
+          "family": "catboost",
+          "setting": 3,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7139369697887644
+      },
+      {
+        "candidate": {
+          "features": "monthly_20_10",
+          "family": "catboost",
+          "setting": 3,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7155414942899329
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_100",
+          "family": "catboost",
+          "setting": 3,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7161104733613762
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_10",
+          "family": "elastic",
+          "setting": 0.2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7182794438537526
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_100",
+          "family": "elastic",
+          "setting": 0.2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7183236704421362
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_100",
+          "family": "elastic",
+          "setting": 0.2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7200050911373886
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_10",
+          "family": "elastic",
+          "setting": 0.2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7203054899726532
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_10",
+          "family": "catboost",
+          "setting": 3,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7207261525348507
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_10",
+          "family": "elastic",
+          "setting": 0.2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.724859084382682
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_100",
+          "family": "elastic",
+          "setting": 0.2,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7249149698176536
+      },
+      {
+        "candidate": {
+          "features": "monthly_10_10",
+          "family": "catboost",
+          "setting": 3,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.733089360249451
+      },
+      {
+        "candidate": {
+          "features": "monthly_20_10",
+          "family": "bayesian",
+          "setting": 0,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7347118137432063
+      },
+      {
+        "candidate": {
+          "features": "monthly_10_10",
+          "family": "bayesian",
+          "setting": 0,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7396261041375707
+      },
+      {
+        "candidate": {
+          "features": "monthly_10_10",
+          "family": "elastic",
+          "setting": 0.05,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7397367772835203
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_10",
+          "family": "svr",
+          "setting": 10,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7403168379084392
+      },
+      {
+        "candidate": {
+          "features": "monthly_40_10",
+          "family": "bayesian",
+          "setting": 0,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7407080182726394
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_100",
+          "family": "bayesian",
+          "setting": 0,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7414334136309434
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_10",
+          "family": "bayesian",
+          "setting": 0,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7478342610999907
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_100",
+          "family": "elastic",
+          "setting": 0.05,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7515984149974473
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_100",
+          "family": "bayesian",
+          "setting": 0,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.751906196749162
+      },
+      {
+        "candidate": {
+          "features": "monthly_40_10",
+          "family": "elastic",
+          "setting": 0.05,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7530472574195014
+      },
+      {
+        "candidate": {
+          "features": "monthly_20_10",
+          "family": "elastic",
+          "setting": 0.05,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7530595661813723
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_100",
+          "family": "svr",
+          "setting": 10,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7540283098207965
+      },
+      {
+        "candidate": {
+          "features": "monthly_20_10",
+          "family": "svr",
+          "setting": 10,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7552891249064909
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_10",
+          "family": "elastic",
+          "setting": 0.05,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7609712087720863
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_10",
+          "family": "svr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7628339922439952
+      },
+      {
+        "candidate": {
+          "features": "monthly_10_10",
+          "family": "svr",
+          "setting": 10,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7641559694576817
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_10",
+          "family": "bayesian",
+          "setting": 0,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7677704648994746
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_100",
+          "family": "elastic",
+          "setting": 0.05,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7686233281341096
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_10",
+          "family": "svr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7686509307402601
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_100",
+          "family": "svr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7697371839737908
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_10",
+          "family": "svr",
+          "setting": 10,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7699920029880313
+      },
+      {
+        "candidate": {
+          "features": "monthly_40_10",
+          "family": "svr",
+          "setting": 10,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7712787444491095
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_100",
+          "family": "bayesian",
+          "setting": 0,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7717679499370428
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_10",
+          "family": "svr",
+          "setting": 10,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7732562907755934
+      },
+      {
+        "candidate": {
+          "features": "monthly_10_10",
+          "family": "svr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7739630300151017
+      },
+      {
+        "candidate": {
+          "features": "monthly_20_10",
+          "family": "svr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.775216740725947
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_10",
+          "family": "elastic",
+          "setting": 0.05,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7765262686147814
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_100",
+          "family": "svr",
+          "setting": 10,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7790369362379145
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_100",
+          "family": "svr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7800362536122057
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_100",
+          "family": "svr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7821317571239267
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_10",
+          "family": "bayesian",
+          "setting": 0,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7824252383870045
+      },
+      {
+        "candidate": {
+          "features": "monthly_40_10",
+          "family": "svr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7847668333280109
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_10",
+          "family": "svr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.785523895484058
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_100",
+          "family": "elastic",
+          "setting": 0.05,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7873075847528268
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_100",
+          "family": "svr",
+          "setting": 10,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7965716545532474
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_10",
+          "family": "elastic",
+          "setting": 0.05,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7966935386687651
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_100",
+          "family": "gpr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.8536841569892305
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_100",
+          "family": "gpr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.8613266204727743
+      },
+      {
+        "candidate": {
+          "features": "whittaker_40_10",
+          "family": "gpr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.8637331805866874
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_100",
+          "family": "gpr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.863919025446891
+      },
+      {
+        "candidate": {
+          "features": "whittaker_10_10",
+          "family": "gpr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.8771878806959729
+      },
+      {
+        "candidate": {
+          "features": "whittaker_20_10",
+          "family": "gpr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.8794778216471288
+      },
+      {
+        "candidate": {
+          "features": "monthly_40_10",
+          "family": "gpr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.8800258384441441
+      },
+      {
+        "candidate": {
+          "features": "monthly_10_10",
+          "family": "gpr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.8911313504759629
+      },
+      {
+        "candidate": {
+          "features": "monthly_20_10",
+          "family": "gpr",
+          "setting": 1,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.8911403743130507
+      },
+      {
+        "candidate": {
+          "features": "monthly_10_10",
+          "family": "regional_mean",
+          "setting": 0,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.7439756768844785
+      },
+      {
+        "candidate": {
+          "features": "monthly_10_10",
+          "family": "global_mean",
+          "setting": 0,
+          "sources": [],
+          "geo": false
+        },
+        "rmse": 0.9929950930147986
+      }
+    ]
+  },
+  "tables": {
+    "whittaker_40_10": {
+      "columns": [
+        "s2_ndvi_early",
+        "s2_ndvi_middle",
+        "s2_ndvi_late",
+        "s2_coverage",
+        "s2_spatial_std",
+        "s2_evi_early",
+        "s2_evi_middle",
+        "s2_evi_late",
+        "s2_ndwi_early",
+        "s2_ndwi_middle",
+        "s2_ndwi_late",
+        "s2_auc",
+        "s2_peak",
+        "s2_peak_doy",
+        "s2_amplitude",
+        "s2_duration",
+        "s2_auc_postpeak",
+        "s2_senescence",
+        "planet_ndvi_early",
+        "planet_ndvi_middle",
+        "planet_ndvi_late",
+        "planet_coverage",
+        "planet_spatial_std",
+        "planet_auc",
+        "planet_peak",
+        "planet_peak_doy",
+        "planet_amplitude",
+        "planet_duration",
+        "planet_auc_postpeak",
+        "planet_senescence",
+        "planet_evi_early",
+        "planet_evi_middle",
+        "planet_evi_late",
+        "planet_msavi_early",
+        "planet_msavi_middle",
+        "planet_msavi_late",
+        "landsat_vi6t_early",
+        "landsat_vi6t_middle",
+        "landsat_vi6t_late",
+        "landsat_coverage",
+        "landsat_spatial_std",
+        "climate_PREC_early",
+        "climate_PREC_middle",
+        "climate_PREC_late",
+        "climate_Tmean_early",
+        "climate_Trange_early",
+        "climate_Tmean_middle",
+        "climate_Trange_middle",
+        "climate_Tmean_late",
+        "climate_Trange_late",
+        "elevation",
+        "slope",
+        "log_area"
+      ],
+      "hash": "1da06d25ea46952748d1b7d4d5b0868be00e3f68a5081b74a089adfff7dd8072",
+      "sources": [],
+      "geo": false,
+      "family": "gpr"
+    }
+  },
+  "sources": [],
+  "prediction_sources": [],
+  "external_hashes": {},
+  "parcels_hash": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+  "model_hash": "26d128e2e953c5296d8977fef753c71b4cb7fa6a320c1bef5dec04489cc859fe"
+}

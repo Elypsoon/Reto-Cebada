@@ -1,0 +1,9 @@
+{
+  "_github_transport": {
+    "full_record": "contract_selected.json.gz",
+    "original_sha256": "ec9af9c1c107641184cb6b615a9fc1b95f0cb13cf515cdd717887e4c497a2cf2",
+    "original_bytes": 2165094,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

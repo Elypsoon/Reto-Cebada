@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-13T05:21:56.992816+00:00",
+  "exit_code": 0,
+  "seconds": 28.444570799998473,
+  "peak_tree_rss_mb": 173.203125,
+  "reason": null,
+  "memory_mb": 4096,
+  "time_limit_seconds": 7200,
+  "threads": 2,
+  "includes_children": true,
+  "offline": true
+}

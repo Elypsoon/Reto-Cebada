@@ -1,0 +1,67 @@
+{
+  "available": true,
+  "synthetic_only": true,
+  "manifest": {
+    "model": "tabpfn-3",
+    "repository": "Prior-Labs/tabpfn_3",
+    "revision": "24a16a89d245878b846555110985634aa2e656d7",
+    "checkpoint": "tabpfn-v3-regressor-v3_default.ckpt",
+    "sha256": "311ce18d97e9533d8585eaadafe040fbdd8070533209ed8696641dadc97a7301",
+    "bytes": 233289807,
+    "license_sha256": "dca491280b68f471312a15d54add7b8e724adf19fb0e113544b1ef91e060f5d5",
+    "package": "tabpfn",
+    "package_version": "9.1.0",
+    "code_repository_revision": "15f5e6b2b629b905879b9be907261416f20d0df5",
+    "purpose": "Evaluación local experimental; sin activación ni entrega comercial.",
+    "parameters": {
+      "device": "cpu",
+      "n_estimators": 8,
+      "random_state": 2026
+    },
+    "threads": 2
+  },
+  "effective_parameters": {
+    "auto_scale_n_estimators": "True",
+    "average_before_softmax": "False",
+    "categorical_features_indices": "None",
+    "device": "'cpu'",
+    "differentiable_input": "False",
+    "eval_metric": "None",
+    "fit_mode": "'fit_preprocessors'",
+    "ignore_pretraining_limits": "False",
+    "inference_config": "None",
+    "inference_precision": "'auto'",
+    "keep_cache_on_device": "True",
+    "kv_cache_precision": "None",
+    "memory_saving_mode": "'auto'",
+    "model_path": "'C:\\\\Users\\\\leonf\\\\OneDrive\\\\Documentos\\\\Hack Cebada 2026\\\\experiments\\\\prioridades-predictivas-20261006\\\\optional\\\\tabpfn-3\\\\tabpfn-v3-regressor-v3_default.ckpt'",
+    "n_estimators": "8",
+    "n_jobs": "None",
+    "n_preprocessing_jobs": "1",
+    "random_state": "2026",
+    "show_progress_bar": "False",
+    "softmax_temperature": "'auto'",
+    "tuning_config": "None"
+  },
+  "seconds": 15.459024399984628,
+  "rss_mb": 1732.71484375,
+  "checkpoint_guard": true,
+  "context_guard": true,
+  "fresh_process_verified": true,
+  "limits": {
+    "rss_mb": 4096,
+    "seconds_per_configuration": 1800,
+    "cpu_threads": 2
+  },
+  "dependencies": {
+    "tabpfn": "9.1.0",
+    "torch": "2.8.0+cpu",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "license_context": "Uso profesional experimental no comercial confirmado por el usuario",
+  "limits_enforced": true,
+  "offline_recovery_verified": true
+}

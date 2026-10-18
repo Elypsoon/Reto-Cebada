@@ -1,0 +1,17 @@
+{
+  "control": "C-activa",
+  "passed": true,
+  "code_hash": "6e716d736573833d919d0693562e9028184376d50e900179c0884110a1d0c996",
+  "principal_and_hidden_atol": 1e-10,
+  "rtol": 0,
+  "routes": [
+    "official",
+    "selected"
+  ],
+  "schemes": [
+    "principal-5",
+    "balanceado-4",
+    "rotado-45-5",
+    "intraestado-3"
+  ]
+}

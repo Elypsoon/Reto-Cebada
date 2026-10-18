@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\src\agrocebada\priority_optional.py", line 183, in <module>
+    verify(args.name, ROOT/'optional'/args.name/'synthetic',True)
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\src\agrocebada\priority_optional.py", line 128, in verify
+    np.testing.assert_allclose(pred, saved, atol=1e-10, rtol=0)
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\optional\tabicl-v2\env\Lib\site-packages\numpy\testing\_private\utils.py", line 1780, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\optional\tabicl-v2\env\Lib\site-packages\numpy\testing\_private\utils.py", line 988, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=0, atol=1e-10
+
+Mismatched elements: 12 / 20 (60%)
+First 5 mismatches are at indices:
+ [1]: 2.5110666751861572 (ACTUAL), 2.5110669136047363 (DESIRED)
+ [2]: 3.0137524604797363 (ACTUAL), 3.0137522220611572 (DESIRED)
+ [5]: 3.3655922412872314 (ACTUAL), 3.3655920028686523 (DESIRED)
+ [6]: 2.877988576889038 (ACTUAL), 2.877988815307617 (DESIRED)
+ [7]: 3.228835105895996 (ACTUAL), 3.228835344314575 (DESIRED)
+Max absolute difference among violations: 4.76837158e-07
+Max relative difference among violations: 1.68150822e-07
+ ACTUAL: array([2.725962, 2.511067, 3.013752, 2.937546, 2.96458 , 3.365592,
+       2.877989, 3.228835, 3.088441, 3.121814, 2.882103, 3.295897,
+       2.830692, 3.021926, 3.814606, 3.051801, 2.934344, 2.908999,
+       3.156441, 2.83577 ])
+ DESIRED: array([2.725962, 2.511067, 3.013752, 2.937546, 2.96458 , 3.365592,
+       2.877989, 3.228835, 3.088441, 3.121814, 2.882103, 3.295897,
+       2.830692, 3.021926, 3.814606, 3.051801, 2.934345, 2.908999,
+       3.156441, 2.835771])
+tabicl-v2 recuperación sin red verificada 20
+tabicl-v2 recuperación sin red verificada 20

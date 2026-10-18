@@ -1,0 +1,14 @@
+{
+  "exit_code": 0,
+  "seconds": 2.5449478001100942,
+  "peak_tree_rss_mb": 188.42578125,
+  "reason": null,
+  "limits": {
+    "seconds": 6964.674002699903,
+    "rss_mb": 4096,
+    "threads": 2
+  },
+  "includes_children": true,
+  "offline": true,
+  "ip_socket_connections_blocked": true
+}

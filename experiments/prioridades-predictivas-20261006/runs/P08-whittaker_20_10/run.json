@@ -1,0 +1,36 @@
+{
+  "run_id": "P08-whittaker_20_10",
+  "block": "P08",
+  "status": "completed",
+  "protocol_hash": "0172adf47b0717846dc90849a78f012d917b69d45e6f0ece652f306ea125ab7c",
+  "created_at": "2026-10-06T19:39:07.842672+00:00",
+  "metrics": {
+    "principal-5": {
+      "rmse": 0.744175229172158,
+      "mae": 0.5463812005104078,
+      "r2": 0.23000886677468768,
+      "bias": 0.12328329462200942
+    },
+    "balanceado-4": {
+      "rmse": 0.744782485768083,
+      "mae": 0.5490073511739006,
+      "r2": 0.2287517086413019,
+      "bias": 0.11297695596628593
+    },
+    "rotado-45-5": {
+      "rmse": 0.6894261799378053,
+      "mae": 0.5285297642884872,
+      "r2": 0.33913789935240124,
+      "bias": 0.11422501242807552
+    }
+  },
+  "verified": true,
+  "predictively_tested": true,
+  "administratively_closed": true,
+  "activated": false,
+  "deployed": false,
+  "sent": false,
+  "reason": null,
+  "started_at": "2026-10-06T20:49:36.406107+00:00",
+  "finished_at": "2026-10-06T20:52:02.206381+00:00"
+}

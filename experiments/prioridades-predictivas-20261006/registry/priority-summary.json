@@ -1,0 +1,559 @@
+[
+  {
+    "run_id": "P00-C-activa",
+    "block": "P00",
+    "status": "completed",
+    "protocol_hash": "09687f90d2560ab271f5ce7befeeab53310ef480242b98734391f85280314f45",
+    "created_at": "2026-10-06T19:39:07.631135+00:00",
+    "metrics": {
+      "balanceado-4": {
+        "official": {
+          "rmse": 0.808493973734743,
+          "mae": 0.6152280754874845,
+          "r2": 0.09115697469677642
+        },
+        "selected": {
+          "rmse": 0.808493973734743,
+          "mae": 0.6152280754874845,
+          "r2": 0.09115697469677642
+        },
+        "regional_mean": {
+          "rmse": 0.7441564778082017,
+          "mae": 0.5701330695763228,
+          "r2": 0.23004767000680437
+        }
+      },
+      "intraestado-3": {
+        "official": {
+          "rmse": 0.6320233022208782,
+          "mae": 0.47503492504812517,
+          "r2": 0.44460561373763496
+        },
+        "selected": {
+          "rmse": 0.6320233022208782,
+          "mae": 0.47503492504812517,
+          "r2": 0.44460561373763496
+        },
+        "regional_mean": {
+          "rmse": 0.6522650657772625,
+          "mae": 0.4778673204557802,
+          "r2": 0.40846078252606177
+        }
+      },
+      "principal-5": {
+        "official": {
+          "rmse": 0.7645734286732019,
+          "mae": 0.5935091578595009,
+          "r2": 0.1872186943850468
+        },
+        "selected": {
+          "rmse": 0.7640529246030533,
+          "mae": 0.5926849423673781,
+          "r2": 0.1883249634716917
+        },
+        "regional_mean": {
+          "rmse": 0.7439756768844785,
+          "mae": 0.5697312198651008,
+          "r2": 0.2304217611706254
+        }
+      },
+      "rotado-45-5": {
+        "official": {
+          "rmse": 0.7610483102234628,
+          "mae": 0.633836118738334,
+          "r2": 0.19469618518516496
+        },
+        "selected": {
+          "rmse": 0.7761105885538725,
+          "mae": 0.6466387884098787,
+          "r2": 0.16250442405697563
+        },
+        "regional_mean": {
+          "rmse": 0.9119407614743639,
+          "mae": 0.7105620220214793,
+          "r2": -0.15629476760536876
+        }
+      }
+    },
+    "verified": true,
+    "predictively_tested": true,
+    "administratively_closed": true,
+    "activated": false,
+    "deployed": false,
+    "sent": false,
+    "reason": null,
+    "started_at": "2026-10-06T19:39:35.693362+00:00",
+    "finished_at": "2026-10-06T19:43:34.171311+00:00"
+  },
+  {
+    "run_id": "P00-C-soporte",
+    "block": "P00",
+    "status": "completed",
+    "protocol_hash": "ae7cd05ce4df56a90aa711049bdaca180946e4f43b649f5d71918d85ff3e7be2",
+    "created_at": "2026-10-06T19:39:07.650141+00:00",
+    "metrics": {
+      "balanceado-4": {
+        "official": {
+          "rmse": 0.7643894761566522,
+          "mae": 0.5999470955520225,
+          "r2": 0.18760974951437404
+        },
+        "selected": {
+          "rmse": 0.7694358644633517,
+          "mae": 0.6031652188614002,
+          "r2": 0.17684777700757648
+        },
+        "regional_mean": {
+          "rmse": 0.7441564778082017,
+          "mae": 0.5701330695763228,
+          "r2": 0.23004767000680437
+        }
+      },
+      "intraestado-3": {
+        "official": {
+          "rmse": 0.6477048359344115,
+          "mae": 0.4840621385671004,
+          "r2": 0.41670321378556807
+        },
+        "selected": {
+          "rmse": 0.6477048359344115,
+          "mae": 0.4840621385671004,
+          "r2": 0.41670321378556807
+        },
+        "regional_mean": {
+          "rmse": 0.6522650657772625,
+          "mae": 0.4778673204557802,
+          "r2": 0.40846078252606177
+        }
+      },
+      "principal-5": {
+        "official": {
+          "rmse": 0.7563458295694481,
+          "mae": 0.6031691463832337,
+          "r2": 0.20461730568193015
+        },
+        "selected": {
+          "rmse": 0.7494578260600603,
+          "mae": 0.5965526073254858,
+          "r2": 0.2190383599522182
+        },
+        "regional_mean": {
+          "rmse": 0.7439756768844785,
+          "mae": 0.5697312198651008,
+          "r2": 0.2304217611706254
+        }
+      },
+      "rotado-45-5": {
+        "official": {
+          "rmse": 0.7491686842596543,
+          "mae": 0.5920948746039706,
+          "r2": 0.21964083573715354
+        },
+        "selected": {
+          "rmse": 0.7491686842596543,
+          "mae": 0.5920948746039706,
+          "r2": 0.21964083573715354
+        },
+        "regional_mean": {
+          "rmse": 0.9119407614743639,
+          "mae": 0.7105620220214793,
+          "r2": -0.15629476760536876
+        }
+      }
+    },
+    "verified": true,
+    "predictively_tested": true,
+    "administratively_closed": true,
+    "activated": false,
+    "deployed": false,
+    "sent": false,
+    "reason": null,
+    "started_at": "2026-10-06T19:43:36.180323+00:00",
+    "finished_at": "2026-10-06T19:46:38.907149+00:00"
+  },
+  {
+    "run_id": "P01",
+    "block": "P01",
+    "status": "completed",
+    "protocol_hash": "597791dd3e8a0d9956fe96174190074f9bef45bb64acd33cc266177a17af1c7b",
+    "created_at": "2026-10-06T19:39:07.668686+00:00",
+    "metrics": {
+      "principal-5": {
+        "rmse": 0.7561296294653649,
+        "mae": 0.6073502538991448,
+        "r2": 0.20507195813610102,
+        "bias": 0.14404528965012128,
+        "n": 138
+      },
+      "balanceado-4": {
+        "rmse": 0.7827917482303249,
+        "mae": 0.6326900937634742,
+        "r2": 0.14802317363732198,
+        "bias": 0.1679344815357953,
+        "n": 138
+      },
+      "rotado-45-5": {
+        "rmse": 0.7876795728255109,
+        "mae": 0.6202284056297604,
+        "r2": 0.1373503108333729,
+        "bias": 0.1899229237721732,
+        "n": 138
+      }
+    },
+    "verified": true,
+    "predictively_tested": true,
+    "administratively_closed": true,
+    "activated": false,
+    "deployed": false,
+    "sent": false,
+    "reason": null,
+    "started_at": "2026-10-06T19:46:41.606374+00:00",
+    "finished_at": "2026-10-06T19:51:46.875589+00:00"
+  },
+  {
+    "run_id": "P02",
+    "block": "P02",
+    "status": "completed",
+    "protocol_hash": "c237e77b23b3f40a773c1a41b5fb3c2f8f49b4ef0b4f03b4f70bae4a6146623f",
+    "created_at": "2026-10-06T19:39:07.686672+00:00",
+    "metrics": {
+      "principal-5": {
+        "rmse": 0.7813254183037248,
+        "mae": 0.623695942536836,
+        "r2": 0.1512120397482275,
+        "bias": 0.16235100686458573,
+        "n": 138
+      },
+      "balanceado-4": {
+        "rmse": 0.7801012183621552,
+        "mae": 0.6228024149290795,
+        "r2": 0.15386975985843476,
+        "bias": 0.18099438796386266,
+        "n": 138
+      },
+      "rotado-45-5": {
+        "rmse": 0.8082980307316179,
+        "mae": 0.6288237444480265,
+        "r2": 0.0915974476205581,
+        "bias": 0.22669598045301478,
+        "n": 138
+      }
+    },
+    "verified": true,
+    "predictively_tested": true,
+    "administratively_closed": true,
+    "activated": false,
+    "deployed": false,
+    "sent": false,
+    "reason": null,
+    "started_at": "2026-10-06T19:51:49.123926+00:00",
+    "finished_at": "2026-10-06T19:52:39.131493+00:00"
+  },
+  {
+    "run_id": "P03",
+    "block": "P03",
+    "status": "completed",
+    "protocol_hash": "1c4181fc98acae825e5ff7e25f1d9afb4a127af9cac874cd1dc126f774b8d9a8",
+    "created_at": "2026-10-06T19:39:07.704672+00:00",
+    "metrics": {
+      "principal-5": {
+        "rmse": 0.7569148216996686,
+        "mae": 0.5872373205062533,
+        "r2": 0.20342013712034945,
+        "bias": 0.051450202976756676,
+        "n": 138
+      },
+      "balanceado-4": {
+        "rmse": 0.7502314135553648,
+        "mae": 0.5797943791989975,
+        "r2": 0.2174253166704061,
+        "bias": 0.09204240700944294,
+        "n": 138
+      },
+      "rotado-45-5": {
+        "rmse": 0.8838963445067692,
+        "mae": 0.7216952521229196,
+        "r2": -0.08627048619350619,
+        "bias": 0.2259362469272147,
+        "n": 138
+      }
+    },
+    "verified": true,
+    "predictively_tested": true,
+    "administratively_closed": true,
+    "activated": false,
+    "deployed": false,
+    "sent": false,
+    "reason": null,
+    "started_at": "2026-10-06T19:52:41.380073+00:00",
+    "finished_at": "2026-10-06T19:53:31.310684+00:00"
+  },
+  {
+    "run_id": "P04",
+    "block": "P04",
+    "status": "completed",
+    "protocol_hash": "6636390e7c4f482603026382ee9da83f6061fc917966e404dd49ec78ea2cf662",
+    "created_at": "2026-10-06T19:39:07.722678+00:00",
+    "metrics": {
+      "principal-5": {
+        "rmse": 0.7793069865157303,
+        "mae": 0.6290550404650047,
+        "r2": 0.15559179661181577,
+        "bias": 0.1726922845565742,
+        "n": 138
+      },
+      "balanceado-4": {
+        "rmse": 0.7746065879047288,
+        "mae": 0.6173884121531669,
+        "r2": 0.16574719240585967,
+        "bias": 0.1725473062173527,
+        "n": 138
+      },
+      "rotado-45-5": {
+        "rmse": 0.821665077726896,
+        "mae": 0.6591575673708981,
+        "r2": 0.06130401031220012,
+        "bias": 0.15716636045997479,
+        "n": 138
+      }
+    },
+    "verified": true,
+    "predictively_tested": true,
+    "administratively_closed": true,
+    "activated": false,
+    "deployed": false,
+    "sent": false,
+    "reason": null,
+    "started_at": "2026-10-06T19:53:33.690309+00:00",
+    "finished_at": "2026-10-06T20:38:33.551277+00:00"
+  },
+  {
+    "run_id": "P05",
+    "block": "P05",
+    "status": "completed",
+    "protocol_hash": "43b34247581966dca7e0876b3258f4be644e23c85fc9830e938bd4c49c8251c2",
+    "created_at": "2026-10-06T19:39:07.743674+00:00",
+    "metrics": {
+      "principal-5": {
+        "rmse": 0.8226068455331967,
+        "mae": 0.6513315946537455,
+        "r2": 0.059150966904683355,
+        "bias": 0.00411380984875877,
+        "n": 138
+      },
+      "balanceado-4": {
+        "rmse": 0.8135834874100746,
+        "mae": 0.6403374766870097,
+        "r2": 0.07967852646739593,
+        "bias": 0.013282116954364055,
+        "n": 138
+      },
+      "rotado-45-5": {
+        "rmse": 0.9202926763390717,
+        "mae": 0.7788927081927932,
+        "r2": -0.17757136460626954,
+        "bias": 0.1490134277622994,
+        "n": 138
+      }
+    },
+    "verified": true,
+    "predictively_tested": true,
+    "administratively_closed": true,
+    "activated": false,
+    "deployed": false,
+    "sent": false,
+    "reason": null,
+    "started_at": "2026-10-06T20:38:35.875068+00:00",
+    "finished_at": "2026-10-06T20:40:45.447336+00:00"
+  },
+  {
+    "run_id": "P06",
+    "block": "P06",
+    "status": "completed",
+    "protocol_hash": "8fa5d02d1bb39db14349d567c923c221f4797643fb69710b536aa2f828eab85d",
+    "created_at": "2026-10-06T19:39:07.761589+00:00",
+    "metrics": {
+      "principal-5": {
+        "rmse": 0.7543692337306919,
+        "mae": 0.6009412705213317,
+        "r2": 0.20876909914390918,
+        "bias": 0.12192549936328864,
+        "n": 138
+      },
+      "balanceado-4": {
+        "rmse": 0.7388431870817759,
+        "mae": 0.5712134527889439,
+        "r2": 0.24100336510216502,
+        "bias": 0.14310305285387223,
+        "n": 138
+      },
+      "rotado-45-5": {
+        "rmse": 0.9186341445588987,
+        "mae": 0.760834392556757,
+        "r2": -0.17333080131863143,
+        "bias": 0.22621677531486756,
+        "n": 138
+      },
+      "intraestado-3": {
+        "rmse": 0.6432389999907674,
+        "mae": 0.4948984458741909,
+        "r2": 0.42471898692467014,
+        "bias": -0.02368497101876629,
+        "n": 138
+      }
+    },
+    "verified": true,
+    "predictively_tested": true,
+    "administratively_closed": true,
+    "activated": false,
+    "deployed": false,
+    "sent": false,
+    "reason": null,
+    "started_at": "2026-10-06T20:40:48.018787+00:00",
+    "finished_at": "2026-10-06T20:43:14.875747+00:00"
+  },
+  {
+    "run_id": "P07-monthly_20_10",
+    "block": "P07",
+    "status": "completed",
+    "protocol_hash": "8c4b730baa170047411177e68bd0e8a48bbdf3b1de37ad741a0a2bf778eb2f2e",
+    "created_at": "2026-10-06T19:39:07.781704+00:00",
+    "metrics": {
+      "principal-5": {
+        "rmse": 0.7497561996518611,
+        "mae": 0.5649325282331825,
+        "r2": 0.21841640443707777,
+        "bias": 0.1493864312379257
+      },
+      "balanceado-4": {
+        "rmse": 0.7550852160460623,
+        "mae": 0.5693627215122832,
+        "r2": 0.20726644991848242,
+        "bias": 0.14418807002081388
+      },
+      "rotado-45-5": {
+        "rmse": 0.6246334423294367,
+        "mae": 0.4874377471122189,
+        "r2": 0.4575174549123202,
+        "bias": 0.08873042099717736
+      }
+    },
+    "verified": true,
+    "predictively_tested": true,
+    "administratively_closed": true,
+    "activated": false,
+    "deployed": false,
+    "sent": false,
+    "reason": null,
+    "started_at": "2026-10-06T20:43:17.791606+00:00",
+    "finished_at": "2026-10-06T20:44:58.015211+00:00"
+  },
+  {
+    "run_id": "P07-whittaker_20_10",
+    "block": "P07",
+    "status": "completed",
+    "protocol_hash": "14011cb0c26d2e8eafbc79aac5bf31104bb8f79ae19dcfa399b30c87f8ab18be",
+    "created_at": "2026-10-06T19:39:07.802686+00:00",
+    "metrics": {
+      "principal-5": {
+        "rmse": 0.7615847134938892,
+        "mae": 0.5765625523138738,
+        "r2": 0.19356059412165083,
+        "bias": 0.13350686757460886
+      },
+      "balanceado-4": {
+        "rmse": 0.7643854259256796,
+        "mae": 0.5790807665258214,
+        "r2": 0.1876183586319503,
+        "bias": 0.13132241435672926
+      },
+      "rotado-45-5": {
+        "rmse": 0.6435782796540337,
+        "mae": 0.5063589639940124,
+        "r2": 0.4241119571175709,
+        "bias": 0.07932851563329284
+      }
+    },
+    "verified": true,
+    "predictively_tested": true,
+    "administratively_closed": true,
+    "activated": false,
+    "deployed": false,
+    "sent": false,
+    "reason": null,
+    "started_at": "2026-10-06T20:45:00.669908+00:00",
+    "finished_at": "2026-10-06T20:46:34.747322+00:00"
+  },
+  {
+    "run_id": "P08-monthly_20_10",
+    "block": "P08",
+    "status": "completed",
+    "protocol_hash": "5bfb39f0feff52972583d5177cec090f5755ec66ead07f751a664b0dd09f2b6e",
+    "created_at": "2026-10-06T19:39:07.821608+00:00",
+    "metrics": {
+      "principal-5": {
+        "rmse": 0.7376675966436856,
+        "mae": 0.5423444875288226,
+        "r2": 0.24341675767876159,
+        "bias": 0.12033777931670515
+      },
+      "balanceado-4": {
+        "rmse": 0.7338527972523918,
+        "mae": 0.5408167967400141,
+        "r2": 0.251221764634183,
+        "bias": 0.11655224247799927
+      },
+      "rotado-45-5": {
+        "rmse": 0.6878377534584783,
+        "mae": 0.520954010949358,
+        "r2": 0.3421796219011596,
+        "bias": 0.12010459993432118
+      }
+    },
+    "verified": true,
+    "predictively_tested": true,
+    "administratively_closed": true,
+    "activated": false,
+    "deployed": false,
+    "sent": false,
+    "reason": null,
+    "started_at": "2026-10-06T20:46:37.250018+00:00",
+    "finished_at": "2026-10-06T20:49:33.927289+00:00"
+  },
+  {
+    "run_id": "P08-whittaker_20_10",
+    "block": "P08",
+    "status": "completed",
+    "protocol_hash": "0172adf47b0717846dc90849a78f012d917b69d45e6f0ece652f306ea125ab7c",
+    "created_at": "2026-10-06T19:39:07.842672+00:00",
+    "metrics": {
+      "principal-5": {
+        "rmse": 0.744175229172158,
+        "mae": 0.5463812005104078,
+        "r2": 0.23000886677468768,
+        "bias": 0.12328329462200942
+      },
+      "balanceado-4": {
+        "rmse": 0.744782485768083,
+        "mae": 0.5490073511739006,
+        "r2": 0.2287517086413019,
+        "bias": 0.11297695596628593
+      },
+      "rotado-45-5": {
+        "rmse": 0.6894261799378053,
+        "mae": 0.5285297642884872,
+        "r2": 0.33913789935240124,
+        "bias": 0.11422501242807552
+      }
+    },
+    "verified": true,
+    "predictively_tested": true,
+    "administratively_closed": true,
+    "activated": false,
+    "deployed": false,
+    "sent": false,
+    "reason": null,
+    "started_at": "2026-10-06T20:49:36.406107+00:00",
+    "finished_at": "2026-10-06T20:52:02.206381+00:00"
+  }
+]

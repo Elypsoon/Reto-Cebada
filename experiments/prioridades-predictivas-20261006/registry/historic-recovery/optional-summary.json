@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "contexts": [
+    {
+      "run_id": "E07-v3-monthly_20_10",
+      "passed": true,
+      "predictions": 59,
+      "checkpoint_hash": "6e0308b7e5f3a8325b798b96d986b2b282c3608b1cda6e2991425a2a261d40b8",
+      "context_hash": "9cd0dba122b75eb5c9f8054b49a2bff52cdba0bcba2e8f0f2bb680ce6aa94b56",
+      "tolerance": 1e-10
+    },
+    {
+      "run_id": "E07-v3-whittaker_20_10",
+      "passed": true,
+      "predictions": 59,
+      "checkpoint_hash": "6e0308b7e5f3a8325b798b96d986b2b282c3608b1cda6e2991425a2a261d40b8",
+      "context_hash": "6530d9b930444500dea841c24651d1b22223af56088cbedd713e278793389fa6",
+      "tolerance": 1e-10
+    }
+  ],
+  "new_external_fits": false
+}

@@ -1,0 +1,9 @@
+{
+  "_github_transport": {
+    "full_record": "validation-rotado-45-5.json.gz",
+    "original_sha256": "ae89de76676bedcd1c1a11db59753adecfa2c56553b984bdcd56254f226f6fcb",
+    "original_bytes": 9172174,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

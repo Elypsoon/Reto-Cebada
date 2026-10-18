@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "n": 59,
+  "atol": 1e-10,
+  "rtol": 0,
+  "context_hash": "2286eb69d5818b248e8665854dd5272ab4099ec89fe7b90e0f8ea6b3777d7081",
+  "offline": true,
+  "metrics_recalculated": true
+}

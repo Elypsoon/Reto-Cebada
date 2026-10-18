@@ -1,0 +1,178 @@
+{
+  "status": "labels_audited_spatial_metadata_pending",
+  "published_barley_records": 968,
+  "downloaded_barley_rows": 1396,
+  "unique_yield_ids": 1362,
+  "grain_rows": 1131,
+  "grain_unique_yield_ids": 1130,
+  "join": {
+    "keys": [
+      "logbook",
+      "practice"
+    ],
+    "validation": "many_to_one",
+    "rows_before": 1396,
+    "rows_after": 1396,
+    "unmatched": 0
+  },
+  "stages": [
+    {
+      "stage": "unmatched_logbook_practice",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "context_mismatch_farmer",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "context_mismatch_plot",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "context_mismatch_state",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "context_mismatch_year",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "context_mismatch_season",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "context_mismatch_regime",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "not_barley_grain",
+      "remaining_rows": 1131,
+      "excluded_here": 265
+    },
+    {
+      "stage": "missing_identity",
+      "remaining_rows": 1131,
+      "excluded_here": 0
+    },
+    {
+      "stage": "conflicting_yield_id",
+      "remaining_rows": 1131,
+      "excluded_here": 0
+    },
+    {
+      "stage": "duplicate_yield_id",
+      "remaining_rows": 1130,
+      "excluded_here": 1
+    },
+    {
+      "stage": "invalid_grain_unit_or_yield",
+      "remaining_rows": 1119,
+      "excluded_here": 11
+    },
+    {
+      "stage": "invalid_treatment_area",
+      "remaining_rows": 1114,
+      "excluded_here": 5
+    },
+    {
+      "stage": "invalid_campaign",
+      "remaining_rows": 1114,
+      "excluded_here": 0
+    },
+    {
+      "stage": "outside_summer_rainfed",
+      "remaining_rows": 441,
+      "excluded_here": 673
+    },
+    {
+      "stage": "resowing_or_unknown_activity",
+      "remaining_rows": 441,
+      "excluded_here": 0
+    },
+    {
+      "stage": "outside_window_sowing",
+      "remaining_rows": 428,
+      "excluded_here": 13
+    },
+    {
+      "stage": "outside_window_harvest_start",
+      "remaining_rows": 53,
+      "excluded_here": 375
+    },
+    {
+      "stage": "outside_window_harvest_end",
+      "remaining_rows": 48,
+      "excluded_here": 5
+    },
+    {
+      "stage": "dates_out_of_order",
+      "remaining_rows": 48,
+      "excluded_here": 0
+    },
+    {
+      "stage": "multiple_treatments_or_harvests_unresolved",
+      "remaining_rows": 48,
+      "excluded_here": 0
+    },
+    {
+      "stage": "missing_coordinates",
+      "remaining_rows": 48,
+      "excluded_here": 0
+    }
+  ],
+  "before_spatial": {
+    "C-local": {
+      "rows": 29,
+      "yield_ids": 29,
+      "plots": 21,
+      "known_farmers": 19,
+      "campaigns": 4,
+      "groups": 19,
+      "states": {
+        "HIDALGO": 24,
+        "PUEBLA": 4,
+        "TLAXCALA": 1
+      }
+    },
+    "C-mexico": {
+      "rows": 48,
+      "yield_ids": 48,
+      "plots": 40,
+      "known_farmers": 30,
+      "campaigns": 8,
+      "groups": 29,
+      "states": {
+        "HIDALGO": 24,
+        "MEXICO": 19,
+        "PUEBLA": 4,
+        "TLAXCALA": 1
+      }
+    }
+  },
+  "admitted_training_labels": null,
+  "official_modality": "not documented in official originals reviewed",
+  "official_moisture_basis": "unknown",
+  "external_measurement_method": "heterogeneous, not identified per row",
+  "coordinate_metadata": {
+    "fields": [
+      "LATITUDE N",
+      "LONGITUDE W"
+    ],
+    "datum_or_crs_in_catalog": null,
+    "polygon_vertices_in_download": false,
+    "article_privacy_precision": "vertices truncated to 3 decimals",
+    "status": "requires documented interpretation before spatial admission"
+  },
+  "files": {
+    "1.-Farmer_Plot_Logbook_2012-2022_03.xlsx": "1999240f0a18f2a7fced3713dfc22fad81a50b7d617e505cb330d00199839684",
+    "2.-Sowing_harvest_yields_2012-2022_02.xlsx": "adfba56ea85bd274784862ac1bb0093e804c3c065f18cd137f384655b8c52509",
+    "Spanish-English Glossary.xlsx": "3b6f05f459926c033019d81b08334a5a32b83c2ed664abd163bfd15d508644ec"
+  }
+}

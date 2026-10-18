@@ -1,0 +1,13 @@
+{
+  "monthly_10_10": "data\\processed\\features_monthly_10_10.parquet",
+  "whittaker_10_10": "data\\processed\\features_whittaker_10_10.parquet",
+  "whittaker_10_100": "data\\processed\\features_whittaker_10_100.parquet",
+  "monthly_20_10": "data\\processed\\features_monthly_20_10.parquet",
+  "whittaker_20_10": "data\\processed\\features_whittaker_20_10.parquet",
+  "whittaker_20_100": "data\\processed\\features_whittaker_20_100.parquet",
+  "monthly_40_10": "data\\processed\\features_monthly_40_10.parquet",
+  "whittaker_40_10": "data\\processed\\features_whittaker_40_10.parquet",
+  "whittaker_40_100": "data\\processed\\features_whittaker_40_100.parquet",
+  "segmented_20_10": "data/processed/features_segmented_20_10.parquet",
+  "segmented_evi_20_10": "data/processed/features_segmented_evi_20_10.parquet"
+}

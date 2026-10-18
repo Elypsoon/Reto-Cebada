@@ -1,0 +1,30 @@
+{
+  "nominal": 0.9,
+  "valid_n": 138,
+  "n": 138,
+  "coverage": 0.9637681159420289,
+  "mean_width": 3.299929454204686,
+  "final_calibration_n": 34,
+  "available": true,
+  "by_state": {
+    "Hidalgo": {
+      "n": 36,
+      "valid_n": 36,
+      "coverage": 0.9166666666666666,
+      "mean_width": 3.4444400331553995
+    },
+    "Puebla": {
+      "n": 71,
+      "valid_n": 71,
+      "coverage": 0.971830985915493,
+      "mean_width": 2.860850290819654
+    },
+    "Tlaxcala": {
+      "n": 31,
+      "valid_n": 31,
+      "coverage": 1.0,
+      "mean_width": 4.13774363995022
+    }
+  },
+  "limitation": "Cobertura de desarrollo; disponibilidad separada de elegibilidad puntual."
+}

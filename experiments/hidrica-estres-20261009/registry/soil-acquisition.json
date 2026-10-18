@@ -1,0 +1,108 @@
+{
+  "at": "2026-10-13T04:59:54.478101+00:00",
+  "events": [
+    {
+      "url": "https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_01.html",
+      "at": "2026-10-13T04:54:58.349895+00:00",
+      "status_code": 200,
+      "bytes": 47346,
+      "sha256": "1b0a5c1e951092827eed732dff02deed6ed9aad6f2ff0b54543444dc46259772",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\registry\\soil-access\\00.response",
+      "content_type": "text/html",
+      "last_modified": "Tue, 13 Oct 2026 04:53:26 GMT",
+      "seconds": 1.3119999999762513
+    },
+    {
+      "url": "https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_02.html",
+      "at": "2026-10-13T04:54:59.662727+00:00",
+      "status_code": 200,
+      "bytes": 40295,
+      "sha256": "bb355c3ff6b7454694a09c2fd73974179de5a1030d579beef89d10dc25a6b07e",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\registry\\soil-access\\01.response",
+      "content_type": "text/html",
+      "last_modified": "Tue, 13 Oct 2026 04:53:26 GMT",
+      "seconds": 0.5790000000270084
+    },
+    {
+      "url": "https://files.isric.org/soilgrids/latest/data/",
+      "at": "2026-10-13T04:55:00.240525+00:00",
+      "status_code": 200,
+      "bytes": 6203,
+      "sha256": "c63a4d159d8f093fedcba514a7cb9da4f43ca15b3c4141165bcf6cd17b2d4113",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\registry\\soil-access\\02.response",
+      "content_type": "text/html; charset=utf-8",
+      "last_modified": null,
+      "seconds": 0.5619999999762513
+    },
+    {
+      "url": "https://files.isric.org/soilgrids/latest/data/wv0033/",
+      "at": "2026-10-13T04:55:00.807406+00:00",
+      "status_code": 404,
+      "bytes": 388,
+      "sha256": "ae81f66bb80bb97ac0eaba5c12b83b50ab783552ec1d69eb80432723fcc0cf9c",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\registry\\soil-access\\03.response",
+      "content_type": "text/html; charset=utf-8",
+      "last_modified": null,
+      "seconds": 0.5780000000377186
+    },
+    {
+      "url": "https://files.isric.org/soilgrids/latest/data/wv1500/",
+      "at": "2026-10-13T04:55:01.393727+00:00",
+      "status_code": 404,
+      "bytes": 388,
+      "sha256": "309cc57523f9e8bd9397732aad6f36c4e9810f1d551130dc8f98096078638d0c",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\registry\\soil-access\\04.response",
+      "content_type": "text/html; charset=utf-8",
+      "last_modified": null,
+      "seconds": 0.5309999999590218
+    },
+    {
+      "url": "https://maps.isric.org/",
+      "at": "2026-10-13T04:55:01.936025+00:00",
+      "status_code": 200,
+      "bytes": 1111,
+      "sha256": "862939591d74d7a23dc958ccf9821331be5d5c1a61db65c5f5645049a1169826",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\registry\\soil-access\\05.response",
+      "content_type": "text/html",
+      "last_modified": "Thu, 18 Jun 2026 15:14:32 GMT",
+      "seconds": 0.7030000000377186
+    },
+    {
+      "url": "https://maps.isric.org/mapserv?map=/map/wv0033.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCapabilities",
+      "at": "2026-10-13T04:55:02.630145+00:00",
+      "status_code": 200,
+      "bytes": 12581,
+      "sha256": "09c3a3a07c7143b15605f5a7390e198f2a2d7a39194e1a02cb410da0771a4f9c",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\registry\\soil-access\\06.response",
+      "content_type": "text/xml; charset=UTF-8",
+      "last_modified": null,
+      "seconds": 5.905999999959022
+    },
+    {
+      "url": "https://maps.isric.org/mapserv?map=/map/wv1500.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCapabilities",
+      "at": "2026-10-13T04:55:08.542579+00:00",
+      "status_code": 200,
+      "bytes": 12581,
+      "sha256": "ffc27b63032ad55fd168ad81b7539a4ec3b188b1db76871d4681293f95fc1b4b",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\hidrica-estres-20261009\\registry\\soil-access\\07.response",
+      "content_type": "text/xml; charset=UTF-8",
+      "last_modified": null,
+      "seconds": 6.110000000044238
+    },
+    {
+      "url": "https://maps.isric.org/mapserv?map=%2Fmap%2Fwv0033.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=wv0033_0-5cm_mean&FORMAT=image%2Ftiff&SUBSET=x%28-10986750.0%2C-10942750.0%29&SUBSET=y%282173000.0%2C2225000.0%29",
+      "at": "2026-10-13T04:59:53.339199+00:00",
+      "coverage": "wv0033_0-5cm_mean",
+      "error": "ValueError('Resolución/CRS no nativos')",
+      "seconds": 1.1410000000032596
+    }
+  ],
+  "bytes": 150750,
+  "seconds": 17.64100000000326,
+  "budget_bytes": 2147483648,
+  "budget_seconds": 1800,
+  "status": "no viable",
+  "raster_acquired": false,
+  "layers": [],
+  "reason": "ValueError('Resolución/CRS no nativos')"
+}

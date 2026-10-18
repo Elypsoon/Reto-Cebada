@@ -1,0 +1,9 @@
+{
+  "_github_transport": {
+    "full_record": "folds-rotado-45-5.json.gz",
+    "original_sha256": "79f07cdde5f3a2fea67baf7a24005f2958f445a38839c7838b94d1782c5ce8f2",
+    "original_bytes": 42177513,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_github_transport": {
+    "full_record": "folds-principal-5.json.gz",
+    "original_sha256": "69bbcfb4748cd0f85f95640f9042bf324eacb35ff2d83c5891a9dd22e540db81",
+    "original_bytes": 42360764,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

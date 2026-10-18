@@ -1,0 +1,20 @@
+[
+  {
+    "year": 2022,
+    "median_valid_observations": 21.0,
+    "minimum": 17,
+    "decision": "Contexto disponible; excluido del modelo inicial: cultivo/rotación sin confirmar"
+  },
+  {
+    "year": 2023,
+    "median_valid_observations": 24.0,
+    "minimum": 18,
+    "decision": "Contexto disponible; excluido del modelo inicial: cultivo/rotación sin confirmar"
+  },
+  {
+    "year": 2024,
+    "median_valid_observations": 25.0,
+    "minimum": 15,
+    "decision": "Contexto disponible; excluido del modelo inicial: cultivo/rotación sin confirmar"
+  }
+]

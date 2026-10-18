@@ -1,0 +1,207 @@
+{
+  "candidates": {
+    "gpr-01ae02c3930b4322": {
+      "configuration": {
+        "representation": "calendar_nasa",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 1.0032761281389257,
+        "mae": 0.9003553807833778,
+        "r2": -0.3995108248658441
+      }
+    },
+    "gpr-1e8524dd79a67840": {
+      "configuration": {
+        "representation": "calendar_nasa",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7384719761562002,
+        "mae": 0.6024987051819786,
+        "r2": 0.24176584642470966
+      }
+    },
+    "catboost-91342b47b5f76250": {
+      "configuration": {
+        "representation": "calendar_nasa",
+        "family": "catboost",
+        "selector": "all",
+        "setting": 2,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.735172137300781,
+        "mae": 0.5915496355095108,
+        "r2": 0.2485269976530663
+      }
+    },
+    "catboost-d87ab932a144d253": {
+      "configuration": {
+        "representation": "calendar_nasa",
+        "family": "catboost",
+        "selector": "all",
+        "setting": 3,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7379498111188181,
+        "mae": 0.5911736175484372,
+        "r2": 0.2428377446185399
+      }
+    },
+    "gpr-f0fe1f11f7903826": {
+      "configuration": {
+        "representation": "thermal",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 1.0033015042351454,
+        "mae": 0.9004066721807479,
+        "r2": -0.3995816220661159
+      }
+    },
+    "gpr-7d16e6424a9f4c20": {
+      "configuration": {
+        "representation": "thermal",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7383113847932814,
+        "mae": 0.6015719857322434,
+        "r2": 0.24209558843306245
+      }
+    },
+    "catboost-1a57feca279e1a78": {
+      "configuration": {
+        "representation": "thermal",
+        "family": "catboost",
+        "selector": "all",
+        "setting": 2,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7274100928337371,
+        "mae": 0.5801300773839512,
+        "r2": 0.26431153014168385
+      }
+    },
+    "catboost-a6b59965667aefed": {
+      "configuration": {
+        "representation": "thermal",
+        "family": "catboost",
+        "selector": "all",
+        "setting": 3,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.739237577115184,
+        "mae": 0.5888377875177746,
+        "r2": 0.24019285319230155
+      }
+    },
+    "global_mean-3a02613a38ea08da": {
+      "configuration": {
+        "representation": "calendar_nasa",
+        "family": "global_mean",
+        "selector": "all",
+        "setting": 1.0,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 1.0042461496017008,
+        "mae": 0.9016694943230404,
+        "r2": -0.4022183782070674
+      }
+    },
+    "regional_mean-2b98a87877e93ada": {
+      "configuration": {
+        "representation": "calendar_nasa",
+        "family": "regional_mean",
+        "selector": "all",
+        "setting": 1.0,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7441564778082017,
+        "mae": 0.5701330695763228,
+        "r2": 0.23004767000680437
+      }
+    }
+  },
+  "failures": [],
+  "outer_selects_configuration": false,
+  "interpretation": "Diagnósticos de configuraciones fijas; no redefinen P06."
+}

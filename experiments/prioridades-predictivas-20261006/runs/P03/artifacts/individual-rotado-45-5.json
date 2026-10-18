@@ -1,0 +1,767 @@
+{
+  "candidates": {
+    "hierarchical_ridge-c35a02eedfb1fb85": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 0.1,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9270744725937211,
+        "mae": 0.7412554420584413,
+        "r2": -0.19499076729433784
+      }
+    },
+    "hierarchical_ridge-d8d031850ddf41d7": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8963722896837786,
+        "mae": 0.7155466023100068,
+        "r2": -0.11715169573772344
+      }
+    },
+    "hierarchical_ridge-020c39823998fdbd": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8738885970126713,
+        "mae": 0.6952837359393876,
+        "r2": -0.061811560190519144
+      }
+    },
+    "hierarchical_ridge-7140f8fa49ea6945": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 0.1,
+        "state_setting": 10,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.926116543233443,
+        "mae": 0.7413192185889476,
+        "r2": -0.19252251826477984
+      }
+    },
+    "hierarchical_ridge-ccb18f1f3bb2fcab": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": 10,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8931581371214615,
+        "mae": 0.7109525478891783,
+        "r2": -0.10915444194857615
+      }
+    },
+    "hierarchical_ridge-17b3890dd22431ba": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": 10,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8679599186889102,
+        "mae": 0.6873800976265185,
+        "r2": -0.04745324196854028
+      }
+    },
+    "hierarchical_ridge-d7d1f3b4e5d10d06": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 0.1,
+        "state_setting": 50,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9197254641379269,
+        "mae": 0.7352886178669087,
+        "r2": -0.17612024579073648
+      }
+    },
+    "hierarchical_ridge-54c0fb9a0d94899d": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": 50,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8852035713714669,
+        "mae": 0.7019204152337828,
+        "r2": -0.08948591301887432
+      }
+    },
+    "hierarchical_ridge-edf97eedbd02c0cf": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": 50,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8578272794600783,
+        "mae": 0.6711687502044521,
+        "r2": -0.02313987375092208
+      }
+    },
+    "hierarchical_ridge-4a26d62e52a6185a": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 0.1,
+        "state_setting": "infinite",
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9162243570573957,
+        "mae": 0.7318713738288901,
+        "r2": -0.16718304520438654
+      }
+    },
+    "hierarchical_ridge-6892b276d897f157": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": "infinite",
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8809249655022274,
+        "mae": 0.6966540291032314,
+        "r2": -0.07897936874838174
+      }
+    },
+    "hierarchical_ridge-7852da95f61c30a9": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": "infinite",
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8528095392590819,
+        "mae": 0.66279813183438,
+        "r2": -0.011205454478397048
+      }
+    },
+    "hierarchical_ridge-c1bb474ca51cb10e": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 0.1,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9270744725937211,
+        "mae": 0.7412554420584413,
+        "r2": -0.19499076729433784
+      }
+    },
+    "hierarchical_ridge-960fa17b2132f02a": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8963722896837786,
+        "mae": 0.7155466023100068,
+        "r2": -0.11715169573772344
+      }
+    },
+    "hierarchical_ridge-9f794d0491069e86": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8738885970126713,
+        "mae": 0.6952837359393876,
+        "r2": -0.061811560190519144
+      }
+    },
+    "hierarchical_ridge-0874ba44efa2153d": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 0.1,
+        "state_setting": 10,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.926116543233443,
+        "mae": 0.7413192185889476,
+        "r2": -0.19252251826477984
+      }
+    },
+    "hierarchical_ridge-cf98e0232cd345c3": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": 10,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8931581371214615,
+        "mae": 0.7109525478891783,
+        "r2": -0.10915444194857615
+      }
+    },
+    "hierarchical_ridge-ddb08187ec4f3d6e": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": 10,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8679599186889102,
+        "mae": 0.6873800976265185,
+        "r2": -0.04745324196854028
+      }
+    },
+    "hierarchical_ridge-06ad5289427688b9": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 0.1,
+        "state_setting": 50,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9197254641379269,
+        "mae": 0.7352886178669087,
+        "r2": -0.17612024579073648
+      }
+    },
+    "hierarchical_ridge-ac2235356d406584": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": 50,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8852035713714669,
+        "mae": 0.7019204152337828,
+        "r2": -0.08948591301887432
+      }
+    },
+    "hierarchical_ridge-65d5fbc9dbc17964": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": 50,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8578272794600783,
+        "mae": 0.6711687502044521,
+        "r2": -0.02313987375092208
+      }
+    },
+    "hierarchical_ridge-6fcbe431c4adff10": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 0.1,
+        "state_setting": "infinite",
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9162243570573957,
+        "mae": 0.7318713738288901,
+        "r2": -0.16718304520438654
+      }
+    },
+    "hierarchical_ridge-4e0faf343ac34981": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": "infinite",
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8809249655022274,
+        "mae": 0.6966540291032314,
+        "r2": -0.07897936874838174
+      }
+    },
+    "hierarchical_ridge-f6801c90f6eb216b": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_ridge",
+        "selector": "agronomic",
+        "setting": 10,
+        "state_setting": "infinite",
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8528095392590819,
+        "mae": 0.66279813183438,
+        "r2": -0.011205454478397048
+      }
+    },
+    "hierarchical_gpr-23256e58cfe351fd": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_gpr",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": 0,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9494386862624424,
+        "mae": 0.8253853794516163,
+        "r2": -0.25334072578676214
+      }
+    },
+    "hierarchical_gpr-be05414c1291f4ee": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_gpr",
+        "selector": "agronomic",
+        "setting": 5,
+        "state_setting": 0,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8545653569307502,
+        "mae": 0.6565864120793039,
+        "r2": -0.015373607089981478
+      }
+    },
+    "hierarchical_gpr-6577838746ef36ef": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_gpr",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": 0.25,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9012477355238266,
+        "mae": 0.7243732282961254,
+        "r2": -0.1293373131363842
+      }
+    },
+    "hierarchical_gpr-64a65bd3f8e4a63b": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_gpr",
+        "selector": "agronomic",
+        "setting": 5,
+        "state_setting": 0.25,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8730544042689209,
+        "mae": 0.682988478654537,
+        "r2": -0.05978536888542996
+      }
+    },
+    "hierarchical_gpr-ff03c952868fdf25": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_gpr",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9062073636297872,
+        "mae": 0.719109332981245,
+        "r2": -0.14180115511380986
+      }
+    },
+    "hierarchical_gpr-6ffaac06fabd94fd": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "hierarchical_gpr",
+        "selector": "agronomic",
+        "setting": 5,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8741141520066597,
+        "mae": 0.6853033118975574,
+        "r2": -0.062359748617659694
+      }
+    },
+    "hierarchical_gpr-0cfa8d9c5957a98a": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_gpr",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": 0,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9494386862624424,
+        "mae": 0.8253853794516163,
+        "r2": -0.25334072578676214
+      }
+    },
+    "hierarchical_gpr-265dae3c70f588f2": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_gpr",
+        "selector": "agronomic",
+        "setting": 5,
+        "state_setting": 0,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8545653569307502,
+        "mae": 0.6565864120793039,
+        "r2": -0.015373607089981478
+      }
+    },
+    "hierarchical_gpr-1662809b0f0bcaff": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_gpr",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": 0.25,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9012477355238266,
+        "mae": 0.7243732282961254,
+        "r2": -0.1293373131363842
+      }
+    },
+    "hierarchical_gpr-c06ee1acc76d0638": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_gpr",
+        "selector": "agronomic",
+        "setting": 5,
+        "state_setting": 0.25,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8730544042689209,
+        "mae": 0.682988478654537,
+        "r2": -0.05978536888542996
+      }
+    },
+    "hierarchical_gpr-72eb87d2d0a788d7": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_gpr",
+        "selector": "agronomic",
+        "setting": 1,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9062073636297872,
+        "mae": 0.719109332981245,
+        "r2": -0.14180115511380986
+      }
+    },
+    "hierarchical_gpr-bc1135ada830965c": {
+      "configuration": {
+        "representation": "whittaker_20_10",
+        "family": "hierarchical_gpr",
+        "selector": "agronomic",
+        "setting": 5,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8741141520066597,
+        "mae": 0.6853033118975574,
+        "r2": -0.062359748617659694
+      }
+    },
+    "global_mean-6c579de49191790c": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "global_mean",
+        "selector": "all",
+        "setting": 1.0,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.997828445007797,
+        "mae": 0.8957946844622178,
+        "r2": -0.38435369654507245
+      }
+    },
+    "regional_mean-f60b7c7c46c6a70f": {
+      "configuration": {
+        "representation": "monthly_20_10",
+        "family": "regional_mean",
+        "selector": "all",
+        "setting": 1.0,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9119407614743639,
+        "mae": 0.7105620220214793,
+        "r2": -0.15629476760536898
+      }
+    }
+  },
+  "failures": [],
+  "outer_selects_configuration": false,
+  "interpretation": "Diagnósticos de configuraciones fijas; no redefinen P06."
+}

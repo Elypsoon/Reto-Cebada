@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agrocebada"
+version = "0.1.0"
+description = "Estimación parcelaria retrospectiva de cebada, ciclo 2025"
+requires-python = ">=3.12"
+dependencies = ["pandas>=2.2", "numpy>=2", "scipy", "scikit-learn==1.9.1", "geopandas==1.2.0", "rasterio", "catboost", "streamlit>=1.57,<2", "plotly", "pyarrow", "psutil"]
+
+[project.scripts]
+agrocebada = "agrocebada.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,94 @@
+{
+  "at": "2026-10-09T16:41:56.998159+00:00",
+  "protocol": "cimmyt-point-assumption-v2",
+  "runs": {
+    "A00": {
+      "status": "completed",
+      "verified": true,
+      "predictively_tested": true,
+      "historical_control": true,
+      "metrics_present": true
+    },
+    "A01": {
+      "status": "completed",
+      "verified": true,
+      "predictively_tested": true,
+      "historical_control": false,
+      "metrics_present": true
+    },
+    "A02": {
+      "status": "completed",
+      "verified": true,
+      "predictively_tested": true,
+      "historical_control": false,
+      "metrics_present": true
+    },
+    "A03": {
+      "status": "completed",
+      "verified": true,
+      "predictively_tested": true,
+      "historical_control": false,
+      "metrics_present": true,
+      "scope": "Procedimiento verificado; 25% y 50% inviables, 100% reutiliza A02; no se obtuvo una curva completa de respuesta al tamaño",
+      "fraction_status_counts": [
+        {
+          "fraction": 0.25,
+          "status": "non_viable",
+          "count": 3
+        },
+        {
+          "fraction": 0.25,
+          "status": "not_applicable",
+          "count": 11
+        },
+        {
+          "fraction": 0.5,
+          "status": "non_viable",
+          "count": 3
+        },
+        {
+          "fraction": 0.5,
+          "status": "not_applicable",
+          "count": 11
+        },
+        {
+          "fraction": 1.0,
+          "status": "completed",
+          "count": 3
+        },
+        {
+          "fraction": 1.0,
+          "status": "not_applicable",
+          "count": 11
+        }
+      ],
+      "new_curve_model_fits": 0
+    },
+    "A04": {
+      "status": "non_viable",
+      "verified": false,
+      "predictively_tested": false,
+      "historical_control": false,
+      "metrics_present": false
+    }
+  },
+  "audit_status": "completed_diagnostic_admission_with_explicit_spatial_assumption",
+  "pending_dependencies": [],
+  "protected_files_verified": 2596,
+  "activated": false,
+  "deployed": false,
+  "sent": false,
+  "protocol_sha256": "db106b82591d469818a4e38cf6b1de8a6028d43164c1f05a4547d7d6c3789c51",
+  "frozen_inputs_verified": 229,
+  "tests_passed": 52,
+  "all_completed_runs_recovered_offline": true,
+  "remaining_uncertainties": [
+    "Referencia de origen, semántica del punto y precisión desconocidas",
+    "Sensibilidad geográfica comprobada solo para admisión",
+    "Sin campaña independiente de validación con etiquetas"
+  ],
+  "completed_tasks": 29,
+  "total_tasks": 29,
+  "openspec_state": "all_done",
+  "openspec_strict_validation_passed": true
+}

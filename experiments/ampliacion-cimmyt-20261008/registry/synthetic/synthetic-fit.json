@@ -1,0 +1,39 @@
+{
+  "synthetic_only": true,
+  "official_context": 138,
+  "auxiliary_context": 256,
+  "max_context_rows": 394,
+  "columns": 14,
+  "ip_socket_block_proven": true,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 2,
+      "prefix": "vcomp",
+      "filepath": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\.venv\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "new_official_training": false
+}

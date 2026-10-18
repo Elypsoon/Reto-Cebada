@@ -1,0 +1,299 @@
+{
+  "tabicl": {
+    "version": "2.2.0",
+    "requires_dist": [
+      "einops>=0.7",
+      "huggingface-hub",
+      "numpy",
+      "psutil",
+      "scikit-learn>=1.3.0",
+      "scipy",
+      "torch>=2.2",
+      "tqdm>=4.64.0",
+      "matplotlib>=3.10.3; extra == \"all\"",
+      "numba; extra == \"all\"",
+      "pandas; extra == \"all\"",
+      "pandas>=2.1.2; extra == \"all\"",
+      "pydata-sphinx-theme; extra == \"all\"",
+      "pytest; extra == \"all\"",
+      "shap>=0.42; extra == \"all\"",
+      "shapiq>=1.0; extra == \"all\"",
+      "skrub; extra == \"all\"",
+      "sphinx; extra == \"all\"",
+      "sphinx-copybutton; extra == \"all\"",
+      "sphinx-gallery; extra == \"all\"",
+      "sphinxext-opengraph; extra == \"all\"",
+      "statsmodels>=0.14.5; extra == \"all\"",
+      "transformers; extra == \"all\"",
+      "wandb; extra == \"all\"",
+      "xgboost; extra == \"all\"",
+      "matplotlib>=3.10.3; extra == \"doc\"",
+      "numba; extra == \"doc\"",
+      "pandas; extra == \"doc\"",
+      "pydata-sphinx-theme; extra == \"doc\"",
+      "shap>=0.42; extra == \"doc\"",
+      "shapiq>=1.0; extra == \"doc\"",
+      "skrub; extra == \"doc\"",
+      "sphinx; extra == \"doc\"",
+      "sphinx-copybutton; extra == \"doc\"",
+      "sphinx-gallery; extra == \"doc\"",
+      "sphinxext-opengraph; extra == \"doc\"",
+      "transformers; extra == \"finetune\"",
+      "wandb; extra == \"finetune\"",
+      "matplotlib>=3.10.3; extra == \"forecast\"",
+      "pandas>=2.1.2; extra == \"forecast\"",
+      "statsmodels>=0.14.5; extra == \"forecast\"",
+      "transformers; extra == \"pretrain\"",
+      "wandb; extra == \"pretrain\"",
+      "xgboost; extra == \"pretrain\"",
+      "matplotlib>=3.10.3; extra == \"shap\"",
+      "numba; extra == \"shap\"",
+      "shap>=0.42; extra == \"shap\"",
+      "shapiq>=1.0; extra == \"shap\"",
+      "pandas; extra == \"test\"",
+      "pytest; extra == \"test\""
+    ],
+    "official_home": null
+  },
+  "tabpfn": {
+    "version": "9.1.0",
+    "requires_dist": [
+      "torch>=2.5",
+      "safetensors>=0.4.0",
+      "numpy>=1.21.6",
+      "scikit-learn>=1.2.0",
+      "typing_extensions>=4.12.0",
+      "scipy>=1.11.1",
+      "pandas>=1.4.0",
+      "einops>=0.4.0",
+      "huggingface-hub>=0.23.0",
+      "pydantic>=2.8.0",
+      "pydantic-settings>=2.10.1",
+      "joblib>=1.2.0",
+      "tqdm>=4.66.0",
+      "filelock>=3.11.0",
+      "lightgbm>=4.4",
+      "skrub<0.11,>=0.7",
+      "matplotlib>=3.6.1",
+      "mlx>=0.29.3; sys_platform == \"darwin\" and platform_machine == \"arm64\"",
+      "wandb>=0.25.1; extra == \"wandb\""
+    ],
+    "official_home": {
+      "documentation": "https://priorlabs.ai/docs",
+      "source": "https://github.com/priorlabs/tabpfn"
+    }
+  },
+  "soda-inria/tabicl": {
+    "revision": "0dbff3ec8fc68c123c87af77b0ea8b25cd2d23f3"
+  },
+  "PriorLabs/TabPFN": {
+    "revision": "15f5e6b2b629b905879b9be907261416f20d0df5"
+  },
+  "jingang/TabICL": {
+    "id": "jingang/TabICL",
+    "sha": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19",
+    "gated": false,
+    "cardData": {
+      "license": "bsd-3-clause",
+      "library_name": "tabicl",
+      "pipeline_tag": "tabular-classification",
+      "tags": [
+        "tabular-classification",
+        "tabular-regression",
+        "tabular-foundation-model",
+        "tabular-classification"
+      ]
+    },
+    "siblings": [
+      {
+        "rfilename": ".gitattributes",
+        "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519
+      },
+      {
+        "rfilename": "README.md",
+        "blobId": "c8ffd19559c65a358aa0b47b95a746472afbc62e",
+        "size": 1170
+      },
+      {
+        "rfilename": "tabicl-classifier-v1-20250208.ckpt",
+        "blobId": "7a0839b3fc5e2e27afdfa3175a318cc2893911d2",
+        "size": 108317991,
+        "lfs": {
+          "sha256": "04c5c1d261c1f782dc9b263990dcfa5152b1949ed8451ad16c010cdafbea07e0",
+          "size": 108317991,
+          "pointerSize": 134
+        }
+      },
+      {
+        "rfilename": "tabicl-classifier-v1.1-20250506.ckpt",
+        "blobId": "76dada5c488fa49b50e3c562129cabae8acd4d5c",
+        "size": 108318621,
+        "lfs": {
+          "sha256": "bb42d1733b49fab3a7a9e42db648c8ff64d8d5705d93c039179add3bfb2db32b",
+          "size": 108318621,
+          "pointerSize": 134
+        }
+      },
+      {
+        "rfilename": "tabicl-classifier-v2-20260212.ckpt",
+        "blobId": "1c122d99beb749fb2c313a66bf069229d98aa970",
+        "size": 110368038,
+        "lfs": {
+          "sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+          "size": 110368038,
+          "pointerSize": 134
+        }
+      },
+      {
+        "rfilename": "tabicl-regressor-v2-20260212.ckpt",
+        "blobId": "344d778912a87ff22560770a044c77ff5fd6e5c1",
+        "size": 114324594,
+        "lfs": {
+          "sha256": "0db9cb538f114e79026bf08f45f41ad8dd7ad2de2aaca9a5ca8cd3bd9748ae7a",
+          "size": 114324594,
+          "pointerSize": 134
+        }
+      }
+    ]
+  },
+  "jingang/TabICL-v2": {
+    "http_status": 401
+  },
+  "Prior-Labs/tabpfn_3": {
+    "id": "Prior-Labs/tabpfn_3",
+    "sha": "24a16a89d245878b846555110985634aa2e656d7",
+    "gated": false,
+    "cardData": {
+      "license": "other",
+      "license_name": "tabpfn-3-license-v1.0",
+      "license_link": "LICENSE",
+      "extra_gated_fields": {
+        "Organization": "text",
+        "Role": {
+          "type": "select",
+          "options": [
+            "Field practitioners",
+            "Researcher",
+            "Student"
+          ]
+        },
+        "Use-case": "text",
+        "May we contact you about future updates?": "checkbox"
+      },
+      "extra_gated_button_content": "Agree to license terms and send request to access repo.",
+      "extra_gated_description": "Model weights released under `tabpfn-3-license-v1.0`. This license is designed to be permissive for research and internal evaluation. It *explicitly allows* testing, evaluation, and internal benchmarking, so an organization can download the model and run preliminary assessments on its own datasets.\nThe key restriction is that the model, its derivatives, and its outputs cannot be used for any commercial or production purpose. This includes, but is not limited to, revenue-generating products, competitive benchmarking for procurement, client deliverables, or using the model’s results for internal commercial decision-making.\nFor all production use cases, we offer a *Commercial Enterprise License*. This provides access to our proprietary high-speed inference engine, dedicated support, integration tooling, and other internal models. Please contact us at sales@priorlabs.ai for commercial licensing inquiries.",
+      "pipeline_tag": "tabular-classification",
+      "tags": [
+        "chemistry",
+        "biology",
+        "finance",
+        "legal",
+        "climate",
+        "medical"
+      ]
+    },
+    "siblings": [
+      {
+        "rfilename": ".gitattributes",
+        "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519
+      },
+      {
+        "rfilename": "LICENSE",
+        "blobId": "5efdc4513b6e6637dfdff400025a9bde4effcc92",
+        "size": 16794
+      },
+      {
+        "rfilename": "README.md",
+        "blobId": "8b080b4f50e68902463346771b5004a18edef5ea",
+        "size": 8377
+      },
+      {
+        "rfilename": "config.json",
+        "blobId": "ad9ed1cb0f6ea625a7dee36ae44b14747560aac6",
+        "size": 33
+      },
+      {
+        "rfilename": "tabpfn-v3-classifier-v3_20260417_binary.ckpt",
+        "blobId": "99a376daffa5431fcfc24465fed76836e13786c3",
+        "size": 212804803,
+        "lfs": {
+          "sha256": "1f9949fd52e20b6ed8ece20b3b37242d2abbbf337d14b461a4244f9318031a88",
+          "size": 212804803,
+          "pointerSize": 134
+        }
+      },
+      {
+        "rfilename": "tabpfn-v3-classifier-v3_20260417_multiclass.ckpt",
+        "blobId": "1367c5eb006178f94c7813fcfe7e388899d42249",
+        "size": 212804803,
+        "lfs": {
+          "sha256": "517c40ca21e0e1b1fa6629ded4b0412ffb7b2e577eb6cb96e5be5c487fadfb03",
+          "size": 212804803,
+          "pointerSize": 134
+        }
+      },
+      {
+        "rfilename": "tabpfn-v3-classifier-v3_20260506_ood.ckpt",
+        "blobId": "a620b63c963d77b1bbf2b3ef30333f7c57c62436",
+        "size": 212815699,
+        "lfs": {
+          "sha256": "f973d994ece09f9e28e9319d644bcff3cb0bec9c3170e67e14e71f53df92d18b",
+          "size": 212815699,
+          "pointerSize": 134
+        }
+      },
+      {
+        "rfilename": "tabpfn-v3-classifier-v3_default.ckpt",
+        "blobId": "60513e0e974ad1eded873b97a54a448f88a38f41",
+        "size": 212804803,
+        "lfs": {
+          "sha256": "d0d865d54dfbc524f5703104be90620182dca7e5fb2c16de72e9959ea18f3988",
+          "size": 212804803,
+          "pointerSize": 134
+        }
+      },
+      {
+        "rfilename": "tabpfn-v3-regressor-v3_20260417_mediumdata.ckpt",
+        "blobId": "e8ce69a94f609e2aed7f3aae1e146a46650ba22a",
+        "size": 233289807,
+        "lfs": {
+          "sha256": "06a1daeebbc19f8d9478bd6fdf8753859c68abc9abfe53e8216b1067b7e0bc21",
+          "size": 233289807,
+          "pointerSize": 134
+        }
+      },
+      {
+        "rfilename": "tabpfn-v3-regressor-v3_20260506_ood.ckpt",
+        "blobId": "776398c3ac7b092d12a85f0d6480303170e298f8",
+        "size": 233300137,
+        "lfs": {
+          "sha256": "fe1a5aa90cdd7f06e8736a68015b1bb570a413bd302de2d1038364272a8c24d6",
+          "size": 233300137,
+          "pointerSize": 134
+        }
+      },
+      {
+        "rfilename": "tabpfn-v3-regressor-v3_20260506_timeseries.ckpt",
+        "blobId": "1a87a4c64949443ff0b39cf48441e6f7cb07c3e5",
+        "size": 233289807,
+        "lfs": {
+          "sha256": "48ca82019fec74f08e15d56a157bbe728d6ec25c221f2ff2d4fd22fd4e09ec6e",
+          "size": 233289807,
+          "pointerSize": 134
+        }
+      },
+      {
+        "rfilename": "tabpfn-v3-regressor-v3_default.ckpt",
+        "blobId": "0964a92b746f878e053b526c28307b6857eadec9",
+        "size": 233289807,
+        "lfs": {
+          "sha256": "311ce18d97e9533d8585eaadafe040fbdd8070533209ed8696641dadc97a7301",
+          "size": 233289807,
+          "pointerSize": 134
+        }
+      }
+    ]
+  }
+}

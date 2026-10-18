@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "offline": true,
+  "n_hidden": 59,
+  "metrics_recalculated": true,
+  "batch_single_invariant": true,
+  "atol": 1e-10,
+  "rtol": 0,
+  "at": "2026-10-13T05:19:30.143355+00:00"
+}

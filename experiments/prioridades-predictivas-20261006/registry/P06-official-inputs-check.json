@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "n_queries": 59,
+  "representations": [
+    "compact"
+  ],
+  "no_nasa_columns": true,
+  "query_rows_only": true,
+  "no_fit": true,
+  "atol": 1e-10,
+  "rtol": 0,
+  "calibration_n": 34,
+  "interval_radius": 1.1177694381967087,
+  "interval_center": "Modelo separado ajustado excluyendo calibración; distinto al modelo puntual completo",
+  "purpose": "Recuperación de investigación; P06 no elegible, sin activación ni entrega"
+}

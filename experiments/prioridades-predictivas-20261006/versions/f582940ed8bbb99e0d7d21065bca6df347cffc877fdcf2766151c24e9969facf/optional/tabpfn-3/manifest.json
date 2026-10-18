@@ -1,0 +1,19 @@
+{
+  "model": "tabpfn-3",
+  "repository": "Prior-Labs/tabpfn_3",
+  "revision": "24a16a89d245878b846555110985634aa2e656d7",
+  "checkpoint": "tabpfn-v3-regressor-v3_default.ckpt",
+  "sha256": "311ce18d97e9533d8585eaadafe040fbdd8070533209ed8696641dadc97a7301",
+  "bytes": 233289807,
+  "license_sha256": "dca491280b68f471312a15d54add7b8e724adf19fb0e113544b1ef91e060f5d5",
+  "package": "tabpfn",
+  "package_version": "9.1.0",
+  "code_repository_revision": "15f5e6b2b629b905879b9be907261416f20d0df5",
+  "purpose": "Evaluación local experimental; sin activación ni entrega comercial.",
+  "parameters": {
+    "device": "cpu",
+    "n_estimators": 8,
+    "random_state": 2026
+  },
+  "threads": 2
+}

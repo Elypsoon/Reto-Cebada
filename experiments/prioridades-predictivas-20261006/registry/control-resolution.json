@@ -1,0 +1,22 @@
+{
+  "C-activa": {
+    "root": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa",
+    "processed": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\data\\processed",
+    "artifacts": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\artifacts",
+    "module": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-activa\\src\\agrocebada\\modeling.py",
+    "code_hash": "6e716d736573833d919d0693562e9028184376d50e900179c0884110a1d0c996",
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026",
+    "new_results": null,
+    "dependency_lock_sha256": "c6dc98762ae205977c04c2d1f4a4e68a92bbc8967d02f94bbe32386bbbfaad28"
+  },
+  "C-soporte": {
+    "root": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-soporte",
+    "processed": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-soporte\\data\\processed",
+    "artifacts": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-soporte\\artifacts",
+    "module": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\prioridades-predictivas-20261006\\controls\\C-soporte\\src\\agrocebada\\modeling.py",
+    "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+    "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\versions\\17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+    "new_results": null,
+    "dependency_lock_sha256": "c6dc98762ae205977c04c2d1f4a4e68a92bbc8967d02f94bbe32386bbbfaad28"
+  }
+}

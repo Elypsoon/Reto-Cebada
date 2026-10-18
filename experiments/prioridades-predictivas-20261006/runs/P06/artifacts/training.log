@@ -1,0 +1,23 @@
+P06 principal-5 fold 0 train 104 validación 34
+P06 principal-5 fold 1 train 104 validación 34
+P06 principal-5 fold 2 train 103 validación 35
+P06 principal-5 fold 3 train 121 validación 17
+P06 principal-5 fold 4 train 120 validación 18
+P06 balanceado-4 fold 0 train 104 validación 34
+P06 balanceado-4 fold 1 train 103 validación 35
+P06 balanceado-4 fold 2 train 104 validación 34
+P06 balanceado-4 fold 3 train 103 validación 35
+P06 rotado-45-5 fold 0 train 104 validación 34
+P06 rotado-45-5 fold 1 train 104 validación 34
+P06 rotado-45-5 fold 2 train 103 validación 35
+P06 rotado-45-5 fold 3 train 121 validación 17
+P06 rotado-45-5 fold 4 train 120 validación 18
+P06 intraestado-3 fold 0 train 91 validación 47
+P06 intraestado-3 fold 1 train 92 validación 46
+P06 intraestado-3 fold 2 train 93 validación 45
+P06 sensibilidad exclusión estatal Hidalgo
+P06 sensibilidad exclusión estatal Tlaxcala
+P06 sensibilidad buffer 1000 m 0
+P06 sensibilidad buffer 1000 m 1
+P06 sensibilidad buffer 1000 m 3
+P06 sensibilidad buffer 1000 m 4

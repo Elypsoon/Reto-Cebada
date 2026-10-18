@@ -1,0 +1,947 @@
+{
+  "candidates": {
+    "gpr-28c3725922b79434": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9968548790680053,
+        "mae": 0.8945013502468292,
+        "r2": -0.38165362897311383
+      }
+    },
+    "gpr-fbf352fd3bac4f70": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7746639601246462,
+        "mae": 0.628758368080423,
+        "r2": 0.16562360784356467
+      }
+    },
+    "ridge-8fc5e2ab4b0f8e4c": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 0.1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8328762255181541,
+        "mae": 0.6658961138470147,
+        "r2": 0.03551331829914073
+      }
+    },
+    "ridge-cabc559177c664c5": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7703614642025771,
+        "mae": 0.615889778973437,
+        "r2": 0.17486614919150878
+      }
+    },
+    "ridge-2c77a0a52643b5ff": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7334824252694719,
+        "mae": 0.5994621644205828,
+        "r2": 0.25197738346718734
+      }
+    },
+    "gpr-85f80cc5e7def495": {
+      "configuration": {
+        "representation": "functional",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9942157131850069,
+        "mae": 0.8904777010992021,
+        "r2": -0.3743474778565228
+      }
+    },
+    "gpr-60829a840ded8287": {
+      "configuration": {
+        "representation": "functional",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7889468355620849,
+        "mae": 0.6513804004011583,
+        "r2": 0.13457232027196486
+      }
+    },
+    "ridge-37943968344d2310": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 0.1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9113601599983551,
+        "mae": 0.7501833092441104,
+        "r2": -0.15482288968199853
+      }
+    },
+    "ridge-7da605fcf9bbea99": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8815228250212394,
+        "mae": 0.7344711556746426,
+        "r2": -0.08044441290097604
+      }
+    },
+    "ridge-fa97083fab0275fe": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8235748022621777,
+        "mae": 0.6890278217783837,
+        "r2": 0.056935480938614
+      }
+    },
+    "gpr-e24e30310065153b": {
+      "configuration": {
+        "representation": "functional",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9951896954870036,
+        "mae": 0.8922008471406836,
+        "r2": -0.3770415527471447
+      }
+    },
+    "gpr-f969515705d45c95": {
+      "configuration": {
+        "representation": "functional",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7698499593120134,
+        "mae": 0.6202302547424731,
+        "r2": 0.17596153077505483
+      }
+    },
+    "ridge-36bf8dbd16b3b162": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 0.1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8280956607002367,
+        "mae": 0.6649706315123929,
+        "r2": 0.04655351463840429
+      }
+    },
+    "ridge-4aaf81a2868d4f0e": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.814979717882828,
+        "mae": 0.6728709202019896,
+        "r2": 0.07651699844895343
+      }
+    },
+    "ridge-685b7fb34ff5bdac": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7779780448249233,
+        "mae": 0.647201361138249,
+        "r2": 0.15846925690637836
+      }
+    },
+    "gpr-fd7abdd7cafb6629": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.91159730986234,
+        "mae": 0.7105598071694683,
+        "r2": -0.15542397306332578
+      }
+    },
+    "gpr-064213ce19f35790": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9112619157988202,
+        "mae": 0.7105575923174572,
+        "r2": -0.15457392436575645
+      }
+    },
+    "gpr-ebfbc9e6ad808ac8": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.892658063696965,
+        "mae": 0.7099549207177026,
+        "r2": -0.1079127729492162
+      }
+    },
+    "gpr-8ac803c67effe7d5": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.89829830582452,
+        "mae": 0.7294404653617202,
+        "r2": -0.12195765376916667
+      }
+    },
+    "ridge-7e14868116262a28": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 0.1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9338602985983685,
+        "mae": 0.7469278600637045,
+        "r2": -0.2125485299808434
+      }
+    },
+    "ridge-70b7e94478c39048": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 0.1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 1.011384396812258,
+        "mae": 0.8271916867375206,
+        "r2": -0.42222334431865205
+      }
+    },
+    "ridge-01cec5adc5c7c7e0": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9071979708161015,
+        "mae": 0.7277065883963018,
+        "r2": -0.14429880561800812
+      }
+    },
+    "ridge-f54f60bffa85e820": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9444549631434181,
+        "mae": 0.7715702088652575,
+        "r2": -0.24021737316653247
+      }
+    },
+    "ridge-3568bf88591de633": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.888240864988605,
+        "mae": 0.7087276774553095,
+        "r2": -0.09697518612542577
+      }
+    },
+    "ridge-d939f24bcfa3479b": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8982056118147395,
+        "mae": 0.7321489968195104,
+        "r2": -0.12172611957318225
+      }
+    },
+    "gpr-95cd91c634452593": {
+      "configuration": {
+        "representation": "functional",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9107253410104211,
+        "mae": 0.7104325939457888,
+        "r2": -0.15321463818239467
+      }
+    },
+    "gpr-b71f42cb909820d1": {
+      "configuration": {
+        "representation": "functional",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9095904922509443,
+        "mae": 0.7103491185035377,
+        "r2": -0.15034240273133959
+      }
+    },
+    "gpr-9e92a906a1f46d06": {
+      "configuration": {
+        "representation": "functional",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8954617222808253,
+        "mae": 0.7205819260163907,
+        "r2": -0.11488316232940265
+      }
+    },
+    "gpr-7c5d510dfbae864f": {
+      "configuration": {
+        "representation": "functional",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.910547178014706,
+        "mae": 0.7564808219624031,
+        "r2": -0.1527634811352554
+      }
+    },
+    "ridge-556ca31032d1c8f9": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 0.1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9167458488036393,
+        "mae": 0.7364180734819413,
+        "r2": -0.16851208550184116
+      }
+    },
+    "ridge-12bfef8adad5d654": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 0.1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.966975652371826,
+        "mae": 0.7998884977461644,
+        "r2": -0.300068939408938
+      }
+    },
+    "ridge-8fa29c239b5c77ff": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9049579327909416,
+        "mae": 0.727360260852878,
+        "r2": -0.13865481538892488
+      }
+    },
+    "ridge-b11b4abf4c16ebe5": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9375517021439984,
+        "mae": 0.7776435138350187,
+        "r2": -0.22215350499668318
+      }
+    },
+    "ridge-092759d42084c078": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8981301982342754,
+        "mae": 0.7199405890826565,
+        "r2": -0.12153776663790095
+      }
+    },
+    "ridge-21ed495e76d84dd0": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 3,
+        "components": 2,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9166033276036522,
+        "mae": 0.7570718214020459,
+        "r2": -0.16814879004866778
+      }
+    },
+    "gpr-8821c1ede76ee45b": {
+      "configuration": {
+        "representation": "functional",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9118273675385201,
+        "mae": 0.7107807662638773,
+        "r2": -0.15600722993084193
+      }
+    },
+    "gpr-1452949adc879d25": {
+      "configuration": {
+        "representation": "functional",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9117241792016489,
+        "mae": 0.7109995105062754,
+        "r2": -0.1557456020874659
+      }
+    },
+    "gpr-c4e3b774ce172c3c": {
+      "configuration": {
+        "representation": "functional",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8925323080991869,
+        "mae": 0.7133696795165692,
+        "r2": -0.10760063457342439
+      }
+    },
+    "gpr-094ea8d6738707f1": {
+      "configuration": {
+        "representation": "functional",
+        "family": "gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9004418847427903,
+        "mae": 0.7426236429538685,
+        "r2": -0.12731862183299425
+      }
+    },
+    "ridge-d1548777fb40000b": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 0.1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9174661112273105,
+        "mae": 0.7393197583793326,
+        "r2": -0.17034894349897955
+      }
+    },
+    "ridge-6f2f4399c7402a4f": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 0.1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.980963000705543,
+        "mae": 0.8189365026339217,
+        "r2": -0.3379520795200459
+      }
+    },
+    "ridge-e6939063abf092f7": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9035768459395603,
+        "mae": 0.7279900799890977,
+        "r2": -0.13518198830551476
+      }
+    },
+    "ridge-2be5683188c07592": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9419721532604278,
+        "mae": 0.7862283677118362,
+        "r2": -0.2337053070634083
+      }
+    },
+    "ridge-376467f0e76f745b": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "regional_correction",
+        "alpha": 0.5,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8905614710535139,
+        "mae": 0.7128213789178083,
+        "r2": -0.10271455870386692
+      }
+    },
+    "ridge-cc9d0edb88b96cf7": {
+      "configuration": {
+        "representation": "functional",
+        "family": "ridge",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": null,
+        "knots": 3,
+        "components": 3,
+        "kind": "regional_correction",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9062687487250839,
+        "mae": 0.7474624163447893,
+        "r2": -0.14195584806690142
+      }
+    },
+    "global_mean-64c09e67642d104f": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "global_mean",
+        "selector": "all",
+        "setting": 1.0,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.997828445007797,
+        "mae": 0.8957946844622178,
+        "r2": -0.38435369654507245
+      }
+    },
+    "regional_mean-1f1445fd8548f94c": {
+      "configuration": {
+        "representation": "calendar",
+        "family": "regional_mean",
+        "selector": "all",
+        "setting": 1.0,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9119407614743639,
+        "mae": 0.7105620220214793,
+        "r2": -0.15629476760536898
+      }
+    }
+  },
+  "failures": [],
+  "outer_selects_configuration": false,
+  "interpretation": "Diagnósticos de configuraciones fijas; no redefinen P06."
+}

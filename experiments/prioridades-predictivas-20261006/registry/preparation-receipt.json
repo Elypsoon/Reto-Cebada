@@ -1,0 +1,16 @@
+{
+  "phase_id": "prioridades-predictivas-20261006",
+  "created_at": "2026-10-06T18:37:05.414188+00:00",
+  "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003",
+  "source_version": "928508797a2791a44373436d6a4a11e4e1f47bd5957acd4d6060e0de345994c1",
+  "copies": 74,
+  "copy_manifest_sha256": "3510c71a9b2a96730b6f693181d390377affbda33c3ed9d80adc6c640d757a2a",
+  "source_integrity_sha256": "ff4d928319948a244acda06338a530527c223dfb2aacda5d4c11f394a5596e86",
+  "training_started": false,
+  "new_metrics": null,
+  "excluded": [
+    "entornos",
+    "temporales",
+    "resultados históricos como ejecuciones nuevas"
+  ]
+}

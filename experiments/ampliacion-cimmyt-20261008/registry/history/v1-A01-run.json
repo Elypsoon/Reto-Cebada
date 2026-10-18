@@ -1,0 +1,9 @@
+{
+  "status": "pending",
+  "predictively_tested": false,
+  "metrics": null,
+  "reason": "Preparación y protocolo sin congelar: admisión espacial pendiente",
+  "activated": false,
+  "deployed": false,
+  "sent": false
+}

@@ -1,0 +1,527 @@
+{
+  "candidates": {
+    "hierarchical_gpr-c45711db6e756ce9": {
+      "configuration": {
+        "representation": "compact",
+        "family": "hierarchical_gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": 0,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9974846567841582,
+        "mae": 0.8924904849507276,
+        "r2": -0.3833999403879971
+      }
+    },
+    "hierarchical_gpr-4198f2cad8294f52": {
+      "configuration": {
+        "representation": "compact",
+        "family": "hierarchical_gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": 0,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7211406248222965,
+        "mae": 0.5827436415485986,
+        "r2": 0.2769385161959794
+      }
+    },
+    "hierarchical_gpr-580e717b457c488e": {
+      "configuration": {
+        "representation": "compact",
+        "family": "hierarchical_gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": 0.25,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8246253954177188,
+        "mae": 0.6704893391383561,
+        "r2": 0.05452790589228185
+      }
+    },
+    "hierarchical_gpr-a09aec7877d158a0": {
+      "configuration": {
+        "representation": "compact",
+        "family": "hierarchical_gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": 0.25,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7001028454292769,
+        "mae": 0.5647652965321227,
+        "r2": 0.318510780853519
+      }
+    },
+    "hierarchical_gpr-969b0018e7e56d9c": {
+      "configuration": {
+        "representation": "compact",
+        "family": "hierarchical_gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7314775773666098,
+        "mae": 0.5645038040956815,
+        "r2": 0.25606097695341956
+      }
+    },
+    "hierarchical_gpr-455afc137d159c12": {
+      "configuration": {
+        "representation": "compact",
+        "family": "hierarchical_gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.681978637846632,
+        "mae": 0.5388974265861597,
+        "r2": 0.3533387363209458
+      }
+    },
+    "hierarchical_gpr-7b57a57174c62423": {
+      "configuration": {
+        "representation": "functional",
+        "family": "hierarchical_gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": 0,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.9998041590752217,
+        "mae": 0.8960963970018438,
+        "r2": -0.38984120262148103
+      }
+    },
+    "hierarchical_gpr-1a687b9d5856d02d": {
+      "configuration": {
+        "representation": "functional",
+        "family": "hierarchical_gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": 0,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.741143914730142,
+        "mae": 0.5975666616331894,
+        "r2": 0.23626903597586568
+      }
+    },
+    "hierarchical_gpr-2e8d2908bdac1c4e": {
+      "configuration": {
+        "representation": "functional",
+        "family": "hierarchical_gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": 0.25,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8234618296401256,
+        "mae": 0.6688006047648659,
+        "r2": 0.05719419007815141
+      }
+    },
+    "hierarchical_gpr-194e9f61b4f057de": {
+      "configuration": {
+        "representation": "functional",
+        "family": "hierarchical_gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": 0.25,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7074855886137688,
+        "mae": 0.5685173413752326,
+        "r2": 0.30406208146910785
+      }
+    },
+    "hierarchical_gpr-4caa735a50dbc147": {
+      "configuration": {
+        "representation": "functional",
+        "family": "hierarchical_gpr",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7306043833347416,
+        "mae": 0.562461646730207,
+        "r2": 0.2578360563447225
+      }
+    },
+    "hierarchical_gpr-fee842a18d019544": {
+      "configuration": {
+        "representation": "functional",
+        "family": "hierarchical_gpr",
+        "selector": "all",
+        "setting": 5,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.6823832857496244,
+        "mae": 0.5385826324761454,
+        "r2": 0.3525711235543232
+      }
+    },
+    "hierarchical_gam-e9bad78144295fb2": {
+      "configuration": {
+        "representation": "compact",
+        "family": "hierarchical_gam",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.70314973391307,
+        "mae": 0.5516511259454149,
+        "r2": 0.31256611137701673
+      }
+    },
+    "hierarchical_gam-0528da413269b90c": {
+      "configuration": {
+        "representation": "compact",
+        "family": "hierarchical_gam",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.6930200434488694,
+        "mae": 0.5330786308589603,
+        "r2": 0.33223001385750073
+      }
+    },
+    "hierarchical_gam-9039405e7b024896": {
+      "configuration": {
+        "representation": "compact",
+        "family": "hierarchical_gam",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": 10,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.6884594354910281,
+        "mae": 0.5481099863910683,
+        "r2": 0.34098998112116896
+      }
+    },
+    "hierarchical_gam-d8acc0d3270547a7": {
+      "configuration": {
+        "representation": "compact",
+        "family": "hierarchical_gam",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": 10,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7663256978682034,
+        "mae": 0.6222447802074832,
+        "r2": 0.1834889187658466
+      }
+    },
+    "hierarchical_gam-f71b5dcd7f40b29c": {
+      "configuration": {
+        "representation": "compact",
+        "family": "hierarchical_gam",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": 50,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.6745822910517367,
+        "mae": 0.5383149151229342,
+        "r2": 0.3672893038205427
+      }
+    },
+    "hierarchical_gam-50554424b0ebd3b9": {
+      "configuration": {
+        "representation": "compact",
+        "family": "hierarchical_gam",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": 50,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7662001327024598,
+        "mae": 0.6286849622674807,
+        "r2": 0.18375647327944822
+      }
+    },
+    "hierarchical_gam-dd6565f6522d4ee1": {
+      "configuration": {
+        "representation": "functional",
+        "family": "hierarchical_gam",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.6850209647657984,
+        "mae": 0.5242739582945785,
+        "r2": 0.3475563171216629
+      }
+    },
+    "hierarchical_gam-e984de98f91a1e96": {
+      "configuration": {
+        "representation": "functional",
+        "family": "hierarchical_gam",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": 1,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7096357473785646,
+        "mae": 0.5460827414241302,
+        "r2": 0.2998255262638291
+      }
+    },
+    "hierarchical_gam-3ee5392199a70d94": {
+      "configuration": {
+        "representation": "functional",
+        "family": "hierarchical_gam",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": 10,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.6863873162876628,
+        "mae": 0.5353535598154905,
+        "r2": 0.344950976464802
+      }
+    },
+    "hierarchical_gam-a912030843077855": {
+      "configuration": {
+        "representation": "functional",
+        "family": "hierarchical_gam",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": 10,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.8018833826330346,
+        "mae": 0.6483132277353268,
+        "r2": 0.10595839033924237
+      }
+    },
+    "hierarchical_gam-aae757fc3c8e75bd": {
+      "configuration": {
+        "representation": "functional",
+        "family": "hierarchical_gam",
+        "selector": "all",
+        "setting": 1,
+        "state_setting": 50,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.6768018130864515,
+        "mae": 0.5313321854559077,
+        "r2": 0.36311894358005936
+      }
+    },
+    "hierarchical_gam-812885e7dbcac028": {
+      "configuration": {
+        "representation": "functional",
+        "family": "hierarchical_gam",
+        "selector": "all",
+        "setting": 10,
+        "state_setting": 50,
+        "knots": 3,
+        "components": 2,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.806925032586152,
+        "mae": 0.6591585688420901,
+        "r2": 0.09468090366731619
+      }
+    },
+    "global_mean-b001d2391df60754": {
+      "configuration": {
+        "representation": "compact",
+        "family": "global_mean",
+        "selector": "all",
+        "setting": 1.0,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 1.0042461496017008,
+        "mae": 0.9016694943230404,
+        "r2": -0.4022183782070674
+      }
+    },
+    "regional_mean-431f494c463a2002": {
+      "configuration": {
+        "representation": "compact",
+        "family": "regional_mean",
+        "selector": "all",
+        "setting": 1.0,
+        "state_setting": null,
+        "knots": 3,
+        "components": 0,
+        "kind": "direct",
+        "alpha": 1.0,
+        "interactions": "none"
+      },
+      "complete": true,
+      "metrics": {
+        "rmse": 0.7441564778082017,
+        "mae": 0.5701330695763228,
+        "r2": 0.23004767000680437
+      }
+    }
+  },
+  "failures": [],
+  "outer_selects_configuration": false,
+  "interpretation": "Diagnósticos de configuraciones fijas; no redefinen P06."
+}

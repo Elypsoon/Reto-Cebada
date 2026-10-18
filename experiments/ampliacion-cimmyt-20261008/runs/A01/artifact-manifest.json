@@ -1,0 +1,17 @@
+{
+  "final-fit.json": "1c7f9f61618a36479f0e4441076f4d4cc94853c2af37aaae32034157cc1ebe3c",
+  "folds-balanceado-4.json": "882f0dfbbacaba0f7b6661f20fd1b634cb430e87c3bf6743d58dd2b569dfd20b",
+  "folds-principal-5.json": "2ef0721c571df2898b31c01c6c38ede4647c9e8f3e0b28805d48266135a4aeb2",
+  "folds-rotado-45-5.json": "041d79df75ffc42ec7d5aa08e1c8ce860e153e9d06cf41f8d7057ed1a375bcfd",
+  "fresh-process-check.json": "134b188d98db736c403657662699c0abaddbd32a6793be7dce7d80fd9c03a857",
+  "metrics.json": "08237476abc0ec1357f6f9d8912beb8035493580c4848e9b07242d4b84b06b08",
+  "models.joblib": "93180bb10a0cec494f4f12ea21e9c4c05b3ca16293e5f0fb746ded566b6aa45f",
+  "oof-balanceado-4.csv": "f9b0c9ea14217afd17238f3316d29e1826afd21b627058842b99f9190d50f9a5",
+  "oof-principal-5.csv": "6365c316ad0fa0c690d8783c8d1e2b3d650c996c5dceb11790c8b333ef474cbd",
+  "oof-rotado-45-5.csv": "9fd43d1c6a5525dc5a32f87279f9f34e93a84feae8f4fe954a00d124e4e7bb2d",
+  "predictions_59.csv": "0af438ee1379a116dfa402c1c807827c6a41c360389d3c70b871c2a90297a5fa",
+  "resources-run.json": "1d7aac977eea6c9c9a483fc53f39c5980688a247e396fdf9ce9f01d8950bd417",
+  "resources-verify.json": "6e67d670cfdc2c171297073b8f6c0bf1d4a68b6dc98b004437ec810a41caf685",
+  "training.log": "6f37e12845ef1fb6c0bade8988d84a90648ddc5167050cebdccc3c07ad406c8b",
+  "verification.log": "9c5c583b0d6e86c1a04e642a7efe34648321b864fd04370097a9bdef8951f81f"
+}

@@ -1,0 +1,483 @@
+{
+  "protocol": "cimmyt-point-assumption-v2",
+  "policy": "principal",
+  "pairs": 13,
+  "records": [
+    {
+      "year": 2013,
+      "longitude": -98.125,
+      "latitude": 20.0,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-98.125&latitude=20.0&start=20130401&end=20131031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_20_-98.125_20130401_20131031.json",
+      "sha256": "e8efa891e445bbbe36c6974167cf1f0bd3bcd1b0b0bf0727ada91b5ea64f3bd5",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:10:58.308834+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    },
+    {
+      "year": 2014,
+      "longitude": -97.5,
+      "latitude": 19.0,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-97.5&latitude=19.0&start=20140401&end=20141031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_19_-97.5_20140401_20141031.json",
+      "sha256": "e98d5a651058dafd0ab3617608213317606d831db6202d7c01becbc6faa0951b",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:10:59.116895+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    },
+    {
+      "year": 2015,
+      "longitude": -98.75,
+      "latitude": 19.5,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-98.75&latitude=19.5&start=20150401&end=20151031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_19.5_-98.75_20150401_20151031.json",
+      "sha256": "b2c45755c11ea90e602c5a3499f84e99900b6e1269d431240e87c4b01a247714",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:10:59.838917+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    },
+    {
+      "year": 2016,
+      "longitude": -98.75,
+      "latitude": 19.5,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-98.75&latitude=19.5&start=20160401&end=20161031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_19.5_-98.75_20160401_20161031.json",
+      "sha256": "d893a2d616ae6f9a318e1aa25ce2b4e77c7c1b9a20e2d232f8aa5622bf094ec6",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:11:00.544286+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    },
+    {
+      "year": 2016,
+      "longitude": -98.75,
+      "latitude": 20.0,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-98.75&latitude=20.0&start=20160401&end=20161031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_20_-98.75_20160401_20161031.json",
+      "sha256": "08ff101eb3e8ce8c1eae5623eacf48223e5676f13382511d47b73771ed261e0e",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:11:01.192513+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    },
+    {
+      "year": 2017,
+      "longitude": -98.75,
+      "latitude": 20.0,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-98.75&latitude=20.0&start=20170401&end=20171031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_20_-98.75_20170401_20171031.json",
+      "sha256": "39e1e35192265da5cbba49ce6b8d9c2215e0740c5f52d9f3fcfb7a5f96e2d921",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:11:01.756273+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    },
+    {
+      "year": 2019,
+      "longitude": -98.75,
+      "latitude": 20.0,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-98.75&latitude=20.0&start=20190401&end=20191031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_20_-98.75_20190401_20191031.json",
+      "sha256": "13f4ec9ea3b4fbd6e2a653b9e35a18f49ab727ca3059755890859d1d61d443ad",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:11:02.304204+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    },
+    {
+      "year": 2021,
+      "longitude": -98.75,
+      "latitude": 19.5,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-98.75&latitude=19.5&start=20210401&end=20211031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_19.5_-98.75_20210401_20211031.json",
+      "sha256": "e8c6cafc6cc71c5e3024626a3a1dd0481add6f2eb47287b04be0051ba9e3e4db",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:11:03.093339+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    },
+    {
+      "year": 2021,
+      "longitude": -98.75,
+      "latitude": 20.0,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-98.75&latitude=20.0&start=20210401&end=20211031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_20_-98.75_20210401_20211031.json",
+      "sha256": "34ebe49ebcf533e32bc72bf27975d6ade13b1794c59df42445a0c8ae5fd17e46",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:11:03.747677+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    },
+    {
+      "year": 2021,
+      "longitude": -98.125,
+      "latitude": 19.5,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-98.125&latitude=19.5&start=20210401&end=20211031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_19.5_-98.125_20210401_20211031.json",
+      "sha256": "1c7648d7b84750c4dc2a44d41c7cbb4df6cece7740b3b85c10bd42459f55cd7a",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:11:04.283260+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    },
+    {
+      "year": 2022,
+      "longitude": -98.75,
+      "latitude": 19.5,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-98.75&latitude=19.5&start=20220401&end=20221031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_19.5_-98.75_20220401_20221031.json",
+      "sha256": "22f4844f953d25208b5c804ec7318d82a382056d7732d1d874eb13da6a07090f",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:11:05.199627+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    },
+    {
+      "year": 2022,
+      "longitude": -98.75,
+      "latitude": 20.0,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-98.75&latitude=20.0&start=20220401&end=20221031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_20_-98.75_20220401_20221031.json",
+      "sha256": "ff534e6e1f607fdc72682a8625e0bef8b3c59c48a96e1f23e87c6c34e6e70926",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:11:05.712061+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    },
+    {
+      "year": 2022,
+      "longitude": -98.125,
+      "latitude": 19.5,
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MIN%2CT2M_MAX%2CPRECTOTCORR&community=AG&longitude=-98.125&latitude=19.5&start=20220401&end=20221031&format=JSON&time-standard=LST",
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\raw\\nasa-cache\\nasa_19.5_-98.125_20220401_20221031.json",
+      "sha256": "8727bbbcc435f356f3594434230733755b463cb3581bf50a8437cd9109482d04",
+      "origin": "download",
+      "attempts": 1,
+      "at": "2026-10-09T16:11:06.404015+00:00",
+      "api_version": "v2.10.0",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "PRECTOTCORR": "mm/day"
+      },
+      "days": 214,
+      "time_standard": "LST",
+      "grid": {
+        "latitude_step": 0.5,
+        "longitude_step": 0.625,
+        "latitude_origin": -90.0,
+        "longitude_origin": -180.0,
+        "nodes_are_cell_centers": true,
+        "source": "NASA MERRA-2 native grid; POWER meteorology",
+        "reference": "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf"
+      }
+    }
+  ],
+  "official_reused": [
+    {
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\external\\nasa_power_19.5_-98.125_20250401_20251031.json",
+      "sha256": "69bfe2e143c581cf01b830071500a5f640f9b83d71b1a2ca2c58f43f69e67875",
+      "year": 2025,
+      "cell": [
+        -98.125,
+        19.5
+      ],
+      "api_version": "v2.10.0",
+      "reused_original": true
+    },
+    {
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\external\\nasa_power_19.5_-98.75_20250401_20251031.json",
+      "sha256": "1e0a9a361fbbbf1a646072774468c7a6b18d112932eb2d2363e8c90990366fdb",
+      "year": 2025,
+      "cell": [
+        -98.75,
+        19.5
+      ],
+      "api_version": "v2.10.0",
+      "reused_original": true
+    },
+    {
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\external\\nasa_power_20.0_-98.125_20250401_20251031.json",
+      "sha256": "27c89259f764247a3ebd9402c1c1ff2a85f7afa2e677712a1ffe8d13a88e6b17",
+      "year": 2025,
+      "cell": [
+        -98.125,
+        20.0
+      ],
+      "api_version": "v2.10.0",
+      "reused_original": true
+    },
+    {
+      "path": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\ampliacion-cimmyt-20261008\\data\\external\\nasa_power_20.0_-98.75_20250401_20251031.json",
+      "sha256": "b184956e4f920303357ab901fa6cbf364ba59384f9230e0c4be5a6a14369a6e4",
+      "year": 2025,
+      "cell": [
+        -98.75,
+        20.0
+      ],
+      "api_version": "v2.10.0",
+      "reused_original": true
+    }
+  ],
+  "admission_sha256": "9513423054d57f08c9b94f709e5e10e1d759a68679c0c9e5a439dbb0f2b9ac7b"
+}

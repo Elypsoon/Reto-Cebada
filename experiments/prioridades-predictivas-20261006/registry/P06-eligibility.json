@@ -1,0 +1,47 @@
+{
+  "eligible": false,
+  "activated": false,
+  "deployed": false,
+  "sent": false,
+  "checks": {
+    "official_combined_only": true,
+    "three_complete_schemes": true,
+    "controls_reproduced": true,
+    "verification": true,
+    "principal_gain": false,
+    "two_schemes_gain": false,
+    "mean_ratio": false,
+    "none_above_105": true,
+    "regional_protection": false,
+    "principal_active_gain": false,
+    "none_above_active_105": false
+  },
+  "regional_ratios": {
+    "principal-5": 1.0139702911925,
+    "balanceado-4": 0.9928599818924169,
+    "rotado-45-5": 1.007339712585841
+  },
+  "active_ratios": {
+    "principal-5": 0.9866537410798885,
+    "balanceado-4": 0.9138511987526345,
+    "rotado-45-5": 1.2070641669109874
+  },
+  "state_failures": [
+    {
+      "scheme": "principal-5",
+      "state": "Puebla",
+      "n": 71,
+      "mae": 0.4679401414327172,
+      "regional_mae": 0.41492147898662796
+    },
+    {
+      "scheme": "rotado-45-5",
+      "state": "Puebla",
+      "n": 71,
+      "mae": 0.5050776228011545,
+      "regional_mae": 0.37792164303387926
+    }
+  ],
+  "invalid_schemes": [],
+  "evidence": "Desarrollo sobre las mismas 138 etiquetas; sin otra campaña validada."
+}

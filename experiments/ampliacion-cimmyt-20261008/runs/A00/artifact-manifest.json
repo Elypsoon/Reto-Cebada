@@ -1,0 +1,17 @@
+{
+  "fresh-process-check.json": "daa7cac0d93e1184162df0c0c289f11b056c45b490c8eb58bdffda30ff327b1f",
+  "metrics-balanceado-4.json": "8e51e871525cb8ee804c2ea8e2b6726e7185c4aca965b255899058e52762b6f7",
+  "metrics-intraestado-3.json": "704ded4a254544f910a042bd4b404c83e4b23184d0f884c275131dcfd71c6a94",
+  "metrics-principal-5.json": "4c68cb01aad12a5fef89816ff9a2f5934469118573a8fb7a3a50b4784af476a1",
+  "metrics-rotado-45-5.json": "3afacc1aa8ae1679b6f753cd6e7d489dfdf7b357d2705106de761e2aa262bd30",
+  "model_official.joblib": "58b12031aa10ecdc37117f264c628b41e66f973b3905bd9cc73ab40b5183ee56",
+  "model_selected.joblib": "e81344a909f606ff64de9b4beecfee5b8a6c5d37edde6ca9ecc911c0e0148c36",
+  "oof-balanceado-4.csv": "bfca3509f85dd1b5917ce7cdfee88adc9bed3ceb1d8de1f38ba729380ee53640",
+  "oof-intraestado-3.csv": "399194f81f69f2aea7faf6378e9676dece7187ce1fb2f19d9a9da3068e1d44a4",
+  "oof-principal-5.csv": "d9fa956c49a9e34bd8f8dda3d751484fafceba4d15ea0d6889b7daf4069ca0c1",
+  "oof-rotado-45-5.csv": "5efd947875d305250de76e5d9cf676f5944762e6941439b40b759719837ec719",
+  "predictions_59.csv": "c547b56bac45ff2bfd2b231fabd1e3999ed66cd715d11d34a2994cc26f91fa36",
+  "predictions_official_only_59.csv": "2db6b0bb20da5597c77e917e6d4b26c3afe3e0c5a5ade0b97e2beb7492544b75",
+  "recovery-v2.log": "fb4a8e7dafae6798e42416cb799bdce8741f683f2b2f83b23a9d6bd13b4df3a7",
+  "resources-recovery-v2.json": "7e5f9aa89015ec6d8abe211855d24ca3d3d74953242d5660623df587cb497af0"
+}

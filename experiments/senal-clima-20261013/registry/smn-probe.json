@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-14T00:27:42.979495+00:00",
+  "project_data_transmitted": false,
+  "results": {
+    "smn-statistical.html": {
+      "status": "downloaded",
+      "file": "data\\external\\access\\smn-statistical.html",
+      "url": "https://smn.conagua.gob.mx/es/climatologia/informacion-climatologica/informacion-estadistica-climatologica"
+    },
+    "smn-ema.html": {
+      "status": "downloaded",
+      "file": "data\\external\\access\\smn-ema.html",
+      "url": "https://smn.conagua.gob.mx/es/observando-el-tiempo/estaciones-meteorologicas-automaticas-ema-s"
+    },
+    "smn-climatological-gui.html": {
+      "status": "downloaded",
+      "file": "data\\external\\access\\smn-climatological-gui.html",
+      "url": "https://smn.conagua.gob.mx/tools/GUI/estaciones-climatologicas/"
+    },
+    "smn-emas.kmz": {
+      "status": "downloaded",
+      "file": "data\\external\\access\\smn-emas.kmz",
+      "url": "https://smn.conagua.gob.mx/tools/DATA/Observando%20el%20Tiempo/EMAS/kml/EMAS.kmz"
+    },
+    "smn-gui-bundle.js": {
+      "status": "downloaded",
+      "file": "data\\external\\access\\smn-gui-bundle.js",
+      "url": "https://smn.conagua.gob.mx/tools/GUI/estaciones-climatologicas/assets/index-BEaHJrNy.js"
+    },
+    "smn-climatological-stations.geojson": {
+      "status": "downloaded",
+      "file": "data\\external\\access\\smn-climatological-stations.geojson",
+      "url": "https://smn.conagua.gob.mx/tools/GUI/estaciones-climatologicas/data/estaciones_climatologicas.geojson"
+    }
+  }
+}

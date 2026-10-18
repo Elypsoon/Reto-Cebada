@@ -240,3 +240,7 @@ El modelo, la aplicación Streamlit y el historial experimental están incorpora
 - [Preparar este checkout y restaurar evidencia](docs/github-checkout.md).
 
 La disponibilidad de etiquetas de otra campaña y de manejo verificable sigue pendiente. Los datos originales de `DataSet/` y la investigación previa se conservan.
+
+## Actualización de experimentos de octubre de 2026
+
+Se incorporan las fases de prioridades predictivas, ampliación CIMMYT, estrés hídrico y señal climática, junto con sus registros y cambios OpenSpec. Véanse [la guía del espacio de trabajo](docs/workspace-readme.md) y [la investigación de variables](docs/investigacion-variables-cebada-2026-10-12.md). Los registros JSON grandes se restauran con `python scripts/restore_github_evidence.py`. Los entornos, dependencias vendorizadas y pesos descargables `.ckpt` se conservan únicamente en el espacio local.

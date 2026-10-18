@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wcs:Capabilities xmlns:wcs="http://www.opengis.net/wcs/2.0" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:crs="http://www.opengis.net/wcs/crs/1.0" xmlns:int="http://www.opengis.net/wcs/interpolation/1.0" xsi:schemaLocation="http://www.opengis.net/wcs/2.0 http://schemas.opengis.net/wcs/2.0/wcsAll.xsd " version="2.0.1">
+  <ows:ServiceIdentification>
+    <ows:Title>SoilGrids Water Layer - wv1500 content</ows:Title>
+    <ows:Abstract>Clay content (0-2 micro meter) mass fraction in ‰ at 6 standard depths predicted using the global compilation of soil ground observations. To visualize these layers please use www.soilgrids.org.</ows:Abstract>
+    <ows:Keywords>
+      <ows:Keyword>clay</ows:Keyword>
+      <ows:Keyword>digital soil mapping</ows:Keyword>
+      <ows:Keyword>Soil science</ows:Keyword>
+      <ows:Keyword>Global</ows:Keyword>
+      <ows:Keyword>geoscientificInformation</ows:Keyword>
+    </ows:Keywords>
+    <ows:ServiceType codeSpace="OGC">OGC WCS</ows:ServiceType>
+    <ows:ServiceTypeVersion>2.0.1</ows:ServiceTypeVersion>
+    <ows:ServiceTypeVersion>1.1.1</ows:ServiceTypeVersion>
+    <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
+    <ows:Profile>http://www.opengis.net/spec/WCS/2.0/conf/core</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS_protocol-binding_get-kvp/1.0/conf/get-kvp</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS_protocol-binding_post-xml/1.0/conf/post-xml</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/GMLCOV/1.0/conf/gml-coverage</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/GMLCOV/1.0/conf/multipart</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/GMLCOV/1.0/conf/special-format</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/GMLCOV_geotiff-coverages/1.0/conf/geotiff-coverage</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS_service-extension_crs/1.0/conf/crs</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS_service-extension_scaling/1.0/conf/scaling</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS_service-extension_range-subsetting/1.0/conf/record-subsetting</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS_service-extension_interpolation/1.0/conf/interpolation</ows:Profile>
+    <ows:Fees>None</ows:Fees>
+    <ows:AccessConstraints>None</ows:AccessConstraints>
+  </ows:ServiceIdentification>
+  <ows:ServiceProvider>
+    <ows:ProviderName>ISRIC - World Soil Reference</ows:ProviderName>
+    <ows:ProviderSite xlink:type="simple" xlink:href="https://maps.isric.org/"/>
+    <ows:ServiceContact>
+      <ows:IndividualName>Luis Calisto</ows:IndividualName>
+      <ows:PositionName>SDI manager</ows:PositionName>
+      <ows:ContactInfo>
+        <ows:Phone>
+          <ows:Voice>+31 317 483 735</ows:Voice>
+          <ows:Facsimile>+31 317 483 735</ows:Facsimile>
+        </ows:Phone>
+        <ows:Address>
+          <ows:DeliveryPoint>Droevendaalsesteeg 3, 6708 PB</ows:DeliveryPoint>
+          <ows:City>Wageningen</ows:City>
+          <ows:AdministrativeArea>Gelderland</ows:AdministrativeArea>
+          <ows:PostalCode>6708PB</ows:PostalCode>
+          <ows:Country>The Netherlands</ows:Country>
+          <ows:ElectronicMailAddress>soilgrids@isric.org</ows:ElectronicMailAddress>
+        </ows:Address>
+        <ows:OnlineResource xlink:type="simple" xlink:href="https://maps.isric.org/"/>
+        <ows:HoursOfService>9AM to 5PM CET</ows:HoursOfService>
+        <ows:ContactInstructions>Contact by email</ows:ContactInstructions>
+      </ows:ContactInfo>
+      <ows:Role>SDI manager</ows:Role>
+    </ows:ServiceContact>
+  </ows:ServiceProvider>
+  <ows:OperationsMetadata>
+    <ows:Operation name="GetCapabilities">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:type="simple" xlink:href="https://maps.isric.org/mapserv?map=/map/wv1500.map&amp;amp;"/>
+          <ows:Post xlink:type="simple" xlink:href="https://maps.isric.org/mapserv?map=/map/wv1500.map&amp;amp;">
+            <ows:Constraint name="PostEncoding">
+              <ows:AllowedValues>
+                <ows:Value>XML</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Post>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="DescribeCoverage">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:type="simple" xlink:href="https://maps.isric.org/mapserv?map=/map/wv1500.map&amp;amp;"/>
+          <ows:Post xlink:type="simple" xlink:href="https://maps.isric.org/mapserv?map=/map/wv1500.map&amp;amp;">
+            <ows:Constraint name="PostEncoding">
+              <ows:AllowedValues>
+                <ows:Value>XML</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Post>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="GetCoverage">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:type="simple" xlink:href="https://maps.isric.org/mapserv?map=/map/wv1500.map&amp;amp;"/>
+          <ows:Post xlink:type="simple" xlink:href="https://maps.isric.org/mapserv?map=/map/wv1500.map&amp;amp;">
+            <ows:Constraint name="PostEncoding">
+              <ows:AllowedValues>
+                <ows:Value>XML</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Post>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+  </ows:OperationsMetadata>
+  <wcs:ServiceMetadata>
+    <wcs:formatSupported>image/tiff</wcs:formatSupported>
+    <wcs:formatSupported>image/png</wcs:formatSupported>
+    <wcs:formatSupported>image/jpeg</wcs:formatSupported>
+    <wcs:formatSupported>image/png; mode=8bit</wcs:formatSupported>
+    <wcs:formatSupported>image/vnd.jpeg-png</wcs:formatSupported>
+    <wcs:formatSupported>image/vnd.jpeg-png8</wcs:formatSupported>
+    <wcs:Extension>
+      <int:InterpolationMetadata>
+        <int:InterpolationSupported>NEAREST</int:InterpolationSupported>
+        <int:InterpolationSupported>AVERAGE</int:InterpolationSupported>
+        <int:InterpolationSupported>BILINEAR</int:InterpolationSupported>
+      </int:InterpolationMetadata>
+      <crs:CrsMetadata>
+        <crs:crsSupported>http://www.opengis.net/def/crs/EPSG/0/152160</crs:crsSupported>
+        <crs:crsSupported>http://www.opengis.net/def/crs/EPSG/0/4326</crs:crsSupported>
+        <crs:crsSupported>http://www.opengis.net/def/crs/EPSG/0/3857</crs:crsSupported>
+        <crs:crsSupported>http://www.opengis.net/def/crs/EPSG/0/54009</crs:crsSupported>
+        <crs:crsSupported>http://www.opengis.net/def/crs/EPSG/0/54012</crs:crsSupported>
+      </crs:CrsMetadata>
+    </wcs:Extension>
+  </wcs:ServiceMetadata>
+  <wcs:Contents>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_0-5cm_mean</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_0-5cm_Q0.5</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_0-5cm_Q0.05</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_0-5cm_Q0.95</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_0-5cm_uncertainty</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_5-15cm_mean</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_5-15cm_Q0.5</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_5-15cm_Q0.05</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_5-15cm_Q0.95</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_5-15cm_uncertainty</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_15-30cm_mean</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_15-30cm_Q0.5</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_15-30cm_Q0.05</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_15-30cm_Q0.95</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_15-30cm_uncertainty</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_30-60cm_mean</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_30-60cm_Q0.5</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_30-60cm_Q0.05</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_30-60cm_Q0.95</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_30-60cm_uncertainty</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_60-100cm_mean</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_60-100cm_Q0.5</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_60-100cm_Q0.05</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_60-100cm_Q0.95</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_60-100cm_uncertainty</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_100-200cm_mean</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_100-200cm_Q0.5</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_100-200cm_Q0.05</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_100-200cm_Q0.95</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <wcs:CoverageId>wv1500_100-200cm_uncertainty</wcs:CoverageId>
+      <wcs:CoverageSubtype>RectifiedGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+  </wcs:Contents>
+</wcs:Capabilities>

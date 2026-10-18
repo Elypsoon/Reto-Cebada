@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="ISRIC">
+<meta name="dcterms.date" content="2026-09-02">
+
+<title>SoilGrids layers – SoilGrids Documentation</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./SoilGrids_faqs_02.html" rel="next">
+<link href="./SoilGrids_faqs.html" rel="prev">
+<link href="././assets/images/favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-2a5ff8d59b28ee706191f5a824c9597a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="site_libs/quarto-contrib/quarto-project/soilgrids/fonts.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">SoilGrids layers</h1>
+        </a>     
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="././assets/images/logo-soilgrids.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">SoilGrids Documentation</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Documentation current version</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SoilGrids_faqs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">What is SoilGrids?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SoilGrids_faqs_01.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">SoilGrids layers</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SoilGrids_faqs_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">SoilGrids access</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SoilGrids_faqs_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">SoilGrids in the future</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SoilGrids_faqs_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">SoilGrids FAQ</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Tutorials</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./WebDav.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">WebDAV: access to maps in VRT format</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./xy_info_from_R.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">R - Get XY info</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./wcs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">WCS</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./access_on_gee.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Google Earth Engine</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Documentation former SoilGrids versions</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SoilGrids_faqs_2017.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">SoilGrids 2017</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="mailto:soilgrids@isric.org?subject=Contact%20from%20ISRIC%20website%20%28FAQ%20SoilGrids%29&amp;body=Thank%20you%20for%20contacting%20ISRIC.%20Please%20make%20sure%20you%20include%20the%20following%20information%20in%20your%20message%20to%20us%3A%20Your%20name%2C%20affiliation%2C%20main%20field%20of%20work%2C%20and%20intended%20use%20of%20ISRIC%20data%20and%20products%20%28if%20applicable%29.%20The%20more%20precise%20you%20formulate%20your%20request%2C%20the%20more%20targeted%20and%20quick%20our%20answer%20will%20be." class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contact SoilGrids team</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#sec-faq2" id="toc-sec-faq2" class="nav-link active" data-scroll-target="#sec-faq2">What do the filename codes mean?</a></li>
+  <li><a href="#sec-faq3" id="toc-sec-faq3" class="nav-link" data-scroll-target="#sec-faq3">How were the spatial predictions generated?</a></li>
+  <li><a href="#sec-faq4" id="toc-sec-faq4" class="nav-link" data-scroll-target="#sec-faq4">How were the legends generated?</a></li>
+  <li><a href="#sec-faq5" id="toc-sec-faq5" class="nav-link" data-scroll-target="#sec-faq5">Which soil properties are predicted by SoilGrids?</a></li>
+  <li><a href="#sec-faq6" id="toc-sec-faq6" class="nav-link" data-scroll-target="#sec-faq6">Can I access SoilGrids at a coarser resolution?</a></li>
+  <li><a href="#sec-faq7" id="toc-sec-faq7" class="nav-link" data-scroll-target="#sec-faq7">Which soil properties will be available in the future?</a></li>
+  <li><a href="#sec-faq8" id="toc-sec-faq8" class="nav-link" data-scroll-target="#sec-faq8">How were SOC stock maps generated?</a></li>
+  <li><a href="#sec-faq9" id="toc-sec-faq9" class="nav-link" data-scroll-target="#sec-faq9">Which soil mask was used?</a></li>
+  <li><a href="#sec-faq10" id="toc-sec-faq10" class="nav-link" data-scroll-target="#sec-faq10">How accurate are the SoilGrids layers?</a></li>
+  </ul>
+</nav>
+    <div class="quarto-margin-footer"><div class="margin-footer-item">
+<p><a href="https://isric.org"><img src="./assets/images/logo-isric.svg" title="ISRIC logo" class="mt-3 opacity-75 w-50 img-fluid"></a></p>
+</div></div></div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title d-none d-lg-block display-7">SoilGrids layers</h1></header>
+
+<header id="title-block-header">
+
+
+</header>
+
+
+<section id="sec-faq2" class="level2">
+<h2 class="anchored" data-anchor-id="sec-faq2">What do the filename codes mean?</h2>
+<p>Each map in SoilGrids has three components:</p>
+<ul>
+<li>a master <a href="https://gdal.org/drivers/raster/vrt.html">VRT</a> file;</li>
+<li>an OVR file with overviews for swift visualisation;</li>
+<li>a folder with GeoTIFF tiles.</li>
+</ul>
+<p>Each component name is a triplet separated by underscores: <code>property_depthInterval_quantile</code>. For instance, the file <code>cfvo_5-15cm_Q05.vrt</code> is the master file for the 5%-quantile prediction of coarse fragments in the 5cm to 15cm depth interval. Below each of the components is explained in more detail.</p>
+<p><strong>Properties</strong></p>
+<p>The table below shows the properties currently mapped with SoilGrids, their description and mapped units. All maps produced with SoilGrids store data as integer values to minimise storage space. Therefore, some properties are provided in units that are not so common in soil science. By dividing the predictions values by the values in the <em>Conversion factor</em> column, the user can obtain the more familiar units in the <em>Conventional units</em> column.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 18%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Name</strong></th>
+<th style="text-align: center;"><strong>Description</strong></th>
+<th style="text-align: center;"><strong>Mapped Units</strong></th>
+<th style="text-align: center;"><strong>Conversion Factor</strong></th>
+<th style="text-align: right;"><strong>Conventional Units</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">bdod</td>
+<td style="text-align: center;">Bulk density</td>
+<td style="text-align: center;">cg/cm<sup>3</sup></td>
+<td style="text-align: center;">100</td>
+<td style="text-align: right;">kg/dm<sup>3</sup></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">cec</td>
+<td style="text-align: center;">CEC buffered at pH7</td>
+<td style="text-align: center;">mmol(c)/kg</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">cmol(c)/kg</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">cfvo</td>
+<td style="text-align: center;">Coarse fragments</td>
+<td style="text-align: center;">cm<sup>3</sup>/dm<sup>3</sup> (vol‰)</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">cm<sup>3</sup>/100cm<sup>3</sup> (vol%)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">clay</td>
+<td style="text-align: center;">Clay</td>
+<td style="text-align: center;">g/kg</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">g/100g (%)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">nitrogen</td>
+<td style="text-align: center;">Nitrogen</td>
+<td style="text-align: center;">cg/kg</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: right;">g/kg</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ocd</td>
+<td style="text-align: center;">Organic carbon density</td>
+<td style="text-align: center;">hg/m<sup>3</sup></td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">kg/m<sup>3</sup></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ocs</td>
+<td style="text-align: center;">Organic carbon stocks</td>
+<td style="text-align: center;">t/ha</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">kg/m<sup>2</sup></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">soc</td>
+<td style="text-align: center;">Soil organic carbon</td>
+<td style="text-align: center;">dg/kg</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">g/kg</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">phh2o</td>
+<td style="text-align: center;">pH water</td>
+<td style="text-align: center;">pH x 10</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sand</td>
+<td style="text-align: center;">Sand</td>
+<td style="text-align: center;">g/kg</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">g/100g (%)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">silt</td>
+<td style="text-align: center;">Silt</td>
+<td style="text-align: center;">g/kg</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">g/100g (%)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">wv0010</td>
+<td style="text-align: center;">Volumetric Water Content at 10kPa</td>
+<td style="text-align: center;">10<sup>-3</sup> cm<sup>3</sup>cm<sup>-3</sup> (0.1 v% or 1 mm/m)</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">10−2 cm3 cm−3 (%)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">wv1500</td>
+<td style="text-align: center;">Volumetric Water Content at 1500kPa</td>
+<td style="text-align: center;">10<sup>-3</sup> cm<sup>3</sup>cm<sup>-3</sup> (0.1 v% or 1 mm/m)</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">10−2 cm3 cm−3 (%)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">wv003</td>
+<td style="text-align: center;">Volumetric Water Content at 33kPa</td>
+<td style="text-align: center;">10<sup>-3</sup> cm<sup>3</sup>cm<sup>-3</sup> (0.1 v% or 1 mm/m)</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">10−2 cm3 cm−3 (%)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Depth intervals</strong></p>
+<p>SoilGrids predictions are made for the six standard depth intervals specified in the <a href="https://www.isric.org/sites/default/files/GlobalSoilMap_specifications_december_2015_2.pdf">GlobalSoilMap IUSS working group and its specifications:</a></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Interval I</th>
+<th style="text-align: center;">Interval II</th>
+<th style="text-align: center;">Interval II</th>
+<th style="text-align: center;">Interval IV</th>
+<th style="text-align: center;">Interval V</th>
+<th style="text-align: left;">Interval VI</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><em>Top depth (cm)</em></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">60</td>
+<td style="text-align: left;">100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>Bottom depth (cm)</em></td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">60</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: left;">200</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Prediction quantiles</strong></p>
+<p>SoilGrids maps have associated uncertainties as any product derived from a modelling approach. The prediction uncertainty is quantified by probability distributions. For each property and each standard depth interval this distribution is characterised by four parameters:</p>
+<ul>
+<li>Q0.05 - 5% quantile;</li>
+<li>Q0.50 - median of the distribution;</li>
+<li>mean - mean of the distribution;</li>
+<li>Q0.95 - 95% quantile.</li>
+</ul>
+<p><strong>Uncertainty layer</strong></p>
+<p>The additional uncertainty layer displayed at <a href="soilgrids.org">soilgrids.org</a> is the ratio between the inter-quantile range (90% prediction interval width) and the median : (Q0.95-Q0.05)/Q0.50. The values are multiplied by 10 in order to have integers and reduce the size of the datasets.</p>
+</section>
+<section id="sec-faq3" class="level2">
+<h2 class="anchored" data-anchor-id="sec-faq3">How were the spatial predictions generated?</h2>
+<p>SoilGrids uses state-of-the-art statistical methods for digital soil mapping, relying exclusively on open source tools. The models are tailored per soil property and fitted using documented models. For each property, a global model is calibrated using a spatially stratified 10-fold cross-validation procedure. The model produces values at each map location (cell) and standard depth. The prediction distribution is captured in four different maps reporting its 5%, 50% and 95% quantiles, and the mean.</p>
+<p>The ‘mean’ and ‘median (0.5 quantile)’ may both be used as predictions of the soil property for a given cell. The mean represents the ‘expected value’ and provides an unbiased prediction of the soil property. The median yields that value for which there is a 50% probability that the true soil property value is greater and a 50% probability that the true value is smaller. For symmetric distributions the mean and median are identical, while the mean is greater than the median for distributions that are skewed to the right (such as soil organic carbon concentration).</p>
+<p>The 0.05 and 0.95 quantiles present the lower and upper boundaries of a 90% prediction interval and may be used as a measure of prediction uncertainty following the <a href="https://www.isric.org/sites/default/files/GlobalSoilMap_specifications_december_2015_2.pdf">GlobalSoilMap IUSS working group and its specifications</a>. This interval presents a value range that contains the true soil property value for each cell (which one would measure from a soil sample taken at the centre of the cell) with 90% probability.</p>
+<p>Quantiles of the distribution were computed with Quantile Regression Forests (<a href="http://www.jmlr.org/papers/volume7/meinshausen06a/meinshausen06a.pdf">Meinhausen, 2006</a>) as implemented in the <a href="https://www.rdocumentation.org/packages/ranger/versions/0.11.2/topics/ranger">ranger</a> package in R. The mean was computed using the default random forests algorithm.</p>
+</section>
+<section id="sec-faq4" class="level2">
+<h2 class="anchored" data-anchor-id="sec-faq4">How were the legends generated?</h2>
+<p>Legends were generated using the <a href="https://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization">natural Breaks algorithm</a>. The legends are available for <a href="https://files.isric.org/soilgrids/latest/legends/">download</a> in QGIS3 format.</p>
+</section>
+<section id="sec-faq5" class="level2">
+<h2 class="anchored" data-anchor-id="sec-faq5">Which soil properties are predicted by SoilGrids?</h2>
+<p>SoilGrids contains predictions and associated prediction uncertainties, following the <a href="https://www.isric.org/sites/default/files/GlobalSoilMap_specifications_december_2015_2.pdf">GlobalSoilMap IUSS working group and its specifications</a>, for basic soil properties: pH (in water), texture fractions, coarse fragments, bulk density, total nitrogen, organic carbon concentration, cation exchange capacity and volumetric water content.</p>
+<p>Silt size is between 0.002 and 0.050 mm (USDA classification) and between 0.002 and 0.063 mm (ISO and FAO classification). These differences can be registered in <a href="https://www.isric.org/explore/wosis">WoSIS</a>, but often the required information is absent in the source databases. Presently, no difference is made between the two for the mapping (i.e., reported figures are used independently from the classification used at the source) to avoid the exclusion of a large number of observations.</p>
+<p>SoilGrids provides also predictions for ‘complex’ soil properties such as organic carbon densities at the six standard depths and organic carbon stocks for topsoil (0-30cm) and subsoil (30-100cm, in development). The list of targeted soil properties will be gradually extended, based on user requests and the availability of soil observations.</p>
+</section>
+<section id="sec-faq6" class="level2">
+<h2 class="anchored" data-anchor-id="sec-faq6">Can I access SoilGrids at a coarser resolution?</h2>
+<p>Aggregated SoilGrids products are available at a resolution of 1000 m and 5000 m. For this, the mean predictions from the 250 m products were aggregated at the corresponding coarser resolution. The data are available as COG (geotiff, here) from WebDAV (for instructions see here). We are working to produce modelling uncertainty at coarser resolution as well.</p>
+</section>
+<section id="sec-faq7" class="level2">
+<h2 class="anchored" data-anchor-id="sec-faq7">Which soil properties will be available in the future?</h2>
+<p>The list of targeted soil properties will be gradually extended, based on user requests and the availability of soil observations. For example we are developing new predictions for texture classes and soil depth. We are also working on maps for subsoil carbon stocks (30-100cm and 100-200cm).</p>
+</section>
+<section id="sec-faq8" class="level2">
+<h2 class="anchored" data-anchor-id="sec-faq8">How were SOC stock maps generated?</h2>
+<p>SOC stock maps (0 to 30 cm) were generated by first calculating the carbon stocks at sampling locations and then calibrating a model to obtain the global map. To calculate carbon stocks, first we modelled the carbon density from SOC concentration, bulk density and proportion of coarse fragments for each observation. Then, the weighted sum of the carbon densities for the observations between 0 and 30 cm was calculated. Finally, a Quantile Random Forest model was calibrated and used for the global map.</p>
+<p>The organic layers on top of mineral soils were removed from the calculations and models. The total global carbon stocks obtained with version 2 (599 Pg of carbon for 0 to 30cm) are more in line with other global estimates (see for example: <a href="https://doi.org/10.1146/annurev-ecolsys-112414-054234">Jackson et al, 2017</a>, Table 2 and <a href="https://doi.org/10.4155/cmt.13.77">Scharlemann et al, 2014</a>).</p>
+<p><strong>Are there differences between the soil organic carbon stocks in the <a href="./index.html">latest</a> and <a href="./SoilGrids_faqs_2017.html">former</a> versions of SoilGrids?</strong></p>
+<p>There are differences in the calculated stocks between the two versions of SoilGrids. These differences are due to different modelling approaches and different input data.</p>
+<p>The SOC stocks in SoilGrids version 2.0 were obtained with a calculate first interpolate later approach. See this page (How were SOC stock maps generated (<a href="#sec-faq6" class="quarto-xref">Section&nbsp;5</a>)) for more details. The SOC stocks in SoilGrids version 2017 were obtained with a interpolate first calculate later approach, where the stocks were calculated from the maps of the input properties <a href="https://www.isric.org/sites/default/files/soilgrids250m_global_gridded_preprint.pdf">Hengl et al, 2017</a>.</p>
+<p><strong>If I calculate SOC stock from SOC density why does it not equal the SOC stock layer?</strong> As described above, the SOC stock is first calculated from the carbon density <strong>at the sampling location</strong>, then the model is calibrated to produce the global map. The carbon density map itself was not used in the calculation of the carbon stock, only the input data points.</p>
+</section>
+<section id="sec-faq9" class="level2">
+<h2 class="anchored" data-anchor-id="sec-faq9">Which soil mask was used?</h2>
+<p>The soil mask map provides an approximation of global coverage of soils, i.e.&nbsp;where soil occurs. For the current SoilGrids release, the global soil mask map was derived from the latest <a href="http://maps.elie.ucl.ac.be/CCI/viewer/download/CCI-LC_Maps_Legend.pdf">ESA land cover map</a>, with the classes Urban (code 190), inland water (code 210), glacier (code 220) and bare surface (code 200) masked out. Predictions have been produced only for soils with vegetation cover and soils without vegetation cover. No estimate is provided for permanent ice areas since they are subject to extreme climatic conditions. The areas that have been masked out are often under-represented in soil surveys, making it difficult to fit a reliable statistical model.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/soilgrids_soilmask_diagram.png" class="img-fluid figure-img" data-float="center"></p>
+<figcaption>The global soil mask map was derived from the 2015 ESA land cover map.</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-faq10" class="level2">
+<h2 class="anchored" data-anchor-id="sec-faq10">How accurate are the SoilGrids layers?</h2>
+<p>The accuracy of SoilGrids layers is still limited and the variation explained by the models is between 30% and 70%. This is due to many factors:</p>
+<ul>
+<li><p>Limitations on input data spatial distribution and representativeness for different soil types and ecoregions. Certain regions have a very low density of soil profile observations. This is especially relevant for Central Asia, the Artic regions, coastal areas and deserts. We are continuously working on increasing the number and spatial coverage of input data.</p></li>
+<li><p>Covariates: the covariates used span many soil forming factors. However, we are still missing reliable fine resolution proxies for some important factors, in particular parent material. We are working on extending the set of covariates to improve prediction accuracy.</p></li>
+<li><p>Modelling choices: Random Forest is a reliable and efficient modelling choice. Other approaches may provide more accurate results at the expenses of heavier computations.</p></li>
+</ul>
+<p>In the current release, we quantified prediction uncertainty as 5th and 95th percentiles. These prediction intervals provide spatially explicit information about the accuracy of the maps.</p>
+<p>The issue of accuracy is especially relevant for carbon stocks as these are the results of a <a href="./SoilGrids_faqs.html#sec-faq7">complex workflow</a> where numerous sources of uncertainties are combined. For example, the current version has lower than expected values for some organic soils. This is being addressed and investigated.</p>
+<p>SoilGrids works on a “rolling release” system; we are providing updates and fixes as soon as these become available. Soon web pages with cross-validation results for all soil properties will be made available.</p>
+
+
+</section>
+
+<p><span class="small text-secondary"><em>Last updated on 2026-09-02</em></span></p></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation column-body">
+  <div class="nav-page nav-page-previous">
+      <a href="./SoilGrids_faqs.html" class="pagination-link" aria-label="What is SoilGrids?">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">What is SoilGrids?</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./SoilGrids_faqs_02.html" class="pagination-link" aria-label="SoilGrids access">
+        <span class="nav-page-text">SoilGrids access</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,117 @@
+{
+  "files": [
+    {
+      "file": "nasa_power_19.5_-98.125_20250401_20251031.json",
+      "days": 214,
+      "minimum_coverage": 1.0,
+      "status": "candidato regional",
+      "time": "LST",
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "T2MDEW": "C",
+        "RH2M": "%",
+        "ALLSKY_SFC_SW_DWN": "MJ/m^2/day",
+        "WS2M": "m/s",
+        "PS": "kPa",
+        "PRECTOTCORR": "mm/day"
+      }
+    },
+    {
+      "file": "nasa_power_19.5_-98.75_20250401_20251031.json",
+      "days": 214,
+      "minimum_coverage": 1.0,
+      "status": "candidato regional",
+      "time": "LST",
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "T2MDEW": "C",
+        "RH2M": "%",
+        "ALLSKY_SFC_SW_DWN": "MJ/m^2/day",
+        "WS2M": "m/s",
+        "PS": "kPa",
+        "PRECTOTCORR": "mm/day"
+      }
+    },
+    {
+      "file": "nasa_power_20.0_-98.125_20250401_20251031.json",
+      "days": 214,
+      "minimum_coverage": 1.0,
+      "status": "candidato regional",
+      "time": "LST",
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "T2MDEW": "C",
+        "RH2M": "%",
+        "ALLSKY_SFC_SW_DWN": "MJ/m^2/day",
+        "WS2M": "m/s",
+        "PS": "kPa",
+        "PRECTOTCORR": "mm/day"
+      }
+    },
+    {
+      "file": "nasa_power_20.0_-98.75_20250401_20251031.json",
+      "days": 214,
+      "minimum_coverage": 1.0,
+      "status": "candidato regional",
+      "time": "LST",
+      "units": {
+        "T2M": "C",
+        "T2M_MIN": "C",
+        "T2M_MAX": "C",
+        "T2MDEW": "C",
+        "RH2M": "%",
+        "ALLSKY_SFC_SW_DWN": "MJ/m^2/day",
+        "WS2M": "m/s",
+        "PS": "kPa",
+        "PRECTOTCORR": "mm/day"
+      }
+    }
+  ],
+  "method": "punto representativo; nodo nativo meteorológico más cercano; escala regional",
+  "cells_used": [
+    {
+      "longitude": -98.75,
+      "latitude": 19.5,
+      "parcels": 50
+    },
+    {
+      "longitude": -98.125,
+      "latitude": 19.5,
+      "parcels": 1
+    },
+    {
+      "longitude": -98.125,
+      "latitude": 20.0,
+      "parcels": 146
+    }
+  ],
+  "comparison": {
+    "mean": {
+      "Tmax": -0.5658306334969431,
+      "Tmin": -1.3003846475204142
+    },
+    "mean_absolute": {
+      "Tmax": 1.2483438942870564,
+      "Tmin": 1.3141626543307996
+    },
+    "min": {
+      "Tmax": -2.531126608079475,
+      "Tmin": -3.3683468399047847
+    },
+    "max": {
+      "Tmax": 2.2175314429498414,
+      "Tmin": 0.7946884277195281
+    }
+  },
+  "excluded_variables": {
+    "frost_heat_alerts": "sin evidencia local",
+    "ET0": "términos FAO-56 incompletos",
+    "direct_temperature_predictors": "conservar CHIRTS; discrepancias de resolución/altitud"
+  }
+}

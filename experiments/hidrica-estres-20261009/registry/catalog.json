@@ -1,0 +1,312 @@
+{
+  "available_blocks": [
+    "R"
+  ],
+  "controls": {
+    "W00": {
+      "routes": [
+        "official",
+        "selected"
+      ],
+      "new_training": false
+    }
+  },
+  "variants": {
+    "W01-O": [
+      {
+        "family": "global",
+        "setting": 0,
+        "blocks": [],
+        "source": "official"
+      },
+      {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "official"
+      },
+      {
+        "family": "ridge",
+        "setting": 0.1,
+        "blocks": [],
+        "source": "official"
+      },
+      {
+        "family": "ridge",
+        "setting": 1.0,
+        "blocks": [],
+        "source": "official"
+      },
+      {
+        "family": "ridge",
+        "setting": 10.0,
+        "blocks": [],
+        "source": "official"
+      },
+      {
+        "family": "gpr",
+        "setting": 1.0,
+        "blocks": [],
+        "source": "official"
+      },
+      {
+        "family": "gpr",
+        "setting": 5.0,
+        "blocks": [],
+        "source": "official"
+      }
+    ],
+    "W01-E": [
+      {
+        "family": "global",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "ridge",
+        "setting": 0.1,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "ridge",
+        "setting": 1.0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "ridge",
+        "setting": 10.0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "gpr",
+        "setting": 1.0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "gpr",
+        "setting": 5.0,
+        "blocks": [],
+        "source": "enriched"
+      }
+    ],
+    "W04": [
+      {
+        "family": "global",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "ridge",
+        "setting": 0.1,
+        "blocks": [
+          "R"
+        ],
+        "source": "enriched"
+      },
+      {
+        "family": "ridge",
+        "setting": 1.0,
+        "blocks": [
+          "R"
+        ],
+        "source": "enriched"
+      },
+      {
+        "family": "ridge",
+        "setting": 10.0,
+        "blocks": [
+          "R"
+        ],
+        "source": "enriched"
+      },
+      {
+        "family": "gpr",
+        "setting": 1.0,
+        "blocks": [
+          "R"
+        ],
+        "source": "enriched"
+      },
+      {
+        "family": "gpr",
+        "setting": 5.0,
+        "blocks": [
+          "R"
+        ],
+        "source": "enriched"
+      }
+    ],
+    "W05": [
+      {
+        "family": "global",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "ridge",
+        "setting": 0.1,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "ridge",
+        "setting": 1.0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "ridge",
+        "setting": 10.0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "gpr",
+        "setting": 1.0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "gpr",
+        "setting": 5.0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      {
+        "family": "ridge",
+        "setting": 0.1,
+        "blocks": [
+          "R"
+        ],
+        "source": "enriched"
+      },
+      {
+        "family": "ridge",
+        "setting": 1.0,
+        "blocks": [
+          "R"
+        ],
+        "source": "enriched"
+      },
+      {
+        "family": "ridge",
+        "setting": 10.0,
+        "blocks": [
+          "R"
+        ],
+        "source": "enriched"
+      },
+      {
+        "family": "gpr",
+        "setting": 1.0,
+        "blocks": [
+          "R"
+        ],
+        "source": "enriched"
+      },
+      {
+        "family": "gpr",
+        "setting": 5.0,
+        "blocks": [
+          "R"
+        ],
+        "source": "enriched"
+      }
+    ]
+  },
+  "omitted": {
+    "W02": "Bloque G no admitido por auditoría previa",
+    "W03-M": "Bloque S no admitido por auditoría previa",
+    "W03-I": "Bloque S no admitido por auditoría previa"
+  },
+  "declared_subsets": [
+    {
+      "blocks": [],
+      "effective": []
+    },
+    {
+      "blocks": [
+        "G"
+      ],
+      "effective": []
+    },
+    {
+      "blocks": [
+        "S"
+      ],
+      "effective": []
+    },
+    {
+      "blocks": [
+        "R"
+      ],
+      "effective": [
+        "R"
+      ]
+    },
+    {
+      "blocks": [
+        "G",
+        "S"
+      ],
+      "effective": []
+    },
+    {
+      "blocks": [
+        "G",
+        "R"
+      ],
+      "effective": [
+        "R"
+      ]
+    },
+    {
+      "blocks": [
+        "S",
+        "R"
+      ],
+      "effective": [
+        "R"
+      ]
+    },
+    {
+      "blocks": [
+        "G",
+        "S",
+        "R"
+      ],
+      "effective": [
+        "R"
+      ]
+    }
+  ],
+  "common_count": 33,
+  "W05_count": 12,
+  "common_max": 84,
+  "W05_max": 42
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="generator" content="WsgiDAV/4.3.3">
+  <title>ISRIC - Index of /soilgrids/latest/data/ </title>
+  <link rel="shortcut icon" href="/:dir_browser/favicon.ico">
+  <link rel="stylesheet" href="/:dir_browser/style.css" />
+  <script defer src="/:dir_browser/script.js"></script>
+  <style type="text/css"> A {behavior: url(#default#AnchorClick);} </style>
+</head>
+
+<body onload="onLoad()">
+
+  <h1>
+    <img class="logo" alt="ISRIC" title="ISRIC" src="/:dir_browser/logo.png">
+    Webdav - Index of /soilgrids/latest/data/
+  </h1>
+<p>
+This page lists all resources made available through ISRIC - World Soil Information's Webdav functionality. 
+This URL can also be accessed via the <a href="https://www.isric.org/explore/soilgrids/soilgrids-access">Webdav protocol</a>.
+</p><p>
+These resources are described in our data catalogue at <a href="https://data.isric.org">data.isric.org</a>.
+</p><p>
+Would you like to learn more about ISRIC - World Soil Information? Visit our website: <a href="https://www.isric.org">www.isric.org</a>.
+</p>
+
+
+<p class="links">
+    <a title="Open this folder in a registered WebDAV client." href="/soilgrids/latest/data/?davmount">Mount</a>
+  
+</p>
+
+  <p class="auth-user">
+    Authenticated user: "anonymous", realm: "/soilgrids/latest/data", access: read-write.</p>
+  <hr>
+
+  <table class="dir-listing" onclick="return onClickTable(event)">
+
+    <colgroup>
+      <col>
+      <col>
+      <col class="right">
+      <col class="right">
+    </colgroup>
+
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Size</th>
+        <th>Last modified</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr class="directory">
+        <td>
+          <a class="" href="./bdod/"  >
+              bdod
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Wed, 01 Feb 2023 15:04:58 GMT</td>
+      </tr>
+      
+      <tr class="directory">
+        <td>
+          <a class="" href="./cec/"  >
+              cec
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Wed, 01 Feb 2023 15:05:41 GMT</td>
+      </tr>
+      
+      <tr class="directory">
+        <td>
+          <a class="" href="./cfvo/"  >
+              cfvo
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Tue, 31 Jan 2023 03:53:22 GMT</td>
+      </tr>
+      
+      <tr class="directory">
+        <td>
+          <a class="" href="./clay/"  >
+              clay
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Wed, 01 Feb 2023 15:09:21 GMT</td>
+      </tr>
+      
+      <tr class="directory">
+        <td>
+          <a class="" href="./landmask/"  >
+              landmask
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Wed, 01 Feb 2023 15:01:40 GMT</td>
+      </tr>
+      
+      <tr class="directory">
+        <td>
+          <a class="" href="./nitrogen/"  >
+              nitrogen
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Tue, 31 Jan 2023 11:15:45 GMT</td>
+      </tr>
+      
+      <tr class="directory">
+        <td>
+          <a class="" href="./ocd/"  >
+              ocd
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Mon, 30 Jan 2023 14:36:28 GMT</td>
+      </tr>
+      
+      <tr class="directory">
+        <td>
+          <a class="" href="./ocs/"  >
+              ocs
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Wed, 01 Feb 2023 15:07:56 GMT</td>
+      </tr>
+      
+      <tr class="directory">
+        <td>
+          <a class="" href="./phh2o/"  >
+              phh2o
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Wed, 01 Feb 2023 15:06:03 GMT</td>
+      </tr>
+      
+      <tr class="directory">
+        <td>
+          <a class="" href="./sand/"  >
+              sand
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Wed, 01 Feb 2023 15:07:13 GMT</td>
+      </tr>
+      
+      <tr class="directory">
+        <td>
+          <a class="" href="./silt/"  >
+              silt
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Wed, 01 Feb 2023 15:07:56 GMT</td>
+      </tr>
+      
+      <tr class="directory">
+        <td>
+          <a class="" href="./soc/"  >
+              soc
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Wed, 01 Feb 2023 15:09:37 GMT</td>
+      </tr>
+      
+      <tr class="directory">
+        <td>
+          <a class="" href="./wrb/"  >
+              wrb
+          </a>
+        </td>
+        <td>Directory</td>
+        <td>-</td>
+        <td>Wed, 01 Feb 2023 15:07:14 GMT</td>
+      </tr>
+      
+      <tr class="">
+        <td>
+          <a class="" href="checksum.sha256.txt"  >
+              checksum.sha256.txt
+          </a>
+        </td>
+        <td>TXT-File</td>
+        <td>76 Bytes</td>
+        <td>Mon, 30 Jan 2023 14:34:16 GMT</td>
+      </tr>
+      
+      <tr class="">
+        <td>
+          <a class="" href="README.md"  >
+              README.md
+          </a>
+        </td>
+        <td>MD-File</td>
+        <td>3,580 Bytes</td>
+        <td>Thu, 28 May 2020 08:37:34 GMT</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <hr>
+
+  <footer class="footer">
+    <div class="container">
+    <ul class="menu">
+    <li class="menu-item">
+    <a href="https://www.isric.org/contact-us" data-drupal-link-system-path="node/64">&gt; Contact us</a>
+    </li>
+    <li class="menu-item">
+    <a href="https://www.isric.org/about/data-policy" data-drupal-link-system-path="node/81">&gt; Data policy</a>
+    </li>
+    <li class="menu-item">
+    <a href="https://www.isric.org/cookies" title="What cookies do we use" data-drupal-link-system-path="node/778">&gt; Privacy and cookie statement </a>
+    </li>
+    <li class="menu-item">
+    <a href="https://www.isric.org/about/isric-org" data-drupal-link-system-path="node/113">&gt; Disclaimer</a>
+    </li>
+    </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "tests_passed": 28,
+  "failures": 0,
+  "errors": 0,
+  "scope": "Componentes sintéticos e inventario; sin entrenamiento externo nuevo.",
+  "pending": [
+    "selección anidada",
+    "contratos integrados",
+    "catálogo completo",
+    "opcionales",
+    "OOF externa",
+    "recuperación 59 consultas"
+  ],
+  "activated": false
+}

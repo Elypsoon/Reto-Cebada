@@ -1,0 +1,37 @@
+{
+  "representation": "common-area-nasa-v1",
+  "columns": [
+    "log_area",
+    "nasa_precip_early",
+    "nasa_tmean_early",
+    "nasa_amplitude_early",
+    "nasa_precip_mid",
+    "nasa_tmean_mid",
+    "nasa_amplitude_mid",
+    "nasa_precip_late",
+    "nasa_tmean_late",
+    "nasa_amplitude_late",
+    "region__PUEBLA",
+    "region__HIDALGO",
+    "region__TLAXCALA",
+    "region__OTRO"
+  ],
+  "official_count": 197,
+  "auxiliary_count": 45,
+  "complete": true,
+  "area_auxiliary": "verified treatment area in ha; not inferred from anonymized geometry",
+  "official_area": "AREA_HA from official verified polygons",
+  "year": "2025 official; actual 2012-2022 campaign auxiliary",
+  "excluded_predictors": [
+    "source",
+    "year",
+    "coordinates",
+    "management",
+    "demographics"
+  ],
+  "hashes": {
+    "common-official.parquet": "e6de641eccf750947dde6f76847d2e60652fa5e8466994e377d0839320db7694",
+    "common-auxiliary.parquet": "d49bd28790c84e02e02ac0951a8a2b2319af35d20e34e0c39656636166e59a0e",
+    "cimmyt-admitted.parquet": "8214cc50b7ce55c419287dacfb70b17eb3d6b1344afe21e23decf3ee2b6e15db"
+  }
+}

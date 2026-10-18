@@ -1,0 +1,36 @@
+{
+  "run_id": "P07-monthly_20_10",
+  "block": "P07",
+  "status": "completed",
+  "protocol_hash": "8c4b730baa170047411177e68bd0e8a48bbdf3b1de37ad741a0a2bf778eb2f2e",
+  "created_at": "2026-10-06T19:39:07.781704+00:00",
+  "metrics": {
+    "principal-5": {
+      "rmse": 0.7497561996518611,
+      "mae": 0.5649325282331825,
+      "r2": 0.21841640443707777,
+      "bias": 0.1493864312379257
+    },
+    "balanceado-4": {
+      "rmse": 0.7550852160460623,
+      "mae": 0.5693627215122832,
+      "r2": 0.20726644991848242,
+      "bias": 0.14418807002081388
+    },
+    "rotado-45-5": {
+      "rmse": 0.6246334423294367,
+      "mae": 0.4874377471122189,
+      "r2": 0.4575174549123202,
+      "bias": 0.08873042099717736
+    }
+  },
+  "verified": true,
+  "predictively_tested": true,
+  "administratively_closed": true,
+  "activated": false,
+  "deployed": false,
+  "sent": false,
+  "reason": null,
+  "started_at": "2026-10-06T20:43:17.791606+00:00",
+  "finished_at": "2026-10-06T20:44:58.015211+00:00"
+}

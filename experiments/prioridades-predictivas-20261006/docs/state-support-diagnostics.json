@@ -1,0 +1,30 @@
+{
+  "counts_only": true,
+  "rare_training_support": {
+    "principal-5": [
+      {
+        "fold": 0,
+        "state": "Tlaxcala",
+        "validation_n": 30,
+        "training_n": 1
+      }
+    ],
+    "balanceado-4": [
+      {
+        "fold": 0,
+        "state": "Tlaxcala",
+        "validation_n": 30,
+        "training_n": 1
+      }
+    ],
+    "rotado-45-5": [
+      {
+        "fold": 0,
+        "state": "Tlaxcala",
+        "validation_n": 31,
+        "training_n": 0
+      }
+    ]
+  },
+  "source": "Asignaciones congeladas, sin cambiar modelos ni particiones"
+}

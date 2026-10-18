@@ -1,0 +1,9 @@
+{
+  "_github_transport": {
+    "full_record": "folds-intraestado-3.json.gz",
+    "original_sha256": "3a0293803ce74cd34f3347bb12bda8cbd81a03fff339f48582540fd3255e5078",
+    "original_bytes": 9176970,
+    "restore": "python scripts/restore_github_evidence.py",
+    "note": "Vista resumida para GitHub; el archivo gzip conserva íntegro el registro original."
+  }
+}

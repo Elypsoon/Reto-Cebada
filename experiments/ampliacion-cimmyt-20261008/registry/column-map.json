@@ -1,0 +1,44 @@
+{
+  "farmer": {
+    "LOGBOOK ID": "logbook",
+    "LOGBOOK ID__2": "logbook_duplicate",
+    "FARMER ID": "farmer",
+    "PLOT ID": "plot",
+    "STATE": "state",
+    "YEAR": "year",
+    "WINTER/SUMMER  SEASON": "season",
+    "HYDRIC REGIME": "regime",
+    "LATITUDE N": "latitude",
+    "LONGITUDE W": "longitude",
+    "INNOVATION/CONVENTIONAL_PRACTICES_ID": "practice",
+    "TOTAL PLOT AREA (HA) DATA OBTAINED BY SURVEY WITH THE FARMER": "area_survey",
+    "AREA (HA) APPROACH DATA CALCULATED BY THE DELIMITATION OF THE PLOT IN SATELLITE IMAGE": "area_satellite"
+  },
+  "yield": {
+    "FARMER.ID": "farmer",
+    "PLOT.ID": "plot",
+    "LOGBOOK.ID": "logbook",
+    "STATE": "state",
+    "YEAR": "year",
+    "WINTER/SUMER. SEASON": "season",
+    "HYDRIC.REGIME": "regime",
+    "INNOVATION/CONVENTIONAL_PRACTICES_ID": "practice",
+    "YIELD.ID": "yield_id",
+    "PRODUCT.OBTAINED": "product",
+    "UNIT.OF.MEASURE/HA": "unit",
+    "ACTUAL.YIELD.(UNIT/HA)": "yield_original",
+    "CROP.SOWING.DATE": "sowing",
+    "HARVEST.DATE.(FIRST.ACTIVITY.IN.THE.PLOT.BY.PRODUCTION.CYCLE)": "harvest_start",
+    "HARVEST.DATE.(LAST.ACTIVITY.IN.THE.PLOT.BY.PRODUCTION.CYCLE": "harvest_end",
+    "AREA.(HA).SOWING.WHIT.INNOVATION.OR.CONVENTIONAL.PRACTICES": "treatment_area",
+    "ACTIVITY.PERFORMED": "activity",
+    "CROP": "crop",
+    "SOWING.ID.(PRIMARY.KEY)": "sowing_id"
+  },
+  "units": {
+    "TON/HA": "1 t/ha",
+    "KG/HA": "0.001 t/ha"
+  },
+  "area": "hectares of sowing under the identified treatment",
+  "source_schema_sha256": "629235a6e6beccaa555edc280e5e34a3cd5ead3bbc7e12c5571eb30811690114"
+}

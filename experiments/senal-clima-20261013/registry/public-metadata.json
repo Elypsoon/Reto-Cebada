@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-13T23:55:46.176953+00:00",
+  "project_data_transmitted": false,
+  "results": {
+    "chirps-daily-definition.txt": {
+      "status": "downloaded",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\senal-clima-20261013\\data\\external\\access\\chirps-daily-definition.txt",
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/daily/readme.txt"
+    },
+    "chirps-final-sat-index.html": {
+      "status": "downloaded",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\senal-clima-20261013\\data\\external\\access\\chirps-final-sat-index.html",
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/daily/final/sat/"
+    },
+    "sentinel-collection.json": {
+      "status": "downloaded",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\senal-clima-20261013\\data\\external\\access\\sentinel-collection.json",
+      "url": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-2-l2a"
+    },
+    "sentinel-definition.html": {
+      "status": "downloaded",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\senal-clima-20261013\\data\\external\\access\\sentinel-definition.html",
+      "url": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html"
+    },
+    "smn-stations.html": {
+      "status": "downloaded",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\senal-clima-20261013\\data\\external\\access\\smn-stations.html",
+      "url": "https://smn.conagua.gob.mx/es/?id=177%3Aqu&option=com_content&view=article"
+    },
+    "era5-land.html": {
+      "status": "downloaded",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\senal-clima-20261013\\data\\external\\access\\era5-land.html",
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview"
+    },
+    "scientific-skills.html": {
+      "status": "downloaded",
+      "file": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\senal-clima-20261013\\data\\external\\access\\scientific-skills.html",
+      "url": "https://arxiv.org/abs/2609.00065"
+    }
+  }
+}

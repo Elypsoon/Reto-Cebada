@@ -1,0 +1,140 @@
+[
+  {
+    "file": "PREC_2025_04.tif",
+    "missing": 0,
+    "min_support": 0.9999952327310138,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "PREC_2025_05.tif",
+    "missing": 0,
+    "min_support": 0.9999952327310138,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "PREC_2025_06.tif",
+    "missing": 0,
+    "min_support": 0.9999952327310138,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "PREC_2025_07.tif",
+    "missing": 0,
+    "min_support": 0.9999952327310138,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "PREC_2025_08.tif",
+    "missing": 0,
+    "min_support": 0.9999952327310138,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "PREC_2025_09.tif",
+    "missing": 0,
+    "min_support": 0.9999952327310138,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "PREC_2025_10.tif",
+    "missing": 0,
+    "min_support": 0.9999952327310138,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmin_2025_04.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmin_2025_05.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmin_2025_06.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmin_2025_07.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmin_2025_08.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmin_2025_09.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmin_2025_10.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmax_2025_04.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmax_2025_05.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmax_2025_06.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmax_2025_07.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmax_2025_08.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmax_2025_09.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "file": "Tmax_2025_10.tif",
+    "missing": 0,
+    "min_support": 0.9999952322816981,
+    "method": "intersección de celdas ponderada por área UTM14N; sin remuestreo"
+  },
+  {
+    "variable": "elevation",
+    "missing": 0,
+    "min_support": 0.7593798505090594,
+    "resolution_m": 120
+  },
+  {
+    "variable": "slope",
+    "missing": 0,
+    "min_support": 0.02096893608460954,
+    "resolution_m": 120
+  }
+]

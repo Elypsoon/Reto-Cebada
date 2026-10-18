@@ -1,0 +1,2036 @@
+[
+  {
+    "fold": 0,
+    "train_n": 104,
+    "validation_n": 34,
+    "train_state_counts": {
+      "Puebla": 71,
+      "Hidalgo": 33
+    },
+    "decision": {
+      "winner": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "inner_metrics": {
+        "rmse": 0.774296431435965,
+        "mae": 0.5640112384448325,
+        "r2": -0.12140779292456472,
+        "bias": -0.028981723191422833
+      },
+      "reference": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "common_control": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "decisions": [
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        }
+      ],
+      "scores": [
+        {
+          "recipe": {
+            "family": "global",
+            "setting": 0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.7875025435295036,
+            "mae": 0.6154774604456014,
+            "r2": -0.15998663310966887,
+            "bias": -0.041561850942660565
+          }
+        },
+        {
+          "recipe": {
+            "family": "regional",
+            "setting": 0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.774296431435965,
+            "mae": 0.5640112384448325,
+            "r2": -0.12140779292456472,
+            "bias": -0.028981723191422833
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.9149605053189697,
+            "mae": 0.6941388095993174,
+            "r2": -0.5658629569924618,
+            "bias": -0.11167448388640054
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.8202201524034725,
+            "mae": 0.6239259356859873,
+            "r2": -0.2583745472202801,
+            "bias": -0.07076183924721136
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.7529760783492266,
+            "mae": 0.5823597763966486,
+            "r2": -0.06050180642630698,
+            "bias": -0.024108482994367745
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.78720328530514,
+            "mae": 0.6154492319981716,
+            "r2": -0.1591051893972406,
+            "bias": -0.04128081588720107
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.6851727915422482,
+            "mae": 0.49935154653587904,
+            "r2": 0.12188929493134248,
+            "bias": 0.0589421330810895
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": false,
+          "reason": "Bloque R sin columnas nuevas informativas en train"
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": false,
+          "reason": "Bloque R sin columnas nuevas informativas en train"
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": false,
+          "reason": "Bloque R sin columnas nuevas informativas en train"
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": false,
+          "reason": "Bloque R sin columnas nuevas informativas en train"
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": false,
+          "reason": "Bloque R sin columnas nuevas informativas en train"
+        }
+      ],
+      "new_block_admitted": false
+    }
+  },
+  {
+    "fold": 1,
+    "train_n": 104,
+    "validation_n": 34,
+    "train_state_counts": {
+      "Puebla": 37,
+      "Hidalgo": 36,
+      "Tlaxcala": 31
+    },
+    "decision": {
+      "winner": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "inner_metrics": {
+        "rmse": 0.9366509340493816,
+        "mae": 0.7640075518002087,
+        "r2": -0.27789512394519966,
+        "bias": 0.3190095232300241
+      },
+      "reference": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "common_control": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "decisions": [
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        }
+      ],
+      "scores": [
+        {
+          "recipe": {
+            "family": "global",
+            "setting": 0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.0458510745631293,
+            "mae": 0.9697324951758726,
+            "r2": -0.5932332664737998,
+            "bias": 0.0020139371918943463
+          }
+        },
+        {
+          "recipe": {
+            "family": "regional",
+            "setting": 0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.9366509340493816,
+            "mae": 0.7640075518002087,
+            "r2": -0.27789512394519966,
+            "bias": 0.3190095232300241
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.016549906348874,
+            "mae": 0.7938837339795471,
+            "r2": -0.5052099527128131,
+            "bias": -0.23041379752241864
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.859654725762427,
+            "mae": 0.6856183506158916,
+            "r2": -0.07643492946451524,
+            "bias": 0.11200960109046196
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.7052719066665181,
+            "mae": 0.565429944322693,
+            "r2": 0.27547589095597935,
+            "bias": -0.06434609686753502
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.0448976354533626,
+            "mae": 0.968963310793927,
+            "r2": -0.5903296819562878,
+            "bias": 0.0032037854944125897
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.8548488765392668,
+            "mae": 0.7278085953472936,
+            "r2": -0.06443307889713701,
+            "bias": 0.10449448729097618
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.0191844708978643,
+            "mae": 0.7977023948090599,
+            "r2": -0.5130220856707408,
+            "bias": -0.2326152116834301
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.8653893996962365,
+            "mae": 0.6912115482620274,
+            "r2": -0.09084441946408561,
+            "bias": 0.1035926041783465
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.7011240617922453,
+            "mae": 0.5615496379667743,
+            "r2": 0.28397297258669696,
+            "bias": -0.0658543164652782
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.0448974531156885,
+            "mae": 0.9689630781876628,
+            "r2": -0.5903291269220337,
+            "bias": 0.0032040141539905966
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.8538180088593289,
+            "mae": 0.7255782920512335,
+            "r2": -0.061867413609832944,
+            "bias": 0.11009472351646123
+          }
+        }
+      ],
+      "new_block_admitted": false
+    }
+  },
+  {
+    "fold": 2,
+    "train_n": 103,
+    "validation_n": 35,
+    "train_state_counts": {
+      "Puebla": 41,
+      "Tlaxcala": 31,
+      "Hidalgo": 31
+    },
+    "decision": {
+      "winner": {
+        "family": "ridge",
+        "setting": 10.0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "inner_metrics": {
+        "rmse": 0.6423269716423008,
+        "mae": 0.49373455695039553,
+        "r2": 0.45713679231407056,
+        "bias": -0.026094992945123126
+      },
+      "reference": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "common_control": {
+        "family": "ridge",
+        "setting": 10.0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "decisions": [
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": true,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": true
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": true,
+              "state_protection": true
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": true,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": true
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": true
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        }
+      ],
+      "scores": [
+        {
+          "recipe": {
+            "family": "global",
+            "setting": 0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.1130137706098762,
+            "mae": 1.014823573105801,
+            "r2": -0.629968330958357,
+            "bias": 0.0033045254895029273
+          }
+        },
+        {
+          "recipe": {
+            "family": "regional",
+            "setting": 0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.0002326324412234,
+            "mae": 0.8253988812071896,
+            "r2": -0.31637652746902334,
+            "bias": 0.27456751953630737
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.045615223329767,
+            "mae": 0.8196425189196987,
+            "r2": -0.4385398147495052,
+            "bias": -0.18997068043313922
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.8430413464523616,
+            "mae": 0.6616017240466282,
+            "r2": 0.06486170773162236,
+            "bias": -0.11934747476385454
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.6423269716423008,
+            "mae": 0.49373455695039553,
+            "r2": 0.45713679231407056,
+            "bias": -0.026094992945123126
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.1126285702574685,
+            "mae": 1.0142720344259895,
+            "r2": -0.6288403022780067,
+            "bias": 0.003349798434944269
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.8669699901735697,
+            "mae": 0.737516164738749,
+            "r2": 0.011022933414503333,
+            "bias": 0.12430951375866622
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.0501236358781432,
+            "mae": 0.8185504360685236,
+            "r2": -0.4509717548027745,
+            "bias": -0.19252098630710063
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.8492164285880741,
+            "mae": 0.6636749365646603,
+            "r2": 0.05111219371894593,
+            "bias": -0.1338665641886891
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.6365294883144529,
+            "mae": 0.48877061571936603,
+            "r2": 0.46689206472221356,
+            "bias": -0.030332330674246663
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.1126284677186256,
+            "mae": 1.0142718783026108,
+            "r2": -0.6288400020531217,
+            "bias": 0.0033499567723240635
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.8653251890897898,
+            "mae": 0.7358514279737465,
+            "r2": 0.014771915555015669,
+            "bias": 0.13122509411225539
+          }
+        }
+      ],
+      "new_block_admitted": false
+    }
+  },
+  {
+    "fold": 3,
+    "train_n": 121,
+    "validation_n": 17,
+    "train_state_counts": {
+      "Puebla": 71,
+      "Tlaxcala": 31,
+      "Hidalgo": 19
+    },
+    "decision": {
+      "winner": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "inner_metrics": {
+        "rmse": 0.9352081670717257,
+        "mae": 0.7110854509918968,
+        "r2": -0.15216278352959844,
+        "bias": 0.37032231513452524
+      },
+      "reference": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "common_control": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "decisions": [
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        }
+      ],
+      "scores": [
+        {
+          "recipe": {
+            "family": "global",
+            "setting": 0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.0704214064885256,
+            "mae": 0.9694959168419462,
+            "r2": -0.5094086427253015,
+            "bias": -0.015036233205916818
+          }
+        },
+        {
+          "recipe": {
+            "family": "regional",
+            "setting": 0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.9352081670717257,
+            "mae": 0.7110854509918968,
+            "r2": -0.15216278352959844,
+            "bias": 0.37032231513452524
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.7749626303826966,
+            "mae": 1.306664778015376,
+            "r2": -3.150263673583151,
+            "bias": 0.959171104848724
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.9875926269289663,
+            "mae": 0.7866905133272649,
+            "r2": -0.28485150949785454,
+            "bias": 0.455254773832759
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.7494607111465275,
+            "mae": 0.5940755510927088,
+            "r2": 0.26006255975662784,
+            "bias": 0.22541832230701841
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.0695249654178611,
+            "mae": 0.968746819193521,
+            "r2": -0.5068815458157223,
+            "bias": -0.012947389835662713
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.9292661264464463,
+            "mae": 0.7626604773396248,
+            "r2": -0.13756828161754298,
+            "bias": 0.31160319837759176
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": false,
+          "reason": "Bloque R sin columnas nuevas informativas en train"
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": false,
+          "reason": "Bloque R sin columnas nuevas informativas en train"
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": false,
+          "reason": "Bloque R sin columnas nuevas informativas en train"
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": false,
+          "reason": "Bloque R sin columnas nuevas informativas en train"
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": false,
+          "reason": "Bloque R sin columnas nuevas informativas en train"
+        }
+      ],
+      "new_block_admitted": false
+    }
+  },
+  {
+    "fold": 4,
+    "train_n": 120,
+    "validation_n": 18,
+    "train_state_counts": {
+      "Puebla": 64,
+      "Tlaxcala": 31,
+      "Hidalgo": 25
+    },
+    "decision": {
+      "winner": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "inner_metrics": {
+        "rmse": 0.9161758972938927,
+        "mae": 0.697046654040404,
+        "r2": -0.20694783414117834,
+        "bias": 0.3561054775698159
+      },
+      "reference": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "common_control": {
+        "family": "regional",
+        "setting": 0,
+        "blocks": [],
+        "source": "enriched"
+      },
+      "decisions": [
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": true,
+              "two_folds": true,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": true,
+            "checks": {}
+          },
+          "admitted": false
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "vs_reference": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "vs_common_control": {
+            "passed": false,
+            "checks": {
+              "rmse_2pct": false,
+              "two_folds": false,
+              "state_protection": false
+            }
+          },
+          "admitted": false
+        }
+      ],
+      "scores": [
+        {
+          "recipe": {
+            "family": "global",
+            "setting": 0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.038072716741075,
+            "mae": 0.9210422978674425,
+            "r2": -0.5494812630430264,
+            "bias": 0.0019898308386345617
+          }
+        },
+        {
+          "recipe": {
+            "family": "regional",
+            "setting": 0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.9161758972938927,
+            "mae": 0.697046654040404,
+            "r2": -0.20694783414117834,
+            "bias": 0.3561054775698159
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.797099513502815,
+            "mae": 1.276344838333128,
+            "r2": -3.6438162677501698,
+            "bias": -0.7634019240079785
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.1863899366052728,
+            "mae": 0.8857346590804205,
+            "r2": -1.0238843106587314,
+            "bias": -0.4094649667734581
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.7802985171952949,
+            "mae": 0.5939025564392539,
+            "r2": 0.12450768428491421,
+            "bias": -0.19333811584974114
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.037644819690367,
+            "mae": 0.9208822199925173,
+            "r2": -0.5482041235851101,
+            "bias": 0.0033313950570768172
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.8099197381705368,
+            "mae": 0.6410485768801472,
+            "r2": 0.05677621978278302,
+            "bias": 0.21110711198325055
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 0.1,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.7977335051931156,
+            "mae": 1.2768407384673617,
+            "r2": -3.6470933931724154,
+            "bias": -0.7630388067374178
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.1870977127436348,
+            "mae": 0.8872803550168133,
+            "r2": -1.0262998475156464,
+            "bias": -0.40831389125415746
+          }
+        },
+        {
+          "recipe": {
+            "family": "ridge",
+            "setting": 10.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.7825540248910746,
+            "mae": 0.5963848621572924,
+            "r2": 0.11943902508009474,
+            "bias": -0.18852265695615586
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 1.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 1.0376446631127143,
+            "mae": 0.9208819388827558,
+            "r2": -0.548203656345946,
+            "bias": 0.0033317699112692446
+          }
+        },
+        {
+          "recipe": {
+            "family": "gpr",
+            "setting": 5.0,
+            "blocks": [
+              "R"
+            ],
+            "source": "enriched"
+          },
+          "valid": true,
+          "metrics": {
+            "rmse": 0.8094071231351425,
+            "mae": 0.6388774024234521,
+            "r2": 0.057969813806283854,
+            "bias": 0.2171264570365249
+          }
+        }
+      ],
+      "new_block_admitted": false
+    }
+  }
+]

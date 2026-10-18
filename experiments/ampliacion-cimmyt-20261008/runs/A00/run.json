@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "verified": true,
+  "historical_control": true,
+  "new_training": false,
+  "metrics": {
+    "principal-5": {
+      "rmse": 0.7645734286732019,
+      "mae": 0.5935091578595009,
+      "r2": 0.1872186943850468
+    },
+    "balanceado-4": {
+      "rmse": 0.808493973734743,
+      "mae": 0.6152280754874845,
+      "r2": 0.09115697469677642
+    },
+    "rotado-45-5": {
+      "rmse": 0.7610483102234628,
+      "mae": 0.633836118738334,
+      "r2": 0.19469618518516496
+    }
+  },
+  "activated": false,
+  "deployed": false,
+  "sent": false
+}

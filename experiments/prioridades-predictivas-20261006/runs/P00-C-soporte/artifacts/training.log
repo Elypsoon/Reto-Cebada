@@ -1,0 +1,17 @@
+principal-5 fold 0: train=104, validación=34
+principal-5 fold 1: train=104, validación=34
+principal-5 fold 2: train=103, validación=35
+principal-5 fold 3: train=121, validación=17
+principal-5 fold 4: train=120, validación=18
+balanceado-4 fold 0: train=104, validación=34
+balanceado-4 fold 1: train=103, validación=35
+balanceado-4 fold 2: train=104, validación=34
+balanceado-4 fold 3: train=103, validación=35
+rotado-45-5 fold 0: train=104, validación=34
+rotado-45-5 fold 1: train=104, validación=34
+rotado-45-5 fold 2: train=103, validación=35
+rotado-45-5 fold 3: train=121, validación=17
+rotado-45-5 fold 4: train=120, validación=18
+intraestado-3 fold 0: train=91, validación=47
+intraestado-3 fold 1: train=92, validación=46
+intraestado-3 fold 2: train=93, validación=45

@@ -1,0 +1,45 @@
+{
+  "rows": 63,
+  "files": [
+    {
+      "file": "siap_municipal_2018.csv",
+      "rows": 9,
+      "encoding": "CP1252"
+    },
+    {
+      "file": "siap_municipal_2019.csv",
+      "rows": 9,
+      "encoding": "CP1252"
+    },
+    {
+      "file": "siap_municipal_2020.csv",
+      "rows": 9,
+      "encoding": "CP1252"
+    },
+    {
+      "file": "siap_municipal_2021.csv",
+      "rows": 9,
+      "encoding": "CP1252"
+    },
+    {
+      "file": "siap_municipal_2022.csv",
+      "rows": 9,
+      "encoding": "CP1252"
+    },
+    {
+      "file": "siap_municipal_2023.csv",
+      "rows": 9,
+      "encoding": "CP1252"
+    },
+    {
+      "file": "siap_municipal_2024.csv",
+      "rows": 9,
+      "encoding": "CP1252"
+    }
+  ],
+  "decision": "candidato histórico municipal; cebada grano, no exclusivamente maltera",
+  "years": "2018–2024",
+  "keys": "estado + municipio verificado",
+  "units": "toneladas/hectáreas cosechadas",
+  "excluded": "cierres 2025 y municipio homónimo de Tlaxcala"
+}

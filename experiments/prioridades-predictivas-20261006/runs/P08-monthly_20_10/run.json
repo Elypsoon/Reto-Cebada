@@ -1,0 +1,36 @@
+{
+  "run_id": "P08-monthly_20_10",
+  "block": "P08",
+  "status": "completed",
+  "protocol_hash": "5bfb39f0feff52972583d5177cec090f5755ec66ead07f751a664b0dd09f2b6e",
+  "created_at": "2026-10-06T19:39:07.821608+00:00",
+  "metrics": {
+    "principal-5": {
+      "rmse": 0.7376675966436856,
+      "mae": 0.5423444875288226,
+      "r2": 0.24341675767876159,
+      "bias": 0.12033777931670515
+    },
+    "balanceado-4": {
+      "rmse": 0.7338527972523918,
+      "mae": 0.5408167967400141,
+      "r2": 0.251221764634183,
+      "bias": 0.11655224247799927
+    },
+    "rotado-45-5": {
+      "rmse": 0.6878377534584783,
+      "mae": 0.520954010949358,
+      "r2": 0.3421796219011596,
+      "bias": 0.12010459993432118
+    }
+  },
+  "verified": true,
+  "predictively_tested": true,
+  "administratively_closed": true,
+  "activated": false,
+  "deployed": false,
+  "sent": false,
+  "reason": null,
+  "started_at": "2026-10-06T20:46:37.250018+00:00",
+  "finished_at": "2026-10-06T20:49:33.927289+00:00"
+}

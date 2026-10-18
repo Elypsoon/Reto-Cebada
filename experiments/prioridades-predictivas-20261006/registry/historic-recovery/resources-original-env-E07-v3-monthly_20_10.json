@@ -1,0 +1,21 @@
+{
+  "exit_code": 0,
+  "seconds": 37.584218699950725,
+  "peak_tree_rss_mb": 658.296875,
+  "reason": null,
+  "offline": true,
+  "ip_socket_connections_blocked": true,
+  "includes_children": true,
+  "limits": {
+    "seconds": 1800,
+    "rss_mb": 4096
+  },
+  "numeric_environment": "original E07-v3; torch threads=2, preprocessing jobs=1",
+  "environment_overrides": {
+    "MKL_CBWR": null,
+    "PYTHONHASHSEED": null,
+    "OMP_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null
+  }
+}

@@ -1,0 +1,681 @@
+{
+  "status": "OK",
+  "data": {
+    "id": 58402,
+    "identifier": "10548986",
+    "persistentUrl": "https://hdl.handle.net/11529/10548986",
+    "protocol": "hdl",
+    "authority": "11529",
+    "publisher": "CIMMYT Research Data & Software Repository Network",
+    "publicationDate": "2024-09-25",
+    "storageIdentifier": "s3://11529/10548986",
+    "datasetType": "dataset",
+    "latestVersion": {
+      "id": 4474,
+      "datasetId": 58402,
+      "datasetPersistentId": "hdl:11529/10548986",
+      "storageIdentifier": "s3://11529/10548986",
+      "versionNumber": 6,
+      "versionMinorNumber": 0,
+      "versionState": "RELEASED",
+      "latestVersionPublishingState": "RELEASED",
+      "lastUpdateTime": "2025-08-05T21:22:45Z",
+      "releaseTime": "2025-08-05T21:22:45Z",
+      "createTime": "2025-08-05T21:21:08Z",
+      "publicationDate": "2024-09-25",
+      "citationDate": "2024-09-25",
+      "termsOfUse": "<p>   <b>PLEASE READ THIS CAREFULLY BEFORE ACCESSING DATA FROM THIS REPOSITORY</b>  </p>  <p>  <b>Agreement Acceptance Procedure</b>  </p>  <p>  By clicking on the acceptance button which follows this Agreement, you indicate acceptance of this agreement. Such acceptance is on your own behalf, either as an independent individual or to perform your job duties/obligations, subject to the terms and conditions below.   </p>  <p>  If you do not accept these terms and conditions, you will not be able t\no access data from this repository.  </p>  <p>  <center><b>AGREEMENT FOR ACCESS AND USE OF DATA FROM THIS REPOSITORY</b></center>  </p>  <p>  <b>1. Definitions</b>  </p>  <p>  <b>1.1</b> In this Agreement except where a different interpretation is clear from or necessary in the context, the following capitalised terms have the following meanings:  </p>  <p>  <table border=\"1\"> <tr valign=\"top\"> <td> <b>Data</b> </td> <td> All the numbers, characters, values of qualitative or quantitative variabl\nes related to an item which are directly generated and/or captured from research-related activities as well as processed, aggregated, interpreted, commented, codified or in any way analysed data taking on a meaning (the latter referred to as Information) that the User is permitted to retrieve from the Database or other online resources under this Agreement.\n</td> </tr> <tr valign=\"top\"> <td> <b>Database</b> </td> <td> The online computer-based repositories of indexed data and collections of related data records (datasets) that constitute the databases that form part of the CIMMYT Research Data Repository. </td> </tr> <tr valign=\"top\"> <td> <b>Intellectual Property</b> </td> <td> Any law existing in any jurisdiction that protects the rights contained in Data and Database. </td> </tr> <tr valign=\"top\"> <td> <b>Provider</b> </td> <td> The Internationa\nl Maize and Wheat Improvement Center (CIMMYT) </td> </tr> <tr valign=\"top\"> <td> <b>User</b> </td> <td> The individual who has accepted this Agreement by downloading Data available in Database. </td> </tr> </table>  </p>  <p>  <b>1.2</b> Headings are used in this Agreement for the convenience of the parties only and shall not be deemed to be any indications of the meaning of the clauses to which they relate.  </p>  <p>  <b>1.3</b> In this Agreement:  </p>  <p>  &#160;<b>1.3.1</b> words importing\nthe singular number shall include the plural and vice versa  </p>  <p>  &#160;<b>1.3.2</b> words importing any particular gender shall include all other genders  </p>  <p>  &#160;<b>1.3.3</b> references to persons shall include bodies of persons whether corporate or incorporate  </p>  <p>  &#160;<b>1.3.4</b> words importing the whole shall be treated as including a reference to any part of the whole  </p>  <p>  <b>2. Use of the Data and Database</b>  </p>  <p>  <b>2.1</b> The Provider grants to\nthe User a non-exclusive non-transferable license to use the Data in accordance with this Agreement. If the User agrees upon this agreement to perform activities related to their job duties/obligations, the User must make sure this agreement is neither contrary to such employment obligations/duties nor violated while performing them.\n</p>  <p>  <b>2.2</b> The User may make copies of the Data for personal use as follows:  </p>  <p>  &#160;<b>2.2.1</b> By temporarily displaying on a computer terminal the Data retrieved from the Database; and  </p>  <p>  &#160;<b>2.2.2</b> By making one copy on paper of the Data retrieved from the Database; and  </p>  <p>  &#160;<b>2.2.3</b> By downloading and storing by electronic means a copy of the Data on the User&#8217;s own equipment or equipment under his control.  </p>  <p>  <b>2.3</b>\nThe User may only use copies of the Data for the purposes of research, teaching and education, and for preparing publications, subject to the restrictions below.\n</p>  <p>  <b>2.4</b> The User is allowed to share the Data for formal educational and teaching purposes, provided that the students that have access to the Data are clearly informed that access is conditioned to not redistributing the Data. The user shall not redistribute the Data for any other purpose without the prior written consent of the Provider. Instead, the User shall refer interested new users to the Database to download the Data directly.    </p>  <p>  <b>2.5</b> The User shall acknow\nledge and reference the use of the Data and Database in all publications using the general citation provided CIMMYT Research Data Repository or the specific citation associated with an individual dataset.\n</p>  <p>  <b>2.6</b> The User shall not seek any form of intellectual property rights or other legal rights over Data and/or Databases accessed. This clause shall survive termination of this agreement.  </p>  <p>  <a name=\"twodotseven\"></a><b>2.7</b> The User shall stop using the Data and immediately contact the Provider for guidance in case of risk or suspicion of violating terms and conditions of this agreement, whether such violation is directly made by the User or by any person or entity to\nwhom voluntarily or involuntarily the User provided or permitted access to the Data, whether while performing their job duties/obligations or during the performance of their personal activities.\n</p>  <p>  <b>3. Term</b>  </p>  <p>  Subject to <a href=\"#six\">Clause 6</a>, this Agreement will continue in force for as long as the User is in possession of the Data.  </p>  <p>  <b>4. Intellectual Property</b>  </p>  <p>  <b>4.1</b> All rights including Intellectual Property Rights in the Data and Database are owned by the Provider and/or jointly between the Provider and its research partners.  </p>  <p>  <b>4.2</b> The User acknowledges that his or her permission to use the Data and Databas\ne is limited to the rights expressly conferred by this Agreement.\n</p>  <p>  <b>5. Liability and indemnity</b>  </p>  <p>  <b>5.1</b> The User acknowledges to the Provider and agrees that the Provider makes no express or implied warranties as to the merchantability or fitness for a particular purpose of the Data or Database.  </p>  <p>  <b>5.2</b> Although the Provider takes care in ensuring the accuracy of the Data and/or Database according to scientific standards, the Provider shall have no liability to the User in contract tort or otherwise for any loss or\ndamage which the User suffers (whether direct consequential or any other form of loss) as a result of any error or inaccuracy in the Data or Database or as a result of using the Data or Database. The User is encouraged to contact the Provider immediately for any errors or inaccuracies discovered in the Data or Database, and the Provider undertakes to take urgent action to address such errors or inaccuracies.\n</p>  <p>  <a name=\"six\"></a> <b>6. Termination</b>  </p>  <p>  <b>6.1</b> The Provider or User may terminate this Agreement by thirty (30) days&#8217; notice to the other party without providing any reasons for termination.  </p>  <p>  <b>6.2</b> This Agreement shall immediately terminate if the User:  </p>  <p>  &#160;<b>6.2.1</b> breaches any provision of this Agreement that is not capable of being remedied;  </p>  <p>  &#160;<b>6.2.2</b> materially breaches any provision of this Agreement th\nat is capable of being remedied but not remedied within thirty (30) days as of the date of notice sent to the User by the Provider; or\n</p>  <p>  &#160;<b>6.2.3</b> enters into an arrangement for the benefit of creditors, becomes insolvent, files for protection under bankruptcy laws or otherwise seeks relief from creditors or anything analogous to the matters stated hereinbefore under any applicable law.  </p>  <p>  <b>6.3</b> Upon termination of this Agreement, the User must return and/or destroy copies of the Data within seven (7) days of the date on which termination takes effect and certify to the Provider that this has bee\nn complied with. This clause shall survive termination of this agreement.\n</p>  <p>  <b>6.4</b> Termination of this Agreement shall not affect any obligation by either party to the other which are outstanding as at the effective date of termination nor any of the provisions of this Agreement which are expressed to survive termination.  </p>  <p>  <b>7. General</b>  </p>  <p>  <b>7.1 Force majeure</b>  </p>  <p>  Neither party shall have any liability or be deemed to be in breach of this Agreement for any delays or failures in performance which result from circumstance\ns beyond the reasonable control of the parties, including, without limitation, fire, flood, riots, strikes, epidemics, war (declared or undeclared and including the continuance, expansion or new outbreak of any war or conflict now in existence), embargoes and governmental actions or decrees. Notwithstanding the foregoing, User will still be bound to obligations under\n<a href=\"#twodotseven\">Clause 2.7</a>.  </p>  <p>  <b>7.2 Entire Agreement</b>  </p>  <p>  This Agreement contains the whole agreement between the parties and supersedes any prior oral or written agreements, arrangements or understandings between them in relation to its subject matter and the parties confirm that they have not entered into this Agreement upon the basis of any representations that are not expressly incorporated into this Agreement. No oral explanation or oral information given by\nany party shall alter or affect the interpretation of this Agreement.\n</p>  <p>  <b>7.3 Reservation of rights</b>  </p>  <p>  All rights not specifically and expressly granted to the User by this Agreement are reserved to the Provider. The Provider reserves the right to vary the terms of this Agreement by general online notification or other forms of notification to the User.  </p>  <p>  <b>7.4 Notices</b>  </p>  <p>  Any notice consent or the like (in this clause referred to generally as &quot;Notice&quot;) required or permitted to be given under this Agreement s\nhall be binding upon the User if sent by the Provider via electronic mail and shall be deemed given at the time of its actual transmission provided that the Provider does not receive any indication that the electronic mail message has not been successfully transmitted to the User.\n</p>  <p>  <b>7.5 Non-Waiver of Remedies</b>  </p>  <p>  &#160;<b>7.5.1</b> No failure or delay by either party in exercising any of its rights under this Agreement shall be deemed to be a waiver of that right, and no waiver by either party of any breach of this Agreement by the other shall be considered as a waiver of any subsequent breach of the same or any other provision.  </p>  <p>  &#160;<b>7.5.2</b> Any provision of this Agreement may be waived if, but only if, such waiver is in writing a\nnd is signed, by the party against whom the waiver is to be effective.\n</p>  <p>  <b>7.6 Invalid Clauses</b>  </p>  <p>  If any provision or part of this Agreement is held to be invalid, amendments to this Agreement may be made by the addition or deletion of wording as appropriate to remove the invalid part or provision but otherwise retain the provision and the other provisions of this Agreement to the maximum extent permissible under applicable law.  </p>  <p>  <b>7.7 Assignment</b>  </p>  <p>  This Agreement shall be personal to the User and shall not be assigne\nd or transferred without the prior written consent of the Provider.\n</p>  <p>  <b>7.8 Dispute Resolution</b>  </p>  <p>  &#160;<b>7.8.1</b> Any disagreements between the parties concerning the interpretation or application of this Agreement shall be settled amicably by negotiation in the first instance, failing which all disputes arising out of or in connection with it shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by one or more arbitrators appointed in accordance with the said Rules.  </p>  <p>  &#160;<b>7.8.2</b> This Agreement shall be governed by general principles of law to the exclusion of any national system of law. Such general principles of law shall be deemed to include the UNIDROIT Principles of International Commercial Contracts 2010.  </p>",
+      "fileAccessRequest": true,
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "name": "citation",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Historical Agronomic Dataset - Insights from Mexico (2012 - 2022)"
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Gardeazábal-Monsalve, Andrea"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "CIMMYT"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0003-1529-4200"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Ramirez Ortega, María de Lourdes"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "CIMMYT"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Pacheco Rodríguez, Guadalupe Montserrat"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "CIMMYT"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0009-0000-1759-3939"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Garza Sánchez, Enrique"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "CIMMYT"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0002-0149-4626"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Gardeazábal-Monsalve, Andrea"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "CIMMYT"
+                  },
+                  "datasetContactEmail": {
+                    "typeName": "datasetContactEmail",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "a.gardeazabal@cgiar.org"
+                  }
+                },
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "CIMMYT Research Data Team"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "CIMMYT"
+                  },
+                  "datasetContactEmail": {
+                    "typeName": "datasetContactEmail",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "CIMMYT-Research-Data@cgiar.org"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "The integrated BEM and e-Agrology dataset encompasses historical data from 2012 to 2022, compiled in Mexico. This dataset contains detailed information on farmers' field data, plots, and specific details of plots related to various crops grouped in nearly five hundred variables, covering different stages of the agronomic cycle. By sharing it with the community, invaluable insights can be extracted, aiding in the dissemination of knowledge. Additionally, it supports farmers in improving their production practices"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Agricultural Sciences",
+                "Social Sciences"
+              ]
+            },
+            {
+              "typeName": "keyword",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Agricultural technology"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "AGROVOC"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://aims.fao.org/aos/agrovoc/c_7cb2e55a"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Data collection"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "AGROVOC"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://aims.fao.org/aos/agrovoc/c_2128"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Data analysis"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "AGROVOC"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://aims.fao.org/aos/agrovoc/c_15962"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "language",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "English",
+                "Spanish, Castilian"
+              ]
+            },
+            {
+              "typeName": "producer",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "producerName": {
+                    "typeName": "producerName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "International Maize and Wheat Improvement Center"
+                  },
+                  "producerAbbreviation": {
+                    "typeName": "producerAbbreviation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "CIMMYT"
+                  },
+                  "producerURL": {
+                    "typeName": "producerURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.cimmyt.org"
+                  },
+                  "producerLogoURL": {
+                    "typeName": "producerLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://data.cimmyt.org/logos/cimmyt.png"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "productionPlace",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": [
+                "El Batan, Mexico"
+              ]
+            },
+            {
+              "typeName": "contributor",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "contributorType": {
+                    "typeName": "contributorType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "Research Group"
+                  },
+                  "contributorName": {
+                    "typeName": "contributorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "CIMMYT - MEAL (Monitor, Evaluation and Learning Unit)"
+                  }
+                },
+                {
+                  "contributorType": {
+                    "typeName": "contributorType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "Research Group"
+                  },
+                  "contributorName": {
+                    "typeName": "contributorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Sustainable Agrifood Systems Program (SAS)"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "distributor",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "distributorName": {
+                    "typeName": "distributorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "International Maize and Wheat Improvement Center"
+                  },
+                  "distributorAbbreviation": {
+                    "typeName": "distributorAbbreviation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "CIMMYT"
+                  },
+                  "distributorURL": {
+                    "typeName": "distributorURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.cimmyt.org"
+                  },
+                  "distributorLogoURL": {
+                    "typeName": "distributorLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://data.cimmyt.org/logos/cimmyt.png"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "depositor",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Garza Sánchez, Enrique"
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2023-12-13"
+            },
+            {
+              "typeName": "timePeriodCovered",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "timePeriodCoveredStart": {
+                    "typeName": "timePeriodCoveredStart",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "2012"
+                  },
+                  "timePeriodCoveredEnd": {
+                    "typeName": "timePeriodCoveredEnd",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "2022"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dateOfCollection",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dateOfCollectionStart": {
+                    "typeName": "dateOfCollectionStart",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "2012"
+                  },
+                  "dateOfCollectionEnd": {
+                    "typeName": "dateOfCollectionEnd",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "2022"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "kindOfData",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": [
+                "Survey data"
+              ]
+            }
+          ]
+        },
+        "geospatial": {
+          "displayName": "Geospatial Metadata",
+          "name": "geospatial",
+          "fields": [
+            {
+              "typeName": "geographicCoverage",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "country": {
+                    "typeName": "country",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "Mexico"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "socialscience": {
+          "displayName": "Social Science and Humanities Metadata",
+          "name": "socialscience",
+          "fields": [
+            {
+              "typeName": "unitOfAnalysis",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": [
+                "Plot"
+              ]
+            }
+          ]
+        }
+      },
+      "files": [
+        {
+          "label": "1.-Farmer_Plot_Logbook_2012-2022_03.xlsx",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 4474,
+          "dataFile": {
+            "id": 59186,
+            "persistentId": "hdl:11529/10548986/19",
+            "pidURL": "https://hdl.handle.net/11529/10548986/19",
+            "filename": "1.-Farmer_Plot_Logbook_2012-2022_03.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 14739575,
+            "storageIdentifier": "s3://datarepository:19875cf480f-3eadbb4cba25",
+            "rootDataFileId": -1,
+            "md5": "b255a2ba1695f71ca25bda2dc917ee8e",
+            "checksum": {
+              "type": "MD5",
+              "value": "b255a2ba1695f71ca25bda2dc917ee8e"
+            },
+            "tabularData": false,
+            "creationDate": "2025-08-04",
+            "publicationDate": "2025-08-04",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "2.-Sowing_harvest_yields_2012-2022_02.xlsx",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 4474,
+          "dataFile": {
+            "id": 59189,
+            "persistentId": "hdl:11529/10548986/21",
+            "pidURL": "https://hdl.handle.net/11529/10548986/21",
+            "filename": "2.-Sowing_harvest_yields_2012-2022_02.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 14871686,
+            "storageIdentifier": "s3://datarepository:1987c1c9c99-b9ead6963768",
+            "rootDataFileId": -1,
+            "md5": "1b939e59d8b31d3ebc998a69505bad17",
+            "checksum": {
+              "type": "MD5",
+              "value": "1b939e59d8b31d3ebc998a69505bad17"
+            },
+            "tabularData": false,
+            "creationDate": "2025-08-05",
+            "publicationDate": "2025-08-05",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "3._Labor_harvest_activities_2012-2022_02.xlsx",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 4474,
+          "dataFile": {
+            "id": 59184,
+            "persistentId": "hdl:11529/10548986/17",
+            "pidURL": "https://hdl.handle.net/11529/10548986/17",
+            "filename": "3._Labor_harvest_activities_2012-2022_02.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 63501219,
+            "storageIdentifier": "s3://datarepository:19875cfbe05-e075ba1e96c4",
+            "rootDataFileId": -1,
+            "md5": "22a150abace87cebb89ff0859d2ae89f",
+            "checksum": {
+              "type": "MD5",
+              "value": "22a150abace87cebb89ff0859d2ae89f"
+            },
+            "tabularData": false,
+            "creationDate": "2025-08-04",
+            "publicationDate": "2025-08-04",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "4.-Agricultural supplies_2012-2022_01.xlsx",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 4474,
+          "dataFile": {
+            "id": 58872,
+            "persistentId": "hdl:11529/10548986/8",
+            "pidURL": "https://hdl.handle.net/11529/10548986/8",
+            "filename": "4.-Agricultural supplies_2012-2022_01.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 42031258,
+            "storageIdentifier": "s3://datarepository:1930db79030-9c0910b10ebd",
+            "rootDataFileId": -1,
+            "md5": "f8d783911d761f213d38b5911c0dc6ce",
+            "checksum": {
+              "type": "MD5",
+              "value": "f8d783911d761f213d38b5911c0dc6ce"
+            },
+            "tabularData": false,
+            "creationDate": "2024-11-08",
+            "publicationDate": "2024-11-08",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "5.-Irrigacion_2012-2022_01.xlsx",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 4474,
+          "dataFile": {
+            "id": 58871,
+            "persistentId": "hdl:11529/10548986/7",
+            "pidURL": "https://hdl.handle.net/11529/10548986/7",
+            "filename": "5.-Irrigacion_2012-2022_01.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 4543310,
+            "storageIdentifier": "s3://datarepository:1930db825f7-3a8b7d872db1",
+            "rootDataFileId": -1,
+            "md5": "d7928f818dab584f5c6312f48936c55f",
+            "checksum": {
+              "type": "MD5",
+              "value": "d7928f818dab584f5c6312f48936c55f"
+            },
+            "tabularData": false,
+            "creationDate": "2024-11-08",
+            "publicationDate": "2024-11-08",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "6.-Costs and revenues_2012-2022_02.xlsx",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 4474,
+          "dataFile": {
+            "id": 59187,
+            "persistentId": "hdl:11529/10548986/20",
+            "pidURL": "https://hdl.handle.net/11529/10548986/20",
+            "filename": "6.-Costs and revenues_2012-2022_02.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 6923918,
+            "storageIdentifier": "s3://datarepository:19875cfbfbb-4d49cd604a98",
+            "rootDataFileId": -1,
+            "md5": "b1696aaa51fcc330779b14ebce383fbf",
+            "checksum": {
+              "type": "MD5",
+              "value": "b1696aaa51fcc330779b14ebce383fbf"
+            },
+            "tabularData": false,
+            "creationDate": "2025-08-04",
+            "publicationDate": "2025-08-04",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "Spanish-English Glossary.xlsx",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 4474,
+          "dataFile": {
+            "id": 58889,
+            "persistentId": "hdl:11529/10548986/15",
+            "pidURL": "https://hdl.handle.net/11529/10548986/15",
+            "filename": "Spanish-English Glossary.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 26654,
+            "storageIdentifier": "s3://datarepository:1934c4214c7-300c9d2c4c84",
+            "rootDataFileId": -1,
+            "md5": "dd563248cd46a62c7ce15be01c9b726e",
+            "checksum": {
+              "type": "MD5",
+              "value": "dd563248cd46a62c7ce15be01c9b726e"
+            },
+            "tabularData": false,
+            "creationDate": "2024-11-20",
+            "publicationDate": "2024-11-20",
+            "fileAccessRequest": true
+          }
+        }
+      ]
+    }
+  }
+}

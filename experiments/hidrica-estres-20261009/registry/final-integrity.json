@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-13T05:23:04.438827+00:00",
+  "passed": true,
+  "protected_files": 3087,
+  "changed_files": [],
+  "completed_runs": [
+    "W00",
+    "W01-O",
+    "W01-E",
+    "W04",
+    "W05"
+  ],
+  "nonviable_runs": [
+    "W02",
+    "W03-M",
+    "W03-I"
+  ],
+  "protocol_valid": true,
+  "hidden_queries": 59,
+  "labeled": 138,
+  "total": 197,
+  "activated": false,
+  "deployed": false,
+  "sent": false
+}

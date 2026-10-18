@@ -1,0 +1,54 @@
+{
+  "cutoff": "2025-10-31",
+  "total": 197,
+  "labeled": 138,
+  "hidden": 59,
+  "schemes": {
+    "principal-5": {
+      "counts": {
+        "0": 34,
+        "1": 34,
+        "2": 35,
+        "3": 17,
+        "4": 18
+      },
+      "minimum_train": 103,
+      "valid": true
+    },
+    "balanceado-4": {
+      "counts": {
+        "0": 34,
+        "1": 35,
+        "2": 34,
+        "3": 35
+      },
+      "minimum_train": 103,
+      "valid": true
+    },
+    "rotado-45-5": {
+      "counts": {
+        "0": 34,
+        "1": 34,
+        "2": 35,
+        "3": 17,
+        "4": 18
+      },
+      "minimum_train": 103,
+      "valid": true
+    },
+    "intraestado-3": {
+      "counts": {
+        "0": 47,
+        "1": 46,
+        "2": 45
+      },
+      "minimum_train": 91,
+      "valid": true
+    }
+  },
+  "revision": 2,
+  "source": "C:\\Users\\leonf\\OneDrive\\Documentos\\Hack Cebada 2026\\experiments\\soporte-regional-20261003\\registry\\schemes.csv",
+  "scheme_hash": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334",
+  "same_assignments": true,
+  "tests_passed": 6
+}

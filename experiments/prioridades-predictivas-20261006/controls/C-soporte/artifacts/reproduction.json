@@ -1,0 +1,17 @@
+{
+  "control": "C-soporte",
+  "passed": true,
+  "code_hash": "17e6f23f52376fd05d04cd1bf34e8ccb1aa211693f900738036796113079eb59",
+  "principal_and_hidden_atol": 1e-10,
+  "rtol": 0,
+  "routes": [
+    "official",
+    "selected"
+  ],
+  "schemes": [
+    "principal-5",
+    "balanceado-4",
+    "rotado-45-5",
+    "intraestado-3"
+  ]
+}

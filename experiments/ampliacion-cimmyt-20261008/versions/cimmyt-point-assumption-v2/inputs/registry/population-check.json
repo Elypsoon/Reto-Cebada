@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "official": 197,
+  "labels": 138,
+  "hidden": 59,
+  "schemes": [
+    "principal-5",
+    "balanceado-4",
+    "rotado-45-5"
+  ],
+  "source_hashes": {
+    "data/processed/parcels.parquet": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+    "registry/schemes.csv": "f0d945c4e6bc8eb40a40b3089bf77a3700ea804254394cb7f1cd7a5647a9e334"
+  }
+}

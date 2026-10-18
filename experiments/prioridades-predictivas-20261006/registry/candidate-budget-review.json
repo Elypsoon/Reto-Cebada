@@ -1,0 +1,93 @@
+{
+  "design_sha256": "24655cf01ea1420233dd43cd47840b0a317e9bdc3c72445c2187d68d388faedb",
+  "status": "corrected_with_user_authorization",
+  "training_started": false,
+  "rows": [
+    {
+      "block": "P01",
+      "models_corrections_and_references": 74,
+      "declared_maximum": 74,
+      "ensemble_recipes": 4,
+      "total_with_ensembles": 78,
+      "within_160": true,
+      "exceeds_declared_maximum": true
+    },
+    {
+      "block": "P02",
+      "models_corrections_and_references": 10,
+      "declared_maximum": 10,
+      "ensemble_recipes": 4,
+      "total_with_ensembles": 14,
+      "within_160": true,
+      "exceeds_declared_maximum": true
+    },
+    {
+      "block": "P03",
+      "models_corrections_and_references": 38,
+      "declared_maximum": 38,
+      "ensemble_recipes": 4,
+      "total_with_ensembles": 42,
+      "within_160": true,
+      "exceeds_declared_maximum": true
+    },
+    {
+      "block": "P04",
+      "models_corrections_and_references": 32,
+      "declared_maximum": 32,
+      "ensemble_recipes": 4,
+      "total_with_ensembles": 36,
+      "within_160": true,
+      "exceeds_declared_maximum": true
+    },
+    {
+      "block": "P05",
+      "models_corrections_and_references": 47,
+      "declared_maximum": 47,
+      "ensemble_recipes": 4,
+      "total_with_ensembles": 51,
+      "within_160": true,
+      "exceeds_declared_maximum": true
+    },
+    {
+      "block": "P06",
+      "models_corrections_and_references": 26,
+      "declared_maximum": 26,
+      "ensemble_recipes": 4,
+      "total_with_ensembles": 30,
+      "within_160": true,
+      "exceeds_declared_maximum": true
+    }
+  ],
+  "ensemble_recipes": [
+    [
+      "family_1",
+      "family_2"
+    ],
+    [
+      "regional_mean",
+      "family_1"
+    ],
+    [
+      "regional_mean",
+      "family_2"
+    ],
+    [
+      "regional_mean",
+      "family_1",
+      "family_2"
+    ]
+  ],
+  "issue": "Los máximos incluyen modelos/correcciones/referencias, pero omiten las cuatro recetas de ensamble que el diseño exige contabilizar.",
+  "proposed_resolution": "Conservar todos los modelos y las cuatro recetas existentes; actualizar máximos a 78/14/42/36/51/30 antes de congelar.",
+  "protocol_frozen": false,
+  "new_metrics": null,
+  "corrected_maximums": {
+    "P01": 78,
+    "P02": 14,
+    "P03": 42,
+    "P04": 36,
+    "P05": 51,
+    "P06": 30
+  },
+  "authorization": "Sí, corrige y sigue; autorizado antes de congelar."
+}

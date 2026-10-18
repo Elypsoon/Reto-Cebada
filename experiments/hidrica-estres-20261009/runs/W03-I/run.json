@@ -1,0 +1,11 @@
+{
+  "status": "not_viable",
+  "reason": "Bloque S no admitido por auditoría previa",
+  "verified": true,
+  "metrics": null,
+  "id": "W03-I",
+  "at": "2026-10-13T05:21:21.887046+00:00",
+  "activated": false,
+  "deployed": false,
+  "sent": false
+}

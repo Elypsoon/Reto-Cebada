@@ -1,0 +1,6 @@
+{
+  "available": false,
+  "reason": "G no admitido; no hay conjunto compatible para calcular envolventes reales. Función verificada con casos sintéticos.",
+  "ten_kpa_acquired": false,
+  "calibrated_interval": false
+}

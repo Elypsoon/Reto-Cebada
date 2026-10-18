@@ -1,0 +1,19 @@
+{
+  "status": "non_viable",
+  "verified": false,
+  "predictively_tested": false,
+  "administratively_closed": true,
+  "reason": "C-local tiene como máximo 29 etiquetas candidatas antes de exclusión espacial; el protocolo exige al menos 30 por ajuste",
+  "candidate_upper_bound": 29,
+  "required_minimum": 30,
+  "cohort_evidence_sha256": "2b52c95e2f76906e2461131baae57a0222b9831a20d794a8a8af2f646c8c82ca",
+  "configurations": [
+    "official_common",
+    "official_common_plus_local_cap256"
+  ],
+  "metrics": null,
+  "activated": false,
+  "deployed": false,
+  "sent": false,
+  "at": "2026-10-08T18:36:08.167807+00:00"
+}

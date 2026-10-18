@@ -1,0 +1,18 @@
+{
+  "available": false,
+  "synthetic_only": true,
+  "reason": "Error en prueba sintética; véase smoke.log",
+  "resources": {
+    "exit_code": 1,
+    "seconds": 14.812862300081179,
+    "peak_tree_rss_mb": 327.51171875,
+    "reason": null,
+    "limits": {
+      "seconds": 1800,
+      "rss_mb": 4096,
+      "threads": 2
+    },
+    "includes_children": true,
+    "offline": true
+  }
+}

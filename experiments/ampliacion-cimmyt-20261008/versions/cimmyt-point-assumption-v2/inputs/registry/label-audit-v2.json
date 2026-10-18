@@ -1,0 +1,217 @@
+{
+  "status": "completed_diagnostic_admission_with_explicit_spatial_assumption",
+  "published_barley_records": 968,
+  "downloaded_barley_rows": 1396,
+  "unique_yield_ids": 1362,
+  "grain_rows": 1131,
+  "grain_unique_yield_ids": 1130,
+  "join": {
+    "keys": [
+      "logbook",
+      "practice"
+    ],
+    "validation": "many_to_one",
+    "rows_before": 1396,
+    "rows_after": 1396,
+    "unmatched": 0
+  },
+  "stages": [
+    {
+      "stage": "unmatched_logbook_practice",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "context_mismatch_farmer",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "context_mismatch_plot",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "context_mismatch_state",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "context_mismatch_year",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "context_mismatch_season",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "context_mismatch_regime",
+      "remaining_rows": 1396,
+      "excluded_here": 0
+    },
+    {
+      "stage": "not_barley_grain",
+      "remaining_rows": 1131,
+      "excluded_here": 265
+    },
+    {
+      "stage": "missing_identity",
+      "remaining_rows": 1131,
+      "excluded_here": 0
+    },
+    {
+      "stage": "conflicting_yield_id",
+      "remaining_rows": 1131,
+      "excluded_here": 0
+    },
+    {
+      "stage": "duplicate_yield_id",
+      "remaining_rows": 1130,
+      "excluded_here": 1
+    },
+    {
+      "stage": "invalid_grain_unit_or_yield",
+      "remaining_rows": 1119,
+      "excluded_here": 11
+    },
+    {
+      "stage": "invalid_treatment_area",
+      "remaining_rows": 1114,
+      "excluded_here": 5
+    },
+    {
+      "stage": "invalid_campaign",
+      "remaining_rows": 1114,
+      "excluded_here": 0
+    },
+    {
+      "stage": "outside_summer_rainfed",
+      "remaining_rows": 441,
+      "excluded_here": 673
+    },
+    {
+      "stage": "resowing_or_unknown_activity",
+      "remaining_rows": 441,
+      "excluded_here": 0
+    },
+    {
+      "stage": "outside_window_sowing",
+      "remaining_rows": 428,
+      "excluded_here": 13
+    },
+    {
+      "stage": "outside_window_harvest_start",
+      "remaining_rows": 53,
+      "excluded_here": 375
+    },
+    {
+      "stage": "outside_window_harvest_end",
+      "remaining_rows": 48,
+      "excluded_here": 5
+    },
+    {
+      "stage": "dates_out_of_order",
+      "remaining_rows": 48,
+      "excluded_here": 0
+    },
+    {
+      "stage": "multiple_treatments_or_harvests_unresolved",
+      "remaining_rows": 48,
+      "excluded_here": 0
+    },
+    {
+      "stage": "missing_coordinates",
+      "remaining_rows": 48,
+      "excluded_here": 0
+    }
+  ],
+  "before_spatial": {
+    "C-local": {
+      "rows": 29,
+      "yield_ids": 29,
+      "plots": 21,
+      "known_farmers": 19,
+      "campaigns": 4,
+      "groups": 19,
+      "states": {
+        "HIDALGO": 24,
+        "PUEBLA": 4,
+        "TLAXCALA": 1
+      }
+    },
+    "C-mexico": {
+      "rows": 48,
+      "yield_ids": 48,
+      "plots": 40,
+      "known_farmers": 30,
+      "campaigns": 8,
+      "groups": 29,
+      "states": {
+        "HIDALGO": 24,
+        "MEXICO": 19,
+        "PUEBLA": 4,
+        "TLAXCALA": 1
+      }
+    }
+  },
+  "admitted_training_labels": 45,
+  "official_modality": "not documented in official originals reviewed",
+  "official_moisture_basis": "unknown",
+  "external_measurement_method": "heterogeneous, not identified per row",
+  "coordinate_metadata": {
+    "fields": [
+      "LATITUDE N",
+      "LONGITUDE W"
+    ],
+    "datum_or_crs_in_catalog": null,
+    "polygon_vertices_in_download": false,
+    "article_privacy_precision": "vertices truncated to 3 decimals",
+    "status": "unknown_metadata_retained_analysis_assumption_authorized",
+    "source_crs": "unknown",
+    "analysis_crs": "EPSG:4326",
+    "crs_basis": "explicit_assumption",
+    "point_semantics": "unknown",
+    "measured_precision": "unknown",
+    "principal_margin_degrees": 0.01,
+    "principal_buffer_m": 2000,
+    "spatial_separation_certified": false
+  },
+  "files": {
+    "1.-Farmer_Plot_Logbook_2012-2022_03.xlsx": "1999240f0a18f2a7fced3713dfc22fad81a50b7d617e505cb330d00199839684",
+    "2.-Sowing_harvest_yields_2012-2022_02.xlsx": "adfba56ea85bd274784862ac1bb0093e804c3c065f18cd137f384655b8c52509",
+    "Spanish-English Glossary.xlsx": "3b6f05f459926c033019d81b08334a5a32b83c2ed664abd163bfd15d508644ec"
+  },
+  "spatial_protocol": "cimmyt-point-assumption-v2",
+  "principal_spatial_support": {
+    "C-local": {
+      "population": {
+        "labels": 29,
+        "groups": 19,
+        "campaigns": 4,
+        "viable": false
+      },
+      "viable_outer_fits": 0,
+      "viable_inner_fits": 0
+    },
+    "C-mexico": {
+      "population": {
+        "labels": 45,
+        "groups": 27,
+        "campaigns": 8,
+        "viable": true
+      },
+      "viable_outer_fits": 14,
+      "viable_inner_fits": 52
+    }
+  },
+  "geographic_sensitivity": "detected",
+  "antecedent": {
+    "path": "registry/history/v1-label-audit.json",
+    "sha256": "2b52c95e2f76906e2461131baae57a0222b9831a20d794a8a8af2f646c8c82ca"
+  },
+  "spatial_sha256": "9513423054d57f08c9b94f709e5e10e1d759a68679c0c9e5a439dbb0f2b9ac7b",
+  "climate_sha256": "892a35a0813e4b3cc96d9e27b9797bef351e1ba1d6bf0ab5ccb3b4912917294c",
+  "at": "2026-10-09T16:14:07.614767+00:00"
+}

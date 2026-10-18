@@ -1,0 +1,70 @@
+{
+  "W01-O": {
+    "principal-5": {
+      "control": "W00",
+      "n": 138,
+      "mean_absolute_error_difference": 0.15279745219512056
+    },
+    "balanceado-4": {
+      "control": "W00",
+      "n": 138,
+      "mean_absolute_error_difference": 0.131480384278359
+    },
+    "rotado-45-5": {
+      "control": "W00",
+      "n": 138,
+      "mean_absolute_error_difference": 0.14694338098976215
+    }
+  },
+  "W01-E": {
+    "principal-5": {
+      "control": "W01-O",
+      "n": 138,
+      "mean_absolute_error_difference": 0.0
+    },
+    "balanceado-4": {
+      "control": "W01-O",
+      "n": 138,
+      "mean_absolute_error_difference": 0.0
+    },
+    "rotado-45-5": {
+      "control": "W01-O",
+      "n": 138,
+      "mean_absolute_error_difference": -0.0035733459725469847
+    }
+  },
+  "W04": {
+    "principal-5": {
+      "control": "W01-E",
+      "n": 138,
+      "mean_absolute_error_difference": 0.0
+    },
+    "balanceado-4": {
+      "control": "W01-E",
+      "n": 138,
+      "mean_absolute_error_difference": 0.0
+    },
+    "rotado-45-5": {
+      "control": "W01-E",
+      "n": 138,
+      "mean_absolute_error_difference": 0.00022092378657310142
+    }
+  },
+  "W05": {
+    "principal-5": {
+      "control": "W01-E",
+      "n": 138,
+      "mean_absolute_error_difference": 0.0
+    },
+    "balanceado-4": {
+      "control": "W01-E",
+      "n": 138,
+      "mean_absolute_error_difference": 0.0
+    },
+    "rotado-45-5": {
+      "control": "W01-E",
+      "n": 138,
+      "mean_absolute_error_difference": 0.0
+    }
+  }
+}

@@ -1,0 +1,64 @@
+Anio,Nomestado,Nommunicipio,area,production,yield
+2018,Hidalgo,Almoloya,11758.0,29395.0,2.5
+2018,Hidalgo,Apan,21625.0,51900.0,2.4
+2018,Hidalgo,Cuautepec de Hinojosa,10027.0,34095.2,3.4003390844719257
+2018,Hidalgo,Emiliano Zapata,3085.0,7712.5,2.5
+2018,Hidalgo,Singuilucan,13895.0,47941.2,3.450248290752069
+2018,Hidalgo,Tepeapulco,7670.0,15340.0,2.0
+2018,Puebla,Chignahuapan,6800.0,18020.0,2.65
+2018,Tlaxcala,Calpulalpan,7410.0,18376.8,2.48
+2018,Tlaxcala,Nanacamilpa de Mariano Arista,2568.0,6111.84,2.38
+2019,Hidalgo,Almoloya,11238.75,25849.13,2.300000444889334
+2019,Hidalgo,Apan,20224.25,54605.48,2.7000002472279565
+2019,Hidalgo,Cuautepec de Hinojosa,9151.46,18302.92,2.0
+2019,Hidalgo,Emiliano Zapata,2381.0,5476.3,2.3000000000000003
+2019,Hidalgo,Singuilucan,11586.33,23172.66,2.0
+2019,Hidalgo,Tepeapulco,7984.0,18363.2,2.3000000000000003
+2019,Puebla,Chignahuapan,6973.33,18897.72,2.7099993833649063
+2019,Tlaxcala,Calpulalpan,11300.0,28250.0,2.5
+2019,Tlaxcala,Nanacamilpa de Mariano Arista,3800.0,9158.0,2.41
+2020,Hidalgo,Almoloya,11250.4,31276.11,2.779999822228543
+2020,Hidalgo,Apan,21285.0,57598.9,2.7060793986375384
+2020,Hidalgo,Cuautepec de Hinojosa,9000.2,17691.06,1.965629652674385
+2020,Hidalgo,Emiliano Zapata,2420.6,5809.44,2.4
+2020,Hidalgo,Singuilucan,11404.8,22992.0,2.015993265993266
+2020,Hidalgo,Tepeapulco,8036.0,19286.4,2.4000000000000004
+2020,Puebla,Chignahuapan,6955.0,19613.1,2.82
+2020,Tlaxcala,Calpulalpan,5252.0,13655.2,2.6
+2020,Tlaxcala,Nanacamilpa de Mariano Arista,1850.0,4625.0,2.5
+2021,Hidalgo,Almoloya,10804.88,27444.4,2.5400004442437125
+2021,Hidalgo,Apan,21902.27,54098.61,2.4700001415378408
+2021,Hidalgo,Cuautepec de Hinojosa,8531.42,23717.35,2.7800002813130753
+2021,Hidalgo,Emiliano Zapata,2419.63,5008.63,2.0699983055260516
+2021,Hidalgo,Singuilucan,11062.7,34847.51,3.15000045196923
+2021,Hidalgo,Tepeapulco,7875.28,17246.86,2.189999593665241
+2021,Puebla,Chignahuapan,6960.0,18792.0,2.7
+2021,Tlaxcala,Calpulalpan,13200.0,35640.0,2.7
+2021,Tlaxcala,Nanacamilpa de Mariano Arista,4450.0,11570.0,2.6
+2022,Hidalgo,Almoloya,10807.0,24964.17,2.31
+2022,Hidalgo,Apan,19616.0,41193.6,2.1
+2022,Hidalgo,Cuautepec de Hinojosa,9180.0,25612.2,2.79
+2022,Hidalgo,Emiliano Zapata,2387.0,4774.0,2.0
+2022,Hidalgo,Singuilucan,12668.75,33572.19,2.650000197335965
+2022,Hidalgo,Tepeapulco,7763.25,15526.5,2.0
+2022,Puebla,Chignahuapan,6785.0,22051.25,3.25
+2022,Tlaxcala,Calpulalpan,13209.0,36985.0,2.799984858808388
+2022,Tlaxcala,Nanacamilpa de Mariano Arista,4453.0,12023.0,2.699977543229284
+2023,Hidalgo,Almoloya,9870.0,21615.3,2.19
+2023,Hidalgo,Apan,20408.0,40816.0,2.0
+2023,Hidalgo,Cuautepec de Hinojosa,8980.14,23797.37,2.6499998886431615
+2023,Hidalgo,Emiliano Zapata,2335.0,4436.5,1.9
+2023,Hidalgo,Singuilucan,11143.57,28081.8,2.5200003230562555
+2023,Hidalgo,Tepeapulco,7950.0,15105.0,1.9
+2023,Puebla,Chignahuapan,7240.0,24978.0,3.45
+2023,Tlaxcala,Calpulalpan,13218.0,33045.0,2.5
+2023,Tlaxcala,Nanacamilpa de Mariano Arista,4455.0,10692.0,2.4
+2024,Hidalgo,Almoloya,10918.79,27406.16,2.5099997344028044
+2024,Hidalgo,Apan,20863.54,48194.78,2.310000124619312
+2024,Hidalgo,Cuautepec de Hinojosa,8542.93,21784.47,2.549999824416213
+2024,Hidalgo,Emiliano Zapata,2375.61,5701.46,2.3999983162219385
+2024,Hidalgo,Singuilucan,11160.15,24440.73,2.1900001344067954
+2024,Hidalgo,Tepeapulco,7751.61,17208.57,2.2199994581770754
+2024,Puebla,Chignahuapan,7317.55,23196.63,3.1699995216978363
+2024,Tlaxcala,Calpulalpan,13220.0,34504.2,2.61
+2024,Tlaxcala,Nanacamilpa de Mariano Arista,4449.0,11122.5,2.5

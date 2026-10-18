@@ -1,0 +1,40 @@
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\tabpfn\preprocessing\steps\squashing_scaler_transformer.py:270: RuntimeWarning: All-NaN slice encountered
+  zero_cols = np.nanmax(X, axis=0) == np.nanmin(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\sklearn\preprocessing\_data.py:1722: RuntimeWarning: All-NaN slice encountered
+  self.center_ = np.nanmedian(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\tabpfn\preprocessing\steps\squashing_scaler_transformer.py:270: RuntimeWarning: All-NaN slice encountered
+  zero_cols = np.nanmax(X, axis=0) == np.nanmin(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\sklearn\preprocessing\_data.py:1722: RuntimeWarning: All-NaN slice encountered
+  self.center_ = np.nanmedian(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\tabpfn\preprocessing\steps\squashing_scaler_transformer.py:270: RuntimeWarning: All-NaN slice encountered
+  zero_cols = np.nanmax(X, axis=0) == np.nanmin(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\sklearn\preprocessing\_data.py:1722: RuntimeWarning: All-NaN slice encountered
+  self.center_ = np.nanmedian(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\tabpfn\preprocessing\steps\squashing_scaler_transformer.py:270: RuntimeWarning: All-NaN slice encountered
+  zero_cols = np.nanmax(X, axis=0) == np.nanmin(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\sklearn\preprocessing\_data.py:1722: RuntimeWarning: All-NaN slice encountered
+  self.center_ = np.nanmedian(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(

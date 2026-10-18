@@ -1,0 +1,57 @@
+{
+  "source": "NDWI original con fórmula desconocida",
+  "labels_used": false,
+  "temporal_diagnostic_only": true,
+  "native_pixel_mask_unknown": true,
+  "semantic_admission": false,
+  "reports": [
+    {
+      "days": 7,
+      "windows": {
+        "early": {
+          "intervals": 9,
+          "supported_parcels": 79,
+          "minimum_valid_intervals": 4,
+          "minimum_fraction": 0.5
+        },
+        "middle": {
+          "intervals": 8,
+          "supported_parcels": 0,
+          "minimum_valid_intervals": 4,
+          "minimum_fraction": 0.5
+        },
+        "late": {
+          "intervals": 14,
+          "supported_parcels": 2,
+          "minimum_valid_intervals": 4,
+          "minimum_fraction": 0.5
+        }
+      },
+      "all_windows": 0
+    },
+    {
+      "days": 14,
+      "windows": {
+        "early": {
+          "intervals": 4,
+          "supported_parcels": 197,
+          "minimum_valid_intervals": 2,
+          "minimum_fraction": 0.5
+        },
+        "middle": {
+          "intervals": 5,
+          "supported_parcels": 161,
+          "minimum_valid_intervals": 2,
+          "minimum_fraction": 0.5
+        },
+        "late": {
+          "intervals": 7,
+          "supported_parcels": 175,
+          "minimum_valid_intervals": 2,
+          "minimum_fraction": 0.5
+        }
+      },
+      "all_windows": 144
+    }
+  ]
+}

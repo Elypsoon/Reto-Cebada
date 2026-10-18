@@ -1,0 +1,16 @@
+{
+  "status": "resolved_by_authorized_protocol_revision",
+  "protocol": "cimmyt-point-assumption-v2",
+  "at": "2026-10-09T16:41:57.000664+00:00",
+  "antecedent": {
+    "path": "registry/history/v1-blocker.json",
+    "sha256": "5b327f694714b8aa1a912e81d6862e96a8bee7372c5ec8a8da4cbf5c2e379ec9"
+  },
+  "metadata_found": false,
+  "spatial_assumption_implemented": true,
+  "admitted_training_labels": 45,
+  "predictive_training_completed": true,
+  "remaining_dependencies": [],
+  "final_result": "Sin aporte estable bajo el protocolo congelado de puntos asumidos",
+  "coverage": "registry/coverage-v2.json"
+}

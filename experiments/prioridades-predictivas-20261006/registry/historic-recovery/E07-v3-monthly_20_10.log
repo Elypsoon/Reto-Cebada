@@ -1,0 +1,56 @@
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\tabpfn\preprocessing\steps\squashing_scaler_transformer.py:270: RuntimeWarning: All-NaN slice encountered
+  zero_cols = np.nanmax(X, axis=0) == np.nanmin(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\sklearn\preprocessing\_data.py:1722: RuntimeWarning: All-NaN slice encountered
+  self.center_ = np.nanmedian(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\tabpfn\preprocessing\steps\squashing_scaler_transformer.py:270: RuntimeWarning: All-NaN slice encountered
+  zero_cols = np.nanmax(X, axis=0) == np.nanmin(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\sklearn\preprocessing\_data.py:1722: RuntimeWarning: All-NaN slice encountered
+  self.center_ = np.nanmedian(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\tabpfn\preprocessing\steps\squashing_scaler_transformer.py:270: RuntimeWarning: All-NaN slice encountered
+  zero_cols = np.nanmax(X, axis=0) == np.nanmin(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\sklearn\preprocessing\_data.py:1722: RuntimeWarning: All-NaN slice encountered
+  self.center_ = np.nanmedian(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\tabpfn\preprocessing\steps\squashing_scaler_transformer.py:270: RuntimeWarning: All-NaN slice encountered
+  zero_cols = np.nanmax(X, axis=0) == np.nanmin(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\sklearn\preprocessing\_data.py:1722: RuntimeWarning: All-NaN slice encountered
+  self.center_ = np.nanmedian(X, axis=0)
+C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\soporte-regional-20261003\optional\tabpfn-2.5\env\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+Traceback (most recent call last):
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\scripts\offline_worker.py", line 27, in <module>
+    if mode=='module':runpy.run_module(target,run_name='__main__')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 229, in run_module
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\registry\historic-recovery\optional-copy\src\agrocebada\optional.py", line 97, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\registry\historic-recovery\optional-copy\src\agrocebada\optional.py", line 95, in main
+    else:worker(sys.argv[2],sys.argv[3],sys.argv[1]=='verify')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\leonf\OneDrive\Documentos\Hack Cebada 2026\experiments\prioridades-predictivas-20261006\registry\historic-recovery\optional-copy\src\agrocebada\optional.py", line 46, in worker
+    assert np.allclose(pred,saved[TARGET],rtol=0,atol=1e-10)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

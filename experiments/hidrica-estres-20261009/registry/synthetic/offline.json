@@ -1,0 +1,7 @@
+{
+  "ip_connections_blocked": true,
+  "synthetic": true,
+  "finite": true,
+  "threads_verified": true,
+  "float64_export_verified": true
+}
