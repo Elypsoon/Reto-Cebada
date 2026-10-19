@@ -1,0 +1,12 @@
+{
+  "run_id": "R05",
+  "name": "R05_spatial_kriging",
+  "title": "Prior de Kriging Espacial Multiescala Intra-Estatal (PyR P5)",
+  "family": "spatial_kriging",
+  "description": "Interpolación gaussiana multiescala (600 m y 1,500 m) restringida al mismo estado con encogimiento empírico de Bayes hacia la media municipal/estatal.",
+  "predictions_59_sha256": "1f5954dfde27035bd18dafd975cedc088655f6f8d067f7424a1c5035098b0b19",
+  "mean_pred_59_t_ha": 3.924276536429756,
+  "std_pred_59_t_ha": 0.6932072481913186,
+  "min_pred_59_t_ha": 2.8604358586154564,
+  "max_pred_59_t_ha": 4.720433312689834
+}

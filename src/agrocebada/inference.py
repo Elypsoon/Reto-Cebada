@@ -55,7 +55,11 @@ class Predictor:
         cal=self.bundle["interval"]
         if cal is not None:
             center=predict_selection(cal["model"],cal["selection"],indices,self.tables,self.external,self.location)
-            rows["INTERVAL_LOW"]=center-cal["radius"];rows["INTERVAL_HIGH"]=center+cal["radius"]
+            if "state_radii" in cal:
+                r_vec=np.array([cal["state_radii"].get(s,cal.get("radius",0.78)) for s in self.master.loc[indices,"Estado"]])
+                rows["INTERVAL_LOW"]=np.maximum(0.0,center-r_vec);rows["INTERVAL_HIGH"]=center+r_vec
+            else:
+                rows["INTERVAL_LOW"]=np.maximum(0.0,center-cal["radius"]);rows["INTERVAL_HIGH"]=center+cal["radius"]
         return rows.set_index(ID).reindex(ids).reset_index()
 
     def explain(self,pid):

@@ -1,0 +1,12 @@
+{
+  "run_id": "R06",
+  "name": "R06_spectral_geo_ensemble",
+  "title": "Ensamble Multi-Familia Espectral-Geográfico + Escalamiento por Varianza Estatal (PyR P3)",
+  "family": "ensemble_spectral",
+  "description": "Combinación convexa de GPR-Geo, CatBoost-Geo, Biweekly-Contrast y ExtraTrees-Geo con estandarización por varianza estatal para mitigar la cuantización de Tlaxcala.",
+  "predictions_59_sha256": "be5aa8065efb2ce4a6115d7c6ea8c59868ccad390fd660dea5979faaa5f7f284",
+  "mean_pred_59_t_ha": 3.9450101991030535,
+  "std_pred_59_t_ha": 0.6215417361363379,
+  "min_pred_59_t_ha": 2.999225765523402,
+  "max_pred_59_t_ha": 4.675438116347155
+}

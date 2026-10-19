@@ -1,0 +1,12 @@
+{
+  "run_id": "R01",
+  "name": "R01_gpr_geo",
+  "title": "GPR Matérn 2.5 con Coordenadas UTM (Geo=True)",
+  "family": "gpr_geo",
+  "description": "Proceso Gaussiano Matérn 2.5 incorporando coordenadas UTM 14N (location_x, location_y) junto con predictores espectrales y NASA POWER.",
+  "predictions_59_sha256": "c505efe57f8a85aae12c188d2590ce05ab870fc40438acaf532762f6dc4f2163",
+  "mean_pred_59_t_ha": 3.9626915793293,
+  "std_pred_59_t_ha": 0.6512309347307526,
+  "min_pred_59_t_ha": 2.9161062187393285,
+  "max_pred_59_t_ha": 4.7635655964011105
+}

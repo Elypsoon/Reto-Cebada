@@ -1,0 +1,172 @@
+{
+  "B0": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 1.0421052631578949,
+    "global_width_t_ha": 2.0842105263157897,
+    "state_radii_t_ha": {
+      "Hidalgo": 1.2326814882032668,
+      "Puebla": 1.0600798872180455,
+      "Tlaxcala": 0.6667763157894736
+    },
+    "mean_adaptive_width_t_ha": 2.0335111790909064,
+    "empirical_coverage": 0.9420289855072463,
+    "coverage_by_state": {
+      "Hidalgo": 0.9444444444444444,
+      "Puebla": 0.9154929577464789,
+      "Tlaxcala": 1.0
+    }
+  },
+  "R00": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.8253258089577935,
+    "global_width_t_ha": 1.650651617915587,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.8023775997437292,
+      "Puebla": 0.9953923573087393,
+      "Tlaxcala": 0.7644548753281978
+    },
+    "mean_adaptive_width_t_ha": 1.7863268419546214,
+    "empirical_coverage": 0.927536231884058,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.8873239436619719,
+      "Tlaxcala": 0.967741935483871
+    }
+  },
+  "R01": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.8352900963730607,
+    "global_width_t_ha": 1.6705801927461215,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.7318665853533021,
+      "Puebla": 1.0334221955520313,
+      "Tlaxcala": 0.7549155257734094
+    },
+    "mean_adaptive_width_t_ha": 1.7843848442882433,
+    "empirical_coverage": 0.9420289855072463,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.9154929577464789,
+      "Tlaxcala": 0.967741935483871
+    }
+  },
+  "R02": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.8999187356837064,
+    "global_width_t_ha": 1.7998374713674128,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.9488563993029228,
+      "Puebla": 0.973833031617082,
+      "Tlaxcala": 0.7438981987917692
+    },
+    "mean_adaptive_width_t_ha": 1.831330721482071,
+    "empirical_coverage": 0.9347826086956522,
+    "coverage_by_state": {
+      "Hidalgo": 0.9444444444444444,
+      "Puebla": 0.9154929577464789,
+      "Tlaxcala": 0.967741935483871
+    }
+  },
+  "R03": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.8144923547065765,
+    "global_width_t_ha": 1.628984709413153,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.8017610582546812,
+      "Puebla": 1.001218082044209,
+      "Tlaxcala": 0.6752939544928374
+    },
+    "mean_adaptive_width_t_ha": 1.7519419494432655,
+    "empirical_coverage": 0.927536231884058,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.8873239436619719,
+      "Tlaxcala": 0.967741935483871
+    }
+  },
+  "R04": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.7989299534153531,
+    "global_width_t_ha": 1.5978599068307062,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.7424875300356791,
+      "Puebla": 0.9098229360995684,
+      "Tlaxcala": 0.7521659659669111
+    },
+    "mean_adaptive_width_t_ha": 1.661509050569972,
+    "empirical_coverage": 0.9347826086956522,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.9014084507042254,
+      "Tlaxcala": 0.967741935483871
+    }
+  },
+  "R05": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.7634504229717853,
+    "global_width_t_ha": 1.5269008459435707,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.7606946640666838,
+      "Puebla": 0.9585370522308061,
+      "Tlaxcala": 0.6681612616323626
+    },
+    "mean_adaptive_width_t_ha": 1.6833933003679868,
+    "empirical_coverage": 0.9420289855072463,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.9154929577464789,
+      "Tlaxcala": 0.967741935483871
+    }
+  },
+  "R06": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.8704109242215998,
+    "global_width_t_ha": 1.7408218484431996,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.8704109242215998,
+      "Puebla": 0.9715589551574589,
+      "Tlaxcala": 0.6536615343123833
+    },
+    "mean_adaptive_width_t_ha": 1.747521545678856,
+    "empirical_coverage": 0.9420289855072463,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.9014084507042254,
+      "Tlaxcala": 1.0
+    }
+  },
+  "R07": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.7650739186874316,
+    "global_width_t_ha": 1.5301478373748632,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.7650739186874316,
+      "Puebla": 0.9684573157621222,
+      "Tlaxcala": 0.6201774192249041
+    },
+    "mean_adaptive_width_t_ha": 1.6743279780844962,
+    "empirical_coverage": 0.9347826086956522,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.8873239436619719,
+      "Tlaxcala": 1.0
+    }
+  },
+  "R08": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.7787500209451217,
+    "global_width_t_ha": 1.5575000418902434,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.7787500209451217,
+      "Puebla": 0.9494257924131102,
+      "Tlaxcala": 0.6342776521173056
+    },
+    "mean_adaptive_width_t_ha": 1.6682150613187197,
+    "empirical_coverage": 0.9347826086956522,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.8873239436619719,
+      "Tlaxcala": 1.0
+    }
+  }
+}

@@ -15,6 +15,7 @@ secrets.toml
 /checkout-relocation.json
 **/workspace.origin.json
 *.restore-tmp
+*.egg-info/
 
 # Dependencias locales y pesos descargables de modelos opcionales
 **/vendor/

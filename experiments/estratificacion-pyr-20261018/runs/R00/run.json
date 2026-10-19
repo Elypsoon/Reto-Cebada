@@ -1,0 +1,12 @@
+{
+  "run_id": "R00",
+  "name": "R00_control_gpr",
+  "title": "Control GPR Oficial (Sin Coordenadas)",
+  "family": "gpr",
+  "description": "Configuración ganadora del modelo activo (whittaker_40_10 + nasa, GPR Matérn 2.5 k=10, geo=False) sin ruido de selección entre 81 candidatos.",
+  "predictions_59_sha256": "c585878c4c8fbc150764f3d0e489ed62d361986996ca5fe5033ddff5ba55b174",
+  "mean_pred_59_t_ha": 3.9645223161712675,
+  "std_pred_59_t_ha": 0.6620362050741302,
+  "min_pred_59_t_ha": 2.8591801234345606,
+  "max_pred_59_t_ha": 4.8013683006029595
+}

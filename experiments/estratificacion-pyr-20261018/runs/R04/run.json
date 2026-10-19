@@ -1,0 +1,12 @@
+{
+  "run_id": "R04",
+  "name": "R04_extratrees_geo",
+  "title": "ExtraTrees Regularizado con Contexto Geográfico",
+  "family": "extratrees_geo",
+  "description": "Ensamble de árboles extremadamente aleatorizados (300 árboles, max_depth=6, min_samples_leaf=3) con selección compacta k=20 y coordenadas UTM.",
+  "predictions_59_sha256": "8f5064b2d746afff44605f0629cb9e2f15b5f85d190ed3f1bed9cda9dd5104a0",
+  "mean_pred_59_t_ha": 3.9361280948080113,
+  "std_pred_59_t_ha": 0.6709805110399566,
+  "min_pred_59_t_ha": 2.81360975554751,
+  "max_pred_59_t_ha": 4.816927154368784
+}

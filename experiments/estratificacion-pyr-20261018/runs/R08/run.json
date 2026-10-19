@@ -1,0 +1,12 @@
+{
+  "run_id": "R08",
+  "name": "R08_adaptive_ead",
+  "title": "Ensamble Adaptativo por Distancia al Vecino (EAD — Unificado Espacial + Estratificado)",
+  "family": "adaptive_ensemble",
+  "description": "Pondera dinámicamente entre el anclaje vecinal (R05) y la rama espectral-geográfica (R01 + R03 + R06) según la densidad efectiva de parcelas de entrenamiento a <600 m.",
+  "predictions_59_sha256": "524b4bc36db042cc3da7e20d088550b828661d190f0c5f6b70168395d646e515",
+  "mean_pred_59_t_ha": 3.945851264732977,
+  "std_pred_59_t_ha": 0.6295456029997982,
+  "min_pred_59_t_ha": 2.9995096075396077,
+  "max_pred_59_t_ha": 4.604597955545769
+}

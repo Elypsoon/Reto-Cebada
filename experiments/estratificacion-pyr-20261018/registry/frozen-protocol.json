@@ -1,0 +1,85 @@
+{
+  "phase_id": "estratificacion-pyr-20261018",
+  "seed": 2026,
+  "cutoff": "2025-10-31",
+  "code_hash": "82126f64e67f16aa0aa759fc1a9a65eefc380cd4c395fe044c8cb2a7be4e08b4",
+  "dependencies": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "geopandas": "1.2.0",
+    "rasterio": "1.5.2",
+    "catboost": "1.2.10",
+    "streamlit": "1.65.0"
+  },
+  "schemes": [
+    "estratificado-5",
+    "principal-5",
+    "balanceado-4",
+    "rotado-45-5",
+    "holdout-70-30-30x"
+  ],
+  "runs": {
+    "B0": {
+      "name": "B0_regional_mean",
+      "title": "Media Estatal (Línea Base Regional)",
+      "family": "baseline",
+      "description": "Promedio simple del estado calculado exclusivamente en el subconjunto de entrenamiento."
+    },
+    "R00": {
+      "name": "R00_control_gpr",
+      "title": "Control GPR Oficial (Sin Coordenadas)",
+      "family": "gpr",
+      "description": "Configuración ganadora del modelo activo (whittaker_40_10 + nasa, GPR Matérn 2.5 k=10, geo=False) sin ruido de selección entre 81 candidatos."
+    },
+    "R01": {
+      "name": "R01_gpr_geo",
+      "title": "GPR Matérn 2.5 con Coordenadas UTM (Geo=True)",
+      "family": "gpr_geo",
+      "description": "Proceso Gaussiano Matérn 2.5 incorporando coordenadas UTM 14N (location_x, location_y) junto con predictores espectrales y NASA POWER."
+    },
+    "R02": {
+      "name": "R02_catboost_geo",
+      "title": "CatBoost Regularizado con Coordenadas UTM",
+      "family": "catboost_geo",
+      "description": "Árboles potenciados por gradiente (profundidad 3, L2=10, k=20) con coordenadas UTM 14N y variables espectrales/climáticas."
+    },
+    "R03": {
+      "name": "R03_biweekly_contrast",
+      "title": "Curvas Quincenales (14d) + Contraste Vecinal 1 km + Anomalía Histórica",
+      "family": "biweekly_contrast",
+      "description": "Reconstrucción espectral quincenal de 14 días (que recupera 161/197 parcelas en junio-julio), anomalías 2025 vs 2022-2024 y contraste espectral en radio de 1 km."
+    },
+    "R04": {
+      "name": "R04_extratrees_geo",
+      "title": "ExtraTrees Regularizado con Contexto Geográfico",
+      "family": "extratrees_geo",
+      "description": "Ensamble de árboles extremadamente aleatorizados (300 árboles, max_depth=6, min_samples_leaf=3) con selección compacta k=20 y coordenadas UTM."
+    },
+    "R05": {
+      "name": "R05_spatial_kriging",
+      "title": "Prior de Kriging Espacial Multiescala Intra-Estatal (PyR P5)",
+      "family": "spatial_kriging",
+      "description": "Interpolación gaussiana multiescala (600 m y 1,500 m) restringida al mismo estado con encogimiento empírico de Bayes hacia la media municipal/estatal."
+    },
+    "R06": {
+      "name": "R06_spectral_geo_ensemble",
+      "title": "Ensamble Multi-Familia Espectral-Geográfico + Escalamiento por Varianza Estatal (PyR P3)",
+      "family": "ensemble_spectral",
+      "description": "Combinación convexa de GPR-Geo, CatBoost-Geo, Biweekly-Contrast y ExtraTrees-Geo con estandarización por varianza estatal para mitigar la cuantización de Tlaxcala."
+    },
+    "R07": {
+      "name": "R07_hybrid_kriging_spectral",
+      "title": "Híbrido Kriging-Espectral 50/50 (Óptimo para Muestreo Estratificado 70/30)",
+      "family": "hybrid_stratified",
+      "description": "Fusión equitativa entre el Prior Espacial Multiescala (R05) y el Ensamble Espectral-Geográfico (R06), diseñada para el muestreo aleatorio estratificado 70/30."
+    },
+    "R08": {
+      "name": "R08_adaptive_ead",
+      "title": "Ensamble Adaptativo por Distancia al Vecino (EAD — Unificado Espacial + Estratificado)",
+      "family": "adaptive_ensemble",
+      "description": "Pondera dinámicamente entre el anclaje vecinal (R05) y la rama espectral-geográfica (R01 + R03 + R06) según la densidad efectiva de parcelas de entrenamiento a <600 m."
+    }
+  }
+}

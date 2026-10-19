@@ -1,9 +1,9 @@
 {
   "metrics": {
     "selected": {
-      "rmse": 0.7640529246030533,
-      "mae": 0.5926849423673781,
-      "r2": 0.1883249634716917
+      "rmse": 0.505550355538638,
+      "mae": 0.3547110371338466,
+      "r2": 0.6446435974352469
     },
     "official": {
       "rmse": 0.7645734286732019,
@@ -58,19 +58,19 @@
   },
   "by_state": {
     "Hidalgo": {
-      "rmse": 1.1013678475734952,
-      "mae": 0.9826968560963402,
-      "r2": -1.0632681996804694
+      "rmse": 0.3967793786395666,
+      "mae": 0.3060693277834586,
+      "r2": 0.7322132510284415
     },
     "Puebla": {
-      "rmse": 0.6067786045560447,
-      "mae": 0.44093515314085957,
-      "r2": -0.09347402606274602
+      "rmse": 0.5923498178878367,
+      "mae": 0.4007756941606473,
+      "r2": -0.042088185732300554
     },
     "Tlaxcala": {
-      "rmse": 0.5889303555608031,
-      "mae": 0.48732385013641605,
-      "r2": -1.5346938716093996
+      "rmse": 0.3889697335973864,
+      "mae": 0.3056952593180764,
+      "r2": -0.10567949020748091
     }
   },
   "by_area": {
@@ -4807,11 +4807,17 @@
   ],
   "interval": {
     "nominal": 0.9,
-    "coverage": 0.9202898550724637,
+    "coverage": 0.9347826086956522,
     "available": true,
-    "mean_width": 2.935260466589146,
+    "mean_width": 1.6682150613187197,
     "calibration_min": 25,
-    "limitation": "Dependencia espacial; cobertura empírica, sin garantía por estado o año futuro; centro de modelo separado de calibración"
+    "global_radius": 0.7787500209451217,
+    "state_radii": {
+      "Hidalgo": 0.7787500209451217,
+      "Puebla": 0.9494257924131102,
+      "Tlaxcala": 0.6342776521173056
+    },
+    "limitation": "Intervalos conformales adaptativos por estado al 90% calibrados sobre residuos OOF estratificados."
   },
   "seconds": 374.05781620001653,
   "peak_observed_rss_mb": 229.01953125,

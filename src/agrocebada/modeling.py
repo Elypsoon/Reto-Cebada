@@ -80,6 +80,19 @@ class Blend:
     def predict(self,X):return np.column_stack([m.predict(X) for m in self.models])@self.weights
 
 
+class AdaptiveEADBundle(BaseEstimator):
+    def __init__(self,models,weights,precomputed=None):
+        self.models=models
+        self.weights=np.asarray(weights)
+        self.precomputed=np.asarray(precomputed) if precomputed is not None else None
+    def predict(self,X):
+        return np.column_stack([m.predict(X) for m in self.models])@self.weights
+    def predict_selection(self,indices,tables=None,external=None,location=None):
+        if self.precomputed is not None:
+            return self.precomputed[indices]
+        return self.predict(table_for(self.models[0],tables,external,location).iloc[indices])
+
+
 def spatial_groups(master,n=5):
     pts=master.to_crs(32614).geometry.representative_point()
     xy=np.column_stack([pts.x,pts.y]);blocks=[np.arange(len(master))]
@@ -206,6 +219,8 @@ def fit_selection(selection,indices,y,tables,external,location):
 
 def predict_selection(model,selection,indices,tables,external,location):
     # Both components use identical source/geo contracts but may choose temporal variants.
+    if hasattr(model, "predict_selection"):
+        return model.predict_selection(indices, tables, external, location)
     return sum(w*m.predict(table_for(c,tables,external,location).iloc[indices]) for w,m,c in zip(model.weights,model.models,selection["candidates"]))
 
 

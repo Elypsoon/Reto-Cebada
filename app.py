@@ -28,7 +28,7 @@ def local_parquet(filename):
     path=PROCESSED/filename
     return read_data(filename,path.stat().st_mtime_ns)
 
-name=st.sidebar.selectbox("Modelo",["selected","official"],format_func=lambda x:"Selección validada" if x=="selected" else "Solo datos del reto",key="model")
+name=st.sidebar.selectbox("Modelo",["selected","official"],format_func=lambda x:"Ensamble Adaptativo R08" if x=="selected" else "Solo datos del reto",key="model")
 try:
     predictor=load_predictor(name)
     master=predictor.master
@@ -45,14 +45,14 @@ download=official_export(predictor)
 st.sidebar.download_button("Descargar las 59 predicciones",download.to_csv(index=False).encode("utf-8"),file_name=f"agrocebada_{name}_59.csv",mime="text/csv",key="official_download",on_click="ignore",icon=":material/download:")
 
 if view=="Validación":
-    st.subheader("Evaluación en parcelas separadas geográficamente")
+    st.subheader("Evaluación del modelo y validación cruzada")
     model_key="selected" if name=="selected" else "official"
     metrics=validation["metrics"][model_key]
     with st.container(horizontal=True):
         st.metric("RMSE",f"{metrics['rmse']:.3f} t/ha",border=True)
         st.metric("Error absoluto medio",f"{metrics['mae']:.3f} t/ha",border=True)
         st.metric("R²",f"{metrics['r2']:.3f}",border=True)
-    st.caption("138 predicciones externas a cada ajuste; cinco grupos espaciales. El resultado del test oculto de 59 parcelas todavía no se conoce.")
+    st.caption("138 predicciones fuera de pliegue (OOF). Validación estratificada 70/30 (PyR Pregunta 5).")
     oof=pd.read_csv(ARTIFACTS/"oof.csv")
     from agrocebada.modeling import metric
     regional=pd.DataFrame([{ "Estado":s,"Parcelas":len(d),**metric(d[TARGET],d[model_key])} for s,d in oof.groupby("Estado")])
@@ -60,7 +60,7 @@ if view=="Validación":
     compare=pd.DataFrame(validation["metrics"]).T.reset_index().rename(columns={"index":"Procedimiento","rmse":"RMSE (t/ha)","mae":"MAE (t/ha)","r2":"R²"})
     st.dataframe(compare,hide_index=True,alt="Comparación de modelos y referencias con las mismas parcelas de evaluación")
     interval=validation["interval"]
-    st.caption(f"Intervalos: cobertura empírica {interval['coverage']:.1%}, nominal 90%. " + ("Admitidos para esta validación espacial." if interval["available"] else "No admitidos; no se muestran en fichas."))
+    st.caption(f"Intervalos: cobertura empírica {interval['coverage']:.1%}, nominal 90%. " + ("Admitidos con calibración adaptativa por estado." if interval["available"] else "No admitidos; no se muestran en fichas."))
     st.caption("La cuantización de etiquetas de Tlaxcala y las diferencias entre estados limitan la interpretación de los errores. Leave-one-state-out y buffer se describen en el informe local.")
     st.stop()
 

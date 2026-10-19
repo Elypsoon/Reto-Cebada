@@ -1,0 +1,12 @@
+{
+  "run_id": "R03",
+  "name": "R03_biweekly_contrast",
+  "title": "Curvas Quincenales (14d) + Contraste Vecinal 1 km + Anomalía Histórica",
+  "family": "biweekly_contrast",
+  "description": "Reconstrucción espectral quincenal de 14 días (que recupera 161/197 parcelas en junio-julio), anomalías 2025 vs 2022-2024 y contraste espectral en radio de 1 km.",
+  "predictions_59_sha256": "d5cf3bcbd04fd389e2079dd144a3f0f2e46e731206b234bfd036a14cc38f7514",
+  "mean_pred_59_t_ha": 3.963594421779851,
+  "std_pred_59_t_ha": 0.6236297110470755,
+  "min_pred_59_t_ha": 2.912539797421484,
+  "max_pred_59_t_ha": 4.6855501123115495
+}

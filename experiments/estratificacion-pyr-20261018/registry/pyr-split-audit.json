@@ -1,0 +1,42 @@
+{
+  "document_path": "DataSet/PyR.pdf",
+  "document_sha256": "932205cc180f7d34ae1060d96dd18e9e150d50acf6894f29071818dbd939cc27",
+  "total_parcels": 197,
+  "train_parcels": 138,
+  "test_parcels": 59,
+  "split_mechanism": "Muestreo aleatorio estratificado 70/30 (Pregunta 5 PyR.pdf)",
+  "official_metrics": [
+    "RMSE",
+    "MAE",
+    "R2"
+  ],
+  "area_weighting": false,
+  "target_origin": "Comercializadora (pesaje en báscula sin ajuste por humedad/impurezas/mermas) + Productores (redondeado en Tlaxcala a 2.5, 3.0, 3.5 t/ha)",
+  "state_distribution": {
+    "Hidalgo": {
+      "train": 36,
+      "test": 15,
+      "test_ratio": 0.29411764705882354
+    },
+    "Puebla": {
+      "train": 71,
+      "test": 29,
+      "test_ratio": 0.29
+    },
+    "Tlaxcala": {
+      "train": 31,
+      "test": 15,
+      "test_ratio": 0.32608695652173914
+    }
+  },
+  "test_to_nearest_train_distance_m": {
+    "min": 66.75552406767143,
+    "p25": 225.85088362022375,
+    "median": 350.3566677572182,
+    "mean": 494.5047279197336,
+    "p75": 563.1678519808377,
+    "max": 1914.9794471369917,
+    "pct_within_600m": 0.7796610169491526,
+    "pct_within_1000m": 0.8813559322033898
+  }
+}

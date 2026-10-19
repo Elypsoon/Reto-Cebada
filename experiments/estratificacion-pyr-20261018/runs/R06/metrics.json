@@ -1,0 +1,131 @@
+{
+  "run_id": "R06",
+  "name": "R06_spectral_geo_ensemble",
+  "title": "Ensamble Multi-Familia Espectral-Geográfico + Escalamiento por Varianza Estatal (PyR P3)",
+  "family": "ensemble_spectral",
+  "description": "Combinación convexa de GPR-Geo, CatBoost-Geo, Biweekly-Contrast y ExtraTrees-Geo con estandarización por varianza estatal para mitigar la cuantización de Tlaxcala.",
+  "schemes": {
+    "estratificado-5": {
+      "global": {
+        "rmse": 0.5114207532184406,
+        "mae": 0.36413223405887707,
+        "r2": 0.6363429600450847
+      },
+      "by_state": {
+        "Puebla": {
+          "rmse": 0.5914435008788842,
+          "mae": 0.40470535976114175,
+          "r2": -0.03890175876610691
+        },
+        "Hidalgo": {
+          "rmse": 0.42699299386237,
+          "mae": 0.3330071114134113,
+          "r2": 0.6898781292379025
+        },
+        "Tlaxcala": {
+          "rmse": 0.3891367920390916,
+          "mae": 0.307351991812941,
+          "r2": -0.10662944976923727
+        }
+      }
+    },
+    "principal-5": {
+      "global": {
+        "rmse": 0.6730306107756729,
+        "mae": 0.504279503720781,
+        "r2": 0.3701966898835991
+      },
+      "by_state": {
+        "Puebla": {
+          "rmse": 0.5997186853070487,
+          "mae": 0.4088324938977663,
+          "r2": -0.06817673380968547
+        },
+        "Hidalgo": {
+          "rmse": 0.8431508208751006,
+          "mae": 0.6971189811475207,
+          "r2": -0.2092091677630208
+        },
+        "Tlaxcala": {
+          "rmse": 0.6059205571793383,
+          "mae": 0.49894132662631013,
+          "r2": -1.6830515016702026
+        }
+      }
+    },
+    "balanceado-4": {
+      "global": {
+        "rmse": 0.6867244070001916,
+        "mae": 0.5217473730818298,
+        "r2": 0.34430741806003606
+      },
+      "by_state": {
+        "Puebla": {
+          "rmse": 0.6051977066664574,
+          "mae": 0.4180814667696773,
+          "r2": -0.08778358532495512
+        },
+        "Hidalgo": {
+          "rmse": 0.8769358049485824,
+          "mae": 0.745623718153293,
+          "r2": -0.3080564958370229
+        },
+        "Tlaxcala": {
+          "rmse": 0.6061545467373172,
+          "mae": 0.49919030616538357,
+          "r2": -1.6851241405599993
+        }
+      }
+    },
+    "rotado-45-5": {
+      "global": {
+        "rmse": 0.703684640678489,
+        "mae": 0.5427598181663121,
+        "r2": 0.31151981103686444
+      },
+      "by_state": {
+        "Puebla": {
+          "rmse": 0.5697093876525159,
+          "mae": 0.39074288347997993,
+          "r2": 0.03604956124361969
+        },
+        "Hidalgo": {
+          "rmse": 0.6570740320351125,
+          "mae": 0.5302395261565581,
+          "r2": 0.26562225932145533
+        },
+        "Tlaxcala": {
+          "rmse": 0.9795735758410545,
+          "mae": 0.9054673302656908,
+          "r2": -6.012481971536694
+        }
+      }
+    }
+  },
+  "holdout_70_30_30x": {
+    "rmse_mean": 0.49764581331045776,
+    "rmse_std": 0.06127531044899275,
+    "rmse_median": 0.5164414390404921,
+    "mae_mean": 0.3564845099568053,
+    "mae_std": 0.038635026516406386,
+    "r2_mean": 0.6426627809372149,
+    "r2_std": 0.07997857902732877
+  },
+  "interval_calibration_estratificado_5": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.8704109242215998,
+    "global_width_t_ha": 1.7408218484431996,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.8704109242215998,
+      "Puebla": 0.9715589551574589,
+      "Tlaxcala": 0.6536615343123833
+    },
+    "mean_adaptive_width_t_ha": 1.747521545678856,
+    "empirical_coverage": 0.9420289855072463,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.9014084507042254,
+      "Tlaxcala": 1.0
+    }
+  }
+}
