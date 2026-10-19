@@ -1,0 +1,12 @@
+{
+  "run_id": "E05",
+  "name": "E05_transductive_graph_197",
+  "title": "Propagación Transductiva por Laplaciano de Grafo sobre las 197 Parcelas (138 + 59)",
+  "family": "transductive_graph",
+  "description": "Construye el grafo espacial-agronómico completo sobre los 197 polígonos (entrenamiento + predicción) para propagar señal a través de puentes multi-salto.",
+  "predictions_59_sha256": "cb1bec5818bd19af964f3cb889f4e8801528f4919be6e4ae34a46724d10a0408",
+  "mean_pred_59_t_ha": 3.9396288221698157,
+  "std_pred_59_t_ha": 0.6248774458652191,
+  "min_pred_59_t_ha": 3.008293878659662,
+  "max_pred_59_t_ha": 4.585477882800765
+}

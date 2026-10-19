@@ -1,0 +1,12 @@
+{
+  "run_id": "E06",
+  "name": "E06_twostage_huber_residual",
+  "title": "Modelo Bi-Etapa (Kriging Agronómico + Corrector Residual Intra-Estatal Huber-Ridge)",
+  "family": "twostage_hurdle_residual",
+  "description": "Etapa 1: Kriging agronómico adaptativo por estado. Etapa 2: Regresión robusta Huber + Ridge sobre los residuos locales usando los impulsores específicos de Puebla y Tlaxcala.",
+  "predictions_59_sha256": "f8f135ba7235a772ccc101a417c170d2105ed15f0383751c9bd97eac44b7160a",
+  "mean_pred_59_t_ha": 3.9399207691192917,
+  "std_pred_59_t_ha": 0.6872103403756812,
+  "min_pred_59_t_ha": 2.9647127426305646,
+  "max_pred_59_t_ha": 4.844752158928028
+}

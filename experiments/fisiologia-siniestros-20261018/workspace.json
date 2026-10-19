@@ -1,0 +1,19 @@
+{
+  "phase": "fisiologia-siniestros-20261018",
+  "created_at": "2026-10-18",
+  "status": "completed",
+  "parcels_total": 197,
+  "parcels_train": 138,
+  "parcels_test": 59,
+  "cycles_multiannual_self_supervised": 788,
+  "dependencies": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "geopandas": "1.2.0",
+    "rasterio": "1.5.2",
+    "catboost": "1.2.10",
+    "streamlit": "1.65.0"
+  }
+}

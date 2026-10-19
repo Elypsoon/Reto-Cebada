@@ -1,0 +1,12 @@
+{
+  "run_id": "E08",
+  "name": "E08_master_agro_spatial_ead",
+  "title": "Ensamble Maestro Adaptativo Agronómico-Espacial Bi-Etapa (EAD-Fisiológico)",
+  "family": "master_adaptive_ead",
+  "description": "Integra la rama vecinal bi-etapa/transductiva (E06 + R05 + E05) con la rama espectral fisiológica-multianual (E07) mediante compuerta de densidad efectiva de vecinos y encogimiento empírico de Bayes.",
+  "predictions_59_sha256": "f191d88ff75166951fc049fe6b1f9184ed7c8746578706d873842d891884f878",
+  "mean_pred_59_t_ha": 3.9456575151959723,
+  "std_pred_59_t_ha": 0.6296312267853883,
+  "min_pred_59_t_ha": 2.9942154817675717,
+  "max_pred_59_t_ha": 4.633485108958734
+}

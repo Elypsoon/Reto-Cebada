@@ -1,0 +1,263 @@
+{
+  "why_global_selection_fails_intra_state": "Las correlaciones globales (r_global_raw) están dominadas por el salto de medias entre estados (Puebla 4.48 vs Hidalgo 3.76 vs Tlaxcala 2.98 t/ha), seleccionando variables macro-climáticas constantes dentro de cada municipio. Al evaluar la correlación intra-estatal (r_Puebla, r_Hidalgo, r_Tlaxcala), emergen los verdaderos impulsores agronómicos locales.",
+  "top_10_intra_state_overall": [
+    {
+      "feature": "pl_evi_bw_min",
+      "family": "base_spectral_climate",
+      "mean_abs_intra_state_r": 0.36299961367262457,
+      "r_Puebla": 0.1530035459032082,
+      "r_Hidalgo": 0.7963975319385107,
+      "r_Tlaxcala": 0.1395977631761549
+    },
+    {
+      "feature": "pl_msavi_bw_min",
+      "family": "base_spectral_climate",
+      "mean_abs_intra_state_r": 0.3596371961769236,
+      "r_Puebla": 0.22712510416890053,
+      "r_Hidalgo": 0.7763784664294668,
+      "r_Tlaxcala": 0.07540801793240325
+    },
+    {
+      "feature": "s2_evi_early",
+      "family": "base_spectral_climate",
+      "mean_abs_intra_state_r": 0.3450042338724257,
+      "r_Puebla": 0.25852782354335213,
+      "r_Hidalgo": 0.7524268072937138,
+      "r_Tlaxcala": -0.024058070780210893
+    },
+    {
+      "feature": "pl_ndvi_bw_min",
+      "family": "base_spectral_climate",
+      "mean_abs_intra_state_r": 0.3419423658923964,
+      "r_Puebla": 0.24493758975257152,
+      "r_Hidalgo": 0.6528143896035754,
+      "r_Tlaxcala": 0.12807511832104243
+    },
+    {
+      "feature": "s2_evi_bw_early",
+      "family": "base_spectral_climate",
+      "mean_abs_intra_state_r": 0.3415983403983167,
+      "r_Puebla": 0.24167769109443468,
+      "r_Hidalgo": 0.7418958899137321,
+      "r_Tlaxcala": -0.04122144018678326
+    },
+    {
+      "feature": "parcel_density_2km",
+      "family": "spatial_contrast_1km",
+      "mean_abs_intra_state_r": 0.33834541397731926,
+      "r_Puebla": -0.19586230031347948,
+      "r_Hidalgo": -0.661904315597477,
+      "r_Tlaxcala": 0.15726962602100128
+    },
+    {
+      "feature": "f2_savi_early",
+      "family": "F2_physiology_stress_indices",
+      "mean_abs_intra_state_r": 0.3372274611388735,
+      "r_Puebla": 0.2715258065883963,
+      "r_Hidalgo": 0.6776908243826771,
+      "r_Tlaxcala": -0.06246575244554703
+    },
+    {
+      "feature": "pl_evi_bw_early",
+      "family": "base_spectral_climate",
+      "mean_abs_intra_state_r": 0.33379153624037206,
+      "r_Puebla": 0.1406176869375188,
+      "r_Hidalgo": 0.7785216239855121,
+      "r_Tlaxcala": 0.0822352977980853
+    },
+    {
+      "feature": "pl_ndvi_bw_early",
+      "family": "base_spectral_climate",
+      "mean_abs_intra_state_r": 0.3314624443797774,
+      "r_Puebla": 0.21741903724489733,
+      "r_Hidalgo": 0.5988670138716115,
+      "r_Tlaxcala": 0.17810128202282352
+    },
+    {
+      "feature": "pl_msavi_bw_early",
+      "family": "base_spectral_climate",
+      "mean_abs_intra_state_r": 0.32769963667387336,
+      "r_Puebla": 0.21402646890828605,
+      "r_Hidalgo": 0.7419195378064686,
+      "r_Tlaxcala": 0.027152903306865463
+    }
+  ],
+  "top_8_Puebla": [
+    {
+      "feature": "slope",
+      "family": "topography_geometry",
+      "r_Puebla": 0.32414333355511804
+    },
+    {
+      "feature": "f2_fapar_early",
+      "family": "F2_physiology_stress_indices",
+      "r_Puebla": 0.31966712100193256
+    },
+    {
+      "feature": "f4_tillage_ndti_std_early",
+      "family": "F4_presowing_tillage",
+      "r_Puebla": 0.31469357390672975
+    },
+    {
+      "feature": "log_area",
+      "family": "topography_geometry",
+      "r_Puebla": -0.3003354136093887
+    },
+    {
+      "feature": "s2_ndvi_early",
+      "family": "base_spectral_climate",
+      "r_Puebla": 0.2981072832730582
+    },
+    {
+      "feature": "f3_fapar_min_early",
+      "family": "F3_intra_parcel_damage_floor",
+      "r_Puebla": 0.2920701233838387
+    },
+    {
+      "feature": "s2_ndvi_bw_early",
+      "family": "base_spectral_climate",
+      "r_Puebla": 0.2851217977944793
+    },
+    {
+      "feature": "log_area_diff_local1km",
+      "family": "spatial_contrast_1km",
+      "r_Puebla": -0.2722533714644854
+    }
+  ],
+  "top_8_Hidalgo": [
+    {
+      "feature": "pl_evi_bw_min",
+      "family": "base_spectral_climate",
+      "r_Hidalgo": 0.7963975319385107
+    },
+    {
+      "feature": "pl_evi_bw_early",
+      "family": "base_spectral_climate",
+      "r_Hidalgo": 0.7785216239855121
+    },
+    {
+      "feature": "pl_msavi_bw_min",
+      "family": "base_spectral_climate",
+      "r_Hidalgo": 0.7763784664294668
+    },
+    {
+      "feature": "planet_evi_early",
+      "family": "base_spectral_climate",
+      "r_Hidalgo": 0.7697053889794029
+    },
+    {
+      "feature": "s2_evi_early",
+      "family": "base_spectral_climate",
+      "r_Hidalgo": 0.7524268072937138
+    },
+    {
+      "feature": "pl_msavi_bw_early",
+      "family": "base_spectral_climate",
+      "r_Hidalgo": 0.7419195378064686
+    },
+    {
+      "feature": "s2_evi_bw_early",
+      "family": "base_spectral_climate",
+      "r_Hidalgo": 0.7418958899137321
+    },
+    {
+      "feature": "planet_msavi_early",
+      "family": "base_spectral_climate",
+      "r_Hidalgo": 0.7351757727402983
+    }
+  ],
+  "top_8_Tlaxcala": [
+    {
+      "feature": "f3_damage_floor_early",
+      "family": "F3_intra_parcel_damage_floor",
+      "r_Tlaxcala": 0.4734676982940406
+    },
+    {
+      "feature": "landsat_vi6t_middle_diff_local1km",
+      "family": "spatial_contrast_1km",
+      "r_Tlaxcala": -0.40562079538501283
+    },
+    {
+      "feature": "ls_vi6t_bw_senescence_drop",
+      "family": "base_spectral_climate",
+      "r_Tlaxcala": 0.3714238078751111
+    },
+    {
+      "feature": "ls_vi6t_bw_mid",
+      "family": "base_spectral_climate",
+      "r_Tlaxcala": -0.3384132682754613
+    },
+    {
+      "feature": "s2_ndwi_bw_senescence_drop",
+      "family": "base_spectral_climate",
+      "r_Tlaxcala": -0.3219051318718051
+    },
+    {
+      "feature": "f3_srndi_min_sepoct",
+      "family": "F3_intra_parcel_damage_floor",
+      "r_Tlaxcala": 0.32174459219652424
+    },
+    {
+      "feature": "landsat_vi6t_middle",
+      "family": "base_spectral_climate",
+      "r_Tlaxcala": -0.3129341238166383
+    },
+    {
+      "feature": "pl_ndvi_bw_senescence_drop",
+      "family": "base_spectral_climate",
+      "r_Tlaxcala": -0.3107204510110378
+    }
+  ],
+  "feature_families": {
+    "F1_dynamic_phenology": {
+      "title": "Alineación Fenológica Dinámica por Fecha Pico (t_pico)",
+      "features": [
+        "f1_peak_biweek",
+        "f1_pre_peak_vigor",
+        "f1_peak_vigor",
+        "f1_grainfill_vigor",
+        "f1_senescence_drop",
+        "f1_msi_at_grainfill"
+      ],
+      "rationale": "Alinea el calendario vegetativo respecto a la quincena de máximo dosel (t_pico) de cada parcela, separando siembras tempranas (mayo) de tardías (julio) y midiendo la caída de vigor y el estrés hídrico (MSI) exactamente durante el llenado de grano (+14 a +28 días post-espigamiento)."
+    },
+    "F2_physiology_stress_indices": {
+      "title": "Índices Fisiológicos y de Estrés Hídrico/Sanitario Previamente Descartados",
+      "features": [
+        "f2_fapar_early",
+        "f2_fapar_mid",
+        "f2_lai_mid",
+        "f2_savi_early",
+        "f2_msi_grainfill",
+        "f2_dswi4_early"
+      ],
+      "rationale": "Incorpora variables biofísicas directas que antes habían quedado fuera del pipeline: Fracción de Radiación Fotosintéticamente Activa Absorbida (FAPAR), Índice de Área Foliar (LAI), Índice Ajustado al Suelo (SAVI) y estrés hídrico/sanitario foliar (MSI, DSWI4)."
+    },
+    "F3_intra_parcel_damage_floor": {
+      "title": "Heterogeneidad Intra-Parcela y Piso de Daño (_min, _std)",
+      "features": [
+        "f3_fapar_min_early",
+        "f3_damage_floor_early",
+        "f3_srndi_min_sepoct",
+        "f3_evi_minratio_early"
+      ],
+      "rationale": "Captura siniestros parciales dentro del polígono (manchones por encharcamiento, helada temprana, acame o roya lineal) mediante los cuantiles mínimos (_min) y la relación min/promedio de FAPAR, ENDDI, NDDI y SRNDI."
+    },
+    "F4_presowing_tillage": {
+      "title": "Labranza y Cobertura de Residuo Pre-Siembra (NDTI / STI)",
+      "features": [
+        "f4_tillage_ndti_std_early"
+      ],
+      "rationale": "Mide la uniformidad de preparación de cama de siembra y cobertura de rastrojo en abril-mayo mediante los índices de labranza de onda corta (NDTI y STI), altamente correlacionados con el vigor inicial en Puebla."
+    },
+    "F5_multiannual_788_latent": {
+      "title": "Representación Auto-Supervisada sobre los 788 Ciclos Parcela × Año (2022–2025)",
+      "features": [
+        "f5_ndwi_q90_hist",
+        "f5_pl_evi_q90_hist",
+        "f5_pl_evi_anom_2025"
+      ],
+      "rationale": "Explota las 39,968 escenas satelitales a través de los 788 ciclos (197 parcelas × 4 años: 2022-2025) sin requerir etiquetas históricas, extrayendo la vocación hídrica/productiva intrínseca del suelo (cuantil 90 histórico) y la anomalía neta del ciclo 2025."
+    }
+  }
+}

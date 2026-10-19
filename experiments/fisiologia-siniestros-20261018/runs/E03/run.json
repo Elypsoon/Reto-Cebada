@@ -1,0 +1,12 @@
+{
+  "run_id": "E03",
+  "name": "E03_multiannual_788_latent",
+  "title": "Representación Auto-Supervisada sobre los 788 Ciclos Parcela × Año (2022–2025) (F5)",
+  "family": "multiannual_self_supervised",
+  "description": "Extrae la vocación histórica intrínseca del suelo (cuantil 90 2022-2024 de NDWI y Planet EVI) y la anomalía neta 2025 a partir de los 788 ciclos sin etiquetas adicionales.",
+  "predictions_59_sha256": "8eec3dd3b7f4b0877d9d6d06fdc660c84c7c5d641e544c5088a77ff846204a93",
+  "mean_pred_59_t_ha": 3.9540622816482807,
+  "std_pred_59_t_ha": 0.6281590291693564,
+  "min_pred_59_t_ha": 2.9128939693150224,
+  "max_pred_59_t_ha": 4.860034215407659
+}

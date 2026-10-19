@@ -1,0 +1,439 @@
+{
+  "outlier_parcels": [
+    {
+      "id": "AGC_171",
+      "estado": "Puebla",
+      "municipio": "Chignahuapan",
+      "yield_t_ha": 2.15,
+      "area_ha": 11.63,
+      "nearest_train_neighbors": [
+        {
+          "id": "AGC_024",
+          "distance_m": 299.5721353852663,
+          "municipio": "Chignahuapan",
+          "yield_t_ha": 3.03,
+          "area_ha": 11.53
+        },
+        {
+          "id": "AGC_193",
+          "distance_m": 401.53871452098457,
+          "municipio": "Chignahuapan",
+          "yield_t_ha": 4.57,
+          "area_ha": 12.41
+        },
+        {
+          "id": "AGC_008",
+          "distance_m": 500.6227709287367,
+          "municipio": "Chignahuapan",
+          "yield_t_ha": 4.55,
+          "area_ha": 10.77
+        },
+        {
+          "id": "AGC_101",
+          "distance_m": 904.0380391523414,
+          "municipio": "Chignahuapan",
+          "yield_t_ha": 4.57,
+          "area_ha": 12.35
+        }
+      ],
+      "agronomic_profile": {
+        "log_area": {
+          "value": 2.5360749363624,
+          "state_mean": 1.5927384415844341,
+          "z_score_in_state": 1.43005787311555
+        },
+        "elevation": {
+          "value": 2629.1506338106988,
+          "state_mean": 2696.1596399592986,
+          "z_score_in_state": -0.6636784311375312
+        },
+        "slope": {
+          "value": 1.4037374021779654,
+          "state_mean": 2.960204932009632,
+          "z_score_in_state": -0.6939300744762797
+        },
+        "s2_evi_early": {
+          "value": 0.115,
+          "state_mean": 0.11785915492957746,
+          "z_score_in_state": -0.19214023484858683
+        },
+        "f2_fapar_early": {
+          "value": 0.060875,
+          "state_mean": 0.07912235915492957,
+          "z_score_in_state": -0.694711999007916
+        },
+        "f3_fapar_min_early": {
+          "value": 0.00825,
+          "state_mean": 0.03436091549295774,
+          "z_score_in_state": -1.93928608005662
+        },
+        "f4_tillage_ndti_std_early": {
+          "value": 0.0236875,
+          "state_mean": 0.03593617957746478,
+          "z_score_in_state": -0.6642716869332775
+        },
+        "f5_ndwi_q90_hist": {
+          "value": 0.1315333333333333,
+          "state_mean": 0.15780563380281692,
+          "z_score_in_state": -0.5936007610357529
+        },
+        "pl_evi_bw_min": {
+          "value": 0.1325,
+          "state_mean": 0.13224647887323943,
+          "z_score_in_state": 0.023212166224433638
+        }
+      }
+    },
+    {
+      "id": "AGC_015",
+      "estado": "Puebla",
+      "municipio": "Chignahuapan",
+      "yield_t_ha": 2.64,
+      "area_ha": 1.97,
+      "nearest_train_neighbors": [
+        {
+          "id": "AGC_092",
+          "distance_m": 643.96924628852,
+          "municipio": "Chignahuapan",
+          "yield_t_ha": 4.57,
+          "area_ha": 0.5
+        },
+        {
+          "id": "AGC_167",
+          "distance_m": 708.3048309125867,
+          "municipio": "Chignahuapan",
+          "yield_t_ha": 4.54,
+          "area_ha": 2.46
+        },
+        {
+          "id": "AGC_159",
+          "distance_m": 856.502851058387,
+          "municipio": "Chignahuapan",
+          "yield_t_ha": 4.77,
+          "area_ha": 2.14
+        },
+        {
+          "id": "AGC_005",
+          "distance_m": 1052.4043421283068,
+          "municipio": "Chignahuapan",
+          "yield_t_ha": 5.16,
+          "area_ha": 2.27
+        }
+      ],
+      "agronomic_profile": {
+        "log_area": {
+          "value": 1.0885619528146082,
+          "state_mean": 1.5927384415844341,
+          "z_score_in_state": -0.764310043336918
+        },
+        "elevation": {
+          "value": 2670.9745185852057,
+          "state_mean": 2696.1596399592986,
+          "z_score_in_state": -0.24944142291111313
+        },
+        "slope": {
+          "value": 2.9179083676531095,
+          "state_mean": 2.960204932009632,
+          "z_score_in_state": -0.01885735326402016
+        },
+        "s2_evi_early": {
+          "value": 0.1375,
+          "state_mean": 0.11785915492957746,
+          "z_score_in_state": 1.319899298011601
+        },
+        "f2_fapar_early": {
+          "value": 0.08712500000000001,
+          "state_mean": 0.07912235915492957,
+          "z_score_in_state": 0.304675902502821
+        },
+        "f3_fapar_min_early": {
+          "value": 0.018000000000000002,
+          "state_mean": 0.03436091549295774,
+          "z_score_in_state": -1.2151429803766547
+        },
+        "f4_tillage_ndti_std_early": {
+          "value": 0.041874999999999996,
+          "state_mean": 0.03593617957746478,
+          "z_score_in_state": 0.32207473756838984
+        },
+        "f5_ndwi_q90_hist": {
+          "value": 0.10316666666666667,
+          "state_mean": 0.15780563380281692,
+          "z_score_in_state": -1.2345219830254084
+        },
+        "pl_evi_bw_min": {
+          "value": 0.15,
+          "state_mean": 0.13224647887323943,
+          "z_score_in_state": 1.6254964181053666
+        }
+      }
+    },
+    {
+      "id": "AGC_024",
+      "estado": "Puebla",
+      "municipio": "Chignahuapan",
+      "yield_t_ha": 3.03,
+      "area_ha": 11.53,
+      "nearest_train_neighbors": [
+        {
+          "id": "AGC_171",
+          "distance_m": 299.5721353852663,
+          "municipio": "Chignahuapan",
+          "yield_t_ha": 2.15,
+          "area_ha": 11.63
+        },
+        {
+          "id": "AGC_193",
+          "distance_m": 460.4073154856046,
+          "municipio": "Chignahuapan",
+          "yield_t_ha": 4.57,
+          "area_ha": 12.41
+        },
+        {
+          "id": "AGC_101",
+          "distance_m": 604.668996088175,
+          "municipio": "Chignahuapan",
+          "yield_t_ha": 4.57,
+          "area_ha": 12.35
+        },
+        {
+          "id": "AGC_008",
+          "distance_m": 735.6849756016919,
+          "municipio": "Chignahuapan",
+          "yield_t_ha": 4.55,
+          "area_ha": 10.77
+        }
+      ],
+      "agronomic_profile": {
+        "log_area": {
+          "value": 2.528125768907977,
+          "state_mean": 1.5927384415844341,
+          "z_score_in_state": 1.4180072744523584
+        },
+        "elevation": {
+          "value": 2630.5238281907223,
+          "state_mean": 2696.1596399592986,
+          "z_score_in_state": -0.6500778788511739
+        },
+        "slope": {
+          "value": 0.7059173077181484,
+          "state_mean": 2.960204932009632,
+          "z_score_in_state": -1.0050437603312723
+        },
+        "s2_evi_early": {
+          "value": 0.114,
+          "state_mean": 0.11785915492957746,
+          "z_score_in_state": -0.2593419918645952
+        },
+        "f2_fapar_early": {
+          "value": 0.0615,
+          "state_mean": 0.07912235915492957,
+          "z_score_in_state": -0.670917048971946
+        },
+        "f3_fapar_min_early": {
+          "value": 0.017625000000000002,
+          "state_mean": 0.03436091549295774,
+          "z_score_in_state": -1.2429946380566534
+        },
+        "f4_tillage_ndti_std_early": {
+          "value": 0.027125,
+          "state_mean": 0.03593617957746478,
+          "z_score_in_state": -0.477848823195849
+        },
+        "f5_ndwi_q90_hist": {
+          "value": 0.19113333333333335,
+          "state_mean": 0.15780563380281692,
+          "z_score_in_state": 0.7530116301716572
+        },
+        "pl_evi_bw_min": {
+          "value": 0.131,
+          "state_mean": 0.13224647887323943,
+          "z_score_in_state": -0.11412648393678941
+        }
+      }
+    },
+    {
+      "id": "AGC_034",
+      "estado": "Hidalgo",
+      "municipio": "Singuilucan",
+      "yield_t_ha": 2.0,
+      "area_ha": 8.09,
+      "nearest_train_neighbors": [
+        {
+          "id": "AGC_038",
+          "distance_m": 544.5440397595836,
+          "municipio": "Singuilucan",
+          "yield_t_ha": 3.3,
+          "area_ha": 3.28
+        },
+        {
+          "id": "AGC_079",
+          "distance_m": 548.5420071850787,
+          "municipio": "Singuilucan",
+          "yield_t_ha": 3.3,
+          "area_ha": 18.87
+        },
+        {
+          "id": "AGC_194",
+          "distance_m": 890.350084056012,
+          "municipio": "Singuilucan",
+          "yield_t_ha": 3.2,
+          "area_ha": 4.12
+        },
+        {
+          "id": "AGC_070",
+          "distance_m": 1015.5063350310294,
+          "municipio": "Singuilucan",
+          "yield_t_ha": 3.3,
+          "area_ha": 20.83
+        }
+      ],
+      "agronomic_profile": {
+        "log_area": {
+          "value": 2.2071749081893874,
+          "state_mean": 1.9627853822498902,
+          "z_score_in_state": 0.26540988944097277
+        },
+        "elevation": {
+          "value": 2690.848138365943,
+          "state_mean": 2676.0910752214654,
+          "z_score_in_state": 0.17742920612775961
+        },
+        "slope": {
+          "value": 1.521904019130452,
+          "state_mean": 3.016353445874344,
+          "z_score_in_state": -0.6911651832435542
+        },
+        "s2_evi_early": {
+          "value": 0.096,
+          "state_mean": 0.11156944444444444,
+          "z_score_in_state": -0.7144254069727068
+        },
+        "f2_fapar_early": {
+          "value": 0.090375,
+          "state_mean": 0.08902430555555557,
+          "z_score_in_state": 0.04501797036494239
+        },
+        "f3_fapar_min_early": {
+          "value": 0.05075,
+          "state_mean": 0.038508680555555556,
+          "z_score_in_state": 0.5401219525110179
+        },
+        "f4_tillage_ndti_std_early": {
+          "value": 0.047874999999999994,
+          "state_mean": 0.04471875,
+          "z_score_in_state": 0.19581681966301145
+        },
+        "f5_ndwi_q90_hist": {
+          "value": 0.2335,
+          "state_mean": 0.21392962962962966,
+          "z_score_in_state": 0.4034656117998655
+        },
+        "pl_evi_bw_min": {
+          "value": 0.109,
+          "state_mean": 0.12468055555555556,
+          "z_score_in_state": -0.8476633125289873
+        }
+      }
+    },
+    {
+      "id": "AGC_166",
+      "estado": "Hidalgo",
+      "municipio": "Singuilucan",
+      "yield_t_ha": 2.5,
+      "area_ha": 6.76,
+      "nearest_train_neighbors": [
+        {
+          "id": "AGC_041",
+          "distance_m": 368.6315512792798,
+          "municipio": "Singuilucan",
+          "yield_t_ha": 2.5,
+          "area_ha": 25.13
+        },
+        {
+          "id": "AGC_194",
+          "distance_m": 746.737649789647,
+          "municipio": "Singuilucan",
+          "yield_t_ha": 3.2,
+          "area_ha": 4.12
+        },
+        {
+          "id": "AGC_070",
+          "distance_m": 1016.1410353534078,
+          "municipio": "Singuilucan",
+          "yield_t_ha": 3.3,
+          "area_ha": 20.83
+        },
+        {
+          "id": "AGC_038",
+          "distance_m": 1143.162100231636,
+          "municipio": "Singuilucan",
+          "yield_t_ha": 3.3,
+          "area_ha": 3.28
+        }
+      ],
+      "agronomic_profile": {
+        "log_area": {
+          "value": 2.048982334195127,
+          "state_mean": 1.9627853822498902,
+          "z_score_in_state": 0.09361090004977513
+        },
+        "elevation": {
+          "value": 2690.608133661813,
+          "state_mean": 2676.0910752214654,
+          "z_score_in_state": 0.17454354766687072
+        },
+        "slope": {
+          "value": 3.4386918677586222,
+          "state_mean": 3.016353445874344,
+          "z_score_in_state": 0.1953265246241519
+        },
+        "s2_evi_early": {
+          "value": 0.088,
+          "state_mean": 0.11156944444444444,
+          "z_score_in_state": -1.0815164278614486
+        },
+        "f2_fapar_early": {
+          "value": 0.081375,
+          "state_mean": 0.08902430555555557,
+          "z_score_in_state": -0.25494752882768557
+        },
+        "f3_fapar_min_early": {
+          "value": 0.043,
+          "state_mean": 0.038508680555555556,
+          "z_score_in_state": 0.19816983281038175
+        },
+        "f4_tillage_ndti_std_early": {
+          "value": 0.04084375,
+          "state_mean": 0.04471875,
+          "z_score_in_state": -0.24040876869518318
+        },
+        "f5_ndwi_q90_hist": {
+          "value": 0.13393333333333335,
+          "state_mean": 0.21392962962962966,
+          "z_score_in_state": -1.6492153196944184
+        },
+        "pl_evi_bw_min": {
+          "value": 0.1065,
+          "state_mean": 0.12468055555555556,
+          "z_score_in_state": -0.9828089248011023
+        }
+      }
+    }
+  ],
+  "western_chignahuapan_cluster": {
+    "parcels": [
+      "AGC_171",
+      "AGC_024"
+    ],
+    "distance_m": 299.5721353852663,
+    "finding": "AGC_171 (2.15 t/ha, 11.63 ha) y AGC_024 (3.03 t/ha, 11.53 ha) están separadas por solo 297.2 m en el borde occidental de Chignahuapan y comparten gran tamaño (>11 ha), baja pendiente y menor FAPAR temprano que las parcelas pequeñas intensivas (<1.5 ha, 5.45-5.59 t/ha)."
+  },
+  "singuilucan_border_transition": {
+    "parcels": [
+      "AGC_034",
+      "AGC_166"
+    ],
+    "finding": "AGC_034 (4.70 t/ha) y AGC_166 (2.23 t/ha) en Singuilucan están a >6.2 km del núcleo de entrenamiento de Hidalgo, pero mantienen una correlación lineal r=+0.796 entre el vigor temprano de Planet (pl_evi_bw_min) y el rendimiento final."
+  }
+}

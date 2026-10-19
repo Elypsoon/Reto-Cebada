@@ -1,0 +1,12 @@
+{
+  "run_id": "E07",
+  "name": "E07_agronomic_spectral_ensemble",
+  "title": "Ensamble Espectral Fisiológico-Multianual Puro (F1–F5 + Contraste 1 km)",
+  "family": "spectral_agronomic_ensemble",
+  "description": "Fusión puramente espectral-topográfica de E01 (Fenología/Fisiología), E03 (Latente 788 ciclos), E02 (Daño/Labranza) y R06, óptima para extrapolación a bloques espaciales nuevos.",
+  "predictions_59_sha256": "a74945cf43ff51cc1caf2f1a2e4cf3035b021d6acc8691fa45df3415342aa9db",
+  "mean_pred_59_t_ha": 3.94725890944173,
+  "std_pred_59_t_ha": 0.6231074563441399,
+  "min_pred_59_t_ha": 2.9976515952072496,
+  "max_pred_59_t_ha": 4.639729439529852
+}

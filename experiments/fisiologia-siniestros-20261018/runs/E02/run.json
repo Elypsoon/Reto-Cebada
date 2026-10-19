@@ -1,0 +1,12 @@
+{
+  "run_id": "E02",
+  "name": "E02_polygon_damage_tillage",
+  "title": "Piso de Daño Intra-Parcela (_min, _std) (F3) + Labranza Pre-Siembra NDTI/STI (F4)",
+  "family": "damage_tillage_trees",
+  "description": "Modela siniestros parciales dentro del polígono (cuantiles mínimos de FAPAR, ENDDI, NDDI, SRNDI) y preparación de suelo en abril-mayo (NDTI, STI) con ExtraTrees + CatBoost.",
+  "predictions_59_sha256": "de328c7a205f7535551296e161be9fa86d88e5b17c45e3c802a4b432b4331716",
+  "mean_pred_59_t_ha": 3.9622965777094454,
+  "std_pred_59_t_ha": 0.6411942153611859,
+  "min_pred_59_t_ha": 2.884475227277277,
+  "max_pred_59_t_ha": 4.714678857490826
+}

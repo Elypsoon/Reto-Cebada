@@ -1,0 +1,12 @@
+{
+  "run_id": "B0",
+  "name": "B0_regional_mean",
+  "title": "Media Estatal (Línea Base Regional)",
+  "family": "baseline",
+  "description": "Promedio simple del estado calculado exclusivamente en el subconjunto de entrenamiento.",
+  "predictions_59_sha256": "f9a2702546f6cc8e91eb99e3754602f99c4b159889922eec771bb74b21265715",
+  "mean_pred_59_t_ha": 3.9158976081750207,
+  "std_pred_59_t_ha": 0.6178674868247511,
+  "min_pred_59_t_ha": 2.9838709677419355,
+  "max_pred_59_t_ha": 4.477323943661972
+}

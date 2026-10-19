@@ -1,0 +1,85 @@
+{
+  "phase_id": "fisiologia-siniestros-20261018",
+  "seed": 2026,
+  "cutoff": "2025-10-31",
+  "code_hash": "64afbcb64e8a7032c9b4c859af9fb04a17ccc02780c5418d681c304e7b2ec17c",
+  "dependencies": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "geopandas": "1.2.0",
+    "rasterio": "1.5.2",
+    "catboost": "1.2.10",
+    "streamlit": "1.65.0"
+  },
+  "schemes": [
+    "estratificado-5",
+    "principal-5",
+    "balanceado-4",
+    "rotado-45-5",
+    "holdout-70-30-30x"
+  ],
+  "runs": {
+    "B0": {
+      "name": "B0_regional_mean",
+      "title": "Media Estatal (Línea Base Regional)",
+      "family": "baseline",
+      "description": "Promedio simple del estado calculado exclusivamente en el subconjunto de entrenamiento."
+    },
+    "R08": {
+      "name": "R08_control_adaptive_ead",
+      "title": "Control Productivo Vigente (AdaptiveEAD R08)",
+      "family": "control_production",
+      "description": "Ensamble Adaptativo por Distancia al Vecino (R08 de estratificacion-pyr-20261018) activo en producción antes de esta fase."
+    },
+    "E01": {
+      "name": "E01_phenology_stress_gpr",
+      "title": "Alineación Fenológica Dinámica (F1) + Índices Fisiológicos FAPAR/LAI/MSI (F2)",
+      "family": "phenology_physiology",
+      "description": "Incorpora alineación por fecha pico (t_pico) e índices biofísicos previamente descartados (FAPAR, LAI, SAVI, MSI, DSWI4) en GPR Matérn 2.5 + CatBoost."
+    },
+    "E02": {
+      "name": "E02_polygon_damage_tillage",
+      "title": "Piso de Daño Intra-Parcela (_min, _std) (F3) + Labranza Pre-Siembra NDTI/STI (F4)",
+      "family": "damage_tillage_trees",
+      "description": "Modela siniestros parciales dentro del polígono (cuantiles mínimos de FAPAR, ENDDI, NDDI, SRNDI) y preparación de suelo en abril-mayo (NDTI, STI) con ExtraTrees + CatBoost."
+    },
+    "E03": {
+      "name": "E03_multiannual_788_latent",
+      "title": "Representación Auto-Supervisada sobre los 788 Ciclos Parcela × Año (2022–2025) (F5)",
+      "family": "multiannual_self_supervised",
+      "description": "Extrae la vocación histórica intrínseca del suelo (cuantil 90 2022-2024 de NDWI y Planet EVI) y la anomalía neta 2025 a partir de los 788 ciclos sin etiquetas adicionales."
+    },
+    "E04": {
+      "name": "E04_agro_similarity_kriging",
+      "title": "Kriging Multiescala Ponderado por Similitud Agronómica y Topográfica",
+      "family": "agro_spatial_kriging",
+      "description": "Pondera los vecinos intra-estatales simultáneamente por distancia física (350 m, 700 m, 1,500 m) y similitud agronómica (log_area, slope, vigor temprano y labranza)."
+    },
+    "E05": {
+      "name": "E05_transductive_graph_197",
+      "title": "Propagación Transductiva por Laplaciano de Grafo sobre las 197 Parcelas (138 + 59)",
+      "family": "transductive_graph",
+      "description": "Construye el grafo espacial-agronómico completo sobre los 197 polígonos (entrenamiento + predicción) para propagar señal a través de puentes multi-salto."
+    },
+    "E06": {
+      "name": "E06_twostage_huber_residual",
+      "title": "Modelo Bi-Etapa (Kriging Agronómico + Corrector Residual Intra-Estatal Huber-Ridge)",
+      "family": "twostage_hurdle_residual",
+      "description": "Etapa 1: Kriging agronómico adaptativo por estado. Etapa 2: Regresión robusta Huber + Ridge sobre los residuos locales usando los impulsores específicos de Puebla y Tlaxcala."
+    },
+    "E07": {
+      "name": "E07_agronomic_spectral_ensemble",
+      "title": "Ensamble Espectral Fisiológico-Multianual Puro (F1–F5 + Contraste 1 km)",
+      "family": "spectral_agronomic_ensemble",
+      "description": "Fusión puramente espectral-topográfica de E01 (Fenología/Fisiología), E03 (Latente 788 ciclos), E02 (Daño/Labranza) y R06, óptima para extrapolación a bloques espaciales nuevos."
+    },
+    "E08": {
+      "name": "E08_master_agro_spatial_ead",
+      "title": "Ensamble Maestro Adaptativo Agronómico-Espacial Bi-Etapa (EAD-Fisiológico)",
+      "family": "master_adaptive_ead",
+      "description": "Integra la rama vecinal bi-etapa/transductiva (E06 + R05 + E05) con la rama espectral fisiológica-multianual (E07) mediante compuerta de densidad efectiva de vecinos y encogimiento empírico de Bayes."
+    }
+  }
+}

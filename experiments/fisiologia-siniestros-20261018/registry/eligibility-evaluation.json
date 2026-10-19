@@ -1,0 +1,362 @@
+{
+  "R08": {
+    "schemes": {
+      "estratificado-5": {
+        "rmse": 0.505550355538638,
+        "mae": 0.3547110371338466,
+        "r2": 0.6446435974352469,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "principal-5": {
+        "rmse": 0.6595654040350839,
+        "mae": 0.49281436443574383,
+        "r2": 0.3951453278150431,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "balanceado-4": {
+        "rmse": 0.6717743864457638,
+        "mae": 0.5093583293632932,
+        "r2": 0.37254557523219334,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "rotado-45-5": {
+        "rmse": 0.6835518371665145,
+        "mae": 0.5193371562465048,
+        "r2": 0.3503518379140852,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      }
+    },
+    "passes_all_4_schemes": true,
+    "passes_stratified_and_principal": true,
+    "interval_coverage_90": 0.9347826086956522,
+    "interval_width_t_ha": 1.6682150613187197
+  },
+  "E01": {
+    "schemes": {
+      "estratificado-5": {
+        "rmse": 0.5122727613331157,
+        "mae": 0.3759494858775689,
+        "r2": 0.6351302723040666,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": false,
+        "eligible_in_scheme": false
+      },
+      "principal-5": {
+        "rmse": 0.6381439803359416,
+        "mae": 0.4777836803762856,
+        "r2": 0.4337963586258141,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "balanceado-4": {
+        "rmse": 0.6442324233017847,
+        "mae": 0.49336128058806883,
+        "r2": 0.42294067783138944,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": false,
+        "eligible_in_scheme": false
+      },
+      "rotado-45-5": {
+        "rmse": 0.641426732854508,
+        "mae": 0.48930492664026426,
+        "r2": 0.42795602389315124,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      }
+    },
+    "passes_all_4_schemes": false,
+    "passes_stratified_and_principal": false,
+    "interval_coverage_90": 0.9420289855072463,
+    "interval_width_t_ha": 1.69952006335431
+  },
+  "E02": {
+    "schemes": {
+      "estratificado-5": {
+        "rmse": 0.5173877811911796,
+        "mae": 0.37122539534935756,
+        "r2": 0.6278074802940896,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": false,
+        "eligible_in_scheme": false
+      },
+      "principal-5": {
+        "rmse": 0.6863527298727887,
+        "mae": 0.515493599529799,
+        "r2": 0.34501698941682213,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "balanceado-4": {
+        "rmse": 0.6955256083772446,
+        "mae": 0.5312064684273456,
+        "r2": 0.3273927349507927,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "rotado-45-5": {
+        "rmse": 0.6518175329101175,
+        "mae": 0.4925304403102273,
+        "r2": 0.4092722392063892,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      }
+    },
+    "passes_all_4_schemes": false,
+    "passes_stratified_and_principal": false,
+    "interval_coverage_90": 0.9347826086956522,
+    "interval_width_t_ha": 1.7114885316159063
+  },
+  "E03": {
+    "schemes": {
+      "estratificado-5": {
+        "rmse": 0.5294925924689002,
+        "mae": 0.3829392898033463,
+        "r2": 0.610188109907233,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": false,
+        "eligible_in_scheme": false
+      },
+      "principal-5": {
+        "rmse": 0.6333611456094989,
+        "mae": 0.4750913891222373,
+        "r2": 0.4422518488843782,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "balanceado-4": {
+        "rmse": 0.640359497157712,
+        "mae": 0.48969097378697307,
+        "r2": 0.4298580271188678,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "rotado-45-5": {
+        "rmse": 0.6491291776056214,
+        "mae": 0.49442100913776554,
+        "r2": 0.414134984005914,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      }
+    },
+    "passes_all_4_schemes": false,
+    "passes_stratified_and_principal": false,
+    "interval_coverage_90": 0.927536231884058,
+    "interval_width_t_ha": 1.7745662307765047
+  },
+  "E04": {
+    "schemes": {
+      "estratificado-5": {
+        "rmse": 0.5025332957115852,
+        "mae": 0.356404183137887,
+        "r2": 0.6488723843122737,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "principal-5": {
+        "rmse": 0.7420167896267322,
+        "mae": 0.5710155506298881,
+        "r2": 0.23446902348639587,
+        "beats_B0_by_2pct": false,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": false
+      },
+      "balanceado-4": {
+        "rmse": 0.7427636155984578,
+        "mae": 0.5721288052432257,
+        "r2": 0.23292726288112509,
+        "beats_B0_by_2pct": false,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": false
+      },
+      "rotado-45-5": {
+        "rmse": 0.8626687347295625,
+        "mae": 0.6768753915133721,
+        "r2": -0.0347213760824403,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      }
+    },
+    "passes_all_4_schemes": false,
+    "passes_stratified_and_principal": false,
+    "interval_coverage_90": 0.927536231884058,
+    "interval_width_t_ha": 1.6436747924141184
+  },
+  "E05": {
+    "schemes": {
+      "estratificado-5": {
+        "rmse": 0.5039338581106482,
+        "mae": 0.350739371276076,
+        "r2": 0.646912468696405,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "principal-5": {
+        "rmse": 0.6827790500472647,
+        "mae": 0.5156768437382668,
+        "r2": 0.3518199224536863,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "balanceado-4": {
+        "rmse": 0.6929769722180616,
+        "mae": 0.528069073121702,
+        "r2": 0.33231301515508693,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "rotado-45-5": {
+        "rmse": 0.7181614037976817,
+        "mae": 0.5465721800267545,
+        "r2": 0.2829004886623051,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      }
+    },
+    "passes_all_4_schemes": true,
+    "passes_stratified_and_principal": true,
+    "interval_coverage_90": 0.9347826086956522,
+    "interval_width_t_ha": 1.6901657603171842
+  },
+  "E06": {
+    "schemes": {
+      "estratificado-5": {
+        "rmse": 0.49353191711905475,
+        "mae": 0.35718120088100486,
+        "r2": 0.6613385273412704,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "principal-5": {
+        "rmse": 0.7383394164248606,
+        "mae": 0.5709363127806655,
+        "r2": 0.24203803629181875,
+        "beats_B0_by_2pct": false,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": false
+      },
+      "balanceado-4": {
+        "rmse": 0.7393084293267941,
+        "mae": 0.5717795419747519,
+        "r2": 0.24004719880925818,
+        "beats_B0_by_2pct": false,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": false
+      },
+      "rotado-45-5": {
+        "rmse": 0.8555847241623673,
+        "mae": 0.6741937498761916,
+        "r2": -0.017797426161899832,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": false,
+        "eligible_in_scheme": false
+      }
+    },
+    "passes_all_4_schemes": false,
+    "passes_stratified_and_principal": false,
+    "interval_coverage_90": 0.9420289855072463,
+    "interval_width_t_ha": 1.6318917531867803
+  },
+  "E07": {
+    "schemes": {
+      "estratificado-5": {
+        "rmse": 0.5106980207251355,
+        "mae": 0.36337015400953765,
+        "r2": 0.6373700636424,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "principal-5": {
+        "rmse": 0.6589706080744965,
+        "mae": 0.49439982823255485,
+        "r2": 0.39623575158651536,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "balanceado-4": {
+        "rmse": 0.6705568911419832,
+        "mae": 0.510494220629523,
+        "r2": 0.3748178576540704,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "rotado-45-5": {
+        "rmse": 0.6841181461920661,
+        "mae": 0.520734444529697,
+        "r2": 0.34927495099146666,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      }
+    },
+    "passes_all_4_schemes": true,
+    "passes_stratified_and_principal": true,
+    "interval_coverage_90": 0.9420289855072463,
+    "interval_width_t_ha": 1.7363415654218821
+  },
+  "E08": {
+    "schemes": {
+      "estratificado-5": {
+        "rmse": 0.5025805452289488,
+        "mae": 0.3546394962162656,
+        "r2": 0.6488063533031345,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "principal-5": {
+        "rmse": 0.6580446284038157,
+        "mae": 0.4921823619099982,
+        "r2": 0.3979313677810966,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "balanceado-4": {
+        "rmse": 0.6690124039877043,
+        "mae": 0.5078873409322985,
+        "r2": 0.3776944928464294,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      },
+      "rotado-45-5": {
+        "rmse": 0.6848596025845407,
+        "mae": 0.5214946156418384,
+        "r2": 0.34786365760170224,
+        "beats_B0_by_2pct": true,
+        "passes_regional_mae_gate_110pct": true,
+        "eligible_in_scheme": true
+      }
+    },
+    "passes_all_4_schemes": true,
+    "passes_stratified_and_principal": true,
+    "interval_coverage_90": 0.9347826086956522,
+    "interval_width_t_ha": 1.6603892684568995
+  }
+}

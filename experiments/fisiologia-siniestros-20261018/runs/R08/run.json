@@ -1,0 +1,12 @@
+{
+  "run_id": "R08",
+  "name": "R08_control_adaptive_ead",
+  "title": "Control Productivo Vigente (AdaptiveEAD R08)",
+  "family": "control_production",
+  "description": "Ensamble Adaptativo por Distancia al Vecino (R08 de estratificacion-pyr-20261018) activo en producción antes de esta fase.",
+  "predictions_59_sha256": "c707deba398c61f6a68d142b0520eb2399ce1d71da88aca98d005b838d4dfe7f",
+  "mean_pred_59_t_ha": 3.945851264732977,
+  "std_pred_59_t_ha": 0.6295456029997982,
+  "min_pred_59_t_ha": 2.9995096075396077,
+  "max_pred_59_t_ha": 4.604597955545769
+}
