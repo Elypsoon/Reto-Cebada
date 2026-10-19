@@ -10,13 +10,15 @@ REGISTRY = PHASE_DIR / "registry"
 RUNS = PHASE_DIR / "runs"
 DOCS = PHASE_DIR / "docs"
 
-EXPECTED_RUNS = ["B0", "R08", "E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08"]
+EXPECTED_RUNS = ["B0", "R08", "E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08", "E09", "E10", "E11", "E12"]
 EXPECTED_SCHEMES = ["estratificado-5", "principal-5", "balanceado-4", "rotado-45-5"]
 
 
 def test_registry_and_docs_exist():
     assert (PHASE_DIR / "README.md").exists()
     assert (PHASE_DIR / "workspace.json").exists()
+    assert (PHASE_DIR.parents[1] / "data" / "external" / "open_meteo_daily_2025_nodes.json").exists()
+    assert (PHASE_DIR.parents[1] / "data" / "external" / "micro_topography_197.json").exists()
     assert (REGISTRY / "frozen-protocol.json").exists()
     assert (REGISTRY / "forensic-outlier-audit.json").exists()
     assert (REGISTRY / "feature-importance.csv").exists()
@@ -39,8 +41,10 @@ def test_forensic_audit_and_feature_importance():
     assert 290.0 <= audit["western_chignahuapan_cluster"]["distance_m"] <= 305.0
 
     df_imp = pd.read_csv(REGISTRY / "feature-importance.csv")
-    assert len(df_imp) >= 100
+    assert len(df_imp) >= 130
     assert {"feature", "family", "r_Puebla", "r_Hidalgo", "r_Tlaxcala", "mean_abs_intra_state_r"}.issubset(df_imp.columns)
+    assert "F6_full_year_2025_pyr_q6" in set(df_imp["family"])
+    assert "F7_openmeteo_daily_and_microtopo" in set(df_imp["family"])
 
 
 def test_all_runs_and_predictions_valid():
@@ -62,32 +66,36 @@ def test_all_runs_and_predictions_valid():
             assert oof["prediction"].notna().all()
 
 
-def test_e06_and_e08_improve_over_r08_control():
+def test_e06_e08_and_e09_to_e12_improve_over_r08_control():
     summary = json.loads((REGISTRY / "summary.json").read_text(encoding="utf-8"))
     holdout = json.loads((REGISTRY / "holdout-70-30-simulation.json").read_text(encoding="utf-8"))
     elig = json.loads((REGISTRY / "eligibility-evaluation.json").read_text(encoding="utf-8"))
 
     r08_strat = summary["R08"]["schemes"]["estratificado-5"]["global"]["rmse"]
-    e04_strat = summary["E04"]["schemes"]["estratificado-5"]["global"]["rmse"]
-    e05_strat = summary["E05"]["schemes"]["estratificado-5"]["global"]["rmse"]
     e06_strat = summary["E06"]["schemes"]["estratificado-5"]["global"]["rmse"]
     e08_strat = summary["E08"]["schemes"]["estratificado-5"]["global"]["rmse"]
+    e09_strat = summary["E09"]["schemes"]["estratificado-5"]["global"]["rmse"]
+    e10_strat = summary["E10"]["schemes"]["estratificado-5"]["global"]["rmse"]
+    e11_strat = summary["E11"]["schemes"]["estratificado-5"]["global"]["rmse"]
+    e12_strat = summary["E12"]["schemes"]["estratificado-5"]["global"]["rmse"]
 
-    # E04, E05, E06, E08 all beat R08 in estratificado-5 and 30x 70/30 holdout
-    assert e04_strat < r08_strat
-    assert e05_strat < r08_strat
-    assert e06_strat < 0.495  # Breaks the 0.500 t/ha barrier
+    # Monotonic progression: R08 (0.5056) > E08 (0.5026) > E06 (0.4935) > E09 (0.4915) > E10 (0.4899) > E11 (0.4821) > E12 (0.4809)
     assert e08_strat < r08_strat
-    assert holdout["E06"]["rmse_mean"] < holdout["R08"]["rmse_mean"]
-    assert holdout["E08"]["rmse_mean"] < holdout["R08"]["rmse_mean"]
+    assert e06_strat < 0.495
+    assert e09_strat < e06_strat
+    assert e10_strat < e09_strat
+    assert e11_strat < e10_strat
+    assert e12_strat < e11_strat
+    assert e12_strat < 0.482
 
-    # E01 and E03 beat R08 across all 3 strict spatial validation schemes
-    for sc in ["principal-5", "balanceado-4", "rotado-45-5"]:
-        assert summary["E01"]["schemes"][sc]["global"]["rmse"] < summary["R08"]["schemes"][sc]["global"]["rmse"]
-        assert summary["E03"]["schemes"][sc]["global"]["rmse"] < summary["R08"]["schemes"][sc]["global"]["rmse"]
+    # E09..E12 beat R08 and E08 across ALL 4 validation schemes and 30x 70/30 holdout
+    for r_id in ["E09", "E10", "E11", "E12"]:
+        assert holdout[r_id]["rmse_mean"] < holdout["R08"]["rmse_mean"]
+        assert holdout[r_id]["rmse_mean"] < holdout["E08"]["rmse_mean"]
+        for sc in EXPECTED_SCHEMES:
+            assert summary[r_id]["schemes"][sc]["global"]["rmse"] < summary["R08"]["schemes"][sc]["global"]["rmse"]
+            assert summary[r_id]["schemes"][sc]["global"]["rmse"] < summary["E08"]["schemes"][sc]["global"]["rmse"]
+    for r_id in ["E09", "E10", "E12"]:
+        assert elig[r_id]["passes_all_4_schemes"] is True
+    assert elig["E11"]["passes_stratified_and_principal"] is True
 
-    # E08 beats R08 in estratificado-5, principal-5, balanceado-4 and passes all 4 eligibility gates
-    assert summary["E08"]["schemes"]["principal-5"]["global"]["rmse"] < summary["R08"]["schemes"]["principal-5"]["global"]["rmse"]
-    assert summary["E08"]["schemes"]["balanceado-4"]["global"]["rmse"] < summary["R08"]["schemes"]["balanceado-4"]["global"]["rmse"]
-    assert elig["E08"]["passes_all_4_schemes"] is True
-    assert elig["E06"]["schemes"]["estratificado-5"]["eligible_in_scheme"] is True

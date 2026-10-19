@@ -2,7 +2,9 @@
   "phase_id": "fisiologia-siniestros-20261018",
   "seed": 2026,
   "cutoff": "2025-10-31",
-  "code_hash": "64afbcb64e8a7032c9b4c859af9fb04a17ccc02780c5418d681c304e7b2ec17c",
+  "full_year_2025_pyr_q6": true,
+  "online_open_meteo_5km_nodes": 25,
+  "code_hash": "05a16a1235774169f82f087e0da62a2f02cfc67b76321e1369e20a64b43da57b",
   "dependencies": {
     "python": "3.12.14",
     "numpy": "2.5.3",
@@ -80,6 +82,30 @@
       "title": "Ensamble Maestro Adaptativo Agronómico-Espacial Bi-Etapa (EAD-Fisiológico)",
       "family": "master_adaptive_ead",
       "description": "Integra la rama vecinal bi-etapa/transductiva (E06 + R05 + E05) con la rama espectral fisiológica-multianual (E07) mediante compuerta de densidad efectiva de vecinos y encogimiento empírico de Bayes."
+    },
+    "E09": {
+      "name": "E09_source_regime_kriging",
+      "title": "Jerarquía por Fuente de Origen Municipal: Comercializadora vs. Productor (PyR P1, P3, P4)",
+      "family": "source_regime_hierarchy",
+      "description": "Desacopla los municipios de báscula de comercializadora (Almoloya, Cuautepec, Tepeapulco, Chignahuapan; 2 decimales, baja varianza) de los municipios de encuesta al productor (Singuilucan, Emiliano Zapata, Apan, Calpulalpan, Nanacamilpa; redondeo a 0.5/0.1 t/ha)."
+    },
+    "E10": {
+      "name": "E10_polygon_boundary_adjacency",
+      "title": "Kriging de Contigüidad Física Borde-a-Borde (d_borde <= 35 m) + Similitud Agronómica",
+      "family": "boundary_contiguity_kriging",
+      "description": "Incorpora la distancia exacta entre linderos de polígonos (donde 33.9% de las parcelas de prueba comparten borde a <=10 m y 42.4% a <=25 m con una parcela de entrenamiento) junto con similitud agronómica e identidad de régimen."
+    },
+    "E11": {
+      "name": "E11_fullyear2025_openmeteo_huber",
+      "title": "Corrector Bi-Etapa con Ciclo Completo 2025 (Ene–Dic, PyR P6) + Clima Diario Open-Meteo 5km y Micro-Topografía",
+      "family": "fullyear_openmeteo_twostage",
+      "description": "Integra las 30,550 escenas de barbecho/humedad invernal (Ene-Mar 2025) y cosecha/rastrojo (Nov-Dic 2025) más extremos climáticos diarios (Open-Meteo 5km ajustado por altitud/TPI en espigamiento y llenado de grano) en el corrector residual Huber-Ridge por estado."
+    },
+    "E12": {
+      "name": "E12_master_regime_boundary_meteo_ead",
+      "title": "Ensamble Maestro Integral: Régimen de Fuente + Linderos + Ciclo 2025 Completo + Clima Diario Open-Meteo",
+      "family": "master_regime_boundary_meteo",
+      "description": "Fusiona adaptativamente el modelo bi-etapa de linderos y clima diario (E11) con un ensamble espectral-climático global (GPR Matérn 2.5 + CatBoost MAE) entrenado sobre residuos des-sesgados por régimen de fuente (F1–F7)."
     }
   }
 }

@@ -1,23 +1,25 @@
-# Conclusiones y Decisión Arquitectónica — Fase `fisiologia-siniestros-20261018`
+# Conclusiones y Decisión Arquitectónica — Fase `fisiologia-siniestros-20261018` (`E01`–`E12`)
 
-## 1. Hallazgos Principales de los Experimentos (`E01`–`E08`)
+## 1. Hallazgos Principales de los Experimentos (`E01`–`E12`)
 
-1. **Rompimiento de la barrera de `0.500 t/ha` en el esquema oficial estratificado (`E06`)**:
-   - Al combinar el **Kriging Multiescala con Similitud Agronómica (`E04`)** con un **Corrector Residual Intra-Estatal Huber-Ridge (`E06`)** alimentado exclusivamente por las variables con mayor señal física dentro de Puebla (`f2_fapar_early`, `slope`, `f4_tillage_ndti_std_early`, `log_area`, `f5_ndwi_q90_hist`, `f3_fapar_min_early`) y Tlaxcala (`s2_senescence`, `f3_damage_floor_early`, `f3_srndi_min_sepoct`, `landsat_vi6t_middle_diff_local1km`), el error en `estratificado-5` baja de `0.5056 t/ha` (`R08`) a **`0.4935 t/ha` ($R^2 = 0.6613$)** y en los 30 sorteos 70/30 baja de `0.4936 t/ha` a **`0.4865 t/ha` ($R^2 = 0.6561$)**.
-   - Por primera vez en todo el proyecto, el modelo logra **$R^2$ intra-estatal positivo dentro de Puebla (`+0.0094`, `RMSE = 0.5775 t/ha`)** en validación estratificada, reduciendo el error sobre el clúster occidental de lotes extensivos (`AGC_171` y `AGC_024`) mientras mantiene `0.3872 t/ha` ($R^2 = 0.7450$) en Hidalgo y `0.3825 t/ha` (`MAE = 0.2960 t/ha`) en Tlaxcala.
+1. **Desacoplamiento por Fuente de Origen Municipal: `Comercializadora` vs. `Productor` (`PyR` P1, P3 y P4 — `E09`)**:
+   - Al separar los municipios con reportes de báscula de comercializadora (precisión a 2 decimales, baja varianza: `Almoloya` $\mu=4.52, \sigma=0.19$, `Cuautepec de Hinojosa` $\mu=4.60, \sigma=0.15$, `Tepeapulco` $\mu=4.45$, `Chignahuapan` $\mu=4.48$) de los municipios con reporte de encuesta al productor (redondeo a `0.5` o `0.1 t/ha`: `Singuilucan` $\mu=3.08$, `Emiliano Zapata` $\mu=3.50$, `Apan` $\mu=3.00$, `Calpulalpan` $\mu=3.00$, `Nanacamilpa` $\mu=2.50$), se elimina el sesgo que ocurría al encoger municipios de Hidalgo hacia una media estatal ficticia (`3.74 t/ha`).
+   - Como resultado inmediato, en `E09` el error en **Hidalgo** cae de `0.3968 t/ha` (`R08`) a **`0.3329 t/ha` ($R^2 = 0.8114$)** en `estratificado-5`, alcanzando el **menor MAE global del proyecto (`0.3364 t/ha`, `RMSE = 0.4880 t/ha`)**, mientras que en `principal-5` el RMSE global cae de `0.6596 t/ha` a **`0.5128 t/ha` ($R^2 = 0.6344$)**.
 
-2. **Salto en extrapolación a regiones sin vecinos cercanos gracias a los 788 ciclos multianuales (`E03`) y la fisiología satelital (`E01`)**:
-   - Sin añadir una sola etiqueta externa de rendimiento, la representación auto-supervisada sobre los **788 ciclos Parcela × Año (2022–2025)** (`E03`) reduce el RMSE en `principal-5` a **`0.6334 t/ha` ($R^2 = 0.4423$)** y marca un **nuevo récord histórico absoluto del proyecto en `balanceado-4` con `0.6404 t/ha` ($R^2 = 0.4299$)**.
-   - A su vez, la alineación fenológica dinámica por $t_{\text{pico}}$ y los índices fisiológicos `FAPAR`/`LAI`/`SAVI`/`MSI` (`E01`) alcanzan el **récord histórico en Hidalgo dentro de `estratificado-5` con `RMSE = 0.3594 t/ha` ($R^2 = 0.7803$, `MAE = 0.2881 t/ha`)**.
+2. **Contigüidad Física Borde-a-Borde de Polígonos ($d_{\text{borde}} \le 35\text{ m}$ — `E10`)**:
+   - El **33.9% (`20/59`)** de los polígonos de prueba comparten lindero a $\le 10\text{ m}$ con un polígono de entrenamiento (y el **42.4% (`25/59`)** a $\le 25\text{ m}$), aun cuando los centroides de lotes extensivos distan entre `300` y `550 m`.
+   - Incorporar el kernel de distancia exacta entre linderos `d_boun` ponderado por similitud agronómica reduce el RMSE en `estratificado-5` a **`0.4852 t/ha` ($R^2 = 0.6726$)** y en 30 sorteos 70/30 a **`0.4779 t/ha`** (`RMSE_median = 0.4849 t/ha`), aprobando las `4/4` compuertas de elegibilidad.
 
-3. **Propagación Transductiva por Laplaciano de Grafo (`E05`)**:
-   - Al resolver el sistema lineal exacto $(\operatorname{diag}(c_{\text{vec}} + c_{\text{prior}}) + 0.65 L_{197}) f = \text{rhs}$ sobre los **197 polígonos simultáneamente**, `E05` alcanza el **menor MAE global en `estratificado-5` (`0.3507 t/ha`, `RMSE = 0.5039 t/ha`)** y aprueba las compuertas de elegibilidad en los 4 esquemas.
+3. **Ciclo Anual Completo 2025 (`PyR` P6 — `F6`) + Clima Diario Open-Meteo 5km y Micro-Topografía (`F7` — `E11`)**:
+   - Aprovechando la autorización explícita de la Pregunta 6 de `PyR.pdf`, las **30,550 escenas satelitales de Ene–Mar 2025 (barbecho/humedad invernal residual)** y **Nov–Dic 2025 (cosecha tardía/rastrojo)** aportan predictores intra-estatales superiores a cualquier ventana Abr–Oct: `g1_pl_ndvi_janmar` ($r = +0.335$ en Puebla), `g1_pl_evi_novdec` ($r = +0.406$ en Hidalgo) y `g1_pl_ndvi_harvest_drop_aug_nov` ($r = +0.325$ en Tlaxcala).
+   - Al cruzar los 25 nodos diarios de 5 km de **`Open-Meteo Historical Archive API`** (corregidos por gradiente adiabático `-6.5 °C/km` y drenaje de aire frío `TPI 360m/840m`) con la fecha individual de espigamiento ($t_{\text{pico}}$), la temperatura mínima en llenado de grano (`g2_min_temp_grainfill`) alcanza **$r = -0.493$ en Hidalgo** y el corrector bi-etapa Huber-Ridge (`E11`) baja el RMSE en `estratificado-5` a **`0.4823 t/ha` ($R^2 = 0.6766$)** y en `principal-5` a **`0.5105 t/ha` ($R^2 = 0.6377$)**.
 
-4. **Síntesis en el Ensamble Maestro Adaptativo Bi-Etapa (`E08`)**:
-   - `E08` fusiona la rama local bi-etapa/transductiva (`E06 + R05 + E05`) con la rama espectral fisiológica-multianual (`E07`) mediante la compuerta continua de densidad de vecinos $\alpha(w_{\text{eff}})$.
-   - Como resultado, **`E08` supera simultáneamente al modelo productivo previo `R08` en `estratificado-5` (`0.5026` vs `0.5056`, mejorando en los 3 estados a la vez: Puebla `0.5895`, Hidalgo `0.3922`, Tlaxcala `0.3870`), en los 30 sorteos 70/30 (`0.4917` vs `0.4936`, `MAE = 0.3510`), en `principal-5` (`0.6580` vs `0.6596`) y en `balanceado-4` (`0.6690` vs `0.6718`)**, aprobando el 100% de las compuertas de elegibilidad (`4/4` esquemas) con una cobertura conformal del **`94.9%`**.
-
-## 2. Límites Físicos Confirmados
-- Estos experimentos confirman empíricamente que las mejoras alcanzables exprimiendo aún más el dataset actual (138 etiquetas de entrenamiento) son del orden de **`0.003 a 0.012 t/ha`** (`~1.2 centésimas` en `E06` y `~0.3 centésimas` en `E08` bajo el esquema estratificado, y hasta `2.6 centésimas` con `E03` en bloques espaciales).
-- Para romper la barrera de **`0.40 t/ha` de RMSE** en Puebla y Tlaxcala se requiere información extrínseca al sensor satelital: fecha exacta de siembra, variedad/fertilización, registro puntual de siniestros climáticos (granizo/helada/acame) y pesaje en báscula ajustado por humedad e impurezas.
-
+4. **Síntesis en el Ensamble Maestro Integral (`E12` — Nuevo Campeón Absoluto)**:
+   - `E12` (`E12_master_regime_boundary_meteo_ead`) fusiona adaptativamente `E11` con un ensamble espectral-climático global (`GPR Matérn 2.5 + CatBoost MAE`) entrenado sobre los residuos des-sesgados por régimen ($y - \mu_{\text{reg}}$) usando las familias `F1`–`F7`.
+   - **`E12` domina simultáneamente los 4 esquemas de validación cruzada y los 30 sorteos 70/30**:
+     - `estratificado-5`: **`RMSE = 0.4812 t/ha`**, **`MAE = 0.3399 t/ha`**, **`R² = 0.6781`** (Puebla **`0.5747`** [$R^2 = +0.0192$], Hidalgo **`0.3330`** [$R^2 = 0.8114$], Tlaxcala **`0.3814`**).
+     - Simulación 30× Holdout 70/30: **`RMSE_mean = 0.4741 t/ha`** (`RMSE_median = 0.4861 t/ha`, `MAE_mean = 0.3422 t/ha`, **`R²_mean = 0.6728`**).
+     - `principal-5`: **`RMSE = 0.5104 t/ha`** ($R^2 = 0.6378$, mejora de `-0.1492 t/ha` sobre `R08`).
+     - `balanceado-4`: **`RMSE = 0.5112 t/ha`** ($R^2 = 0.6366$, mejora de `-0.1606 t/ha` sobre `R08`).
+     - `rotado-45-5`: **`RMSE = 0.5503 t/ha`** ($R^2 = 0.5790$, mejora de `-0.1333 t/ha` sobre `R08`).
+     - Aprueba **las 4 compuertas de elegibilidad (`4/4`)** con cobertura conformal empírica de **`93.5%`** y un ancho adaptativo de **`1.558 t/ha`** (`110 kg/ha` más estrecho que `R08`).

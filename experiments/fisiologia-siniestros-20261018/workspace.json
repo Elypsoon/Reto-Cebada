@@ -6,6 +6,7 @@
   "parcels_train": 138,
   "parcels_test": 59,
   "cycles_multiannual_self_supervised": 788,
+  "open_meteo_5km_nodes": 25,
   "dependencies": {
     "python": "3.12.14",
     "numpy": "2.5.3",

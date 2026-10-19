@@ -168,5 +168,73 @@
       "Puebla": 0.8873239436619719,
       "Tlaxcala": 1.0
     }
+  },
+  "E09": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.7633364867439711,
+    "global_width_t_ha": 1.5266729734879423,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.7053839972650192,
+      "Puebla": 0.9584129323314505,
+      "Tlaxcala": 0.6100724734490189
+    },
+    "mean_adaptive_width_t_ha": 1.6283099822317861,
+    "empirical_coverage": 0.9492753623188406,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.9154929577464789,
+      "Tlaxcala": 1.0
+    }
+  },
+  "E10": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.7764136338603747,
+    "global_width_t_ha": 1.5528272677207493,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.7078971714868871,
+      "Puebla": 0.9577212463220377,
+      "Tlaxcala": 0.6264107404777634
+    },
+    "mean_adaptive_width_t_ha": 1.636249849524685,
+    "empirical_coverage": 0.9420289855072463,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.9154929577464789,
+      "Tlaxcala": 0.967741935483871
+    }
+  },
+  "E11": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.7704502719305966,
+    "global_width_t_ha": 1.5409005438611931,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.7055238000963048,
+      "Puebla": 0.8685977908019076,
+      "Tlaxcala": 0.6323084685875113
+    },
+    "mean_adaptive_width_t_ha": 1.545954528646598,
+    "empirical_coverage": 0.927536231884058,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.8873239436619719,
+      "Tlaxcala": 0.967741935483871
+    }
+  },
+  "E12": {
+    "nominal": 0.9,
+    "global_radius_t_ha": 0.773561872582011,
+    "global_width_t_ha": 1.547123745164022,
+    "state_radii_t_ha": {
+      "Hidalgo": 0.7009021427629183,
+      "Puebla": 0.8836217943037208,
+      "Tlaxcala": 0.6309986899948998
+    },
+    "mean_adaptive_width_t_ha": 1.558414259780741,
+    "empirical_coverage": 0.9347826086956522,
+    "coverage_by_state": {
+      "Hidalgo": 0.9722222222222222,
+      "Puebla": 0.8873239436619719,
+      "Tlaxcala": 1.0
+    }
   }
 }

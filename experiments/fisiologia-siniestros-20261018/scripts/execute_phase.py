@@ -40,6 +40,9 @@ from fisiologia_siniestros.features import (
     build_biweekly_and_historical_features,
     build_spatial_contrast_features,
     build_agronomic_physiology_features,
+    build_full_year_2025_features,
+    build_online_daily_and_microtopo_features,
+    compute_boundary_distance_matrix,
     compute_forensic_outlier_audit,
     compute_feature_importance_registry,
 )
@@ -64,6 +67,7 @@ def main() -> None:
 
     master = gpd.read_parquet(PROCESSED / "parcels.parquet")
     sat = pd.read_parquet(PROCESSED / "satellite.parquet")
+    sat["date"] = pd.to_datetime(sat["date"])
     tables, external, location = load_tables(master)
 
     train_indices = np.flatnonzero(master[TARGET].notna())
@@ -74,6 +78,7 @@ def main() -> None:
     s_train = states_all[train_indices]
     m_train = mun_all[train_indices]
     coords_all = location[["location_x", "location_y"]].to_numpy()
+    b_dist_all = compute_boundary_distance_matrix(master)
 
     # 1. Build validation schemes & save schemes.csv
     schemes, strata_train = build_validation_schemes(master, train_indices)
@@ -93,6 +98,8 @@ def main() -> None:
         "phase_id": "fisiologia-siniestros-20261018",
         "seed": SEED,
         "cutoff": CUTOFF,
+        "full_year_2025_pyr_q6": True,
+        "online_open_meteo_5km_nodes": 25,
         "code_hash": phase_code_hash(),
         "dependencies": dependencies(),
         "schemes": list(schemes.keys()) + ["holdout-70-30-30x"],
@@ -107,11 +114,12 @@ def main() -> None:
         "parcels_train": 138,
         "parcels_test": 59,
         "cycles_multiannual_self_supervised": 788,
+        "open_meteo_5km_nodes": 25,
         "dependencies": dependencies(),
     })
 
-    # 2. Build Feature Bundle (Base + F1..F5 Agronomic Physiology)
-    print("1/5 Construyendo matriz fisiológica, daño intra-parcela, labranza y latentes 788 ciclos (F1..F5)...", flush=True)
+    # 2. Build Feature Bundle (Base + F1..F5 Agronomic Physiology + F6 Full-Year 2025 + F7 Open-Meteo Daily & Micro-Topography)
+    print("1/5 Construyendo matriz fisiológica (F1..F5), ciclo 2025 completo (F6) y clima diario Open-Meteo + micro-topografía (F7)...", flush=True)
     X_w40 = tables["whittaker_40_10"].join(external["nasa"]).copy()
     X_w40_geo = X_w40.join(location[["location_x", "location_y"]])
     X_bw = build_biweekly_and_historical_features(master, sat, cloud_max=30)
@@ -120,6 +128,8 @@ def main() -> None:
     X_r03 = X_r03.loc[:, ~X_r03.columns.duplicated()]
 
     X_agro = build_agronomic_physiology_features(master, sat, X_r03, cloud_max=30)
+    X_g1 = build_full_year_2025_features(master, sat, X_r03, cloud_max=30)
+    X_g2 = build_online_daily_and_microtopo_features(master, X_agro)
 
     f1_f2_cols = [c for c in X_agro.columns if c.startswith(("f1_", "f2_"))]
     f3_f4_cols = [c for c in X_agro.columns if c.startswith(("f3_", "f4_"))]
@@ -131,9 +141,17 @@ def main() -> None:
     X_full_agro = pd.concat([X_r03, X_agro], axis=1)
     X_full_agro = X_full_agro.loc[:, ~X_full_agro.columns.duplicated()]
 
+    X_full_ext = pd.concat([X_full_agro, X_g1, X_g2], axis=1)
+    X_full_ext = X_full_ext.loc[:, ~X_full_ext.columns.duplicated()]
+
     agro_sim_cols = [c for c in ["log_area", "slope", "s2_evi_early", "f2_fapar_early", "f4_tillage_ndti_std_early"] if c in X_full_agro.columns]
     puebla_res_cols = [c for c in ["f2_fapar_early", "slope", "f4_tillage_ndti_std_early", "log_area", "f5_ndwi_q90_hist", "f3_fapar_min_early"] if c in X_full_agro.columns]
     tlax_res_cols = [c for c in ["s2_senescence", "f3_damage_floor_early", "f3_srndi_min_sepoct", "landsat_vi6t_middle_diff_local1km"] if c in X_full_agro.columns]
+
+    ext_sim_cols = [c for c in ["log_area", "slope", "s2_evi_early", "f2_fapar_early", "f4_tillage_ndti_std_early", "g1_pl_ndvi_janmar"] if c in X_full_ext.columns]
+    puebla_ext_cols = [c for c in ["g1_pl_ndvi_janmar", "f2_fapar_early", "slope", "f4_tillage_ndti_std_early", "log_area", "f5_ndwi_q90_hist", "f3_fapar_min_early", "g2_cold_air_pool"] if c in X_full_ext.columns]
+    hidalgo_ext_cols = [c for c in ["g2_min_temp_grainfill", "g1_pl_evi_novdec", "g2_sm_root_janmar", "g2_tpi_840m", "pl_evi_bw_min"] if c in X_full_ext.columns]
+    tlax_ext_cols = [c for c in ["s2_senescence", "f3_damage_floor_early", "f3_srndi_min_sepoct", "landsat_vi6t_middle_diff_local1km", "g1_pl_ndvi_harvest_drop_aug_nov"] if c in X_full_ext.columns]
 
     feature_bundle = {
         "X_w40": X_w40,
@@ -143,25 +161,31 @@ def main() -> None:
         "X_e02": X_e02,
         "X_e03": X_e03,
         "X_full_agro": X_full_agro,
+        "X_full_ext": X_full_ext,
+        "b_dist_all": b_dist_all,
         "agro_sim_cols": agro_sim_cols,
         "puebla_res_cols": puebla_res_cols,
         "tlax_res_cols": tlax_res_cols,
+        "ext_sim_cols": ext_sim_cols,
+        "puebla_ext_cols": puebla_ext_cols,
+        "hidalgo_ext_cols": hidalgo_ext_cols,
+        "tlax_ext_cols": tlax_ext_cols,
         "states_all": states_all,
         "mun_all": mun_all,
         "coords_all": coords_all,
     }
 
     # 3. Forensic Outlier Audit & Feature Importance Registry
-    print("2/5 Ejecutando auditoría forense de parcelas atípicas y registro de importancia por estado...", flush=True)
-    outlier_audit = compute_forensic_outlier_audit(master, X_full_agro)
+    print("2/5 Ejecutando auditoría forense de parcelas atípicas y registro de importancia por estado (F1..F7)...", flush=True)
+    outlier_audit = compute_forensic_outlier_audit(master, X_full_ext)
     write_json(REGISTRY / "forensic-outlier-audit.json", outlier_audit)
 
-    df_imp, imp_summary = compute_feature_importance_registry(master, X_full_agro, train_indices)
+    df_imp, imp_summary = compute_feature_importance_registry(master, X_full_ext, train_indices)
     df_imp.to_csv(REGISTRY / "feature-importance.csv", index=False)
     write_json(REGISTRY / "feature-importance.json", imp_summary)
 
     # 4. Run Cross-Validation across all 4 schemes
-    print("3/5 Evaluando B0, R08 y E01..E08 en los 4 esquemas de validación (estratificado-5, principal-5, balanceado-4, rotado-45-5)...", flush=True)
+    print("3/5 Evaluando B0, R08 y E01..E12 en los 4 esquemas de validación (estratificado-5, principal-5, balanceado-4, rotado-45-5)...", flush=True)
     oof_by_scheme = {sc: {r: np.zeros(len(train_indices)) for r in RUN_CATALOG} for sc in schemes}
 
     for sc_name, sc_folds in schemes.items():
@@ -326,7 +350,7 @@ def main() -> None:
     write_json(REGISTRY / "paired-comparisons.json", paired)
 
     eligibility = {}
-    for candidate_id in ["R08", "E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08"]:
+    for candidate_id in [k for k in RUN_CATALOG if k != "B0"]:
         sc_eval = {}
         for sc_name in schemes:
             m_c = summary_dict[candidate_id]["schemes"][sc_name]["global"]

@@ -2,12 +2,13 @@
 from __future__ import annotations
 
 from typing import Any
+import json
 import numpy as np
 import pandas as pd
 from scipy.stats import spearmanr
 from sklearn.ensemble import ExtraTreesRegressor
 
-from .common import ID, TARGET, START, CUTOFF, SEED
+from .common import ID, TARGET, START, CUTOFF, SEED, EXTERNAL
 
 
 FEATURE_FAMILY_DESCRIPTIONS = {
@@ -77,6 +78,36 @@ FEATURE_FAMILY_DESCRIPTIONS = {
             "Explota las 39,968 escenas satelitales a través de los 788 ciclos (197 parcelas × 4 años: 2022-2025) "
             "sin requerir etiquetas históricas, extrayendo la vocación hídrica/productiva intrínseca del suelo (cuantil 90 histórico) "
             "y la anomalía neta del ciclo 2025."
+        ),
+    },
+    "F6_full_year_2025_pyr_q6": {
+        "title": "Ciclo Anual Completo 2025: Barbecho/Humedad Invernal (Ene–Mar) y Cosecha/Rastrojo (Nov–Dic) (PyR P6)",
+        "features": [
+            "g1_s2_ndvi_janmar", "g1_s2_ndvi_novdec", "g1_s2_ndvi_harvest_drop_aug_nov",
+            "g1_s2_evi_janmar", "g1_s2_evi_novdec", "g1_s2_evi_harvest_drop_aug_nov",
+            "g1_s2_ndti_janmar", "g1_s2_ndti_novdec", "g1_s2_sti_janmar", "g1_s2_sti_novdec",
+            "g1_s2_ndwi_janmar", "g1_s2_ndwi_novdec", "g1_s2_fapar_janmar", "g1_s2_fapar_novdec",
+            "g1_pl_ndvi_janmar", "g1_pl_ndvi_novdec", "g1_pl_ndvi_harvest_drop_aug_nov",
+            "g1_pl_evi_janmar", "g1_pl_evi_novdec", "g1_pl_evi_harvest_drop_aug_nov",
+        ],
+        "rationale": (
+            "Aprovecha la autorización explícita de la Pregunta 6 de PyR.pdf para usar el ciclo 2025 completo: "
+            "incorpora las 30,550 escenas de Ene-Mar 2025 (100% suelo desnudo/barbecho y humedad invernal residual, "
+            "r=+0.335 en Puebla) y Nov-Dic 2025 (cosecha tardía y caída de rastrojo Ago->Nov, r=+0.406 en Hidalgo y r=+0.325 en Tlaxcala)."
+        ),
+    },
+    "F7_openmeteo_daily_and_microtopo": {
+        "title": "Clima Diario 2025 en Ventanas Críticas (Open-Meteo 5km + Gradiente Adiabático) y Micro-Topografía Fina (TPI)",
+        "features": [
+            "g2_tpi_360m", "g2_tpi_840m", "g2_rel_pos_1800m", "g2_twi_proxy", "g2_cold_air_pool", "g2_concavity",
+            "g2_frost_heading", "g2_frost_grainfill", "g2_min_temp_grainfill", "g2_heat_grainfill",
+            "g2_lodging_risk", "g2_water_bal_heading", "g2_solar_grainfill",
+            "g2_sm_root_early", "g2_sm_root_grainfill", "g2_sm_root_janmar", "g2_soil_temp_early",
+        ],
+        "rationale": (
+            "Integra datos externos públicos descargados de Open-Meteo Archive API (25 nodos únicos de 5 km frente a 2 celdas de 55 km de NASA POWER), "
+            "ajustados por altitud exacta de cada parcela (-6.5 °C/km) y drenaje de aire frío (TPI 360m/840m), cruzados dinámicamente con la fecha "
+            "individual de espigamiento (t_pico) y llenado de grano (g2_min_temp_grainfill alcanza r=-0.493 en Hidalgo)."
         ),
     },
 }
@@ -280,6 +311,122 @@ def build_agronomic_physiology_features(
     for c in out.columns:
         out[c] = out[c].fillna(out[c].median())
     return out
+
+
+def build_full_year_2025_features(
+    master_df: pd.DataFrame,
+    sat_df: pd.DataFrame,
+    X_base: pd.DataFrame,
+    cloud_max: int = 30,
+) -> pd.DataFrame:
+    """F6 (G1): Extrae las 30,550 escenas de Ene-Mar 2025 (barbecho/suelo desnudo) y Nov-Dic 2025 (cosecha/rastrojo) (PyR P6)."""
+    pids = master_df[ID].tolist()
+    out = pd.DataFrame(index=X_base.index)
+
+    s25 = sat_df[(sat_df.date.dt.year == 2025) & (sat_df.porcentaje_nubosidad <= cloud_max)].copy()
+    s25["month"] = s25.date.dt.month
+
+    for sensor, pref in [("Sentinel-2", "s2"), ("Planet", "pl")]:
+        sub = s25[s25.sensor == sensor]
+        for col in ["ndvi_promedio", "evi_promedio", "ndti_promedio", "sti_promedio", "ndwi_promedio", "fapar_promedio"]:
+            if col not in sub.columns or sub[col].notna().sum() == 0:
+                continue
+            ix = col.replace("_promedio", "")
+            piv_m = sub.pivot_table(index=ID, columns="month", values=col, aggfunc="median").reindex(pids)
+            piv_m = piv_m.interpolate(axis=1, limit_direction="both").bfill(axis=1).ffill(axis=1)
+            piv_m.index = X_base.index
+            if {1, 2, 3}.issubset(piv_m.columns):
+                out[f"g1_{pref}_{ix}_janmar"] = piv_m[[1, 2, 3]].mean(axis=1)
+            if {11, 12}.issubset(piv_m.columns):
+                out[f"g1_{pref}_{ix}_novdec"] = piv_m[[11, 12]].mean(axis=1)
+            if 8 in piv_m.columns and 11 in piv_m.columns and ix in ("ndvi", "evi"):
+                out[f"g1_{pref}_{ix}_harvest_drop_aug_nov"] = piv_m[11] - piv_m[8]
+
+    out = out.replace([np.inf, -np.inf], np.nan)
+    for c in out.columns:
+        out[c] = out[c].fillna(out[c].median())
+    return out
+
+
+def build_online_daily_and_microtopo_features(
+    master_df: pd.DataFrame,
+    X_agro: pd.DataFrame,
+) -> pd.DataFrame:
+    """F7 (G2): Cruza clima diario Open-Meteo 2025 (corregido por altitud/TPI) y micro-topografía con la fecha de espigamiento t_pico."""
+    pids = master_df[ID].tolist()
+    micro_data = json.loads((EXTERNAL / "micro_topography_197.json").read_text(encoding="utf-8"))
+    meteo_nodes = json.loads((EXTERNAL / "open_meteo_daily_2025_nodes.json").read_text(encoding="utf-8"))
+
+    u_utm = master_df.to_crs(32614)
+    pts_wgs = u_utm.geometry.centroid.to_crs(4326)
+    grid_lats = np.round(pts_wgs.y.to_numpy() * 20) / 20.0
+    grid_lons = np.round(pts_wgs.x.to_numpy() * 20) / 20.0
+
+    peak_bw = X_agro["f1_peak_biweek"].to_numpy(dtype=float) if "f1_peak_biweek" in X_agro.columns else np.full(len(pids), 6.0)
+
+    rows = []
+    for i, pid in enumerate(pids):
+        m_info = micro_data[pid]
+        z0 = m_info["z0"]
+        tpi_360 = m_info["tpi_360m"]
+        n_key = f"{grid_lats[i]:.2f}_{grid_lons[i]:.2f}"
+        node = meteo_nodes[n_key]
+        z_node = float(node.get("elevation", z0))
+        daily = node["daily"]
+
+        dz = z0 - z_node
+        tmin = np.array(daily["temperature_2m_min"], dtype=float) - 0.0065 * dz + 0.04 * tpi_360
+        tmax = np.array(daily["temperature_2m_max"], dtype=float) - 0.0065 * dz
+        prec = np.array(daily["precipitation_sum"], dtype=float)
+        gust = np.array(daily["wind_gusts_10m_max"], dtype=float)
+        srad = np.array(daily["shortwave_radiation_sum"], dtype=float)
+        et0 = np.array(daily["et0_fao_evapotranspiration"], dtype=float)
+        sm_root = np.array(daily["soil_moisture_7_to_28cm_mean"], dtype=float)
+        st_surf = np.array(daily["soil_temperature_0_to_7cm_mean"], dtype=float) - 0.0060 * dz
+
+        t_doy = int(np.clip(90 + peak_bw[i] * 14 + 7, 120, 290))
+        hd_sl = slice(max(0, t_doy - 14), min(365, t_doy + 15))
+        gf_sl = slice(max(0, t_doy), min(365, t_doy + 35))
+        mat_sl = slice(max(0, t_doy + 10), min(365, t_doy + 45))
+        early_sl = slice(90, 165)
+        janmar_sl = slice(0, 90)
+
+        rows.append({
+            "g2_tpi_360m": float(m_info["tpi_360m"]),
+            "g2_tpi_840m": float(m_info["tpi_840m"]),
+            "g2_rel_pos_1800m": float(m_info["rel_pos_1800m"]),
+            "g2_twi_proxy": float(m_info["twi_proxy"]),
+            "g2_cold_air_pool": float(m_info["cold_air_pool"]),
+            "g2_concavity": float(m_info["concavity"]),
+            "g2_frost_heading": float(np.sum(np.maximum(0.0, 5.0 - tmin[hd_sl]))),
+            "g2_frost_grainfill": float(np.sum(np.maximum(0.0, 4.0 - tmin[gf_sl]))),
+            "g2_min_temp_grainfill": float(np.min(tmin[gf_sl])),
+            "g2_heat_grainfill": float(np.sum(np.maximum(0.0, tmax[gf_sl] - 25.0))),
+            "g2_lodging_risk": float(np.max((prec[mat_sl] / 10.0) * np.maximum(0.0, gust[mat_sl] - 30.0))),
+            "g2_water_bal_heading": float(np.mean(prec[hd_sl] - et0[hd_sl])),
+            "g2_solar_grainfill": float(np.mean(srad[gf_sl])),
+            "g2_sm_root_early": float(np.mean(sm_root[early_sl])),
+            "g2_sm_root_grainfill": float(np.mean(sm_root[gf_sl])),
+            "g2_sm_root_janmar": float(np.mean(sm_root[janmar_sl])),
+            "g2_soil_temp_early": float(np.mean(st_surf[early_sl])),
+        })
+
+    df_out = pd.DataFrame(rows, index=X_agro.index)
+    return df_out
+
+
+def compute_boundary_distance_matrix(master_df: pd.DataFrame) -> np.ndarray:
+    """Calcula la matriz exacta de distancias físicas borde-a-borde (m) entre los 197 polígonos (UTM 14N)."""
+    u = master_df.to_crs(32614)
+    n = len(u)
+    b_dist = np.zeros((n, n), dtype=float)
+    geoms = u.geometry.values
+    for i in range(n):
+        gi = geoms[i]
+        for j in range(i + 1, n):
+            d = float(gi.distance(geoms[j]))
+            b_dist[i, j] = b_dist[j, i] = d
+    return b_dist
 
 
 def compute_forensic_outlier_audit(master_df: pd.DataFrame, X_full: pd.DataFrame) -> dict[str, Any]:

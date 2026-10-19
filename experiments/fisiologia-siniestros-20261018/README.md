@@ -1,8 +1,11 @@
 # Fase Experimental `fisiologia-siniestros-20261018`
 
-Investigación forense de parcelas atípicas, ingeniería de variables fisiológicas/siniestros (`F1`–`F5` incluyendo auto-supervisión sobre los 788 ciclos Parcela × Año 2022–2025) y arquitecturas bi-etapa y transductivas (`E01`–`E08`) sobre el modelo adaptativo productivo `R08`.
+Investigación forense de parcelas atípicas, ingeniería de variables fisiológicas/siniestros (`F1`–`F5`), hallazgos estructurales adicionales de `PyR.pdf` (`F6`: ciclo 2025 completo Ene–Dic de Pregunta 6; jerarquía `Comercializadora` vs. `Productor` de Preguntas 1, 3 y 4; contigüidad física borde-a-borde de polígonos) e integración de datos externos en línea de alta resolución física (`F7`: clima diario 2025 y humedad radicular de `Open-Meteo Archive API` sobre 25 nodos de 5 km + micro-topografía `TPI`), evaluados mediante las arquitecturas `E01`–`E12` frente a `B0` y `R08`.
 
 ## Estructura de la Fase
+- **Datos externos en caché**:
+  - [`../../data/external/open_meteo_daily_2025_nodes.json`](../../data/external/open_meteo_daily_2025_nodes.json) (25 nodos únicos de 5 km × 365 días de clima diario 2025 y humedad de suelo radicular 7–28 cm)
+  - [`../../data/external/micro_topography_197.json`](../../data/external/micro_topography_197.json) (Índice de Posición Topográfica `TPI` a 360 m, 840 m y 1,800 m, concavidad Laplaciana y drenaje de aire frío para los 197 polígonos)
 - **Código fuente**:
   - [`src/fisiologia_siniestros/common.py`](src/fisiologia_siniestros/common.py)
   - [`src/fisiologia_siniestros/features.py`](src/fisiologia_siniestros/features.py)
@@ -27,9 +30,11 @@ Investigación forense de parcelas atípicas, ingeniería de variables fisiológ
   - [`tests/test_fisiologia_siniestros.py`](tests/test_fisiologia_siniestros.py)
 
 ## Resumen de Resultados Principales
-- **`E06` (`E06_twostage_huber_residual`)**: Alcanza **`RMSE = 0.4935 t/ha` ($R^2 = 0.6613$)** en `estratificado-5` y **`RMSE_mean = 0.4865 t/ha` ($R^2 = 0.6561$)** en 30 sorteos estratificados 70/30, rompiendo por primera vez la barrera de `0.500 t/ha` y logrando $R^2$ intra-estatal positivo en Puebla (`0.5775 t/ha`).
-- **`E03` (`E03_multiannual_788_latent`)**: Alcanza **`RMSE = 0.6334 t/ha` ($R^2 = 0.4423$)** en `principal-5` y un nuevo récord absoluto del proyecto en `balanceado-4` con **`RMSE = 0.6404 t/ha` ($R^2 = 0.4299$)** usando representación auto-supervisada de los 788 ciclos 2022–2025.
-- **`E01` (`E01_phenology_stress_gpr`)**: Logra el menor error histórico en Hidalgo bajo validación estratificada con **`RMSE = 0.3594 t/ha` ($R^2 = 0.7803$)** y **`0.6414 t/ha`** en `rotado-45-5`.
-- **`E05` (`E05_transductive_graph_197`)**: Alcanza el menor MAE global en `estratificado-5` (**`0.3507 t/ha`**) y aprueba las compuertas de elegibilidad en los 4 esquemas.
-- **`E08` (`E08_master_agro_spatial_ead`)**: Supera al control productivo `R08` simultáneamente en `estratificado-5` (**`0.5026` vs `0.5056`**, mejorando en los 3 estados a la vez), en 30 sorteos 70/30 (**`0.4917` vs `0.4936`**), en `principal-5` (**`0.6580` vs `0.6596`**) y en `balanceado-4` (**`0.6690` vs `0.6718`**), aprobando las 4 compuertas de elegibilidad (`4/4`) con cobertura conformal de **`94.9%`**.
-
+- **`E12` (`E12_master_regime_boundary_meteo_ead`) — Nuevo Campeón Integral del Proyecto**:
+  - **`estratificado-5`**: **`RMSE = 0.4812 t/ha`**, **`MAE = 0.3399 t/ha`**, **`R² = 0.6781`** (Puebla `0.5747` [$R^2 = +0.0192$], Hidalgo **`0.3330`** [$R^2 = 0.8114$], Tlaxcala **`0.3814`**).
+  - **Simulación 30× Holdout 70/30**: **`RMSE_mean = 0.4741 t/ha`** (`RMSE_median = 0.4861 t/ha`, `MAE_mean = 0.3422 t/ha`, **`R²_mean = 0.6728`**), reduciendo el error en **`-0.0195 t/ha`** respecto a `R08` (`0.4936 t/ha`).
+  - **Extrapolación espacial estricta**: **`RMSE = 0.5104 t/ha`** ($R^2 = 0.6378$) en `principal-5`, **`0.5112 t/ha`** ($R^2 = 0.6366$) en `balanceado-4` y **`0.5503 t/ha`** ($R^2 = 0.5790$) en `rotado-45-5`, aprobando **las 4 compuertas de elegibilidad (`4/4`)** con cobertura conformal de **`93.5%`** y ancho adaptativo de **`1.558 t/ha`**.
+- **`E11` (`E11_fullyear2025_openmeteo_huber`)**: Alcanza **`RMSE = 0.4823 t/ha` ($R^2 = 0.6766$)** en `estratificado-5`, **`0.5105 t/ha`** en `principal-5` y **`RMSE_mean = 0.4759 t/ha`** en 30 sorteos 70/30 al incorporar las 30,550 escenas de Ene–Mar y Nov–Dic 2025 (`PyR` P6) más el clima diario de `Open-Meteo` en ventanas fenológicas críticas.
+- **`E10` (`E10_polygon_boundary_adjacency`)**: Reduce el RMSE de `estratificado-5` a **`0.4852 t/ha`** (`MAE = 0.3381 t/ha`, $R^2 = 0.6726$) y aprueba `4/4` esquemas al ponderar la contigüidad exacta entre linderos de polígonos ($d_{\text{borde}} \le 35\text{ m}$).
+- **`E09` (`E09_source_regime_kriging`)**: Al separar los municipios de `Comercializadora` (precisión de 2 decimales, baja varianza) de los de `Productor` (redondeo a 0.5/0.1 t/ha) conforme a las Preguntas 1, 3 y 4 de `PyR.pdf`, reduce el error de Hidalgo de `0.3968` a **`0.3329 t/ha` ($R^2 = 0.8114$)** y logra el **menor MAE global en `estratificado-5` (`0.3364 t/ha`)**, aprobando `4/4` esquemas.
+- **`E06` (`E06_twostage_huber_residual`) y `E08` (`E08_master_agro_spatial_ead`)**: Rompen la barrera de `0.500 t/ha` con variables fisiológicas internas `F1`–`F5` (`0.4935 t/ha` y `0.5026 t/ha`).
