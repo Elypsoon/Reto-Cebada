@@ -1,6 +1,6 @@
 # AgroCebada: rendimiento parcelario con datos verificables
 
-Documento técnico con resultados ejecutados e integrantes proporcionados por el equipo. Corte: 31 octubre 2025. Integrantes: Leonardo Alvarez Gonzalez; Ángel de Jesús Elvis Gutiérrez Pacheco; Diego Cannata Cárdenas.
+Documento técnico con resultados ejecutados e integrantes proporcionados por el equipo. Corte: 31 octubre 2025. Integrantes: Ángel de Jesús Elvis Gutiérrez Pacheco; Leonardo Álvarez González; Ángel Gabriel Aguilar Saldívar; Iván Pérez Sánchez; Diego Cannata Cárdenas.
 
 ## Introducción
 

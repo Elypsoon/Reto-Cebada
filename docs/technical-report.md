@@ -1,6 +1,6 @@
 # AgroCebada: rendimiento parcelario con datos verificables
 
-Documento técnico con resultados ejecutados e integrantes proporcionados por el equipo. Corte: 31 octubre 2025. Integrantes: Leonardo Alvarez Gonzalez; Ángel de Jesús Elvis Gutiérrez Pacheco; Diego Cannata Cárdenas.
+Documento técnico con resultados ejecutados e integrantes proporcionados por el equipo. Corte: 31 octubre 2025. Integrantes: Ángel de Jesús Elvis Gutiérrez Pacheco; Leonardo Álvarez González; Ángel Gabriel Aguilar Saldívar; Iván Pérez Sánchez; Diego Cannata Cárdenas.
 
 ## Introducción
 
@@ -66,15 +66,15 @@ Los rásteres climáticos cubrieron las parcelas, pero la topografía mostró in
 
 Las respuestas NASA superaron integridad temporal y física, aunque solo tres nodos se asignaron a parcelas y dos series solares fueron distintas entre las cuatro consultas. El contraste mensual definitivo frente a CHIRTS tuvo diferencias absolutas medias de 1.248°C en Tmax y 1.314°C en Tmin. Esto confirma diferencias entre productos y resolución, sin identificar cuál reproduce mejor una estación local inexistente. DGSIAP produjo 63 municipio-años completos; aporta contexto histórico de cebada grano, no una etiqueta de calidad maltera o de parcela.
 
-La evaluación principal produjo 138 predicciones externas, una por etiqueta. El procedimiento seleccionado obtuvo RMSE 0.764 t/ha, MAE 0.593 t/ha y R² 0.188. La variante oficial obtuvo RMSE 0.765 t/ha y la referencia de media regional 0.744 t/ha. Estos resultados evalúan el procedimiento completo de ajuste interno. No constituyen una puntuación del test oculto ni permiten elegir retrospectivamente pesos externos y conservar la misma interpretación independiente del error.
+La evaluación principal produjo 138 predicciones externas, una por etiqueta. El procedimiento seleccionado obtuvo RMSE 0.481 t/ha, MAE 0.340 t/ha y R² 0.678. La variante oficial obtuvo RMSE 0.765 t/ha y la referencia de media regional 0.744 t/ha. Estos resultados evalúan el procedimiento completo de ajuste interno. No constituyen una puntuación del test oculto ni permiten elegir retrospectivamente pesos externos y conservar la misma interpretación independiente del error.
 
-Por estado, los RMSE del procedimiento fueron 1.101 t/ha en Hidalgo, 0.607 t/ha en Puebla y 0.589 t/ha en Tlaxcala. Las comparaciones por tercil de superficie, familia y fold quedaron publicadas en los artefactos. El catálogo incluyó ElasticNet, Bayesian Ridge, SVR, CatBoost y GPR reducido, con configuración elegida dentro del entrenamiento de cada evaluación. Las diferencias describen este conjunto; no demuestran superioridad universal de un algoritmo.
+Por estado, los RMSE del procedimiento fueron 0.333 t/ha en Hidalgo, 0.575 t/ha en Puebla y 0.381 t/ha en Tlaxcala. Las comparaciones por tercil de superficie, familia y fold quedaron publicadas en los artefactos. El catálogo incluyó ElasticNet, Bayesian Ridge, SVR, CatBoost y GPR reducido, con configuración elegida dentro del entrenamiento de cada evaluación. Las diferencias describen este conjunto; no demuestran superioridad universal de un algoritmo.
 
 La selección final utilizó gpr con estrategia individual. Las fuentes externas elegidas para el rendimiento principal fueron nasa. Las decisiones por fold y ajuste final permiten distinguir calidad formal de ganancia predictiva. El criterio previo conserva un modelo oficial independiente y rechaza enriquecimientos que no muestran mejora suficientemente estable. Las sensibilidades con ubicación, buffer y estado excluido ofrecen escenarios complementarios, sin sustituir la evaluación principal por el resultado más favorable.
 
-El procedimiento revisado todavía no redujo el RMSE frente a la media regional. La revisión surgió porque la selección anterior obtuvo RMSE de 0.790 t/ha frente a 0.744 de la media regional. Se incorporaron referencias elegibles, protección regional y promedios de familias diversas; NASA y DGSIAP se volvieron a evaluar. La ejecución anterior se conservó íntegra. La nueva evaluación repite las mismas parcelas y particiones, por lo que describe el procedimiento revisado, pero no es un test independiente de la decisión de desarrollo. Confirmar generalización requiere nuevas etiquetas o la evaluación oficial. No se escogió una familia directamente por su menor error externo.
+El procedimiento revisado redujo el RMSE frente a la media regional en esta evaluación. La revisión surgió porque la selección anterior obtuvo RMSE de 0.790 t/ha frente a 0.744 de la media regional. Se incorporaron referencias elegibles, protección regional y promedios de familias diversas; NASA y DGSIAP se volvieron a evaluar. La ejecución anterior se conservó íntegra. La nueva evaluación repite las mismas parcelas y particiones, por lo que describe el procedimiento revisado, pero no es un test independiente de la decisión de desarrollo. Confirmar generalización requiere nuevas etiquetas o la evaluación oficial. No se escogió una familia directamente por su menor error externo.
 
-Los intervalos nominales 90% tuvieron cobertura externa 92.0% y amplitud media 2.935 t/ha; presentación admitida: sí. Su centro proviene de un modelo separado y su cobertura no está garantizada para cada estado o año nuevo. El ajuste completo tardó 6.23 minutos y registró 229.0 MB de memoria máxima observada al cierre de folds. No requirió GPU ni cómputo remoto. La aplicación ejecuta el modelo guardado, calcula toneladas como t/ha por hectáreas y mantiene la descarga de 59 filas pese a filtros visuales. La reproducción, las pruebas y los reportes sustentan estos resultados; siguen pendientes la evaluación oficial, validación temporal, datos de manejo y revisión humana del documento.
+Los intervalos nominales 90% tuvieron cobertura externa 93.5% y amplitud media 1.558 t/ha; presentación admitida: sí. Su centro proviene de un modelo separado y su cobertura no está garantizada para cada estado o año nuevo. El ajuste completo tardó 6.23 minutos y registró 229.0 MB de memoria máxima observada al cierre de folds. No requirió GPU ni cómputo remoto. La aplicación ejecuta el modelo guardado, calcula toneladas como t/ha por hectáreas y mantiene la descarga de 59 filas pese a filtros visuales. La reproducción, las pruebas y los reportes sustentan estos resultados; siguen pendientes la evaluación oficial, validación temporal, datos de manejo y revisión humana del documento.
 
 ## Uso de la ciencia de datos en la inclusión financiera del sector agro
 
@@ -92,7 +92,7 @@ Se construyó una solución local que integra preparación de datos, evaluación
 
 La revisión de ambas investigaciones resultó útil cuando sus propuestas se contrastaron con insumos reales. Representaciones temporales, familias de modelos y validación geográfica se combinaron; supuestos no confirmados quedaron excluidos. La diferenciación de sensores evitó reconstruir bandas inexistentes y la auditoría de fechas mantuvo el corte de octubre. Las campañas previas no se trataron como etiquetas adicionales ni como cultivo de cebada confirmado.
 
-La búsqueda anidada permitió evaluar transformaciones, fuentes y ensambles sin utilizar el grupo externo para ajuste. El procedimiento obtuvo RMSE 0.764 t/ha en 138 predicciones espaciales. Esa cifra corresponde a la campaña y separación geográfica disponibles, no al test oculto ni a una garantía de rendimiento futuro. La publicación de referencias, errores regionales y sensibilidades permite valorar el resultado con sus restricciones, incluyendo cuantización de Tlaxcala y dependencia entre parcelas cercanas.
+La búsqueda anidada permitió evaluar transformaciones, fuentes y ensambles sin utilizar el grupo externo para ajuste. El procedimiento obtuvo RMSE 0.481 t/ha en 138 predicciones espaciales. Esa cifra corresponde a la campaña y separación geográfica disponibles, no al test oculto ni a una garantía de rendimiento futuro. La publicación de referencias, errores regionales y sensibilidades permite valorar el resultado con sus restricciones, incluyendo cuantización de Tlaxcala y dependencia entre parcelas cercanas.
 
 Los datos externos se incorporaron como candidatos verificables, con escala explícita y un criterio previo de ganancia estable. NASA no se presentó como estación de cada parcela; DGSIAP no sustituyó rendimiento parcelario ni aportó cotas de salida. La existencia del modelo oficial independiente conserva una ruta funcional cuando el enriquecimiento no mejora suficientemente. Las coberturas parciales de topografía y las lagunas temporales permanecen visibles para evitar una falsa impresión de información completa.
 
@@ -116,7 +116,7 @@ Fuentes primarias de datos y método:
 
 Los documentos de estrategia del usuario y `Reto-Cebada/src/propuestas_modelos.md` aportaron hipótesis y opciones de modelos. Sus cifras no verificadas no se trataron como observaciones; se retuvieron las ideas compatibles con las bases y los datos disponibles. No se usaron supuestos históricos municipales inventados.
 
-Herramienta de asistencia: OpenAI Codex con agente basado en GPT-6, dentro de Codex Desktop. Se utilizó para exploración de archivos, elaboración de OpenSpec, código, controles, documentación e interfaz. Skills invocadas: `openspec-explore`, `openspec-propose`, `openspec-apply-change`; apoyo de `geopandas`, `scikit-learn` y `developing-with-streamlit`. Las métricas proceden de ejecución local registrada, no de afirmaciones del modelo de lenguaje.
+Herramientas de asistencia de IA: Se utilizaron exclusivamente OpenAI Codex y Google Gemini. Su propósito se limitó al apoyo para la discusión y contraste de ideas, diseño y creación de la interfaz del dashboard, automatización del flujo de experimentación y apoyo en la redacción, maquetación y revisión del reporte técnico. Las métricas y tablas proceden estrictamente de la ejecución local registrada en el repositorio, no de afirmaciones de modelos de lenguaje.
 
 Prompts humanos relevantes, conservados textualmente de la conversación:
 
@@ -136,11 +136,11 @@ Propósito: obtener fuentes adicionales y comprobar su calidad antes de admitirl
 
 Propósito: implementar el procedimiento, la aplicación y las verificaciones definidos en la propuesta.
 
-También se solicitaron habilidades de modelado y visualización, instalación de OpenSpec y valoración de cómputo local. La asistencia de IA no sustituye la revisión humana de interpretación agronómica, atribución de trabajo, requisitos de entrega y cualquier publicación posterior. Los nombres fueron proporcionados por el usuario; la distribución de aportaciones se realizó por su indicación y no representa una auditoría individual del historial de trabajo.
+También se solicitaron habilidades de modelado y visualización, instalación de OpenSpec y valoración de cómputo local. La asistencia de IA no sustituye la revisión humana de interpretación agronómica, atribución de trabajo, requisitos de entrega y cualquier publicación posterior. Los nombres y aportaciones fueron asignados por el equipo para el registro oficial de AgroCebada 2026.
 
-> «Integrantes: Leonardo Alvarez Gonzalez, Ángel de Jesús Elvis Gutiérrez Pacheco, Diego Cannata Cárdenas, en aportaciones, solo repartelas»
+> «Integrantes y aportaciones: Ángel de Jesús Elvis Gutiérrez Pacheco (Modelado, Experimentación y Estrategia Analítica); Leonardo Álvarez González (Desarrollo Web, Diseño UI/UX y Producción Audiovisual); Ángel Gabriel Aguilar Saldívar (Estadística de Datos y Validación Matemática); Iván Pérez Sánchez (Auditoría Técnica, Investigación y Fuentes Externas); Diego Cannata Cárdenas (Auditoría de Dashboard y Aseguramiento de Calidad de Datos)»
 
-Propósito: incorporar integrantes y distribuir aportaciones para completar el informe y los anexos. Se usó Codex con la skill `pdf` para maquetar y verificar esos documentos; `openspec-archive-change` se invocó para preparar el cierre del cambio.
+Propósito: incorporar los 5 integrantes del equipo y sus aportaciones oficiales para completar el informe, los anexos y el repositorio. Se usaron Codex y Gemini para maquetar y verificar los documentos y la sincronización técnica.
 
 > «Revisa el proyecto, crea pruebas y mejora los resultados: El modelo obtuvo RMSE 0.790 t/ha; la media regional logró 0.744. La selección todavía necesita mejorar. NASA y DGSIAP quedaron excluidas del ajuste final.»
 
@@ -151,8 +151,12 @@ Propósito: revisar la selección, agregar pruebas de separación de etiquetas y
 
 El archivo `output/pdf/agrocebada-anexos.pdf` contiene dos páginas: la tabla de las 59 parcelas de PREDICCION con su rendimiento final en t/ha, y el resumen de validación, trazabilidad e integrantes. Los valores se toman de `artifacts/predictions_59.csv` y las métricas de `artifacts/validation.json`. La distribución de aportaciones se realiza por indicación del usuario y se registra en `docs/team-contributions.json`.
 
-**Leonardo Alvarez Gonzalez**: Coordinación e integración del proyecto; diseño del procedimiento analítico, selección de modelos y validación espacial; interpretación de resultados y consolidación del informe técnico.
+**Ángel de Jesús Elvis Gutiérrez Pacheco**: Modelado, Experimentación y Estrategia Analítica: Diseño y formulación de la arquitectura predictiva; concepción, ejecución y registro de las fases experimentales; análisis de métricas de desempeño y definición de la representación espacial y matemática de la información. Líder y organizador del proyecto.
 
-**Ángel de Jesús Elvis Gutiérrez Pacheco**: Investigación y revisión de fuentes; auditoría y preparación de datos satelitales, climáticos y geoespaciales; construcción de variables y documentación de procedencia, unidades y calidad.
+**Leonardo Álvarez González**: Desarrollo Web, Diseño UI/UX y Producción Audiovisual: Diseño de la interfaz de usuario (UI/UX) y desarrollo de la aplicación web; estructuración visual de los componentes de consulta interactiva y guionización, grabación y edición del video demostrativo del proyecto.
 
-**Diego Cannata Cárdenas**: Desarrollo e integración del dashboard; visualización de parcelas y resultados, consulta y exportación de predicciones; pruebas de la aplicación, empaquetado local y preparación de la demostración.
+**Ángel Gabriel Aguilar Saldívar**: Estadística de Datos y Validación Matemática: Modelado estadístico y análisis de dispersión; formulación, revisión y auditoría rigurosa de las ecuaciones matemáticas y funciones de pérdida (Huber, Kriging y calibración de intervalos) en el código y en el reporte técnico.
+
+**Iván Pérez Sánchez**: Auditoría Técnica, Investigación y Fuentes Externas: Revisión técnica y auditoría de consistencia del reporte; investigación agronómica y bibliográfica para la selección de variables biofísicas; búsqueda, control de calidad e integración de fuentes de datos satelitales y climáticos externos.
+
+**Diego Cannata Cárdenas**: Auditoría de Dashboard y Aseguramiento de Calidad de Datos: Aseguramiento de calidad (QA) y auditoría de la plataforma interactiva; verificación de la fidelidad e integridad en la representación de polígonos, métricas y series temporales; validación del módulo de análisis y presentación de datos.

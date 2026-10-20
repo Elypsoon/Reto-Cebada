@@ -34,6 +34,27 @@ npm run dashboard:build
 
 La comprobación **Cloud readiness** de GitHub Actions verifica los modelos y las pruebas en Ubuntu/Python 3.12, y compila el frontend oficial. No publica automáticamente.
 
+### Inferencia programática y comandos de consola (CLI)
+
+Para consultar predicciones interactivamente en Python:
+
+```python
+from agrocebada.inference import Predictor
+
+# Cargar el predictor oficial seleccionado (Ensamble Maestro E12)
+predictor = Predictor("selected")
+
+# Estimar rendimiento (t/ha), producción (t) e intervalos de calibración al 90%
+resultado = predictor.predict(["AGC_003", "AGC_011", "AGC_025"])
+print(resultado[["ID_POLIGONO", "RENDIMIENTO_T_HA", "INTERVAL_LOW", "INTERVAL_HIGH"]])
+```
+
+Comandos disponibles en la herramienta de línea de órdenes (`agrocebada.cli`):
+- `python -m agrocebada.cli verify`: Comprueba contratos criptográficos (SHA-256), reproduce exactamente las 59 predicciones oficiales y verifica métricas fuera de pliegue.
+- `python -m agrocebada.cli audit`: Audita identificadores, CRS, geometrías y tablas maestras originales en `DataSet/`.
+- `python -m agrocebada.cli prepare`: Procesa y sincroniza series temporales de Sentinel-2, PlanetScope y clima diario.
+- `python -m agrocebada.cli train`: Ejecuta la búsqueda de modelos, evaluación por bloques espaciales y políticas de selección.
+
 ## Modelo y límites
 
 El **Ensamble Maestro Integral E12**, procedente del commit `32a6d2116e480c9388b9024faa300d1a48ee075d` del proyecto original, tiene **MAE 0.339942 t/ha**, **RMSE 0.481150 t/ha** y **R² 0.678118** sobre 138 parcelas, con cinco grupos estratificados por estado. Consulta estimaciones precalculadas para las parcelas oficiales e intervalos adaptativos por estado. Se conserva el modelo independiente «Solo datos del reto» para verificación por consola.
@@ -57,4 +78,12 @@ Las versiones de las bibliotecas del modelo y los hashes de código, datos y mod
 
 Los originales se conservan en `DataSet/`, la única ruta usada para reproducir la preparación. La consulta y las pruebas con artefactos preparados no requieren volver a procesarlos. Consultar [reproducción local](docs/local-reproduction.md). El contexto científico del README anterior está en [docs/project-background.md](docs/project-background.md); el informe del equipo está en `output/pdf/Reporte_AgroCebada_2026.pdf` y la revisión documental en `output/audit/`.
 
-Integrantes: Leonardo Alvarez Gonzalez, Ángel de Jesús Elvis Gutiérrez Pacheco y Diego Cannata Cárdenas. Aportaciones en `docs/team-contributions.json`.
+## Integrantes y aportaciones
+
+- **Ángel de Jesús Elvis Gutiérrez Pacheco** (*Modelado, Experimentación y Estrategia Analítica*): Diseño y formulación de la arquitectura predictiva; concepción, ejecución y registro de las fases experimentales; análisis de métricas de desempeño y definición de la representación espacial y matemática de la información. Líder y organizador del proyecto.
+- **Leonardo Álvarez González** (*Desarrollo Web, Diseño UI/UX y Producción Audiovisual*): Diseño de la interfaz de usuario (UI/UX) y desarrollo de la aplicación web; estructuración visual de los componentes de consulta interactiva y guionización, grabación y edición del video demostrativo del proyecto.
+- **Ángel Gabriel Aguilar Saldívar** (*Estadística de Datos y Validación Matemática*): Modelado estadístico y análisis de dispersión; formulación, revisión y auditoría rigurosa de las ecuaciones matemáticas y funciones de pérdida (Huber, Kriging y calibración de intervalos) en el código y en el reporte técnico.
+- **Iván Pérez Sánchez** (*Auditoría Técnica, Investigación y Fuentes Externas*): Revisión técnica y auditoría de consistencia del reporte; investigación agronómica y bibliográfica para la selección de variables biofísicas; búsqueda, control de calidad e integración de fuentes de datos satelitales y climáticos externos.
+- **Diego Cannata Cárdenas** (*Auditoría de Dashboard y Aseguramiento de Calidad de Datos*): Aseguramiento de calidad (QA) y auditoría de la plataforma interactiva; verificación de la fidelidad e integridad en la representación de polígonos, métricas y series temporales; validación del módulo de análisis y presentación de datos.
+
+Detalles y metadatos complementarios en [`docs/team-contributions.json`](docs/team-contributions.json).

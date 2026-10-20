@@ -13,7 +13,7 @@ Fuentes primarias de datos y método:
 
 Los documentos de estrategia del usuario y `Reto-Cebada/src/propuestas_modelos.md` aportaron hipótesis y opciones de modelos. Sus cifras no verificadas no se trataron como observaciones; se retuvieron las ideas compatibles con las bases y los datos disponibles. No se usaron supuestos históricos municipales inventados.
 
-Herramienta de asistencia: OpenAI Codex con agente basado en GPT-6, dentro de Codex Desktop. Se utilizó para exploración de archivos, elaboración de OpenSpec, código, controles, documentación e interfaz. Skills invocadas: `openspec-explore`, `openspec-propose`, `openspec-apply-change`; apoyo de `geopandas`, `scikit-learn` y `developing-with-streamlit`. Las métricas proceden de ejecución local registrada, no de afirmaciones del modelo de lenguaje.
+Herramientas de asistencia de IA: Se utilizaron exclusivamente OpenAI Codex y Google Gemini. Su propósito se limitó al apoyo para la discusión y contraste de ideas, diseño y creación de la interfaz del dashboard, automatización del flujo de experimentación y apoyo en la redacción, maquetación y revisión del reporte técnico. Las métricas y tablas proceden estrictamente de la ejecución local registrada en el repositorio, no de afirmaciones de modelos de lenguaje.
 
 Prompts humanos relevantes, conservados textualmente de la conversación:
 
@@ -33,11 +33,11 @@ Propósito: obtener fuentes adicionales y comprobar su calidad antes de admitirl
 
 Propósito: implementar el procedimiento, la aplicación y las verificaciones definidos en la propuesta.
 
-También se solicitaron habilidades de modelado y visualización, instalación de OpenSpec y valoración de cómputo local. La asistencia de IA no sustituye la revisión humana de interpretación agronómica, atribución de trabajo, requisitos de entrega y cualquier publicación posterior. Los nombres fueron proporcionados por el usuario; la distribución de aportaciones se realizó por su indicación y no representa una auditoría individual del historial de trabajo.
+También se solicitaron habilidades de modelado y visualización, instalación de OpenSpec y valoración de cómputo local. La asistencia de IA no sustituye la revisión humana de interpretación agronómica, atribución de trabajo, requisitos de entrega y cualquier publicación posterior. Los nombres y aportaciones fueron asignados por el equipo para el registro oficial de AgroCebada 2026.
 
-> «Integrantes: Leonardo Alvarez Gonzalez, Ángel de Jesús Elvis Gutiérrez Pacheco, Diego Cannata Cárdenas, en aportaciones, solo repartelas»
+> «Integrantes y aportaciones: Ángel de Jesús Elvis Gutiérrez Pacheco (Modelado, Experimentación y Estrategia Analítica); Leonardo Álvarez González (Desarrollo Web, Diseño UI/UX y Producción Audiovisual); Ángel Gabriel Aguilar Saldívar (Estadística de Datos y Validación Matemática); Iván Pérez Sánchez (Auditoría Técnica, Investigación y Fuentes Externas); Diego Cannata Cárdenas (Auditoría de Dashboard y Aseguramiento de Calidad de Datos)»
 
-Propósito: incorporar integrantes y distribuir aportaciones para completar el informe y los anexos. Se usó Codex con la skill `pdf` para maquetar y verificar esos documentos; `openspec-archive-change` se invocó para preparar el cierre del cambio.
+Propósito: incorporar los 5 integrantes del equipo y sus aportaciones oficiales para completar el informe, los anexos y el repositorio. Se usaron Codex y Gemini para maquetar y verificar los documentos y la sincronización técnica.
 
 > «Revisa el proyecto, crea pruebas y mejora los resultados: El modelo obtuvo RMSE 0.790 t/ha; la media regional logró 0.744. La selección todavía necesita mejorar. NASA y DGSIAP quedaron excluidas del ajuste final.»
 

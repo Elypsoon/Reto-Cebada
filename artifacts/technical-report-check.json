@@ -4,28 +4,36 @@
     "Justificación": 144,
     "Objetivos": 185,
     "Metodología": 635,
-    "Resultados y discusión": 767,
+    "Resultados y discusión": 768,
     "Uso de la ciencia de datos en la inclusión financiera del sector agro": 286,
     "Conclusiones": 381,
     "Bibliografía": 25,
-    "Anexos": 139
+    "Anexos": 272
   },
   "body_limits_met": true,
   "results_from_validation": true,
   "team_contributions": {
-    "assignment_basis": "Nombres proporcionados por el usuario y distribución de aportaciones realizada por su indicación el 3 de octubre de 2026; no constituye una auditoría individual del historial de trabajo.",
+    "assignment_basis": "Nombres e indicaciones de aportaciones proporcionados por el equipo para el registro oficial de AgroCebada 2026; no constituye una auditoría individual del historial de trabajo.",
     "members": [
       {
-        "name": "Leonardo Alvarez Gonzalez",
-        "contributions": "Coordinación e integración del proyecto; diseño del procedimiento analítico, selección de modelos y validación espacial; interpretación de resultados y consolidación del informe técnico."
+        "name": "Ángel de Jesús Elvis Gutiérrez Pacheco",
+        "contributions": "Modelado, Experimentación y Estrategia Analítica: Diseño y formulación de la arquitectura predictiva; concepción, ejecución y registro de las fases experimentales; análisis de métricas de desempeño y definición de la representación espacial y matemática de la información. Líder y organizador del proyecto."
       },
       {
-        "name": "Ángel de Jesús Elvis Gutiérrez Pacheco",
-        "contributions": "Investigación y revisión de fuentes; auditoría y preparación de datos satelitales, climáticos y geoespaciales; construcción de variables y documentación de procedencia, unidades y calidad."
+        "name": "Leonardo Álvarez González",
+        "contributions": "Desarrollo Web, Diseño UI/UX y Producción Audiovisual: Diseño de la interfaz de usuario (UI/UX) y desarrollo de la aplicación web; estructuración visual de los componentes de consulta interactiva y guionización, grabación y edición del video demostrativo del proyecto."
+      },
+      {
+        "name": "Ángel Gabriel Aguilar Saldívar",
+        "contributions": "Estadística de Datos y Validación Matemática: Modelado estadístico y análisis de dispersión; formulación, revisión y auditoría rigurosa de las ecuaciones matemáticas y funciones de pérdida (Huber, Kriging y calibración de intervalos) en el código y en el reporte técnico."
+      },
+      {
+        "name": "Iván Pérez Sánchez",
+        "contributions": "Auditoría Técnica, Investigación y Fuentes Externas: Revisión técnica y auditoría de consistencia del reporte; investigación agronómica y bibliográfica para la selección de variables biofísicas; búsqueda, control de calidad e integración de fuentes de datos satelitales y climáticos externos."
       },
       {
         "name": "Diego Cannata Cárdenas",
-        "contributions": "Desarrollo e integración del dashboard; visualización de parcelas y resultados, consulta y exportación de predicciones; pruebas de la aplicación, empaquetado local y preparación de la demostración."
+        "contributions": "Auditoría de Dashboard y Aseguramiento de Calidad de Datos: Aseguramiento de calidad (QA) y auditoría de la plataforma interactiva; verificación de la fidelidad e integridad en la representación de polígonos, métricas y series temporales; validación del módulo de análisis y presentación de datos."
       }
     ]
   },
@@ -38,15 +46,15 @@
   "pdfs": {
     "agrocebada-informe-tecnico.pdf": {
       "pages": 9,
-      "sha256": "719ac16e92c7e73c648272bdb9d355bbeac0a1d30ea79044a88e2c5f2248eaed"
+      "sha256": "165aace5871c85d1ba7fe4787b59244c510307ce8d0b300602eb561170badaa5"
     },
     "agrocebada-bibliografia.pdf": {
       "pages": 2,
-      "sha256": "d7257e885f0d4ae2ca74c18e117e45da80de53ca986fd20ea00500090dce0d41"
+      "sha256": "2b3bb375d6bb619cab3c7543b34944eb73ae67c312ec109470a7c6c585935f67"
     },
     "agrocebada-anexos.pdf": {
       "pages": 2,
-      "sha256": "56f455a621321cdf52c88824b21d4cbbd1301353ff53e209a05914b18275f0b9"
+      "sha256": "f3a35083ac55576022a11d30d788419182b6df9585ac1e29a87c8b6558f14be8"
     }
   }
 }

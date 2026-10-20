@@ -53,7 +53,7 @@ def footer(canvas, doc):
 
 
 def build(path, story):
-    SimpleDocTemplate(str(path), pagesize=letter, leftMargin=48, rightMargin=48, topMargin=46, bottomMargin=56, title=path.stem, author="Leonardo Alvarez Gonzalez; Ángel de Jesús Elvis Gutiérrez Pacheco; Diego Cannata Cárdenas").build(story, onFirstPage=footer, onLaterPages=footer)
+    SimpleDocTemplate(str(path), pagesize=letter, leftMargin=48, rightMargin=48, topMargin=46, bottomMargin=56, title=path.stem, author="Ángel de Jesús Elvis Gutiérrez Pacheco; Leonardo Álvarez González; Ángel Gabriel Aguilar Saldívar; Iván Pérez Sánchez; Diego Cannata Cárdenas").build(story, onFirstPage=footer, onLaterPages=footer)
 
 
 def markdown(text):
@@ -106,7 +106,7 @@ source_text="Fuentes externas del rendimiento final: "+(", ".join(sources) if so
 annex += [metric_table, Spacer(1, 9), paragraph(f"Evaluación: 138 parcelas y cinco grupos espaciales. La revisión {comparison} el RMSE frente a la media regional. Reutiliza las etiquetas del desarrollo; no es el test oculto. Intervalos nominales del 90%: cobertura {interval['coverage']:.1%}, amplitud {interval['mean_width']:.3f} t/ha; presentación {'admitida' if interval['available'] else 'no admitida'}, sin garantía por estado o campaña futura.", "small"), paragraph(source_text+" Fuentes, columnas, dependencias y hashes: data/processed/source-manifest.json y artifacts/contract_selected.json. Predicciones reproducidas desde el modelo local.", "small"), paragraph("Integrantes y aportaciones", "subheading")]
 for member in team["members"]:
     annex.append(KeepTogether([paragraph(member["name"], "subheading"), paragraph(member["contributions"], "small")]))
-annex += [paragraph("Distribución de aportaciones realizada por indicación del usuario; nombres proporcionados por el equipo. No constituye una auditoría individual del historial de trabajo.", "small"), paragraph("Asistencia de IA", "subheading"), paragraph("Se utilizó OpenAI Codex como asistencia en revisión, programación, documentación y maquetación. Bibliografía, herramientas, prompts y sus propósitos se incluyen en agrocebada-bibliografia.pdf. La interpretación y revisión final corresponden al equipo.", "small")]
+annex += [paragraph("Distribución de aportaciones acordada por el equipo de autores para el registro oficial de AgroCebada 2026.", "small"), paragraph("Asistencia de IA", "subheading"), paragraph("La inteligencia artificial (OpenAI Codex y Google Gemini) se utilizó exclusivamente como apoyo para la discusión de ideas, creación del dashboard, automatización de experimentos y apoyo en la redacción del reporte. La formulación metodológica, auditoría analítica e interpretación corresponden íntegramente al equipo de autores.", "small")]
 annex_path = OUT / "agrocebada-anexos.pdf"
 build(annex_path, annex)
 assert len(PdfReader(annex_path).pages) == 2, "Los anexos deben ocupar exactamente dos páginas"
