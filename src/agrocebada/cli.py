@@ -27,7 +27,7 @@ def prepare(externals=True):
             t=t.join(env,validate="one_to_one")
             t.to_parquet(PROCESSED/f"features_{name}.parquet")
             q.to_parquet(PROCESSED/f"quality_{name}.parquet",index=False)
-            tables[name]=str((PROCESSED/f"features_{name}.parquet").relative_to(ROOT))
+            tables[name]=(PROCESSED/f"features_{name}.parquet").relative_to(ROOT).as_posix()
             if method=="whittaker":allcurves.append(c)
             if name=="monthly_20_10":write_json(PROCESSED/"feature-dictionary.json",dictionary(t.columns))
     pd.concat(allcurves,ignore_index=True).to_parquet(PROCESSED/"curves.parquet",index=False)

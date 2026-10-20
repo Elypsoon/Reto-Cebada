@@ -1,6 +1,6 @@
 {
   "dataset_hash": "e4e9aacf04ba8564ad70bddf4e79e4ad2aa411d2f189493c89a9794f998b915f",
-  "code_hash": "324a3df6fdd06651ee271b338ca380d5e045e5951e37e67802e9d483f00ccc14",
+  "code_hash": "dff7aa1c0220ca6fee4ed3ccca7592af929e47171be443062bb13a2ba74aabf9",
   "dependencies": {
     "python": "3.12.14",
     "numpy": "2.5.3",
@@ -1073,5 +1073,19 @@
     "nasa": "35dcffc0a6e86a4120ff50fae55c0a4b0e42d6f541634f39fdcb5343b7271ea9"
   },
   "parcels_hash": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
-  "model_hash": "5aaaf9f3915e955b09763152a192552ffcc59d84572cccc141245c9bd344b365"
+  "model_hash": "31fa70430da0bc3104ca9c3e1ec682cb989ff4354bacd725340697cb6b2f0ff4",
+  "presentation": {
+    "id": "E12",
+    "name": "Ensamble Maestro Integral E12",
+    "source_commit": "32a6d2116e480c9388b9024faa300d1a48ee075d",
+    "feature_period_end": "2025-12-31",
+    "scope": "Estimación retrospectiva de la campaña 2025 con señales del ciclo completo; no valida campañas futuras.",
+    "context_sources": [
+      "NASA POWER",
+      "Open-Meteo",
+      "microtopografía"
+    ],
+    "method": "Integra régimen municipal de reporte, vecindad entre linderos, señales del ciclo completo 2025 y clima diario con un ensamble GPR/CatBoost.",
+    "validation_scheme": "Cinco grupos estratificados por estado"
+  }
 }

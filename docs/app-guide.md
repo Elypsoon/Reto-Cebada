@@ -1,20 +1,21 @@
-# Consulta local de AgroCebada
+# Consultar AgroCebada
 
-Abra una terminal en la raíz del proyecto y ejecute:
+Abrir la [interfaz oficial de Cloudflare](https://agrocebada-2026.leonforce033.workers.dev/). Para abrirla localmente, desde la raíz:
 
-```powershell
-.\.venv\Scripts\python.exe -m streamlit run app.py
+```sh
+npm --prefix frontend ci
+npm run dashboard
 ```
 
-Abra `http://127.0.0.1:8501`. La aplicación escucha únicamente en la computadora local. Con los artefactos preparados, la consulta e inferencia funcionan sin conexión: no requieren servicios satelitales, API climática, mapas externos ni reentrenamiento.
+Usar la dirección que indica la terminal. No se necesita iniciar Python para consultar los resultados ya exportados. Los fondos Satélite y Relieve requieren internet; las tipografías, contornos, curvas y resultados están incluidos en la aplicación.
 
-1. En «Consultar parcelas», filtre estado, municipio o conjunto. Busque por identificador o elija un punto del mapa y pulse «Abrir parcela elegida en el mapa».
-2. La ficha muestra superficie y, cuando está disponible, rendimiento observado. Pulse «Calcular rendimiento estimado» para ejecutar el modelo guardado. Consulte rendimiento t/ha, producción total t y versión/corte. Descargue la ficha si la necesita.
-3. Cambie sensor y umbral de nube para revisar observaciones originales, utilizables y reconstrucción. Las lagunas impiden presentar fases válidas. VI6T se muestra como índice; el pico aproximado no identifica floración exacta. Las coberturas limitadas de topografía se avisan por parcela.
-4. «Validación» presenta errores espaciales globales y por estado, referencias, familias de modelos e información sobre intervalos. Las 59 etiquetas ocultas no están disponibles para evaluación local.
-5. «Fuentes» muestra procedencia y admisión de los candidatos externos en el ajuste final. El selector de modelo permite abrir expresamente el artefacto oficial independiente.
-6. «Descargar las 59 predicciones» siempre entrega el conjunto oficial completo, incluso si la consulta está filtrada. Descargar una ficha tiene un alcance distinto.
+1. En **Explorar parcelas**, buscar por identificador (`AGC_071` o `71`), municipio o estado. También se puede filtrar por estado y seleccionar un contorno en el mapa.
+2. La selección acerca el mapa y abre la ficha con superficie, rendimiento, producción e intervalo. Los valores proceden de la exportación verificada del modelo E12. El rendimiento observado solo aparece cuando existe una etiqueta conocida.
+3. Debajo de la ficha, consultar la evolución del cultivo y cambiar entre Sentinel-2 y Planet. La tabla comparte el sensor seleccionado y permite revisar los valores y el método de la curva. La vista actual no reproduce los videos conservados en el archivo de medios.
+4. **Modelo y validación** presenta MAE, RMSE, R² y resultados por estado sobre 138 predicciones fuera de pliegue. E12 se evalúa con cinco grupos estratificados por estado; el test oculto carece de etiquetas disponibles.
+5. **Fuentes y metodología** explica la procedencia y los límites. Sus enlaces permiten descargar las 59 predicciones oficiales, con y sin intervalos, independientemente de los filtros del mapa.
+6. Cerrar la ficha o pulsar **Ver territorio** devuelve el encuadre general. La URL conserva la selección y permite usar atrás y adelante.
 
-Si aparece «No se pudo cargar esta versión», conserve el mensaje y restaure código, dependencias, tablas y modelo del mismo paquete. No cambie columnas ni elimine una fuente requerida para forzar la carga. `python -m agrocebada.cli verify` diagnostica compatibilidad y reproducción. Para regenerar desde los originales, siga README; no mezcle una preparación nueva con un modelo anterior.
+La preferencia de movimiento reducido desactiva las animaciones principales. Las gráficas incluyen tablas y la búsqueda permite seleccionar sin depender de los puntos del mapa.
 
-Los resultados son estimaciones retrospectivas de 2025. No se presentan como pronóstico anterior a cosecha, asesoramiento causal de manejo ni dictamen de crédito. Una consulta vacía pide ampliar filtros; no crea parcelas o predicciones ficticias.
+Los resultados son retrospectivos de 2025. No son pronósticos anteriores a cosecha ni explicaciones causales del manejo. El ensamble E12 no incorpora contribuciones por variable que reproduzcan exactamente sus estimaciones. La [guía de reproducción](local-reproduction.md) documenta la verificación científica y la [guía de despliegue](deployment-cloudflare.md) explica cómo actualizar la publicación.

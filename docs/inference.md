@@ -1,6 +1,6 @@
 # Inferencia y explicaciones
 
-`Predictor` es el único servicio de cálculo utilizado por consola y Streamlit. Carga el pipeline guardado; no entrena, no solicita imágenes ni consulta APIs. Acepta identificadores únicos de las 197 parcelas disponibles. No admite cualquier polígono nuevo sin un proceso compatible de preparación y validación.
+`Predictor` es el servicio de cálculo utilizado por consola y por el exportador de la interfaz oficial de Cloudflare. Carga el pipeline guardado; no entrena, no solicita imágenes ni consulta APIs. Acepta identificadores únicos de las 197 parcelas disponibles. No admite cualquier polígono nuevo sin un proceso compatible de preparación y validación. La web consulta la exportación estática verificada, sin ejecutar Python en el navegador o en Cloudflare.
 
 Hay dos artefactos independientes: `model_selected.joblib`, resultado del procedimiento de selección interno, y `model_official.joblib`, ajustado únicamente con datos del reto. Los contratos JSON contienen corte 2025-10-31, semilla, configuración temporal, columnas y orden, fuentes requeridas, hashes de tablas/datos/modelo/código y versiones de dependencias. Cambios incompatibles se rechazan con un mensaje; no se sustituye silenciosamente el modelo seleccionado por el oficial. Restaurar una versión implica restaurar su contrato, tablas y código completos.
 

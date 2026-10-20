@@ -4,7 +4,10 @@
   "private": true,
   "description": "Modelo predictivo y herramienta de consulta para AgroCebada 2026",
   "scripts": {
-    "openspec": "openspec"
+    "openspec": "openspec",
+    "dashboard": "npm --prefix frontend run dev",
+    "dashboard:build": "npm --prefix frontend run build",
+    "dashboard:deploy": "npm --prefix frontend run deploy"
   },
   "devDependencies": {
     "@fission-ai/openspec": "1.14.0"

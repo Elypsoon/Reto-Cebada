@@ -8,10 +8,19 @@ from .common import ROOT,PROCESSED,ARTIFACTS,ID,TARGET,CUTOFF,sha256,code_hash,d
 from .modeling import Candidate,load_tables,table_for,predict_selection,metric
 
 
+def compatible_dependencies(expected, actual):
+    """Keep library versions exact; permit CPython security patches within 3.12."""
+    if expected.keys() != actual.keys():
+        return False
+    if expected["python"].split(".")[:2] != actual["python"].split(".")[:2]:
+        return False
+    return all(actual[name] == value for name, value in expected.items() if name != "python")
+
+
 def validate_contract(contract,master,tables,external,location,check_files=True):
     if contract["cutoff"]!=CUTOFF or contract["code_hash"]!=code_hash():
         raise ValueError("El modelo corresponde a otra versión del código o fecha de corte. Regenere los artefactos compatibles.")
-    if contract["dependencies"]!=dependencies():
+    if not compatible_dependencies(contract["dependencies"],dependencies()):
         raise ValueError("Las versiones instaladas no coinciden con las del modelo. Use requirements.lock.")
     if len(master)!=197 or master[ID].duplicated().any():raise ValueError("La tabla de parcelas está incompleta o duplicada.")
     for source in contract["sources"]:
@@ -63,6 +72,12 @@ class Predictor:
         return rows.set_index(ID).reindex(ids).reset_index()
 
     def explain(self,pid):
+        if getattr(self.bundle["model"],"precomputed",None) is not None:
+            return pd.DataFrame(columns=["variable","contribution_t_ha"]), {
+                "available":False,"exact_additive":False,"baseline":None,
+                "prediction":float(self.predict([pid])[TARGET].iloc[0]),
+                "interpretation":"Este ensamble contiene estimaciones precalculadas para las parcelas oficiales. El artefacto no incluye contribuciones por variable que reproduzcan la estimación guardada.",
+            }
         i=int(self.master.index[self.master[ID].eq(pid)][0]);contributions=[];baseline=0.;exact=True
         for w,m,c in zip(self.bundle["model"].weights,self.bundle["model"].models,self.bundle["selection"]["candidates"]):
             raw=table_for(c,self.tables,self.external,self.location).iloc[[i]]

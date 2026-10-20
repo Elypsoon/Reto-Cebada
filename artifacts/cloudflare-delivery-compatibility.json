@@ -1,0 +1,23 @@
+{
+  "source_repository": "https://github.com/Elypsoon/Reto-Cebada",
+  "source_branch": "cambios-experimentos-2026-10-17",
+  "source_commit": "0529caf371840295525c5c902a9c8133e98bfc52",
+  "date": "2026-10-19",
+  "retrained": false,
+  "canonical_dataset": "DataSet/",
+  "code_hash": "dff7aa1c0220ca6fee4ed3ccca7592af929e47171be443062bb13a2ba74aabf9",
+  "routes": {
+    "selected": {
+      "dashboard_input_model_hash": "2c390d24fa88256b99fab2cf707d736e644d92895c5e67b1dc4c8cc2c135db3b",
+      "delivery_model_hash": "31fa70430da0bc3104ca9c3e1ec682cb989ff4354bacd725340697cb6b2f0ff4",
+      "parcels_compared": 197,
+      "predictions_and_intervals_exactly_equal": true
+    },
+    "official": {
+      "dashboard_input_model_hash": "da001649c4c87e0a8af0c4dec90daec7a3f075f25a6fb392ad18f99d5d48d560",
+      "delivery_model_hash": "fbede7475fcfc115d8c0b25a30fa9314a6dd85dfdba6496ab6fffcb1a95c9714",
+      "parcels_compared": 197,
+      "predictions_and_intervals_exactly_equal": true
+    }
+  }
+}

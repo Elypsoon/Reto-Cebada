@@ -1,0 +1,20 @@
+/
+  Cache-Control: no-cache
+
+/index.html
+  Cache-Control: no-cache
+
+/data/*
+  Cache-Control: no-cache
+
+/data/*.geojson
+  Content-Type: application/geo+json
+
+/downloads/*
+  Cache-Control: no-cache
+
+/media/parcel-videos/files.json
+  Cache-Control: no-cache
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

@@ -1,0 +1,4 @@
+# Reproducible scientific environment and local source package.
+# Streamlit remains pinned because saved model contracts verify its version.
+-r requirements.lock
+-e .

@@ -1,4 +1,16 @@
 * -text
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.mjs text eol=lf
+.gitignore text eol=lf
 # Conserva los bytes históricos de originales normalizados previamente por Git.
 "DataSet/CHIRPS_Precipitacion_2022_2025/LEEME.txt" text eol=crlf
 "DataSet/CHIRPS_Precipitacion_2022_2025/inventario_CHIRPS_precipitacion_mensual_2022_2025.csv" text eol=crlf
