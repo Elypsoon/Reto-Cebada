@@ -1,0 +1,11 @@
+{
+  "source": "data/processed/parcels.parquet",
+  "sourceSha256": "dd53624fd4069eab5193c031fc1bc2f5c11549218c597d5b197f71d7f659da4e",
+  "sourceCrs": "EPSG:4326",
+  "outputCrs": "EPSG:4326",
+  "axisOrder": "longitude,latitude",
+  "operation": "to_crs(4326), force_2d; no simplification, repair, joins or rounding",
+  "features": 197,
+  "geopandasVersion": "1.2.0",
+  "shapelyVersion": "2.1.2"
+}

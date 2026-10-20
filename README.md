@@ -1,5 +1,7 @@
 # Prediccion del Rendimiento Agricola de Cebada Maltera (Reto AgroCebada 2026)
 
+**Dashboard interactivo:** [AgroCebada · Explorar parcelas](https://agrocebada-2026.leonforce033.workers.dev/). Código React, datos y recursos en [`frontend/`](frontend/README.md). Para ejecutarlo: `npm --prefix frontend ci` y `npm run dashboard`.
+
 ## Modelado Analitico con Percepcion Remota, Clima y Topografia
 
 ---
