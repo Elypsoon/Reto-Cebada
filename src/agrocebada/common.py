@@ -6,7 +6,7 @@ from importlib.metadata import version
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
-DATASET = ROOT / "Reto-Cebada" / "DataSet"
+DATASET = ROOT / "DataSet"
 
 
 def change_evidence_path():

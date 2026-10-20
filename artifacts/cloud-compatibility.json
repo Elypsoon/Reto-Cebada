@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-18",
+  "reason": "POSIX feature paths and Python security-patch compatibility; exact library pins retained",
+  "changed_sources": [
+    "cli.py",
+    "inference.py"
+  ],
+  "before_code_hash": "6e716d736573833d919d0693562e9028184376d50e900179c0884110a1d0c996",
+  "after_code_hash": "2299189266d065768c3241684ff1228dfa4412a9d9eb3b4ff7de0f8e49355adc",
+  "retrained": false,
+  "backup": "artifacts/versions/cloud-portability-2026-10-18",
+  "models": {
+    "selected": {
+      "before_model_hash": "8ee63e3b1d07ec5e9be0fd98dcc9bb0bc7091c934a34a9eb5bbd642847f80313",
+      "after_model_hash": "59e2caa8a2941a891c376696c0b87ebf77d6738718de06146bc0733ae5ca63ef",
+      "parcels_compared": 197,
+      "predictions_and_intervals_exactly_equal": true
+    },
+    "official": {
+      "before_model_hash": "26d128e2e953c5296d8977fef753c71b4cb7fa6a320c1bef5dec04489cc859fe",
+      "after_model_hash": "a7f81bafc45765d29d24d239aa8207f426281b7d471dc21da4f84d1cd77cf6d3",
+      "parcels_compared": 197,
+      "predictions_and_intervals_exactly_equal": true
+    }
+  }
+}

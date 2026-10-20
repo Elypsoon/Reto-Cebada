@@ -1,0 +1,51 @@
+[
+  {
+    "section": "1. Introducción",
+    "words": 436,
+    "minimum": 400,
+    "maximum": 550,
+    "within_limits": true
+  },
+  {
+    "section": "2. Justificación",
+    "words": 153,
+    "minimum": 100,
+    "maximum": 200,
+    "within_limits": true
+  },
+  {
+    "section": "3. Objetivos",
+    "words": 147,
+    "minimum": 0,
+    "maximum": 200,
+    "within_limits": true
+  },
+  {
+    "section": "4. Metodología",
+    "words": 631,
+    "minimum": 600,
+    "maximum": 700,
+    "within_limits": true
+  },
+  {
+    "section": "5. Resultados y discusión",
+    "words": 584,
+    "minimum": 0,
+    "maximum": 800,
+    "within_limits": true
+  },
+  {
+    "section": "6. Uso de la ciencia de datos en la inclusión financiera del sector agro",
+    "words": 251,
+    "minimum": 0,
+    "maximum": 300,
+    "within_limits": true
+  },
+  {
+    "section": "7. Conclusiones",
+    "words": 329,
+    "minimum": 0,
+    "maximum": 400,
+    "within_limits": true
+  }
+]

@@ -6,7 +6,8 @@ build-backend = "setuptools.build_meta"
 name = "agrocebada"
 version = "0.1.0"
 description = "Estimación parcelaria retrospectiva de cebada, ciclo 2025"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.13"
+# Streamlit is retained only for dependency checks in the existing model contracts.
 dependencies = ["pandas>=2.2", "numpy>=2", "scipy", "scikit-learn==1.9.1", "geopandas==1.2.0", "rasterio", "catboost", "streamlit>=1.57,<2", "plotly", "pyarrow", "psutil"]
 
 [project.scripts]

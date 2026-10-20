@@ -37,9 +37,9 @@ La exportación conserva el **Ensamble Maestro Integral E12** del commit [`32a6d
 - `public/data/map-provenance.json`: procedencia, hash del GeoParquet original, CRS y operación de exportación.
 - `public/downloads/`: las 59 predicciones oficiales, con y sin intervalos.
 
-Los datos son una instantánea verificada procedente del proyecto del dashboard. Cambiar los modelos Python del repositorio no actualiza automáticamente estos archivos. Al actualizar la exportación deben mantenerse sincronizados fichas, curvas, geometrías, métricas, intervalos, CSV y hashes; no modificar las cifras de forma manual. Los hashes del modelo y contrato identifican los artefactos adaptados para el dashboard y pueden diferir de los del entorno Python original.
+Los datos son una instantánea verificada procedente del proyecto del dashboard. Cambiar los modelos Python del repositorio no actualiza automáticamente estos archivos. Al actualizar la exportación deben mantenerse sincronizados fichas, curvas, geometrías, métricas, intervalos, CSV y hashes; no modificar las cifras de forma manual. Los hashes del modelo y contrato corresponden a los artefactos científicos presentes en esta rama. Para actualizarlos, ejecutar `python scripts/export_react_dashboard.py` desde la raíz.
 
-Antes de entregar esta rama se verificó la igualdad de estimaciones, intervalos, descargas, métricas y hashes contra el predictor guardado utilizado en la exportación, además de la igualdad geométrica de los 197 contornos. La rama parte de `cambios-experimentos-2026-10-17` (`2e078dc`) y añade la interfaz sin sustituir el código ni los artefactos científicos existentes.
+Antes de entregar esta rama se verificó la igualdad de estimaciones, intervalos, descargas, métricas y hashes contra el predictor guardado utilizado en la exportación, además de la igualdad geométrica de los 197 contornos. La rama incorpora la limpieza de `cambios-experimentos-2026-10-17` hasta `0529caf`. Los contratos se adaptan a las rutas y la verificación de esta entrega sin reentrenar ni cambiar estimaciones o intervalos; véase `artifacts/cloudflare-delivery-compatibility.json`.
 
 ## Interfaz y accesibilidad
 

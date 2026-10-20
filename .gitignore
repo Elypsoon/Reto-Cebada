@@ -21,3 +21,22 @@ secrets.toml
 **/vendor/
 **/.cache/
 *.ckpt
+
+# Official Cloudflare delivery: local tooling and retired interface
+.streamlit/
+.pytest-tmp*/
+pytest-cache-files*/
+artifacts/versions/
+artifacts/app-server.*
+dist/
+skill-output/
+.agents/
+.codex/
+.aws/
+.wrangler/
+*.tsbuildinfo
+*.pem
+*.key
+/videos/
+/docs/clips/
+/docs/voice_record.mp4
